@@ -12,4 +12,4 @@ def initiate_file(folder_path, file_name):
 
 
 def save_df_to_csv(file_name, df):
-    df.to_csv(file_name, encoding='utf-8')
+    df.to_csv(file_name, index=False, encoding='utf-8')

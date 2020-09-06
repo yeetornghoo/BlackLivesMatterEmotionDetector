@@ -1,7 +1,8 @@
 import re
 import pandas as pd
 from Controller import LogController
-corr_df = pd.read_csv('C:/workspace/BlackLiveMetters/lexicon/_custome/correction.csv')
+
+corr_df = pd.read_csv('C:/workspace/SocialMovementSentiment/dataset/_custome/correction.csv')
 
 
 def run(df):
@@ -35,6 +36,7 @@ def run(df):
     df['tweet_text'] = df['tweet_text'].apply(lambda x: replace_correction_words(str(x)))
 
     return df
+
 
 # REPLACE SPECIAL CHARACTERS FROM THE SENTENCES
 def replace_special_char(sentence):
@@ -127,9 +129,9 @@ def replace_would(sentence):
 # CORRECTION > COMPARE WORD FROM CORRECTION.CSV FILE
 def search_word(word):
     to_text = word.lower()
-    corr_word_df = (corr_df.loc[corr_df['from_text']==word.lower()])
+    corr_word_df = (corr_df.loc[corr_df['from_text'] == word.lower()])
     if not corr_word_df.empty:
-        to_text = corr_word_df.iat[0,1]
+        to_text = corr_word_df.iat[0, 1]
     return to_text
 
 
