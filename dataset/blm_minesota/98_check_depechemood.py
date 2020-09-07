@@ -1,3 +1,5 @@
+from ast import literal_eval
+
 import pandas as pd
 import stanza
 
@@ -12,21 +14,6 @@ allowed_upos = ['PUNCT', 'SYM']
 # ------------------------------------------------
 # MASTER FUNCTION
 # ------------------------------------------------
-
-
-# MASTER: CONVERT TO TOKEN AND LEMMATIZE THE TEXT
-def master_process_sentence(sentence, is_lemm):
-    nlp = stanza.Pipeline(lang='en', processors='tokenize,pos,lemma', tokenize_no_ssplit=True)
-    doc = nlp(sentence)
-    sentence_words = []
-    for i, sentence in enumerate(doc.sentences):
-        for stz_obj in sentence.words:
-            if stz_obj.upos not in allowed_upos:
-                if is_lemm:
-                    sentence_words.append(stz_obj.lemma)
-                else:
-                    sentence_words.append(stz_obj.text)
-    return sentence_words
 
 
 # MASTER: LOAD DATASET AND PROCESS
@@ -47,16 +34,16 @@ def master_count_unique_word(master_df):
 # ------------------------------------------------
 
 def normal_word_match_check(master_df, lexicon_obj):
-    unique_words = []
+    unique_n_words = []
 
     for index, row in master_df.iterrows():
-        words = row["tweet_text"]
+        words = literal_eval(row["tweet_text"])
         for word in words:
             target_word = word.lower().strip()
             if target_word in lexicon_obj:
-                if target_word not in unique_words:
-                    unique_words.append(target_word)
-    LogController.log("TOTAL UNIQUE WORDS IN STANDARD FORM IS {}".format(len(unique_words)))
+                if target_word not in unique_n_words:
+                    unique_n_words.append(target_word)
+    LogController.log("TOTAL UNIQUE WORDS IN STANDARD FORM IS {}".format(len(unique_n_words)))
 
 # ------------------------------------------------
 # CHECK LEMMATIZED WORD MATCH FUNCTION
@@ -64,16 +51,16 @@ def normal_word_match_check(master_df, lexicon_obj):
 
 
 def lemma_word_match_check(master_df, lexicon_obj):
-    unique_words = []
+    unique_l_words = []
 
     for index, row in master_df.iterrows():
-        words = row["lemma_tweet_text"]
+        words = literal_eval(row["lemma_tweet_text"])
         for word in words:
             target_word = word.lower().strip()
             if target_word in lexicon_obj:
-                if target_word not in unique_words:
-                    unique_words.append(target_word)
-    LogController.log("TOTAL UNIQUE WORDS IN LEMMAIZED FORM IS {}".format(len(unique_words)))
+                if target_word not in unique_l_words:
+                    unique_l_words.append(target_word)
+    LogController.log("TOTAL UNIQUE WORDS IN LEMMAIZED FORM IS {}".format(len(unique_l_words)))
 
 
 # RUN MASTER ------------------------------------------

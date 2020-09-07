@@ -137,7 +137,6 @@ def run(df):
     LogController.log_h1("START DEPECHEMOOD++ SENTIMENT ANALYSIS")
     iCount = 0
 
-
     for index, row in df.iterrows():
         iCount += 1
         print(iCount)

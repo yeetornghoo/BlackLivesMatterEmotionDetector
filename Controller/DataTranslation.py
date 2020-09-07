@@ -2,7 +2,6 @@ from googletrans import Translator
 from Controller import LogController
 translator = Translator()
 
-
 def get_sentence_language(sentence):
     trs_obj = translator.detect(sentence)
     if trs_obj.confidence > 0.95:

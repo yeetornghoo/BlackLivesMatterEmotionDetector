@@ -162,7 +162,7 @@ def run(df):
         iCount += 1
         print(iCount)
 
-        emotion_info = emotion_calculation(row['tweet_text'])
+        emotion_info = emotion_calculation(row['lemma_tweet_text'])
         df.loc[index, 'anger'] = emotion_info.get(key='anger')
         df.loc[index, 'anger_score'] = emotion_info.get(key='anger_score')
         df.loc[index, 'anticipation'] = emotion_info.get(key='anticipation')
