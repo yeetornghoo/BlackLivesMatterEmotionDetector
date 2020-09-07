@@ -191,7 +191,7 @@ def run(df):
             if mood_score > l_sentiment_score:
                 final_sentiment = mood
                 final_sentiment_score = mood_score
-                min_sentiment_score = mood_score
+                l_sentiment_score = mood_score
 
         df.loc[index, 'nrc_sentiment'] = final_sentiment
         df.loc[index, 'nrc_sentiment_score'] = final_sentiment_score

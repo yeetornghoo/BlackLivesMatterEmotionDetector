@@ -2,51 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lexicon/DepecheMoodController.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/01-post-translate-dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/02-post-cleaning-dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/03-post-nlp-dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/04-post-sentiment-dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/tmp/dpm-processed_dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/tmp/nrc-processed_dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/DepecheMood_v2.0/DepecheMood++/DepecheMood_italian_lemma_full.tsv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/DepecheMood_v2.0/DepecheMood++/DepecheMood_italian_lemmapos_full.tsv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/DepecheMood_v2.0/DepecheMood++/DepecheMood_italian_token_full.tsv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Lexicon/NrcController.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lexicon/NrcController.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/nrc/anger-scores.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/nrc/anticipation-scores.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/nrc/disgust-scores.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/nrc/fear-scores.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/nrc/joy-scores.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/nrc/sadness-scores.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/nrc/surprise-scores.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/nrc/trust-scores.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/wn-domains-3.2/Coling-04-ws-WDH.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/wn-domains-3.2/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/wn-domains-3.2/README-wnd-wiki-mapping.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/wn-domains-3.2/WDH-old-new-comparison.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/wn-domains-3.2/WDH-revision-summary.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/wn-domains-3.2/WDH-to-DDC-map.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/wn-domains-3.2/WND-Wiki-mapping.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/wn-domains-3.2/WORDNET-DOMAINS-2.0-TR.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/wn-domains-3.2/__MACOSX/._README-wnd-wiki-mapping.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/wn-domains-3.2/__MACOSX/._crossLanguage_Wiki-category_mappings_WN-domains.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/wn-domains-3.2/__MACOSX/._mapping-WN-domains-WN-topics.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/wn-domains-3.2/crossLanguage_Wiki-category_mappings_WN-domains.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/wn-domains-3.2/mapping-WN-domains-WN-topics.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/wn-domains-3.2/version-history.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/wn-domains-3.2/wn-affect-1.0/wn-affect-labels-1.0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/wn-domains-3.2/wn-affect-1.0/wn-affect-legenda-1.0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/wn-domains-3.2/wn-affect-1.1/a-hierarchy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/wn-domains-3.2/wn-affect-1.1/a-synsets-30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/wn-domains-3.2/wn-affect-1.1/a-synsets.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/wn-domains-3.2/wn-affect-1.1/readme-wn-affect-1.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/wn-domains-3.2/wn-domains-2.0-20050210" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/wn-domains-3.2/wn-domains-3.2-20070223" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.config" beforeDir="false" afterPath="$PROJECT_DIR$/app.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/0_process.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/1_label_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/1_label_sentiment.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,22 +191,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598762490707" />
-    <state width="1899" height="350" key="GridCell.Tab.0.bottom" timestamp="1599455272690">
+    <state width="1899" height="350" key="GridCell.Tab.0.bottom" timestamp="1599455737339">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="350" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599455272690" />
-    <state width="1899" height="350" key="GridCell.Tab.0.center" timestamp="1599455272690">
+    <state width="1899" height="350" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599455737339" />
+    <state width="1899" height="350" key="GridCell.Tab.0.center" timestamp="1599455737338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="350" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599455272690" />
-    <state width="1899" height="350" key="GridCell.Tab.0.left" timestamp="1599455272690">
+    <state width="1899" height="350" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599455737338" />
+    <state width="1899" height="350" key="GridCell.Tab.0.left" timestamp="1599455737338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="350" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599455272690" />
-    <state width="1899" height="350" key="GridCell.Tab.0.right" timestamp="1599455272690">
+    <state width="1899" height="350" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599455737338" />
+    <state width="1899" height="350" key="GridCell.Tab.0.right" timestamp="1599455737339">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="350" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599455272690" />
+    <state width="1899" height="350" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599455737339" />
     <state x="780" y="157" key="SettingsEditor" timestamp="1599393223557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
