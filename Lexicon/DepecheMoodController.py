@@ -42,6 +42,7 @@ def get_sentiment_value(word, emotion_obj):
     sad_score = emotion_obj.get(key='sad_score')
 
     for s in mood_scores:
+
         if word.strip() == str(s[0]).strip():
 
             # AFRAID

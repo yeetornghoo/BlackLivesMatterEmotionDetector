@@ -71,60 +71,60 @@ def emotion_calculation(str_words):
     words = literal_eval(str_words)
 
     # TODO: NOT SURE IF NEED TO COUNT SENTIMENT ONLY BY UNIQUE WORD OR REPEATED WORDS
-    #used = set()
-    #unique = [x for x in words if x not in used and (used.add(x) or True)]
-    #for word in unique:
+    # used = set()
+    # unique = [x for x in words if x not in used and (used.add(x) or True)]
+    # for word in unique:
 
     for word in words:
 
-        freq = words.count(word)
+        # freq = words.count(word)
 
         # ANGER
         isFound, scoreValue = get_sentiment_value("anger", word)
-        if isFound & (scoreValue > min_sentiment_score):
-            anger = anger + freq
+        if isFound:
+            anger += 1
             anger_score = anger_score + scoreValue
 
         # ANTICIPATION
         isFound, scoreValue = get_sentiment_value("anticipation", word)
-        if isFound & (scoreValue > min_sentiment_score):
-            anticipation = anticipation + freq
+        if isFound:
+            anticipation += 1
             anticipation_score = anticipation_score + scoreValue
 
         # DISGUST
         isFound, scoreValue = get_sentiment_value("disgust", word)
-        if isFound & (scoreValue > min_sentiment_score):
-            disgust = disgust + freq
+        if isFound:
+            disgust += 1
             disgust_score = disgust_score + scoreValue
 
         # FEAR
         isFound, scoreValue = get_sentiment_value("fear", word)
-        if isFound & (scoreValue > min_sentiment_score):
-            fear = fear + freq
+        if isFound:
+            fear += 1
             fear_score = fear_score + scoreValue
 
         # JOY
         isFound, scoreValue = get_sentiment_value("joy", word)
-        if isFound & (scoreValue > min_sentiment_score):
-            joy = joy + freq
-            joy_score = joy_score +scoreValue
+        if isFound:
+            joy += 1
+            joy_score = joy_score + scoreValue
 
         # SADNESS
         isFound, scoreValue = get_sentiment_value("sadness", word)
-        if isFound & (scoreValue > min_sentiment_score):
-            sadness = sadness + freq
+        if isFound:
+            sadness += 1
             sadness_score = sadness_score + scoreValue
 
         # SURPRISE
         isFound, scoreValue = get_sentiment_value("surprise", word)
-        if isFound & (scoreValue > min_sentiment_score):
-            surprise = surprise + freq
+        if isFound:
+            surprise += 1
             surprise_score = surprise_score + scoreValue
 
         # TRUST
         isFound, scoreValue = get_sentiment_value("trust", word)
-        if isFound & (scoreValue > min_sentiment_score):
-            trust = trust + freq
+        if isFound:
+            trust += 1
             trust_score = trust_score + scoreValue
 
     emotion_info = {
