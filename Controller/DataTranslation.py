@@ -3,6 +3,13 @@ from Controller import LogController
 translator = Translator()
 
 
+def get_sentence_language(sentence):
+    trs_obj = translator.detect(sentence)
+    if trs_obj.confidence > 0.95:
+        return trs_obj.lang
+    return "UNKNOWN"
+
+
 def run(df, lang):
     LogController.log_h1("START DATA TRANSLATION")
     LogController.log("Detect Language of The Tweets")
@@ -13,11 +20,9 @@ def run(df, lang):
         filter_masking = df.tweet_langague == lang
         df = df[filter_masking]
 
+    df.drop(['tweet_langague'], axis=1, inplace=True)
+
     return df
 
 
-def get_sentence_language(sentence):
-    trs_obj = translator.detect(sentence)
-    if trs_obj.confidence > 0.95:
-        return trs_obj.lang
-    return "UNKNOWN"
+
