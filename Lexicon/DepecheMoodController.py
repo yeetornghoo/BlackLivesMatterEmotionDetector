@@ -9,7 +9,7 @@ mood_list = ['AFRAID', 'AMUSED', 'ANGRY', 'ANNOYED', 'DONT_CARE', 'HAPPY', 'INSP
 word_indexs = ['afraid', 'afraid_score', 'amused', 'amused_score', 'angry', 'angry_score',
                'annoyed', 'annoyed_score', 'dontcare', 'dontcare_score', 'happy', 'happy_score',
                'inspired', 'inspired_score', 'sad', 'sad_score']
-
+min_sentiment_score = float(AppConfigHelper.get_app_config_by_key("min_sentiment_score"))
 
 # GET LEXICON LIBRARY
 def load_lexicon():
@@ -45,36 +45,44 @@ def get_sentiment_value(word, emotion_obj):
         if word.strip() == str(s[0]).strip():
 
             # AFRAID
-            afraid += 1
-            afraid_score = afraid_score + s[1]
+            if s[1] > min_sentiment_score:
+                afraid += 1
+                afraid_score = afraid_score + s[1]
 
             # AMUSED
-            amused += 1
-            amused_score = amused_score + s[2]
+            if s[2] > min_sentiment_score:
+                amused += 1
+                amused_score = amused_score + s[2]
 
             # ANGRY
-            angry += 1
-            angry_score = angry_score + s[3]
+            if s[3] > min_sentiment_score:
+                angry += 1
+                angry_score = angry_score + s[3]
 
             # ANNOYED
-            annoyed += 1
-            annoyed_score = annoyed_score + s[4]
+            if s[4] > min_sentiment_score:
+                annoyed += 1
+                annoyed_score = annoyed_score + s[4]
 
             # DONT_CARE
-            dontcare += 1
-            dontcare_score = dontcare_score + s[5]
+            if s[5] > min_sentiment_score:
+                dontcare += 1
+                dontcare_score = dontcare_score + s[5]
 
             # HAPPY
-            happy += 1
-            happy_score = happy_score + s[6]
+            if s[6] > min_sentiment_score:
+                happy += 1
+                happy_score = happy_score + s[6]
 
             # INSPIRED
-            inspired += 1
-            inspired_score = inspired_score + s[7]
+            if s[7] > min_sentiment_score:
+                inspired += 1
+                inspired_score = inspired_score + s[7]
 
             # SAD
-            sad += 1
-            sad_score = sad_score + s[8]
+            if s[8] > min_sentiment_score:
+                sad += 1
+                sad_score = sad_score + s[8]
 
     emotion_info = {
         'afraid': afraid,
@@ -128,7 +136,7 @@ def emotion_calculation(str_words):
 def run(df):
     LogController.log_h1("START DEPECHEMOOD++ SENTIMENT ANALYSIS")
     iCount = 0
-    min_sentiment_score = AppConfigHelper.get_app_config_by_key("min_sentiment_score")
+
 
     for index, row in df.iterrows():
         iCount += 1

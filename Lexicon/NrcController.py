@@ -6,6 +6,7 @@ from Helper import AppConfigHelper
 dir_path = AppConfigHelper.get_app_config_by_key("app_dir")
 selected_lexicon_path = "Lexicon/nrc/"
 mood_list = ['anger', 'anticipation', 'disgust', 'fear', 'joy', 'sadness', 'surprise', 'trust']
+min_sentiment_score = float(AppConfigHelper.get_app_config_by_key("min_sentiment_score"))
 
 
 def load_lexicon(lexicon_type, filename):
@@ -80,49 +81,49 @@ def emotion_calculation(str_words):
 
         # ANGER
         isFound, scoreValue = get_sentiment_value("anger", word)
-        if isFound:
+        if isFound & (scoreValue > min_sentiment_score):
             anger = anger + freq
             anger_score = anger_score + scoreValue
 
         # ANTICIPATION
         isFound, scoreValue = get_sentiment_value("anticipation", word)
-        if isFound:
+        if isFound & (scoreValue > min_sentiment_score):
             anticipation = anticipation + freq
             anticipation_score = anticipation_score + scoreValue
 
         # DISGUST
         isFound, scoreValue = get_sentiment_value("disgust", word)
-        if isFound:
+        if isFound & (scoreValue > min_sentiment_score):
             disgust = disgust + freq
             disgust_score = disgust_score + scoreValue
 
         # FEAR
         isFound, scoreValue = get_sentiment_value("fear", word)
-        if isFound:
+        if isFound & (scoreValue > min_sentiment_score):
             fear = fear + freq
             fear_score = fear_score + scoreValue
 
         # JOY
         isFound, scoreValue = get_sentiment_value("joy", word)
-        if isFound:
+        if isFound & (scoreValue > min_sentiment_score):
             joy = joy + freq
             joy_score = joy_score +scoreValue
 
         # SADNESS
         isFound, scoreValue = get_sentiment_value("sadness", word)
-        if isFound:
+        if isFound & (scoreValue > min_sentiment_score):
             sadness = sadness + freq
             sadness_score = sadness_score + scoreValue
 
         # SURPRISE
         isFound, scoreValue = get_sentiment_value("surprise", word)
-        if isFound:
+        if isFound & (scoreValue > min_sentiment_score):
             surprise = surprise + freq
             surprise_score = surprise_score + scoreValue
 
         # TRUST
         isFound, scoreValue = get_sentiment_value("trust", word)
-        if isFound:
+        if isFound & (scoreValue > min_sentiment_score):
             trust = trust + freq
             trust_score = trust_score + scoreValue
 
@@ -156,7 +157,6 @@ def run(df):
 
     LogController.log_h1("START NRC SENTIMENT ANALYSIS")
     iCount = 0
-    min_sentiment_score = AppConfigHelper.get_app_config_by_key("min_sentiment_score")
 
     for index, row in df.iterrows():
         iCount += 1
