@@ -1,6 +1,6 @@
 import pandas as pd
 from ast import literal_eval
-from Controller import LogController
+from Controller import LogController, FileController
 from Helper import AppConfigHelper
 
 dir_path = AppConfigHelper.get_app_config_by_key("app_dir")
@@ -68,6 +68,11 @@ def emotion_calculation(str_words):
     trust_score = 0.0000
 
     words = literal_eval(str_words)
+
+    # TODO: NOT SURE IF NEED TO COUNT SENTIMENT ONLY BY UNIQUE WORD OR REPEATED WORDS
+    #used = set()
+    #unique = [x for x in words if x not in used and (used.add(x) or True)]
+    #for word in unique:
 
     for word in words:
 
@@ -151,6 +156,7 @@ def run(df):
 
     LogController.log_h1("START NRC SENTIMENT ANALYSIS")
     iCount = 0
+    min_sentiment_score = AppConfigHelper.get_app_config_by_key("min_sentiment_score")
 
     for index, row in df.iterrows():
         iCount += 1
@@ -176,16 +182,20 @@ def run(df):
 
         final_sentiment = ""
         final_sentiment_score = 0.0000
-        min_sentiment_score = 0.5
+        l_sentiment_score = float(min_sentiment_score)
 
         for mood in mood_list:
 
             mood_score = emotion_info.get(key=mood+'_score')
 
-            if mood_score > min_sentiment_score:
+            if mood_score > l_sentiment_score:
                 final_sentiment = mood
                 final_sentiment_score = mood_score
                 min_sentiment_score = mood_score
 
         df.loc[index, 'nrc_sentiment'] = final_sentiment
         df.loc[index, 'nrc_sentiment_score'] = final_sentiment_score
+
+    FileController.save_df_to_csv("tmp/nrc-processed_dataset.csv", df)
+
+    return df

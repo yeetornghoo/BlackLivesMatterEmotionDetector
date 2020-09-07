@@ -3,7 +3,7 @@ from Controller import DataCleaning, DataNLP, DataAssess, DataTranslation, FileC
 file_name = "dataset.csv"
 
 # LOAD DATA FROM DATASET
-df = pd.read_csv(file_name, sep=";")
+df = pd.read_csv(file_name, sep=";", nrows=200)
 
 # DROP USELESS ATTRIBUTES
 df.drop(['tweet_id', 'tweet_created_dt', 'retweets', 'favorites', 'permalink', 'to_person',
