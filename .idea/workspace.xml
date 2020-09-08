@@ -2,9 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/03-post-nlp-dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lexicon/EmoSenticNet/emosenticnet (1).xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lexicon/EmoSenticNet/emosenticnet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lexicon/EmoSenticNetController.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lexicon/WordNetAffectController.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lexicon/WordNetAffectEmotionLists/anger.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lexicon/WordNetAffectEmotionLists/disgust.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lexicon/WordNetAffectEmotionLists/fear.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lexicon/WordNetAffectEmotionLists/joy.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lexicon/WordNetAffectEmotionLists/sadness.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lexicon/WordNetAffectEmotionLists/surprise.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/SemEval2018/2018-E-c-En-test-gold.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/SemEval2018/2018-Valence-reg-En-test-gold.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/04-post-sentiment-dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/98_check_emosenticnet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/0_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lexicon/DepecheMoodController.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lexicon/DepecheMoodController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/1_label_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/1_label_sentiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/98_check_depechemood.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/98_check_depechemood.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/99_check_nrc.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/99_check_nrc.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +56,14 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\workspace\SocialMovementSentiment\dataset\blm_minesota" />
+      <recent name="C:\workspace\SocialMovementSentiment\Lexicon" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\workspace\SocialMovementSentiment\dataset" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.0_process (1)">
-    <configuration name="0_process (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.98_check_emosenticnet">
+    <configuration name="1_label_sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BlackLiveMetters" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,28 +75,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/blm_minesota/0_process.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="0_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BlackLiveMetters" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/blm_minesota" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\workspace\SocialMovementSentiment\dataset\blm_minesota\0_process.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/blm_minesota/1_label_sentiment.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,6 +105,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="98_check_emosenticnet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BlackLiveMetters" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/blm_minesota" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/blm_minesota/98_check_emosenticnet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="99_check_nrc (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BlackLiveMetters" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,7 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="99_check_nrc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="WordNetAffectController" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BlackLiveMetters" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,11 +155,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/blm_minesota" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lexicon" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\workspace\SocialMovementSentiment\dataset\blm_minesota\99_check_nrc.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lexicon/WordNetAffectController.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.0_process (1)" />
-        <item itemvalue="Python.98_check_depechemood" />
+        <item itemvalue="Python.98_check_emosenticnet" />
         <item itemvalue="Python.99_check_nrc (1)" />
-        <item itemvalue="Python.0_process" />
-        <item itemvalue="Python.99_check_nrc" />
+        <item itemvalue="Python.98_check_depechemood" />
+        <item itemvalue="Python.1_label_sentiment" />
+        <item itemvalue="Python.WordNetAffectController" />
       </list>
     </recent_temporary>
   </component>
@@ -196,22 +213,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598762490707" />
-    <state width="1899" height="309" key="GridCell.Tab.0.bottom" timestamp="1599505178423">
+    <state width="1555" height="274" key="GridCell.Tab.0.bottom" timestamp="1599541924058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="309" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599505178423" />
-    <state width="1899" height="309" key="GridCell.Tab.0.center" timestamp="1599505178423">
+    <state width="1555" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599541924058" />
+    <state width="1555" height="274" key="GridCell.Tab.0.center" timestamp="1599541924058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="309" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599505178423" />
-    <state width="1899" height="309" key="GridCell.Tab.0.left" timestamp="1599505178423">
+    <state width="1555" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599541924058" />
+    <state width="1555" height="274" key="GridCell.Tab.0.left" timestamp="1599541924058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="309" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599505178423" />
-    <state width="1899" height="309" key="GridCell.Tab.0.right" timestamp="1599505178423">
+    <state width="1555" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599541924058" />
+    <state width="1555" height="274" key="GridCell.Tab.0.right" timestamp="1599541924058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="309" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599505178423" />
+    <state width="1555" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599541924058" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1599462481572">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -20,7 +20,7 @@ allowed_upos = ['PUNCT', 'SYM']
 def master_count_unique_word(master_df):
     ttl_dataset_words = []
     for index, row in master_df.iterrows():
-        words = row[0]
+        words = literal_eval(row["tweet_text"])
         for word in words:
             target_word = word.lower()
             if target_word not in ttl_dataset_words:

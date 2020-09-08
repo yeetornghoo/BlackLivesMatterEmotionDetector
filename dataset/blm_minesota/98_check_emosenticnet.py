@@ -35,6 +35,7 @@ def master_count_unique_word(master_df):
 
 def normal_word_match_check(master_df, lexicon_obj):
     unique_n_words = []
+
     for index, row in master_df.iterrows():
         words = literal_eval(row["tweet_text"])
         for word in words:
@@ -51,6 +52,7 @@ def normal_word_match_check(master_df, lexicon_obj):
 
 def lemma_word_match_check(master_df, lexicon_obj):
     unique_l_words = []
+
     for index, row in master_df.iterrows():
         words = literal_eval(row["lemma_tweet_text"])
         for word in words:
@@ -64,17 +66,17 @@ def lemma_word_match_check(master_df, lexicon_obj):
 # RUN MASTER ------------------------------------------
 LogController.log_h1("CHECK DATASET SIZE")
 df = pd.read_csv("03-post-nlp-dataset.csv", sep=",")
-master_count_unique_word(df)
+#master_count_unique_word(df)
 
 
 # RUN NORMAL WORDS DISTINCT COUNT ---------------------
 
 # --- load lexicon library
 dir_path = "C:/workspace/SocialMovementSentiment/Lexicon/"
-nrc_folder = "nrc/NRC-Emotion-Intensity-Lexicon-v1/"
-lexicon_df = pd.read_csv(dir_path + nrc_folder + "NRC-Emotion-Intensity-Lexicon-v1.txt", sep="\t")
-lexicon_df['word'] = lexicon_df['word'].apply(lambda x: str(x).lower())
-lexicon_df.drop(['emotion', 'emotion-intensity-score'], axis=1, inplace=True)
+nrc_folder = "EmoSenticNet/"
+lexicon_df = pd.read_csv(dir_path + nrc_folder + "emosenticnet.csv", sep=",")
+lexicon_df['word'] = lexicon_df['Concepts'].apply(lambda x: str(x).lower())
+lexicon_df.drop(['Concepts', 'Anger', 'Disgust', 'Joy', 'Sad', 'Surprise', 'Fear'], axis=1, inplace=True)
 lexicon_list = lexicon_df.values.flatten()
 
 normal_word_match_check(df, lexicon_list)

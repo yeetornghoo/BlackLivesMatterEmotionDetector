@@ -19,7 +19,7 @@ def load_lexicon():
     return df_l
 
 
-mood_scores = load_lexicon()
+lexicon_list = load_lexicon()
 
 
 def get_sentiment_value(word, emotion_obj):
@@ -41,7 +41,7 @@ def get_sentiment_value(word, emotion_obj):
     sad = emotion_obj.get(key='sad')
     sad_score = emotion_obj.get(key='sad_score')
 
-    for s in mood_scores:
+    for s in lexicon_list:
 
         if word.strip() == str(s[0]).strip():
 
@@ -128,7 +128,6 @@ def emotion_calculation(str_words):
     words = literal_eval(str_words)
 
     for word in words:
-        freq = words.count(word)
         emotion_obj = get_sentiment_value(word, emotion_obj)
 
     return emotion_obj
