@@ -62,7 +62,7 @@
       <recent name="C:\workspace\SocialMovementSentiment\dataset" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.98_check_emosenticnet">
+  <component name="RunManager" selected="Python.1_label_sentiment">
     <configuration name="1_label_sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BlackLiveMetters" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,10 +170,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1_label_sentiment" />
         <item itemvalue="Python.98_check_emosenticnet" />
         <item itemvalue="Python.99_check_nrc (1)" />
         <item itemvalue="Python.98_check_depechemood" />
-        <item itemvalue="Python.1_label_sentiment" />
         <item itemvalue="Python.WordNetAffectController" />
       </list>
     </recent_temporary>

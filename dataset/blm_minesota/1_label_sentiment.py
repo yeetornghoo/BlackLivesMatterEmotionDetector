@@ -5,7 +5,7 @@ from Lexicon import NrcController, DepecheMoodController, WordNetAffectControlle
 file_name = "dataset.csv"
 
 # LOAD DATASET
-df = pd.read_csv("03-post-nlp-"+file_name, sep=",", nrows=50)
+df = pd.read_csv("03-post-nlp-"+file_name, sep=",")
 
 DataAssess.run(df)
 
