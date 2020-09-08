@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/03-post-nlp-dataset.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/DepecheMoodController.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lexicon/DepecheMoodController.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/NrcController.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lexicon/NrcController.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/01-post-translate-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/01-post-translate-dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/02-post-cleaning-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/02-post-cleaning-dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/03-post-nlp-dataset.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/0_process.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,22 +196,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598762490707" />
-    <state width="1518" height="303" key="GridCell.Tab.0.bottom" timestamp="1599504586869">
+    <state width="1899" height="309" key="GridCell.Tab.0.bottom" timestamp="1599505178423">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1518" height="303" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599504586869" />
-    <state width="1518" height="303" key="GridCell.Tab.0.center" timestamp="1599504586869">
+    <state width="1899" height="309" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599505178423" />
+    <state width="1899" height="309" key="GridCell.Tab.0.center" timestamp="1599505178423">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1518" height="303" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599504586869" />
-    <state width="1518" height="303" key="GridCell.Tab.0.left" timestamp="1599504586869">
+    <state width="1899" height="309" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599505178423" />
+    <state width="1899" height="309" key="GridCell.Tab.0.left" timestamp="1599505178423">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1518" height="303" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599504586869" />
-    <state width="1518" height="303" key="GridCell.Tab.0.right" timestamp="1599504586869">
+    <state width="1899" height="309" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599505178423" />
+    <state width="1899" height="309" key="GridCell.Tab.0.right" timestamp="1599505178423">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1518" height="303" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599504586869" />
+    <state width="1899" height="309" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599505178423" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1599462481572">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
