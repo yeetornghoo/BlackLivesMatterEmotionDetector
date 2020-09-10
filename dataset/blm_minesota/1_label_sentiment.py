@@ -1,29 +1,28 @@
 import pandas as pd
-from Controller import DataAssess, FileController
-from Lexicon import NrcController, DepecheMoodController, WordNetAffectController, EmoSenticNetController
+
+from Lexicon.DepecheMood import DepecheMoodController
+from Lexicon.NRC import NrcController
 
 file_name = "dataset.csv"
-
+is_standard_model = True
 # LOAD DATASET
 df = pd.read_csv("03-post-nlp-"+file_name, sep=",")
-
+'''
 DataAssess.run(df)
+'''
 
 # RUN NRC SENTIMENT
-df = NrcController.run(df)
-df.drop(['anger', 'anger_score', 'anticipation', 'anticipation_score', 'disgust', 'disgust_score',
-         'fear', 'fear_score', 'joy', 'joy_score', 'sadness', 'sadness_score',
-         'surprise', 'surprise_score', 'trust', 'trust_score'], axis=1, inplace=True)
+df = NrcController.run(df, is_standard_model)
 
-df = DepecheMoodController.run(df)
-df.drop(['afraid', 'afraid_score', 'amused', 'amused_score', 'angry', 'angry_score',
-         'annoyed', 'annoyed_score', 'dontcare', 'dontcare_score', 'happy', 'happy_score',
-         'inspired', 'inspired_score', 'sad', 'sad_score'], axis=1, inplace=True)
 
+# RUN DEPECHEMOOD SENTIMENT
+df = DepecheMoodController.run(df, is_standard_model)
+print(df.columns)
+'''
 # df = WordNetAffectController.run(df)
 
-df = EmoSenticNetController.run(df)
-df.drop(['anger', 'disgust', 'joy', 'sad', 'surprise', 'fear'], axis=1, inplace=True)
+# df = EmoSenticNetController.run(df)
+# df.drop(['anger', 'disgust', 'joy', 'sad', 'surprise', 'fear'], axis=1, inplace=True)
 
 FileController.save_df_to_csv("04-post-sentiment-"+file_name, df)
-
+'''
