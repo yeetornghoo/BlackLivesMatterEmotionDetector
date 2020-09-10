@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lexicon/EmoSenticNet/EmoSenticNetModel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/04-post-sentiment-dataset.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/LogController.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/LogController.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/DepecheMood/DepecheMoodController.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lexicon/DepecheMood/DepecheMoodController.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/DepecheMood/DepecheMoodModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lexicon/DepecheMood/DepecheMoodModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/EmoSenticNetController.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lexicon/EmoSenticNet/EmoSenticNetController.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/NRC/NrcController.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lexicon/NRC/NrcController.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/NRC/NrcModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lexicon/NRC/NrcModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/StandardModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lexicon/StandardModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/04-post-sentiment-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/04-post-sentiment-dataset.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/1_label_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/1_label_sentiment.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -209,22 +202,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598762490707" />
-    <state width="1690" height="311" key="GridCell.Tab.0.bottom" timestamp="1599714422266">
+    <state width="1687" height="362" key="GridCell.Tab.0.bottom" timestamp="1599715043152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1690" height="311" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599714422266" />
-    <state width="1690" height="311" key="GridCell.Tab.0.center" timestamp="1599714422266">
+    <state width="1687" height="362" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599715043152" />
+    <state width="1687" height="362" key="GridCell.Tab.0.center" timestamp="1599715043151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1690" height="311" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599714422266" />
-    <state width="1690" height="311" key="GridCell.Tab.0.left" timestamp="1599714422266">
+    <state width="1687" height="362" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599715043151" />
+    <state width="1687" height="362" key="GridCell.Tab.0.left" timestamp="1599715043151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1690" height="311" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599714422266" />
-    <state width="1690" height="311" key="GridCell.Tab.0.right" timestamp="1599714422266">
+    <state width="1687" height="362" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599715043151" />
+    <state width="1687" height="362" key="GridCell.Tab.0.right" timestamp="1599715043151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1690" height="311" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599714422266" />
+    <state width="1687" height="362" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599715043151" />
     <state width="1690" height="340" key="GridCell.Tab.1.bottom" timestamp="1599712753040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

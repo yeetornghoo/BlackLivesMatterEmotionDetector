@@ -14,10 +14,10 @@ DataAssess.run(df)
 '''
 
 # RUN NRC SENTIMENT
-# df = NrcController.run(df, is_standard_model)
+df = NrcController.run(df, is_standard_model)
 
 # RUN DEPECHEMOOD SENTIMENT
-# df = DepecheMoodController.run(df, is_standard_model)
+df = DepecheMoodController.run(df, is_standard_model)
 
 # RUN ECO SENTIC NET
 df = EmoSenticNetController.run(df)
