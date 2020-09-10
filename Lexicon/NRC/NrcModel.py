@@ -8,6 +8,9 @@ mood_score_model = ['anger', 'anger_score', 'disgust', 'disgust_score', 'fear', 
                     'sadness', 'sadness_score', 'surprise', 'surprise_score', 'anticipation', 'anticipation_score'
                     'trust', 'trust_score']
 min_sentiment_score = float(AppConfigHelper.get_app_config_by_key("min_sentiment_score"))
+selected_top_mood_name = 'nrc_sentiment'
+selected_top_mood_count_name = 'nrc_sentiment_count'
+selected_top_mood_score_name = 'nrc_sentiment_score'
 
 # LEXICON FILE
 anger_lexicon_file = model_folder + "anger-scores.txt"
@@ -39,21 +42,15 @@ def get_top_scores_moods(model, is_standard):
         mood_count = model.get(key="{}".format(mood))
         mood_score = model.get(key="{}_score".format(mood))
 
-        #print("{} | {} | {}".format(mood, mood_count, mood_score))
-
         if mood_score > l_min_sentiment_score:
             sentence_top_mood = mood
             sentence_top_count = mood_count
             sentence_top_score = mood_score
             l_min_sentiment_score = mood_score
 
-    #print("sentence_top_mood: {}".format(sentence_top_mood))
-    #print("sentence_top_count: {}".format(sentence_top_count))
-    #print("sentence_top_score: {}".format(sentence_top_score))
-
-    top_sentiment = pd.Series({'nrc_sentiment': sentence_top_mood,
-                               'nrc_sentiment_count': sentence_top_count,
-                               'nrc_sentiment_score': sentence_top_score})
+    top_sentiment = pd.Series({selected_top_mood_name: sentence_top_mood,
+                               selected_top_mood_count_name: sentence_top_count,
+                               selected_top_mood_score_name: sentence_top_score})
 
     return top_sentiment
 

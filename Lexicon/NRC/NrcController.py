@@ -3,6 +3,7 @@ from ast import literal_eval
 from Controller import LogController, FileController
 from Helper import AppConfigHelper
 from Helper.StringHelper import compare_str
+from Lexicon import StandardModel
 from Lexicon.NRC import NrcModel
 
 # CONFIGURATION
@@ -26,11 +27,12 @@ surprise_lexicon = load_lexicon(NrcModel.surprise_lexicon_file)
 trust_lexicon = load_lexicon(NrcModel.trust_lexicon_file)
 
 
-def get_word_sentiment_value(lexicon, word, mood_ttl_count, mood_ttl_score):
+def get_word_sentiment_value(lexicon, word, mood_ttl_count, mood_ttl_score, mood):
     for s in lexicon:
         if compare_str(word, s[0]):
             mood_ttl_count += 1
             mood_ttl_score = mood_ttl_score + s[1]
+            # print("--- M:{} W:{} NS:{} TC:{} TS:{})".format(mood, word, s[1], mood_ttl_count, mood_ttl_score))
             return mood_ttl_count, mood_ttl_score
     return mood_ttl_count, mood_ttl_score
 
@@ -58,7 +60,7 @@ def set_emotion_model(anger, anger_score, anticipation, anticipation_score,
     return pd.Series(model, index=index)
 
 
-def get_sentence_mood(str_words, is_standard):
+def get_sentence_mood(words, is_standard):
 
     # LOCAL VARIABLES
     anger = 0
@@ -79,16 +81,14 @@ def get_sentence_mood(str_words, is_standard):
     trust_score = 0.0000
 
     # ITEMIZE THE WORDS
-    words = literal_eval(str_words)
     for word in words:
-
         # GET DEFAULT SENTIMENT BY MOOD TYPE
-        anger, anger_score = get_word_sentiment_value(anger_lexicon, word, anger, anger_score)
-        disgust, disgust_score = get_word_sentiment_value(disgust_lexicon, word, disgust, disgust_score)
-        fear, fear_score = get_word_sentiment_value(fear_lexicon, word, fear, fear_score)
-        joy, joy_score = get_word_sentiment_value(joy_lexicon, word, joy, joy_score)
-        sadness, sadness_score = get_word_sentiment_value(sadness_lexicon, word, sadness, sadness_score)
-        surprise, surprise_score = get_word_sentiment_value(surprise_lexicon, word, surprise, surprise_score)
+        anger, anger_score = get_word_sentiment_value(anger_lexicon, word, anger, anger_score, "anger")
+        disgust, disgust_score = get_word_sentiment_value(disgust_lexicon, word, disgust, disgust_score, "disgust")
+        fear, fear_score = get_word_sentiment_value(fear_lexicon, word, fear, fear_score, "fear")
+        joy, joy_score = get_word_sentiment_value(joy_lexicon, word, joy, joy_score, "joy")
+        sadness, sadness_score = get_word_sentiment_value(sadness_lexicon, word, sadness, sadness_score, "sadness")
+        surprise, surprise_score = get_word_sentiment_value(surprise_lexicon, word, surprise, surprise_score, "surprise")
 
         if not is_standard:
             anticipation, anticipation_score = get_word_sentiment_value(anticipation_lexicon, word, anticipation, anticipation_score)
@@ -102,7 +102,7 @@ def get_sentence_mood(str_words, is_standard):
     return model
 
 
-def run(df, is_standard):
+def run(df, is_standard_model):
 
     LogController.log_h1("START NRC SENTIMENT ANALYSIS")
     iCount = 0
@@ -110,9 +110,8 @@ def run(df, is_standard):
     for index, row in df.iterrows():
 
         iCount += 1
-        print(iCount)
-        emotion_info = get_sentence_mood(row['lemma_tweet_text'], is_standard)
-
+        #print(iCount)
+        emotion_info = get_sentence_mood(StandardModel.get_unique_words(row), is_standard_model)
         df.loc[index, 'anger'] = emotion_info.get(key='anger')
         df.loc[index, 'anger_score'] = emotion_info.get(key='anger_score')
         df.loc[index, 'disgust'] = emotion_info.get(key='disgust')
@@ -126,7 +125,7 @@ def run(df, is_standard):
         df.loc[index, 'surprise'] = emotion_info.get(key='surprise')
         df.loc[index, 'surprise_score'] = emotion_info.get(key='surprise_score')
 
-        if not is_standard:
+        if not is_standard_model:
             df.loc[index, 'anticipation'] = emotion_info.get(key='anticipation')
             df.loc[index, 'anticipation_score'] = emotion_info.get(key='anticipation_score')
             df.loc[index, 'trust'] = emotion_info.get(key='trust')
@@ -136,9 +135,11 @@ def run(df, is_standard):
         df.loc[index, 'nrc_sentiment_count'] = emotion_info.get(key='nrc_sentiment_count')
         df.loc[index, 'nrc_sentiment_score'] = emotion_info.get(key='nrc_sentiment_score')
 
+        print("{} >> Tweet: {}  ({})".format(emotion_info.get(key='nrc_sentiment'), row['text'], emotion_info.get(key='nrc_sentiment_score')))
+
     FileController.save_df_to_csv("tmp/NRC-processed_dataset.csv", df)
 
-    if is_standard:
+    if is_standard_model:
         df.drop(['anger', 'anger_score', 'disgust', 'disgust_score',
                  'fear', 'fear_score', 'joy', 'joy_score', 'sadness', 'sadness_score',
                  'surprise', 'surprise_score'], axis=1, inplace=True)

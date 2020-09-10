@@ -8,6 +8,9 @@ mood_score_model = ['afraid', 'afraid_score', 'amused', 'amused_score', 'angry',
                     'annoyed', 'annoyed_score', 'dontcare', 'dontcare_score', 'happy', 'happy_score',
                     'inspired', 'inspired_score', 'sad', 'sad_score']
 min_sentiment_score = float(AppConfigHelper.get_app_config_by_key("min_sentiment_score"))
+selected_top_mood_name = 'dpm_sentiment'
+selected_top_mood_count_name = 'dpm_sentiment_count'
+selected_top_mood_score_name = 'dpm_sentiment_score'
 
 # LEXICON FILE
 depechemoodplus_lexicon_file = model_folder + "DepecheMood++/DepecheMood_english_token_full.tsv"
@@ -38,9 +41,9 @@ def get_top_scores_moods(model, is_standard):
             sentence_top_score = mood_score
             l_min_sentiment_score = mood_score
 
-    model = pd.Series({'dpm_sentiment': sentence_top_mood,
-                       'dpm_sentiment_count': sentence_top_count,
-                       'dpm_sentiment_score': sentence_top_score})
+    model = pd.Series({selected_top_mood_name: sentence_top_mood,
+                       selected_top_mood_count_name: sentence_top_count,
+                       selected_top_mood_score_name: sentence_top_score})
 
     return model
 

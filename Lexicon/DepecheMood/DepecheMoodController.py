@@ -8,33 +8,25 @@ from Lexicon.DepecheMood import DepecheMoodModel
 
 # CONFIGURATION
 dir_path = AppConfigHelper.get_app_config_by_key("app_dir")
-selected_lexicon_path = "Lexicon/DepecheMood/DepecheMood++/"
-mood_list = ['AFRAID', 'AMUSED', 'ANGRY', 'ANNOYED', 'DONT_CARE', 'HAPPY', 'INSPIRED', 'SAD']
-word_indexs = ['afraid', 'afraid_score', 'amused', 'amused_score', 'angry', 'angry_score',
-               'annoyed', 'annoyed_score', 'dontcare', 'dontcare_score', 'happy', 'happy_score',
-               'inspired', 'inspired_score', 'sad', 'sad_score']
 
 # LOAD LEXICON FILE
-def load_lexicon(filename):
-    df = pd.read_csv(dir_path + filename, sep="\t")
-    df_l = df.values.tolist()
-    return df_l
+selected_lexicon_df = pd.read_csv(dir_path + DepecheMoodModel.depechemoodplus_lexicon_file, sep="\t")
+selected_lexicon = selected_lexicon_df.values.tolist()
 
 
-selected_lexicon = load_lexicon(DepecheMoodModel.depechemoodplus_lexicon_file)
-
-
-def get_depechemood_value(mood_score_value, ttl_mood_count, ttl_mood_score):
+def get_sentiment_score_value(mood_score_value, ttl_mood_count, ttl_mood_score, mood):
     if mood_score_value > 0.00:
         ttl_mood_count += 1
         ttl_mood_score = ttl_mood_score + mood_score_value
-
+        #print("---- M:{} NS:{} TC:{} TS:{})".format(mood, mood_score_value, ttl_mood_count, ttl_mood_score))
     return ttl_mood_count, ttl_mood_score
 
 
-def get_word_sentiment_value(word, sentence_model, is_standard):
+def get_word_sentiment_value(word, sentence_model, is_standard_model):
 
-    if not is_standard:
+    #print("-- W:{}".format(word))
+
+    if not is_standard_model:
 
         afraid = sentence_model.get(key='afraid')
         afraid_score = sentence_model.get(key='afraid_score')
@@ -55,24 +47,21 @@ def get_word_sentiment_value(word, sentence_model, is_standard):
 
         for s in selected_lexicon:
             if compare_str(word, str(s[0])):
-                afraid, afraid_score = get_depechemood_value(s[1], afraid, afraid_score)
-                amused, amused_score = get_depechemood_value(s[2], amused, amused_score)
-                angry, angry_score = get_depechemood_value(s[3], angry, angry_score)
-                annoyed, annoyed_score = get_depechemood_value(s[4], annoyed, annoyed_score)
-                dontcare, dontcare_score = get_depechemood_value(s[5], dontcare, dontcare_score)
-                happy, happy_score = get_depechemood_value(s[6], happy, happy_score)
-                inspired, inspired_score = get_depechemood_value(s[7], inspired, inspired_score)
-                sad, sad_score = get_depechemood_value(s[8], sad, sad_score)
+                afraid, afraid_score = get_sentiment_score_value(s[1], afraid, afraid_score, "afraid")
+                amused, amused_score = get_sentiment_score_value(s[2], amused, amused_score, "amused")
+                angry, angry_score = get_sentiment_score_value(s[3], angry, angry_score, "angry")
+                annoyed, annoyed_score = get_sentiment_score_value(s[4], annoyed, annoyed_score, "annoyed")
+                dontcare, dontcare_score = get_sentiment_score_value(s[5], dontcare, dontcare_score, "dontcare")
+                happy, happy_score = get_sentiment_score_value(s[6], happy, happy_score, "happy")
+                inspired, inspired_score = get_sentiment_score_value(s[7], inspired, inspired_score, "inspired")
+                sad, sad_score = get_sentiment_score_value(s[8], sad, sad_score, "sad")
                 break
 
         sentence_model = DepecheMoodModel.set_model(afraid, afraid_score, amused, amused_score,
                                                     angry, angry_score, annoyed, annoyed_score,
                                                     dontcare, dontcare_score, happy, happy_score,
-                                                    inspired, inspired_score, sad, sad_score, is_standard)
+                                                    inspired, inspired_score, sad, sad_score, is_standard_model)
     else:
-        mood_score_model = ['anger', 'anger_score', 'disgust', 'disgust_score', 'fear', 'fear_score', 'joy',
-                            'joy_score',
-                            'sadness', 'sadness_score', 'surprise', 'surprise_score']
 
         anger = sentence_model.get(key='anger')
         anger_score = sentence_model.get(key='anger_score')
@@ -89,48 +78,49 @@ def get_word_sentiment_value(word, sentence_model, is_standard):
 
         for s in selected_lexicon:
             if compare_str(word, str(s[0])):
-                fear, fear_score = get_depechemood_value(s[1], fear, fear_score)
-                #joy, joy_score = get_depechemood_value(s[2], joy, joy_score)
-                anger, anger_score = get_depechemood_value(s[3], anger, anger_score)
-                disgust, disgust_score = get_depechemood_value(s[4], disgust, disgust_score)
-                #dontcare, dontcare_score = get_depechemood_value(s[5], dontcare, dontcare_score)
-                joy, joy_score = get_depechemood_value(s[6], joy, joy_score)
-                surprise, surprise_score = get_depechemood_value(s[7], surprise, surprise_score)
-                sadness, sadness_score = get_depechemood_value(s[8], sadness, sadness_score)
+                fear, fear_score = get_sentiment_score_value(s[1], fear, fear_score, "fear")
+                #joy, joy_score = get_sentiment_score_value(s[2], joy, joy_score, "joy")
+                anger, anger_score = get_sentiment_score_value(s[3], anger, anger_score, "anger")
+                disgust, disgust_score = get_sentiment_score_value(s[4], disgust, disgust_score, "disgust")
+                #dontcare, dontcare_score = get_sentiment_score_value(s[5], dontcare, dontcare_score, "dontcare")
+                joy, joy_score = get_sentiment_score_value(s[6], joy, joy_score, "joy")
+                surprise, surprise_score = get_sentiment_score_value(s[7], surprise, surprise_score, "surprise")
+                sadness, sadness_score = get_sentiment_score_value(s[8], sadness, sadness_score, "sadness")
                 break
 
         sentence_model = StandardModel.set_standard_model(anger, anger_score, disgust, disgust_score,
                                                           fear, fear_score, joy, joy_score,
                                                           sadness, sadness_score, surprise, surprise_score)
 
+
     return sentence_model
 
 
-def get_sentence_mood(sentence, is_standard):
+def get_sentence_mood(words, is_standard_model):
     # SET SENTENCE MODEL
-    sentence_model = DepecheMoodModel.set_model(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, is_standard)
+    sentence_model = DepecheMoodModel.set_model(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, is_standard_model)
 
     # CONVERT TOKEN STRING TO LIST
-    words = literal_eval(sentence)
     for word in words:
-        sentence_model = get_word_sentiment_value(word, sentence_model, is_standard)
+        sentence_model = get_word_sentiment_value(word, sentence_model, is_standard_model)
 
-    top_mood = DepecheMoodModel.get_top_scores_moods(sentence_model, is_standard)
+    # GET TOP SENTIMENT BY SCORE
+    top_mood = DepecheMoodModel.get_top_scores_moods(sentence_model, is_standard_model)
     sentence_model = sentence_model.append(top_mood)
     return sentence_model
 
 
-def run(df, is_standard):
+def run(df, is_standard_model):
 
     LogController.log_h1("START DEPECHEMOOD++ SENTIMENT ANALYSIS")
     iCount = 0
 
     for index, row in df.iterrows():
         iCount += 1
-        print(iCount)
-        emotion_info = get_sentence_mood(row['lemma_tweet_text'], is_standard)
+        # print(iCount)
+        emotion_info = get_sentence_mood(StandardModel.get_unique_words(row), is_standard_model)
 
-        if not is_standard:
+        if not is_standard_model:
             df.loc[index, 'afraid'] = emotion_info.get(key='afraid')
             df.loc[index, 'afraid_score'] = emotion_info.get(key='afraid_score')
             df.loc[index, 'amused'] = emotion_info.get(key='amused')
@@ -163,13 +153,18 @@ def run(df, is_standard):
             df.loc[index, 'surprise_score'] = emotion_info.get(key='surprise_score')
 
         # TOP
-        df.loc[index, 'dpm_sentiment'] = emotion_info.get(key='dpm_sentiment')
-        df.loc[index, 'dpm_sentiment_count'] = emotion_info.get(key='dpm_sentiment_count')
-        df.loc[index, 'dpm_sentiment_score'] = emotion_info.get(key='dpm_sentiment_score')
+        df.loc[index, DepecheMoodModel.selected_top_mood_name] = emotion_info.get(key=DepecheMoodModel.selected_top_mood_name)
+        df.loc[index, DepecheMoodModel.selected_top_mood_count_name] = emotion_info.get(key=DepecheMoodModel.selected_top_mood_count_name)
+        df.loc[index, DepecheMoodModel.selected_top_mood_score_name] = emotion_info.get(key=DepecheMoodModel.selected_top_mood_score_name)
+
+        print("{}] {} >> Tweet: {} ({})".format(iCount,
+                                           emotion_info.get(key=DepecheMoodModel.selected_top_mood_name),
+                                           row['text'],
+                                           emotion_info.get(key=DepecheMoodModel.selected_top_mood_score_name)))
 
     FileController.save_df_to_csv("tmp/dpm-processed_dataset.csv", df)
 
-    if is_standard:
+    if is_standard_model:
         df.drop(['anger', 'anger_score', 'disgust', 'disgust_score',
                  'fear', 'fear_score', 'joy', 'joy_score', 'sadness', 'sadness_score',
                  'surprise', 'surprise_score'], axis=1, inplace=True)
