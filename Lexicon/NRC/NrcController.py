@@ -110,7 +110,8 @@ def run(df, is_standard_model):
     for index, row in df.iterrows():
 
         iCount += 1
-        #print(iCount)
+        print(iCount)
+
         emotion_info = get_sentence_mood(StandardModel.get_unique_words(row), is_standard_model)
         df.loc[index, 'anger'] = emotion_info.get(key='anger')
         df.loc[index, 'anger_score'] = emotion_info.get(key='anger_score')
@@ -135,7 +136,7 @@ def run(df, is_standard_model):
         df.loc[index, 'nrc_sentiment_count'] = emotion_info.get(key='nrc_sentiment_count')
         df.loc[index, 'nrc_sentiment_score'] = emotion_info.get(key='nrc_sentiment_score')
 
-        print("{} >> Tweet: {}  ({})".format(emotion_info.get(key='nrc_sentiment'), row['text'], emotion_info.get(key='nrc_sentiment_score')))
+       #print("{} >> Tweet: {}  ({})".format(emotion_info.get(key='nrc_sentiment'), row['text'], emotion_info.get(key='nrc_sentiment_score')))
 
     FileController.save_df_to_csv("tmp/NRC-processed_dataset.csv", df)
 

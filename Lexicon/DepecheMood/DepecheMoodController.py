@@ -117,7 +117,8 @@ def run(df, is_standard_model):
 
     for index, row in df.iterrows():
         iCount += 1
-        # print(iCount)
+        print(iCount)
+
         emotion_info = get_sentence_mood(StandardModel.get_unique_words(row), is_standard_model)
 
         if not is_standard_model:
@@ -157,10 +158,12 @@ def run(df, is_standard_model):
         df.loc[index, DepecheMoodModel.selected_top_mood_count_name] = emotion_info.get(key=DepecheMoodModel.selected_top_mood_count_name)
         df.loc[index, DepecheMoodModel.selected_top_mood_score_name] = emotion_info.get(key=DepecheMoodModel.selected_top_mood_score_name)
 
+        '''
         print("{}] {} >> Tweet: {} ({})".format(iCount,
                                            emotion_info.get(key=DepecheMoodModel.selected_top_mood_name),
                                            row['text'],
                                            emotion_info.get(key=DepecheMoodModel.selected_top_mood_score_name)))
+        '''
 
     FileController.save_df_to_csv("tmp/dpm-processed_dataset.csv", df)
 

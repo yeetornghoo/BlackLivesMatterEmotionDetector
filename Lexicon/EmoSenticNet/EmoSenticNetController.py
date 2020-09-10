@@ -74,6 +74,7 @@ def run(df):
 
     for index, row in df.iterrows():
         iCount += 1
+        print(iCount)
 
         emotion_info = get_sentence_mood(StandardModel.get_unique_words(row))
 
@@ -88,10 +89,12 @@ def run(df):
         df.loc[index, EmoSenticNetModel.selected_top_mood_name] = emotion_info.get(key=EmoSenticNetModel.selected_top_mood_name)
         df.loc[index, EmoSenticNetModel.selected_top_mood_count_name] = emotion_info.get(key=EmoSenticNetModel.selected_top_mood_count_name)
 
+        '''
         print("{}] {} >> Tweet: {} ({})".format(iCount,
                                            emotion_info.get(key=EmoSenticNetModel.selected_top_mood_name),
                                            row['text'],
                                            emotion_info.get(key=EmoSenticNetModel.selected_top_mood_score_name)))
+        '''
 
     FileController.save_df_to_csv("tmp/esn-processed_dataset.csv", df)
     df.drop(['anger', 'disgust', 'joy', 'sadness', 'surprise', 'fear'], axis=1, inplace=True)
