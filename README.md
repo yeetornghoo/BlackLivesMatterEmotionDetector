@@ -15,7 +15,9 @@ Lexicon Use: DepecheMood++/DepecheMood_english_token_full.tsv
 URL: https://sentic.net/downloads/
 Lexicon Use: emosenticnet.csv
 
-## Test Dataset
+---
+
+# Experiment on #BlackLivesMetter Tweets
 The sample test tweets are located in each folder under /dataset. For example the tweets about the #BlackLivesMetter is located in /dataset/blm_minesota. This dataset are the tweets downloaded (by using this python code https://github.com/yeetornghoo/PythonTweetDownload) with conditions
 - Date between 2020-05-15 and 2020-07-15 
 - Tweet retweet count and tweet favorites count more than 20
@@ -43,4 +45,4 @@ by end of the steps above, the dataframe will have
 - "tweet_text": Tokenized Cleaned Tweets
 - "lemma_tweet_text": Tokenized Cleaned, Lemmataized Tweets
 
-## Sentiment 
+## Sentiment Labelling
