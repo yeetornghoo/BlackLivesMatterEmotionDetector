@@ -1,10 +1,12 @@
 import re
 import pandas as pd
+import emoji
 from ast import literal_eval
 from Controller import LogController
 
 def run(df):
     LogController.log_h1("START DATA CLEANING")
+
     df = replace_special_char_df(df)
     df = remove_url_df(df)
     df = replace_word_is_df(df)
@@ -15,6 +17,7 @@ def run(df):
     df = replace_would_df(df)
     df = remove_atusername_df(df)
     df = process_hasgtag_df(df)
+    df = handle_emoji_df(df)
     return df
 
 
@@ -254,4 +257,14 @@ def process_hasgtag_df(df):
         df['tweet_text'] = df['tweet_text'].apply(lambda x: process_hasgtag(str(x), reg_pattern))
         has_unchange = has_unchange_tweet(reg_pattern, df)
 
+    return df
+
+
+# HANDLE EMOJI
+def handle_emoji_df(df):
+    LogController.log("Process Emoji")
+    for emot in emoji.UNICODE_EMOJI:
+        to_emot_text = emoji.UNICODE_EMOJI[emot].replace(",", "").replace(":", "").replace("'s", "").replace("-", "_")
+        if to_emot_text != "keycap_*" and to_emot_text != "keycap_asterisk":
+            df["tweet_text"] = df["tweet_text"].str.replace(emot, " " + to_emot_text + " ")
     return df

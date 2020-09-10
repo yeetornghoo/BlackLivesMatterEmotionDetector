@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset/SemEval2018/02-post-cleaning-dataset_1.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/DataCleaning.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/DataCleaning.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/DataNLP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/DataNLP.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/SemEval2018/02-post-cleaning-2018-E-c-En-test-gold.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/SemEval2018/02-post-cleaning-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/SemEval2018/02-post-cleaning-dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/SemEval2018/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/SemEval2018/0_process.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/_custome/correction.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/_custome/correction.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,22 +210,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598762490707" />
-    <state width="1770" height="421" key="GridCell.Tab.0.bottom" timestamp="1599758073296">
+    <state width="1768" height="475" key="GridCell.Tab.0.bottom" timestamp="1599762711100">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1770" height="421" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599758073296" />
-    <state width="1770" height="421" key="GridCell.Tab.0.center" timestamp="1599758073295">
+    <state width="1768" height="475" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599762711100" />
+    <state width="1768" height="475" key="GridCell.Tab.0.center" timestamp="1599762711100">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1770" height="421" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599758073295" />
-    <state width="1770" height="421" key="GridCell.Tab.0.left" timestamp="1599758073295">
+    <state width="1768" height="475" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599762711100" />
+    <state width="1768" height="475" key="GridCell.Tab.0.left" timestamp="1599762711100">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1770" height="421" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599758073295" />
-    <state width="1770" height="421" key="GridCell.Tab.0.right" timestamp="1599758073295">
+    <state width="1768" height="475" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599762711100" />
+    <state width="1768" height="475" key="GridCell.Tab.0.right" timestamp="1599762711100">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1770" height="421" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599758073295" />
+    <state width="1768" height="475" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599762711100" />
     <state width="1690" height="340" key="GridCell.Tab.1.bottom" timestamp="1599719765937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

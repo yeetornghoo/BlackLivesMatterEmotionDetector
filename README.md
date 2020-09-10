@@ -37,7 +37,8 @@ Following are the data cleaning tasks
 - Step 2: Replace word and Spelling Error Correction on "tweet_text"
     - Replace word. For example *He's* to *He is*, *Don't* to *Do not*
     - Remove @USERNAME
-    - Split Hashtag by Upper Case and Remove #
+    - Remove # and Split Hashtag by Upper Case (e.g. "ILoveYou" to "I Love You")
+    - Replace Emoji to String
     - Saved outcome /dataset/blm_minesota/02-post-cleaning-dataset.csv
 - Step 3:
     - Tokenized "tweet_text"
