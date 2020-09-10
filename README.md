@@ -36,10 +36,12 @@ Following are the data cleaning tasks
     - Saved outcome /dataset/blm_minesota/01-post-translate-dataset.csv
 - Step 2: Replace word and Spelling Error Correction on "tweet_text"
     - Replace word. For example *He's* to *He is*, *Don't* to *Do not*
-    - Correct Spelling Error (Correction Word File /dataset/_custome/correction.csv)
+    - Remove @USERNAME
+    - Split Hashtag by Upper Case and Remove #
     - Saved outcome /dataset/blm_minesota/02-post-cleaning-dataset.csv
 - Step 3:
     - Tokenized "tweet_text"
+    - Correct Spelling Error (Correction Word File /dataset/_custome/correction.csv)
     - Tokenized and Lemmatized on "tweet_text" and saved to "lemma_tweet_text"
     - Saved outcome /dataset/blm_minesota/03-post-nlp-dataset.csv
 
