@@ -6,14 +6,17 @@ Following Libraries are being used to compare the accuracy of the lexicon on the
 ### NRC
 URL: https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm
 Lexicon Use: NRC-Emotion-Intensity-Lexicon-v1/OneFilePerEmotion/* (All individual mood files)
+Mood Class: anger, anticipation, disgust, fear, joy, sadness, surprise, trust
 
 ### Depeche Mood ++
 URL: https://github.com/marcoguerini/DepecheMood/tree/master/DepecheMood%2B%2B
 Lexicon Use: DepecheMood++/DepecheMood_english_token_full.tsv
+Mood Class: afraid, amused, angry, annoyed, dontcare, happy, inspired, sad
 
 ### ECO SenticNet Mood
 URL: https://sentic.net/downloads/
 Lexicon Use: emosenticnet.csv
+Mood Class: anger, disgust, fear, joy, sadness, surprise']
 
 ---
 
@@ -46,3 +49,30 @@ by end of the steps above, the dataframe will have
 - "lemma_tweet_text": Tokenized Cleaned, Lemmataized Tweets
 
 ## Sentiment Labelling
+Python file: /dataset/blm_minesota/1_label_sentiment.py
+
+- By default (is_standard_model: False), the python code will use the lexicon libraries above to label te tweets accordingly, the output of this python code 04-post-sentiment-dataset.csv will provide a csv with the mood class for each of the lexicon library.  
+- *Each of tweets will combine the normal form of the words and Lemmatized word, then get the unique words only from the sentence. *
+
+### First Lexicon - NRC Lexicon
+- NRC Lexicon library provide corpus in 8 file (one mood per file) and each mood will have the word and the intensity score. 
+- Steps
+    1. Get Unique words (Combined Standard and Lemmatized Form) 
+    2. For-Loop Each Sentence and then For-Loop the words
+    3. Find the Tweet' Word on each Mood Lexicon File and Extract the Score
+    4. Count the number of time the words appear and sum the score
+    5. The mood with higher score will be the final mood for that sentence
+    6. Added 3 new attribute 
+        - nrc_sentiment : Highest Score Mood Name
+        - nrc_sentiment_count: Highest Score Mood Count
+        - nrc_sentiment_score: Highest Score Mood Score
+    7. Save the file to /dataset/blm_minesota/tmp/nrc-processed_dataset.csv
+- Limitation
+    - TBC
+
+
+Due to each of the lexicon library will have own set of mood, it is a bit difficult to compare. According to F. S. Tabak et al [1]. The mood class can be merged into a single set in order to compare.
+
+
+# Reference
+[1] F. S. Tabak and V. Evrim, "Comparison of emotion lexicons," 2016 HONET-ICT, Nicosia, 2016, pp. 154-158, doi: 10.1109/HONET.2016.7753440. https://ieeexplore.ieee.org/document/7753440
