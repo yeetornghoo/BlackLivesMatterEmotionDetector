@@ -8,7 +8,7 @@ from Lexicon.NRC import NrcController
 file_name = "dataset.csv"
 is_standard_model = True
 # LOAD DATASET
-df = pd.read_csv("03-post-nlp-"+file_name, sep=",", nrows=50)
+df = pd.read_csv("03-post-nlp-"+file_name, sep=",")
 '''
 DataAssess.run(df)
 '''
