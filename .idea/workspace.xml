@@ -48,7 +48,7 @@
       <recent name="C:\workspace\SocialMovementSentiment\dataset" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SamEval2018_1_DataCleaning">
+  <component name="RunManager" selected="Python.BML_2_Sentiment">
     <configuration name="BML_1_DataCleaning" type="PythonConfigurationType" factoryName="Python">
       <module name="BlackLiveMetters" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,16 +177,16 @@
     </configuration>
     <list>
       <item itemvalue="Python.BML_1_DataCleaning" />
-      <item itemvalue="Python.BML_2_Sentiment" />
       <item itemvalue="Python.SamEval2018_1_DataCleaning" />
-      <item itemvalue="Python.SamEval2018_2_Sentiment" />
       <item itemvalue="Python.SamEval2019_1_DataCleaning" />
       <item itemvalue="Python.SamEval2019_2_Sentiment" />
+      <item itemvalue="Python.BML_2_Sentiment" />
+      <item itemvalue="Python.SamEval2018_2_Sentiment" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.SamEval2018_2_Sentiment" />
         <item itemvalue="Python.BML_2_Sentiment" />
+        <item itemvalue="Python.SamEval2018_2_Sentiment" />
       </list>
     </recent_temporary>
   </component>
@@ -216,10 +216,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="750" y="153" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1598530803895" />
-    <state x="733" y="167" width="1092" height="834" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599802012150">
+    <state x="733" y="167" width="1092" height="834" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599809057027">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="733" y="167" width="1092" height="834" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599802012150" />
+    <state x="733" y="167" width="1092" height="834" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599809057027" />
     <state x="574" y="109" width="1184" height="814" key="DiffContextDialog" timestamp="1599378624647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
