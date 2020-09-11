@@ -1,272 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="ea6bf772-978e-4a61-a2e4-997b41e0e321" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectId" id="1gasYNUJa4bQmQ1fhAjYCUi16ZZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dataset/SemEval2018_Task1/0_process.py" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\workspace\SocialMovementSentiment\dataset\blm_minesota" />
-      <recent name="C:\workspace\SocialMovementSentiment\Lexicon" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\workspace\SocialMovementSentiment\Lexicon\EmoSenticNet" />
-      <recent name="C:\workspace\SocialMovementSentiment\Lexicon\DepecheMood" />
-      <recent name="C:\workspace\SocialMovementSentiment\Lexicon\NRC" />
-      <recent name="C:\workspace\SocialMovementSentiment\Model\NRC" />
-      <recent name="C:\workspace\SocialMovementSentiment\dataset" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Python.SamEval2018_1_DataCleaning">
-    <configuration name="BML_1_DataCleaning" type="PythonConfigurationType" factoryName="Python">
-      <module name="BlackLiveMetters" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/blm_minesota" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/blm_minesota/0_process.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="BML_2_Sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BlackLiveMetters" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/blm_minesota" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/blm_minesota/1_label_sentiment.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SamEval2018_1_DataCleaning" type="PythonConfigurationType" factoryName="Python">
-      <module name="BlackLiveMetters" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/SemEval2018_Task1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/SemEval2018_Task1/0_process.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SamEval2018_2_Sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BlackLiveMetters" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/SemEval2018_Task1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/SemEval2018_Task1/1_label_sentiment.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SamEval2019_1_DataCleaning" type="PythonConfigurationType" factoryName="Python">
-      <module name="BlackLiveMetters" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/SamEval2019_Task3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/SamEval2019_Task3/0_process.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SamEval2019_2_Sentiment" type="PythonConfigurationType" factoryName="Python">
-      <module name="BlackLiveMetters" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/SamEval2019_Task3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/SamEval2019_Task3/1_label_sentiment.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Python.BML_1_DataCleaning" />
-      <item itemvalue="Python.BML_2_Sentiment" />
-      <item itemvalue="Python.SamEval2018_1_DataCleaning" />
-      <item itemvalue="Python.SamEval2018_2_Sentiment" />
-      <item itemvalue="Python.SamEval2019_1_DataCleaning" />
-      <item itemvalue="Python.SamEval2019_2_Sentiment" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.SamEval2018_2_Sentiment" />
-        <item itemvalue="Python.BML_2_Sentiment" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="" />
-      <created>1598364083573</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1598364083573</updated>
-    </task>
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="527" y="180" key="#Illuminated_Cloud" timestamp="1598364095077">
+    <state width="1513" height="465" key="GridCell.Tab.0.bottom" timestamp="1599811024778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="527" y="180" key="#Illuminated_Cloud/0.0.1920.1040@0.0.1920.1040" timestamp="1598364095077" />
-    <state x="750" y="153" key="#Plugins" timestamp="1598530803895">
+    <state width="1513" height="465" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599811024778" />
+    <state width="1513" height="465" key="GridCell.Tab.0.center" timestamp="1599811024778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="750" y="153" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1598530803895" />
-    <state x="733" y="167" width="1092" height="834" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599802012150">
+    <state width="1513" height="465" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599811024778" />
+    <state width="1513" height="465" key="GridCell.Tab.0.left" timestamp="1599811024778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="733" y="167" width="1092" height="834" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599802012150" />
-    <state x="574" y="109" width="1184" height="814" key="DiffContextDialog" timestamp="1599378624647">
+    <state width="1513" height="465" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599811024778" />
+    <state width="1513" height="465" key="GridCell.Tab.0.right" timestamp="1599811024778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="574" y="109" width="1184" height="814" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599378624647" />
-    <state x="1059" y="267" key="FileChooserDialogImpl" timestamp="1599801909840">
+    <state width="1513" height="465" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599811024778" />
+    <state width="1219" height="340" key="GridCell.Tab.1.bottom" timestamp="1599811024775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599801909840" />
-    <state width="1513" height="724" key="GridCell.Tab.0.bottom" timestamp="1599807539830">
+    <state width="1219" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599811024775" />
+    <state width="1219" height="340" key="GridCell.Tab.1.center" timestamp="1599811024775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1513" height="724" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599807539830" />
-    <state width="1513" height="724" key="GridCell.Tab.0.center" timestamp="1599807539830">
+    <state width="1219" height="340" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599811024775" />
+    <state width="1219" height="340" key="GridCell.Tab.1.left" timestamp="1599811024775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1513" height="724" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599807539830" />
-    <state width="1513" height="724" key="GridCell.Tab.0.left" timestamp="1599807539830">
+    <state width="1219" height="340" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599811024775" />
+    <state width="1219" height="340" key="GridCell.Tab.1.right" timestamp="1599811024775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1513" height="724" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599807539830" />
-    <state width="1513" height="724" key="GridCell.Tab.0.right" timestamp="1599807539830">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1513" height="724" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599807539830" />
-    <state width="1690" height="340" key="GridCell.Tab.1.bottom" timestamp="1599712753040">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1690" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599712753040" />
-    <state width="1690" height="340" key="GridCell.Tab.1.center" timestamp="1599712753040">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1690" height="340" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599712753040" />
-    <state width="1690" height="340" key="GridCell.Tab.1.left" timestamp="1599712753040">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1690" height="340" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599712753040" />
-    <state width="1690" height="340" key="GridCell.Tab.1.right" timestamp="1599712753040">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1690" height="340" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599712753040" />
-    <state x="780" y="157" key="SettingsEditor" timestamp="1599809469579">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="780" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599809469579" />
-    <state x="835" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1599369715258">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="835" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599369715258" />
+    <state width="1219" height="340" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599811024775" />
   </component>
 </project>
