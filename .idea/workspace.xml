@@ -48,19 +48,19 @@
       <recent name="C:\workspace\SocialMovementSentiment\dataset" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.BML_2_Sentiment">
+  <component name="RunManager" selected="Python.BML_1_DataCleaning">
     <configuration name="BML_1_DataCleaning" type="PythonConfigurationType" factoryName="Python">
-      <module name="BlackLiveMetters" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\Conda3.7\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/blm_minesota" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/blm_minesota/0_process.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -71,17 +71,17 @@
       <method v="2" />
     </configuration>
     <configuration name="BML_2_Sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BlackLiveMetters" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\Conda3.7\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/blm_minesota" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/blm_minesota/1_label_sentiment.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -92,17 +92,17 @@
       <method v="2" />
     </configuration>
     <configuration name="SamEval2018_1_DataCleaning" type="PythonConfigurationType" factoryName="Python">
-      <module name="BlackLiveMetters" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\Conda3.7\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/SemEval2018_Task1" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/SemEval2018_Task1/0_process.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -113,17 +113,17 @@
       <method v="2" />
     </configuration>
     <configuration name="SamEval2018_2_Sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BlackLiveMetters" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\Conda3.7\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/SemEval2018_Task1" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/SemEval2018_Task1/1_label_sentiment.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -134,17 +134,17 @@
       <method v="2" />
     </configuration>
     <configuration name="SamEval2019_1_DataCleaning" type="PythonConfigurationType" factoryName="Python">
-      <module name="BlackLiveMetters" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\Conda3.7\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/SamEval2019_Task3" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/SamEval2019_Task3/0_process.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -155,17 +155,17 @@
       <method v="2" />
     </configuration>
     <configuration name="SamEval2019_2_Sentiment" type="PythonConfigurationType" factoryName="Python">
-      <module name="BlackLiveMetters" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\Conda3.7\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/SamEval2019_Task3" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/SamEval2019_Task3/1_label_sentiment.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -178,8 +178,8 @@
     <list>
       <item itemvalue="Python.BML_1_DataCleaning" />
       <item itemvalue="Python.SamEval2018_1_DataCleaning" />
-      <item itemvalue="Python.SamEval2019_1_DataCleaning" />
       <item itemvalue="Python.SamEval2019_2_Sentiment" />
+      <item itemvalue="Python.SamEval2019_1_DataCleaning" />
       <item itemvalue="Python.BML_2_Sentiment" />
       <item itemvalue="Python.SamEval2018_2_Sentiment" />
     </list>
@@ -216,10 +216,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="750" y="153" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1598530803895" />
-    <state x="733" y="167" width="1092" height="834" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599809057027">
+    <state x="733" y="62" width="1092" height="978" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599810750146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="733" y="167" width="1092" height="834" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599809057027" />
+    <state x="733" y="62" width="1092" height="978" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599810750146" />
     <state x="574" y="109" width="1184" height="814" key="DiffContextDialog" timestamp="1599378624647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
