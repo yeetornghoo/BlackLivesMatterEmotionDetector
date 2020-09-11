@@ -1,0 +1,5 @@
+pip install pandas 
+pip install emoji 
+pip install googletrans 
+pip install pytorch 
+pip install stanza
