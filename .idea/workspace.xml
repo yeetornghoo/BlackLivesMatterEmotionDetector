@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea6bf772-978e-4a61-a2e4-997b41e0e321" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/3_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ffb3c16b-cde1-414c-982a-c799efa4f585" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/timeline_high)intensity_tweets.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,16 +36,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\workspace\SocialMovementSentiment\dataset\blm_minesota" />
-      <recent name="C:\workspace\SocialMovementSentiment\Lexicon" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon\EmoSenticNet" />
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon\DepecheMood" />
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon\NRC" />
       <recent name="C:\workspace\SocialMovementSentiment\Model\NRC" />
       <recent name="C:\workspace\SocialMovementSentiment\dataset" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\SocialMovementSentiment\dataset\blm_minesota" />
+      <recent name="C:\workspace\SocialMovementSentiment\Lexicon" />
     </key>
   </component>
   <component name="RunManager" selected="Python.BML_1_DataCleaning">
