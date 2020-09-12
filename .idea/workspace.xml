@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffb3c16b-cde1-414c-982a-c799efa4f585" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_timeline_all_tweets.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_timeline_all_tweets.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_timeline_all_tweets.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_timeline_all_tweets.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +196,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="" />
+      <changelist id="ffb3c16b-cde1-414c-982a-c799efa4f585" name="Default Changelist" comment="" />
       <created>1598364083573</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
