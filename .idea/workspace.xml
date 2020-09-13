@@ -2,7 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffb3c16b-cde1-414c-982a-c799efa4f585" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_timeline_high_intensity_tweets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_lineplot_by_score_by_day.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_lineplot_by_score_by_day_with_min_intensity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_lineplot_by_score_by_fixed_preiod_by_day.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_lineplot_by_score_by_fixed_preiod_by_hour.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_lineplot_by_score_by_fixed_preiod_by_hour_with_min_intensity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_lineplot_by_score_by_day.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_lineplot_by_score_by_day_with_min_intensity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_lineplot_by_score_by_fixed_preiod_by_day.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_lineplot_by_score_by_fixed_preiod_by_hour.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_lineplot_by_score_by_fixed_preiod_by_hour_with_min_intensity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/SamEval2019_Task3/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/SamEval2019_Task3/0_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_timeline_all_tweets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_timeline_high_intensity_tweets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_timeline_hour_all_tweets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_timeline_hour_high_intensity_tweets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_timeline_period_day_tweets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_timeline_all_tweets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_timeline_high_intensity_tweets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_timeline_hour_all_tweets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_timeline_hour_high_intensity_tweets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_timeline_period_day_tweets.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
