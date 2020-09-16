@@ -91,8 +91,8 @@ def get_sentence_mood(words, is_standard):
         surprise, surprise_score = get_word_sentiment_value(surprise_lexicon, word, surprise, surprise_score, "surprise")
 
         if not is_standard:
-            anticipation, anticipation_score = get_word_sentiment_value(anticipation_lexicon, word, anticipation, anticipation_score)
-            trust, trust_score = get_word_sentiment_value(trust_lexicon, word, trust, trust_score)
+            anticipation, anticipation_score = get_word_sentiment_value(anticipation_lexicon, word, anticipation, anticipation_score, "anticipation")
+            trust, trust_score = get_word_sentiment_value(trust_lexicon, word, trust, trust_score, "trust")
 
     # CREATE MOOD MODEL TO BE RETURN
     model = NrcModel.set_model(anger, anger_score, anticipation, anticipation_score,
