@@ -5,7 +5,7 @@ from Lexicon.DepecheMood import DepecheMoodController
 from Lexicon.EmoSenticNet import EmoSenticNetController
 from Lexicon.NRC import NrcController
 
-is_standard_model = True
+is_standard_model = False
 file_name = "dataset.csv"
 
 # LOAD DATASET
