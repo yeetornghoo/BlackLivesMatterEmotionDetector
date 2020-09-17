@@ -48,61 +48,19 @@
       <recent name="C:\workspace\SocialMovementSentiment\dataset" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.BML_1_DataCleaning">
-    <configuration name="BML_1_DataCleaning" type="PythonConfigurationType" factoryName="Python">
+  <component name="RunManager" selected="Python.SamEval2018_Sentiment">
+    <configuration name="SamEval2018_DataCleaning" type="PythonConfigurationType" factoryName="Python">
+      <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\Conda3.7\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/blm_minesota" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/blm_minesota/0_process.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="BML_2_Sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\Conda3.7\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/blm_minesota" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/blm_minesota/1_label_sentiment.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SamEval2018_1_DataCleaning" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\Conda3.7\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/SemEval2018_Task1" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/SemEval2018_Task1/0_process.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -112,18 +70,18 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SamEval2018_2_Sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SamEval2018_Sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\Conda3.7\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/SemEval2018_Task1" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/SemEval2018_Task1/1_label_sentiment.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -131,62 +89,17 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SamEval2019_1_DataCleaning" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\Conda3.7\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/SamEval2019_Task3" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/SamEval2019_Task3/0_process.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SamEval2019_2_Sentiment" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\Conda3.7\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/SamEval2019_Task3" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/SamEval2019_Task3/1_label_sentiment.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
+      <method v="2">
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="SamEval2018_DataCleaning" run_configuration_type="PythonConfigurationType" />
+      </method>
     </configuration>
     <list>
-      <item itemvalue="Python.BML_1_DataCleaning" />
-      <item itemvalue="Python.SamEval2018_1_DataCleaning" />
-      <item itemvalue="Python.SamEval2019_2_Sentiment" />
-      <item itemvalue="Python.SamEval2019_1_DataCleaning" />
-      <item itemvalue="Python.BML_2_Sentiment" />
-      <item itemvalue="Python.SamEval2018_2_Sentiment" />
+      <item itemvalue="Python.SamEval2018_DataCleaning" />
+      <item itemvalue="Python.SamEval2018_Sentiment" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.BML_2_Sentiment" />
-        <item itemvalue="Python.SamEval2018_2_Sentiment" />
+        <item itemvalue="Python.SamEval2018_Sentiment" />
       </list>
     </recent_temporary>
   </component>
@@ -216,10 +129,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="750" y="153" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1598530803895" />
-    <state x="733" y="62" width="1092" height="978" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599810750146">
+    <state x="733" y="62" width="1092" height="978" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600307338025">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="733" y="62" width="1092" height="978" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599810750146" />
+    <state x="733" y="62" width="1092" height="978" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600307338025" />
     <state x="574" y="109" width="1184" height="814" key="DiffContextDialog" timestamp="1599378624647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -228,22 +141,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599801909840" />
-    <state width="1898" height="528" key="GridCell.Tab.0.bottom" timestamp="1600306023592">
+    <state width="1898" height="516" key="GridCell.Tab.0.bottom" timestamp="1600307289838">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="528" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600306023592" />
-    <state width="1898" height="528" key="GridCell.Tab.0.center" timestamp="1600306023592">
+    <state width="1898" height="516" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600307289838" />
+    <state width="1898" height="516" key="GridCell.Tab.0.center" timestamp="1600307289837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="528" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600306023592" />
-    <state width="1898" height="528" key="GridCell.Tab.0.left" timestamp="1600306023592">
+    <state width="1898" height="516" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600307289837" />
+    <state width="1898" height="516" key="GridCell.Tab.0.left" timestamp="1600307289837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="528" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600306023592" />
-    <state width="1898" height="528" key="GridCell.Tab.0.right" timestamp="1600306023592">
+    <state width="1898" height="516" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600307289837" />
+    <state width="1898" height="516" key="GridCell.Tab.0.right" timestamp="1600307289837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="528" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600306023592" />
+    <state width="1898" height="516" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600307289837" />
     <state width="1690" height="340" key="GridCell.Tab.1.bottom" timestamp="1599712753040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -260,10 +173,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1690" height="340" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599712753040" />
-    <state x="780" y="157" key="SettingsEditor" timestamp="1599811962264">
+    <state x="780" y="157" key="SettingsEditor" timestamp="1600307265838">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="780" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599811962264" />
+    <state x="780" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600307265838" />
     <state x="835" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1599369715258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
