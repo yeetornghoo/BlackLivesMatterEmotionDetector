@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="">
+<<<<<<< HEAD
+    <list default="true" id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="ffb3c16b-cde1-414c-982a-c799efa4f585" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_lineplot_by_score_by_day.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_lineplot_by_score_by_day_with_min_intensity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_lineplot_by_score_by_fixed_preiod_by_day.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_lineplot_by_score_by_fixed_preiod_by_hour.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_lineplot_by_score_by_fixed_preiod_by_hour_with_min_intensity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_lineplot_by_score_by_day.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_lineplot_by_score_by_day_with_min_intensity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_lineplot_by_score_by_fixed_preiod_by_day.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_lineplot_by_score_by_fixed_preiod_by_hour.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_lineplot_by_score_by_fixed_preiod_by_hour_with_min_intensity.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/SamEval2019_Task3/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/SamEval2019_Task3/0_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_timeline_all_tweets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_timeline_high_intensity_tweets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_timeline_hour_all_tweets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_timeline_hour_high_intensity_tweets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_timeline_period_day_tweets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_timeline_all_tweets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_timeline_high_intensity_tweets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_timeline_hour_all_tweets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_timeline_hour_high_intensity_tweets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_timeline_period_day_tweets.png" beforeDir="false" />
     </list>
+>>>>>>> a49c567f573d874ea8dd90ec29b7bb842a7247cc
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,20 +57,20 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dataset/SemEval2018_Task1/0_process.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\workspace\SocialMovementSentiment\dataset\blm_minesota" />
-      <recent name="C:\workspace\SocialMovementSentiment\Lexicon" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon\EmoSenticNet" />
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon\DepecheMood" />
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon\NRC" />
       <recent name="C:\workspace\SocialMovementSentiment\Model\NRC" />
       <recent name="C:\workspace\SocialMovementSentiment\dataset" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\SocialMovementSentiment\dataset\blm_minesota" />
+      <recent name="C:\workspace\SocialMovementSentiment\Lexicon" />
     </key>
   </component>
   <component name="RunManager" selected="Python.BML_1_DataCleaning">
@@ -55,7 +80,11 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
+<<<<<<< HEAD
       <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\Conda3.7\python.exe" />
+=======
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\SocialMovementSentiment\python.exe" />
+>>>>>>> 9e7e5461d78aa7ac513dc34414a9588d7e896f05
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/blm_minesota" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -76,7 +105,11 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
+<<<<<<< HEAD
       <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\Conda3.7\python.exe" />
+=======
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\SocialMovementSentiment\python.exe" />
+>>>>>>> 9e7e5461d78aa7ac513dc34414a9588d7e896f05
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/blm_minesota" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -97,7 +130,11 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
+<<<<<<< HEAD
       <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\Conda3.7\python.exe" />
+=======
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\SocialMovementSentiment\python.exe" />
+>>>>>>> 9e7e5461d78aa7ac513dc34414a9588d7e896f05
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/SemEval2018_Task1" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -118,7 +155,11 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
+<<<<<<< HEAD
       <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\Conda3.7\python.exe" />
+=======
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\SocialMovementSentiment\python.exe" />
+>>>>>>> 9e7e5461d78aa7ac513dc34414a9588d7e896f05
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/SemEval2018_Task1" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -139,7 +180,11 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
+<<<<<<< HEAD
       <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\Conda3.7\python.exe" />
+=======
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\SocialMovementSentiment\python.exe" />
+>>>>>>> 9e7e5461d78aa7ac513dc34414a9588d7e896f05
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/SamEval2019_Task3" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -160,7 +205,11 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
+<<<<<<< HEAD
       <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\Conda3.7\python.exe" />
+=======
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\SocialMovementSentiment\python.exe" />
+>>>>>>> 9e7e5461d78aa7ac513dc34414a9588d7e896f05
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/SamEval2019_Task3" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -173,27 +222,33 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
+      <method v="2">
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="SamEval2019_1_DataCleaning" run_configuration_type="PythonConfigurationType" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="Python.BML_1_DataCleaning" />
       <item itemvalue="Python.SamEval2018_1_DataCleaning" />
       <item itemvalue="Python.SamEval2019_2_Sentiment" />
+<<<<<<< HEAD
       <item itemvalue="Python.SamEval2019_1_DataCleaning" />
       <item itemvalue="Python.BML_2_Sentiment" />
+=======
+>>>>>>> 9e7e5461d78aa7ac513dc34414a9588d7e896f05
       <item itemvalue="Python.SamEval2018_2_Sentiment" />
+      <item itemvalue="Python.BML_2_Sentiment" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.BML_2_Sentiment" />
         <item itemvalue="Python.SamEval2018_2_Sentiment" />
+        <item itemvalue="Python.BML_2_Sentiment" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="" />
+      <changelist id="ffb3c16b-cde1-414c-982a-c799efa4f585" name="Default Changelist" comment="" />
       <created>1598364083573</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -216,10 +271,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="750" y="153" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1598530803895" />
+<<<<<<< HEAD
     <state x="733" y="62" width="1092" height="978" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599810750146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="733" y="62" width="1092" height="978" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599810750146" />
+=======
+    <state x="683" y="38" width="1092" height="1002" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599810670250">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="683" y="38" width="1092" height="1002" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599810670250" />
+>>>>>>> 9e7e5461d78aa7ac513dc34414a9588d7e896f05
     <state x="574" y="109" width="1184" height="814" key="DiffContextDialog" timestamp="1599378624647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -228,42 +290,69 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599801909840" />
-    <state width="1513" height="724" key="GridCell.Tab.0.bottom" timestamp="1599807539830">
+<<<<<<< HEAD
+    <state width="1898" height="516" key="GridCell.Tab.0.bottom" timestamp="1599812648012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1513" height="724" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599807539830" />
-    <state width="1513" height="724" key="GridCell.Tab.0.center" timestamp="1599807539830">
+    <state width="1898" height="516" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599812648012" />
+    <state width="1898" height="516" key="GridCell.Tab.0.center" timestamp="1599812648011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1513" height="724" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599807539830" />
-    <state width="1513" height="724" key="GridCell.Tab.0.left" timestamp="1599807539830">
+    <state width="1898" height="516" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599812648011" />
+    <state width="1898" height="516" key="GridCell.Tab.0.left" timestamp="1599812648011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1513" height="724" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599807539830" />
-    <state width="1513" height="724" key="GridCell.Tab.0.right" timestamp="1599807539830">
+    <state width="1898" height="516" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599812648011" />
+    <state width="1898" height="516" key="GridCell.Tab.0.right" timestamp="1599812648011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1513" height="724" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599807539830" />
-    <state width="1690" height="340" key="GridCell.Tab.1.bottom" timestamp="1599712753040">
+    <state width="1898" height="516" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599812648011" />
+=======
+    <state width="1560" height="330" key="GridCell.Tab.0.bottom" timestamp="1599836425787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1690" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599712753040" />
-    <state width="1690" height="340" key="GridCell.Tab.1.center" timestamp="1599712753040">
+    <state width="1560" height="330" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599836425787" />
+    <state width="1560" height="330" key="GridCell.Tab.0.center" timestamp="1599836425787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1690" height="340" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599712753040" />
-    <state width="1690" height="340" key="GridCell.Tab.1.left" timestamp="1599712753040">
+    <state width="1560" height="330" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599836425787" />
+    <state width="1560" height="330" key="GridCell.Tab.0.left" timestamp="1599836425787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1690" height="340" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599712753040" />
-    <state width="1690" height="340" key="GridCell.Tab.1.right" timestamp="1599712753040">
+    <state width="1560" height="330" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599836425787" />
+    <state width="1560" height="330" key="GridCell.Tab.0.right" timestamp="1599836425787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1560" height="330" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599836425787" />
+>>>>>>> a49c567f573d874ea8dd90ec29b7bb842a7247cc
+    <state width="1898" height="342" key="GridCell.Tab.1.bottom" timestamp="1599812471400">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1898" height="342" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599812471400" />
+    <state width="1898" height="342" key="GridCell.Tab.1.center" timestamp="1599812471400">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1898" height="342" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599812471400" />
+    <state width="1898" height="342" key="GridCell.Tab.1.left" timestamp="1599812471400">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1898" height="342" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599812471400" />
+    <state width="1898" height="342" key="GridCell.Tab.1.right" timestamp="1599812471400">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+<<<<<<< HEAD
     <state width="1690" height="340" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599712753040" />
     <state x="780" y="157" key="SettingsEditor" timestamp="1599811962264">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="780" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599811962264" />
+=======
+    <state width="1898" height="342" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599812471400" />
+    <state x="780" y="157" key="SettingsEditor" timestamp="1599812197401">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="780" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599812197401" />
+>>>>>>> 9e7e5461d78aa7ac513dc34414a9588d7e896f05
     <state x="835" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1599369715258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
