@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/dataset/ISEAR/1_label_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/ISEAR/1_label_sentiment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/SamEval2019_Task3/1_label_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/SamEval2019_Task3/1_label_sentiment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/SemEval2018_Task1/1_label_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/SemEval2018_Task1/1_label_sentiment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_washington/1_label_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_washington/1_label_sentiment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/dataset_20200525_20200602.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota_20200401_20200731/0_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota_20200401_20200731/1_label_sentiment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota_20200401_20200731/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota_20200525_20200602/0_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota_20200525_20200602/1_label_sentiment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota_20200525_20200602/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/ISEAR/tmp/NRC-processed_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/ISEAR/tmp/NRC-processed_dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_lineplot_by_count_by_fixed_preiod_by_hour.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_lineplot_by_count_by_fixed_preiod_by_hour.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_lineplot_by_count_by_fixed_preiod_by_hour_with_min_intensity.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_lineplot_by_count_by_fixed_preiod_by_hour_with_min_intensity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_lineplot_by_score_by_fixed_preiod_by_day.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_lineplot_by_score_by_fixed_preiod_by_day.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_lineplot_by_score_by_fixed_preiod_by_hour.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_lineplot_by_score_by_fixed_preiod_by_hour.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_lineplot_by_score_by_fixed_preiod_by_hour_with_min_intensity.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/dpm_lineplot_by_score_by_fixed_preiod_by_hour_with_min_intensity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_lineplot_by_count_by_fixed_preiod_by_hour_with_min_intensity.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_lineplot_by_count_by_fixed_preiod_by_hour_with_min_intensity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_lineplot_by_score_by_fixed_preiod_by_day.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_lineplot_by_score_by_fixed_preiod_by_day.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_lineplot_by_score_by_fixed_preiod_by_hour.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_lineplot_by_score_by_fixed_preiod_by_hour.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_lineplot_by_score_by_fixed_preiod_by_hour_with_min_intensity.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/nrc_lineplot_by_score_by_fixed_preiod_by_hour_with_min_intensity.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +66,7 @@
       <recent name="C:\workspace\SocialMovementSentiment\dataset" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ISEAR_sentiment">
+  <component name="RunManager" selected="Python.SamEval2018_DataCleaning">
     <configuration name="ISEAR_sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,10 +170,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="750" y="153" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1598530803895" />
-    <state x="733" y="62" width="1092" height="978" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600307989054">
+    <state x="733" y="62" width="1092" height="978" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600308005741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="733" y="62" width="1092" height="978" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600307989054" />
+    <state x="733" y="62" width="1092" height="978" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600308005741" />
     <state x="574" y="109" width="1184" height="814" key="DiffContextDialog" timestamp="1599378624647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -167,22 +182,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599801909840" />
-    <state width="1898" height="516" key="GridCell.Tab.0.bottom" timestamp="1600307289838">
+    <state width="1647" height="474" key="GridCell.Tab.0.bottom" timestamp="1600308011848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="516" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600307289838" />
-    <state width="1898" height="516" key="GridCell.Tab.0.center" timestamp="1600307289837">
+    <state width="1647" height="474" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600308011848" />
+    <state width="1647" height="474" key="GridCell.Tab.0.center" timestamp="1600308011848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="516" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600307289837" />
-    <state width="1898" height="516" key="GridCell.Tab.0.left" timestamp="1600307289837">
+    <state width="1647" height="474" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600308011848" />
+    <state width="1647" height="474" key="GridCell.Tab.0.left" timestamp="1600308011848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="516" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600307289837" />
-    <state width="1898" height="516" key="GridCell.Tab.0.right" timestamp="1600307289837">
+    <state width="1647" height="474" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600308011848" />
+    <state width="1647" height="474" key="GridCell.Tab.0.right" timestamp="1600308011848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="516" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600307289837" />
+    <state width="1647" height="474" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600308011848" />
     <state width="1690" height="340" key="GridCell.Tab.1.bottom" timestamp="1599712753040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
