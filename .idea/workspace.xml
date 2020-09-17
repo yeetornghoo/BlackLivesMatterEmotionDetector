@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/SemEval2018_Task1/01-post-translate-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/SemEval2018_Task1/01-post-translate-dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/SemEval2018_Task1/02-post-cleaning-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/SemEval2018_Task1/02-post-cleaning-dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/SemEval2018_Task1/03-post-nlp-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/SemEval2018_Task1/03-post-nlp-dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/SemEval2018_Task1/tmp/NRC-processed_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/SemEval2018_Task1/tmp/NRC-processed_dataset.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +36,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dataset/SemEval2018_Task1/0_process.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../uploadtogit.cmd" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -70,7 +74,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SamEval2018_Sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SamEval2018_Sentiment" type="PythonConfigurationType" factoryName="Python">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -91,17 +95,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2">
         <option name="RunConfigurationTask" enabled="true" run_configuration_name="SamEval2018_DataCleaning" run_configuration_type="PythonConfigurationType" />
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_UploadToGit" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Python.SamEval2018_DataCleaning" />
       <item itemvalue="Python.SamEval2018_Sentiment" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.SamEval2018_Sentiment" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -129,34 +129,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="750" y="153" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1598530803895" />
-    <state x="733" y="62" width="1092" height="978" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600307338025">
+    <state x="733" y="14" width="1092" height="1026" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600308842874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="733" y="62" width="1092" height="978" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600307338025" />
+    <state x="733" y="14" width="1092" height="1026" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600308842874" />
+    <state x="1059" y="255" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1600308703681">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1059" y="255" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600308703681" />
+    <state x="1048" y="380" key="#com.intellij.tools.ToolEditorDialog" timestamp="1600308709809">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1048" y="380" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600308709809" />
     <state x="574" y="109" width="1184" height="814" key="DiffContextDialog" timestamp="1599378624647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="574" y="109" width="1184" height="814" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599378624647" />
-    <state x="1059" y="267" key="FileChooserDialogImpl" timestamp="1599801909840">
+    <state x="1059" y="267" key="FileChooserDialogImpl" timestamp="1600308708754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599801909840" />
-    <state width="1898" height="516" key="GridCell.Tab.0.bottom" timestamp="1600307289838">
+    <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600308708754" />
+    <state width="1898" height="647" key="GridCell.Tab.0.bottom" timestamp="1600309980456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="516" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600307289838" />
-    <state width="1898" height="516" key="GridCell.Tab.0.center" timestamp="1600307289837">
+    <state width="1898" height="647" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600309980456" />
+    <state width="1898" height="647" key="GridCell.Tab.0.center" timestamp="1600309980456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="516" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600307289837" />
-    <state width="1898" height="516" key="GridCell.Tab.0.left" timestamp="1600307289837">
+    <state width="1898" height="647" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600309980456" />
+    <state width="1898" height="647" key="GridCell.Tab.0.left" timestamp="1600309980456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="516" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600307289837" />
-    <state width="1898" height="516" key="GridCell.Tab.0.right" timestamp="1600307289837">
+    <state width="1898" height="647" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600309980456" />
+    <state width="1898" height="647" key="GridCell.Tab.0.right" timestamp="1600309980456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="516" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600307289837" />
+    <state width="1898" height="647" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600309980456" />
     <state width="1690" height="340" key="GridCell.Tab.1.bottom" timestamp="1599712753040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -177,6 +185,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="780" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600307265838" />
+    <state x="1174" y="285" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1600308810674">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1174" y="285" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.0.1920.1040@0.0.1920.1040" timestamp="1600308810674" />
     <state x="835" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1599369715258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
