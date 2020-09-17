@@ -15,7 +15,7 @@ DataAssess.run(df)
 
 # RUN NRC SENTIMENT
 df = NrcController.run(df, is_standard_model)
-'''
+
 # RUN DEPECHEMOOD SENTIMENT
 df = DepecheMoodController.run(df, is_standard_model)
 
@@ -24,6 +24,4 @@ df = EmoSenticNetController.run(df)
 
 # df = WordNetAffectController.run(df)
 
-FileController.save_df_to_csv("04-post-sentiment-"+file_name, df)
-
-'''
+FileController.save_df_to_csv("04-post-sentiment-{}-{}".format(is_standard_model, file_name), df)

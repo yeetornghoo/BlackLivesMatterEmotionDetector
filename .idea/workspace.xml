@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/SemEval2018_Task1/01-post-translate-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/SemEval2018_Task1/01-post-translate-dataset.csv" afterDir="false" />
@@ -8,6 +9,9 @@
       <change beforePath="$PROJECT_DIR$/dataset/SemEval2018_Task1/03-post-nlp-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/SemEval2018_Task1/03-post-nlp-dataset.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/SemEval2018_Task1/tmp/NRC-processed_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/SemEval2018_Task1/tmp/NRC-processed_dataset.csv" afterDir="false" />
     </list>
+=======
+    <list default="true" id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="" />
+>>>>>>> 7542a6c441f719377f71ce38b36153e40fb34eaf
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +56,28 @@
       <recent name="C:\workspace\SocialMovementSentiment\dataset" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SamEval2018_Sentiment">
+  <component name="RunManager" selected="Python.SamEval2018_DataCleaning">
+    <configuration name="ISEAR_sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SocialMovementSentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/ISEAR" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/ISEAR/1_label_sentiment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="SamEval2018_DataCleaning" type="PythonConfigurationType" factoryName="Python">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,7 +126,17 @@
     <list>
       <item itemvalue="Python.SamEval2018_DataCleaning" />
       <item itemvalue="Python.SamEval2018_Sentiment" />
+      <item itemvalue="Python.ISEAR_sentiment" />
     </list>
+<<<<<<< HEAD
+=======
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ISEAR_sentiment" />
+        <item itemvalue="Python.SamEval2018_Sentiment" />
+      </list>
+    </recent_temporary>
+>>>>>>> 7542a6c441f719377f71ce38b36153e40fb34eaf
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -129,6 +164,7 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="750" y="153" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1598530803895" />
+<<<<<<< HEAD
     <state x="733" y="14" width="1092" height="1026" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600308842874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -141,6 +177,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1048" y="380" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600308709809" />
+=======
+    <state x="733" y="62" width="1092" height="978" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600308005741">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="733" y="62" width="1092" height="978" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600308005741" />
+>>>>>>> 7542a6c441f719377f71ce38b36153e40fb34eaf
     <state x="574" y="109" width="1184" height="814" key="DiffContextDialog" timestamp="1599378624647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -148,6 +190,7 @@
     <state x="1059" y="267" key="FileChooserDialogImpl" timestamp="1600308708754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+<<<<<<< HEAD
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600308708754" />
     <state width="1898" height="647" key="GridCell.Tab.0.bottom" timestamp="1600309980456">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -165,6 +208,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1898" height="647" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600309980456" />
+=======
+    <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599801909840" />
+    <state width="1647" height="474" key="GridCell.Tab.0.bottom" timestamp="1600308011848">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1647" height="474" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600308011848" />
+    <state width="1647" height="474" key="GridCell.Tab.0.center" timestamp="1600308011848">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1647" height="474" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600308011848" />
+    <state width="1647" height="474" key="GridCell.Tab.0.left" timestamp="1600308011848">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1647" height="474" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600308011848" />
+    <state width="1647" height="474" key="GridCell.Tab.0.right" timestamp="1600308011848">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1647" height="474" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600308011848" />
+>>>>>>> 7542a6c441f719377f71ce38b36153e40fb34eaf
     <state width="1690" height="340" key="GridCell.Tab.1.bottom" timestamp="1599712753040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
