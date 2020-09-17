@@ -21,5 +21,5 @@ df = DepecheMoodController.run(df, is_standard_model)
 # RUN ECO SENTIC NET
 df = EmoSenticNetController.run(df)
 
-FileController.save_df_to_csv("04-post-sentiment-{}-dataset.csv".format(is_standard_model), df)
+FileController.save_df_to_csv("04-post-sentiment-{}-{}".format(is_standard_model, file_name), df)
 
