@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/SemEval2018_Task1/01-post-translate-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/SemEval2018_Task1/01-post-translate-dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/SemEval2018_Task1/02-post-cleaning-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/SemEval2018_Task1/02-post-cleaning-dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/SemEval2018_Task1/03-post-nlp-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/SemEval2018_Task1/03-post-nlp-dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/SemEval2018_Task1/tmp/NRC-processed_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/SemEval2018_Task1/tmp/NRC-processed_dataset.csv" afterDir="false" />
-    </list>
+    <list default="true" id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
