@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="" />
+    <list default="true" id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dataset/SemEval2018_Task1/ahmad2015.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/dpm_lineplot_by_score_by_day.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/dpm_lineplot_by_score_by_day_with_min_intensity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/dpm_lineplot_by_score_by_fixed_preiod_by_day.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/dpm_lineplot_by_score_by_fixed_preiod_by_hour.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/dpm_lineplot_by_score_by_fixed_preiod_by_hour_with_min_intensity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/dpm_log_lineplot_by_score_by_fixed_preiod_by_day.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc_lineplot_by_score_by_day.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc_lineplot_by_score_by_day_with_min_intensity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc_lineplot_by_score_by_fixed_preiod_by_day.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc_lineplot_by_score_by_fixed_preiod_by_hour.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc_lineplot_by_score_by_fixed_preiod_by_hour_with_min_intensity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc_log_lineplot_by_score_by_fixed_preiod_by_day.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/ISEAR/1_label_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/ISEAR/1_label_sentiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/ISEAR/tmp/NRC-processed_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/ISEAR/tmp/NRC-processed_dataset.csv" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +63,28 @@
       <recent name="C:\workspace\SocialMovementSentiment\dataset" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.S2_SamEval2019_2_Sentiment">
+  <component name="RunManager" selected="Python.1_label_sentiment">
+    <configuration name="1_label_sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SocialMovementSentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/ISEAR" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/ISEAR/1_label_sentiment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="S1_WST_1_DATA" type="PythonConfigurationType" factoryName="Python">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,9 +179,11 @@
       <item itemvalue="Python.S2_SamEval2019_2_Sentiment" />
       <item itemvalue="Python.S1_WST_1_DATA" />
       <item itemvalue="Python.S1_WST_2_SENTI" />
+      <item itemvalue="Python.1_label_sentiment" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1_label_sentiment" />
         <item itemvalue="Python.S2_SamEval2019_2_Sentiment" />
       </list>
     </recent_temporary>
