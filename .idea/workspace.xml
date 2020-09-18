@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +30,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dataset/blm_washington/1_label_sentiment.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dataset/SamEval2019_Task3/1_label_sentiment.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -48,70 +46,7 @@
       <recent name="C:\workspace\SocialMovementSentiment\dataset" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.S1_WST_2_SENTI">
-    <configuration name="0_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SocialMovementSentiment" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/blm_washington" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/blm_washington/0_process.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_label_sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SocialMovementSentiment" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/blm_washington" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/blm_washington/1_label_sentiment.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ISEAR_sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SocialMovementSentiment" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/ISEAR" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/ISEAR/1_label_sentiment.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.S2_SamEval2019_2_Sentiment">
     <configuration name="S1_WST_1_DATA" type="PythonConfigurationType" factoryName="Python">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,7 +91,7 @@
         <option name="RunConfigurationTask" enabled="true" run_configuration_name="S1_WST_1_DATA" run_configuration_type="PythonConfigurationType" />
       </method>
     </configuration>
-    <configuration name="SamEval2018_DataCleaning" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="S2_SamEval2019_1_DataCleaning" type="PythonConfigurationType" factoryName="Python">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -164,11 +99,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/SemEval2018_Task1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/SamEval2019_Task3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/SemEval2018_Task1/0_process.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/SamEval2019_Task3/0_process.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SamEval2018_Sentiment" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="S2_SamEval2019_2_Sentiment" type="PythonConfigurationType" factoryName="Python">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -185,11 +120,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/SemEval2018_Task1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/SamEval2019_Task3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/SemEval2018_Task1/1_label_sentiment.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/SamEval2019_Task3/1_label_sentiment.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,25 +132,19 @@
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2">
-        <option name="RunConfigurationTask" enabled="true" run_configuration_name="SamEval2018_DataCleaning" run_configuration_type="PythonConfigurationType" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="S2_SamEval2019_1_DataCleaning" run_configuration_type="PythonConfigurationType" />
         <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_UploadToGit" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Python.SamEval2018_DataCleaning" />
-      <item itemvalue="Python.SamEval2018_Sentiment" />
+      <item itemvalue="Python.S2_SamEval2019_1_DataCleaning" />
+      <item itemvalue="Python.S2_SamEval2019_2_Sentiment" />
       <item itemvalue="Python.S1_WST_1_DATA" />
       <item itemvalue="Python.S1_WST_2_SENTI" />
-      <item itemvalue="Python.ISEAR_sentiment" />
-      <item itemvalue="Python.1_label_sentiment" />
-      <item itemvalue="Python.0_process" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.0_process" />
-        <item itemvalue="Python.1_label_sentiment" />
-        <item itemvalue="Python.ISEAR_sentiment" />
-        <item itemvalue="Python.SamEval2018_Sentiment" />
+        <item itemvalue="Python.S2_SamEval2019_2_Sentiment" />
       </list>
     </recent_temporary>
   </component>
@@ -245,18 +174,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="750" y="153" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1598530803895" />
-    <state x="733" y="14" width="1092" height="1026" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600397274289">
+    <state x="733" y="0" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600397451574">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="733" y="14" width="1092" height="1026" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600397274289" />
+    <state x="733" y="0" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600397451574" />
     <state x="574" y="109" width="1184" height="814" key="DiffContextDialog" timestamp="1599378624647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="574" y="109" width="1184" height="814" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599378624647" />
-    <state x="1059" y="267" key="FileChooserDialogImpl" timestamp="1600397265038">
+    <state x="1059" y="267" key="FileChooserDialogImpl" timestamp="1600397426477">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600397265038" />
+    <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600397426477" />
     <state width="1509" height="556" key="GridCell.Tab.0.bottom" timestamp="1600397192281">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
