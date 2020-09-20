@@ -82,7 +82,7 @@ def plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, is_standard, 
     x_attr_title = "Tweet Date"
     title = "Total ({}) Sentiment {} Group by Day ({} to {})".format(lexicon_name, selected_key, n_start_date, n_end_date)
     legend_title = "{} Sentiment".format(lexicon_name.upper())
-    output_file = plot_folder_path(dir_path, is_standard, lexicon_name) + "{}_lineplot_by_day_by_period".format(selected_key)
+    output_file = plot_folder_path(dir_path, is_standard, lexicon_name) + "{}_{}_by_day_by_period".format(selected_key, plot_name)
 
     # GENERATE DATAFRAME
     start_date = datetime.strptime(n_start_date, "%Y-%m-%d").date()
@@ -92,7 +92,7 @@ def plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, is_standard, 
     grouper = df[["tweet_created_date", senti_name, senti_key]].groupby(["tweet_created_date", senti_name])
     f_df = grouper[senti_key].sum().to_frame(name=senti_key).reset_index()
     f_df['tweet_created_date'] = pd.to_datetime(f_df['tweet_created_date'], format='%Y-%m-%d')
-    f_df['nrc_sentiment'] = f_df['nrc_sentiment'].astype(str)
+    f_df[senti_name] = f_df[senti_name].astype(str)
 
     # CREATE LINE PLOT
     plot(senti_key, "tweet_created_date", senti_name, f_df, y_attr_title, x_attr_title, title, legend_title, output_file)

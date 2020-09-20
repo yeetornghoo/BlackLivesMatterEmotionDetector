@@ -15,8 +15,8 @@ key_focus = "score"
 mood_set = "individual"
 master_dataset_file = dir_path+"dataset.csv"
 sentiment_dataset_file = dir_path+"04-post-sentiment-True-dataset.csv"
-focus_from_date = "2020-05-25"
-focus_to_date = "2020-06-02"
+focus_from_date = "2020-05-23"
+focus_to_date = "2020-06-05"
 isStandard = True
 
 # LOAD AND COMBINE DATASET FILE
@@ -35,6 +35,7 @@ df['tweet_created_hour'] = df['tweet_created_dt'].apply(lambda x: DateHelper.get
 l_sentiment_date = "tweet_created_date"
 
 # LINE PLOT
-LinePlotViz.plot_sentiment(df, "nrc", dir_path, isStandard, min_intensity, focus_from_date, focus_to_date)
+#LinePlotViz.plot_sentiment(df, "nrc", dir_path, isStandard, min_intensity, focus_from_date, focus_to_date)
 #LinePlotViz.plot_sentiment(df, "dpm", dir_path, isStandard, min_intensity, focus_from_date, focus_to_date)
-KdePlotViz.plot_sentiment(df, "nrc", dir_path, isStandard, min_intensity, focus_from_date, focus_to_date)
+#KdePlotViz.plot_sentiment(df, "nrc", dir_path, isStandard, min_intensity, focus_from_date, focus_to_date)
+#KdePlotViz.plot_sentiment(df, "dpm", dir_path, isStandard, min_intensity, focus_from_date, focus_to_date)

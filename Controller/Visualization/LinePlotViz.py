@@ -211,16 +211,16 @@ def plot_sentiment(df, lexicon_name, dir_path, is_standard, min_intensity, start
 
     # LINE PLOT BY DAY
     plot_sentiment_day_key(df, lexicon_name, dir_path, is_standard, "score")
-    #plot_sentiment_day_key(df, lexicon_name, dir_path, is_standard, "count")
+    plot_sentiment_day_key(df, lexicon_name, dir_path, is_standard, "count")
     plot_sentiment_day_key_with_intensity(df, lexicon_name, dir_path, is_standard, "score", min_intensity)
-    #plot_sentiment_day_key_with_intensity(df, lexicon_name, dir_path, is_standard, "count", min_intensity)
+    plot_sentiment_day_key_with_intensity(df, lexicon_name, dir_path, is_standard, "count", min_intensity)
     plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, is_standard, "score", start_date, end_date)
-    #plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, is_standard, "count", start_date, end_date)
+    plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, is_standard, "count", start_date, end_date)
 
     # LINE PLOT BY HOUR
-    #plot_sentiment_hour_key(df, lexicon_name, dir_path, is_standard, "score")
-    #plot_sentiment_hour_key(df, lexicon_name, dir_path, is_standard, "count")
-    #plot_sentiment_hour_key_with_intensity(df, lexicon_name, dir_path, is_standard, "score", min_intensity)
-    #plot_sentiment_hour_key_with_intensity(df, lexicon_name, dir_path, is_standard, "count", min_intensity)
+    plot_sentiment_hour_key(df, lexicon_name, dir_path, is_standard, "score")
+    plot_sentiment_hour_key(df, lexicon_name, dir_path, is_standard, "count")
+    plot_sentiment_hour_key_with_intensity(df, lexicon_name, dir_path, is_standard, "score", min_intensity)
+    plot_sentiment_hour_key_with_intensity(df, lexicon_name, dir_path, is_standard, "count", min_intensity)
     plot_sentiment_hour_key_with_period(df, lexicon_name, dir_path, is_standard, "score", start_date, end_date)
-    #plot_sentiment_hour_key_with_period(df, lexicon_name, dir_path, is_standard, "count", start_date, end_date)
+    plot_sentiment_hour_key_with_period(df, lexicon_name, dir_path, is_standard, "count", start_date, end_date)
