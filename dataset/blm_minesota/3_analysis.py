@@ -8,16 +8,17 @@ from Controller.Visualization import LinePlotViz, KdePlotViz
 from Helper import DateHelper
 
 # SETTING
+isStandard = True
 date_format = "%Y-%m-%d %H:%M:%S"
 min_intensity = 1.2
 dir_path = "C:/workspace/SocialMovementSentiment/dataset/blm_minesota/"
 key_focus = "score"
 mood_set = "individual"
 master_dataset_file = dir_path+"dataset.csv"
-sentiment_dataset_file = dir_path+"04-post-sentiment-True-dataset.csv"
+sentiment_dataset_file = "{}04-post-sentiment-{}-dataset.csv".format(dir_path, str(isStandard))
 focus_from_date = "2020-05-23"
 focus_to_date = "2020-06-05"
-isStandard = True
+
 
 # LOAD AND COMBINE DATASET FILE
 ori_df = pd.read_csv(master_dataset_file, sep=";")
