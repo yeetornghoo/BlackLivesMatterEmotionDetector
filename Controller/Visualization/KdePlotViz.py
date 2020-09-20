@@ -60,7 +60,7 @@ def plot(y_attr, x_attr, h_attr, df, y_attr_title, x_attr_title, title, legend_t
     fig, ax = plt.subplots(figsize=(20, 14))
 
     # CREATE LINE PLOT
-    fig = sns.kdeplot(data=df, x=x_attr, y=y_attr, hue=h_attr, common_norm=False, alpha=.5, levels=8, fill=True, thresh=0.15)
+    fig = sns.kdeplot(data=df, x=x_attr, y=y_attr, hue=h_attr, common_norm=False, levels=8, fill=False, thresh=0.15)
     #fig = sns.lineplot(data=df, x=x_attr, y=y_attr, hue=h_attr)
     fig.set(ylabel=y_attr_title.upper(), xlabel=x_attr_title.upper())
     plt.title(title.upper())
