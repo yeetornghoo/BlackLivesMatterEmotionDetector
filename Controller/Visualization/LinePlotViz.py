@@ -18,6 +18,25 @@ def plot_folder_path(dir_path, is_standard, lexicon_name):
     return outputFile + "{}/{}/{}/".format(is_standard_folder, plot_name, lexicon_name)
 
 
+def plot_facet_grid(y_attr, x_attr, h_attr, df, output_file):
+
+    sns.color_palette("tab10")
+    sns.set_style("ticks")
+    sns.set(style='darkgrid', color_codes=True)
+    ridge_plot = sns.FacetGrid(df, row=h_attr, hue=h_attr, aspect=4)
+    ridge_plot.map(plt.scatter, x_attr, y_attr)
+    ridge_plot.map(sns.lineplot, x_attr, y_attr, color='black', linewidth=0.5)
+    ridge_plot.despine(bottom=True, left=False)
+    ridge_plot.fig.subplots_adjust(hspace=0.5)
+
+    for ax in ridge_plot.axes.flatten():
+        ax.tick_params(labelbottom=True)
+        ax.tick_params(labelsize='10')
+
+    plt.savefig("{}_facetgrid.png".format(output_file))
+    plt.close()
+
+
 def plot(y_attr, x_attr, g_attr, df, y_attr_title, x_attr_title, title, legend_title, output_file, y_scale):
 
     # PLOT SETTING
@@ -62,6 +81,7 @@ def plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, is_standard, 
     # CREATE LINE PLOT
     plot(senti_key, "tweet_created_date", senti_name, f_df, y_attr_title, x_attr_title, title, legend_title, output_file, "linear")
     plot(senti_key, "tweet_created_date", senti_name, f_df, y_attr_title, x_attr_title, title, legend_title, output_file, "log")
+    plot_facet_grid(senti_key, "tweet_created_date", senti_name, f_df, output_file)
 
 
 def plot_sentiment_day_key_with_intensity(df, lexicon_name, dir_path, is_standard, selected_key, min_intensity):
@@ -124,11 +144,12 @@ def plot_sentiment_hour_key_with_period(df, lexicon_name, dir_path, is_standard,
     mask = (df['tweet_created_date'] > start_date) & (df['tweet_created_date'] <= end_date)
     df = df.loc[mask]
 
-    f_df = df[["tweet_created_hour", senti_name, senti_key]].groupby(["tweet_created_hour", senti_name]).sum()
+    f_df = df[["tweet_created_hour", senti_name, senti_key]].groupby(["tweet_created_hour", senti_name], as_index=False).sum()
 
     # CREATE LINE PLOT
     plot(senti_key, "tweet_created_hour", senti_name, f_df, y_attr_title, x_attr_title, title, legend_title, output_file, "linear")
-    plot(senti_key, "tweet_created_hour", senti_name, f_df, y_attr_title, x_attr_title, title, legend_title, output_file, "log")
+    #plot(senti_key, "tweet_created_hour", senti_name, f_df, y_attr_title, x_attr_title, title, legend_title, output_file, "log")
+    plot_facet_grid(senti_key, "tweet_created_hour", senti_name, f_df, output_file)
 
 
 def plot_sentiment_hour_key_with_intensity(df, lexicon_name, dir_path, is_standard, selected_key, min_intensity):
@@ -149,7 +170,7 @@ def plot_sentiment_hour_key_with_intensity(df, lexicon_name, dir_path, is_standa
 
     # CREATE LINE PLOT
     plot(senti_key, "tweet_created_hour", senti_name, f_df, yAttrTitle, xAttrTitle, title, legend_title, output_file, "linear")
-    plot(senti_key, "tweet_created_hour", senti_name, f_df, yAttrTitle, xAttrTitle, title, legend_title, output_file, "log")
+    #plot(senti_key, "tweet_created_hour", senti_name, f_df, yAttrTitle, xAttrTitle, title, legend_title, output_file, "log")
 
 
 def plot_sentiment_hour_key(df, lexicon_name, dir_path, is_standard, selected_key):
@@ -176,11 +197,11 @@ def reset_plot_folder(dir_path, lexicon_name):
     standard_fdr = "{}img/standard/{}".format(dir_path, plot_name)
     individual_fdr = "{}img/individual/{}".format(dir_path, plot_name)
 
-    FolderHelper.reset_folder(standard_fdr)
-    FolderHelper.reset_folder(individual_fdr)
+    #FolderHelper.reset_folder(standard_fdr)
+    #FolderHelper.reset_folder(individual_fdr)
 
-    FolderHelper.create_folder("{}/{}".format(standard_fdr, lexicon_name))
-    FolderHelper.create_folder("{}/{}".format(individual_fdr, lexicon_name))
+    FolderHelper.reset_folder("{}/{}".format(standard_fdr, lexicon_name))
+    FolderHelper.reset_folder("{}/{}".format(individual_fdr, lexicon_name))
 
 
 def plot_sentiment(df, lexicon_name, dir_path, is_standard, min_intensity, start_date, end_date):
@@ -190,16 +211,16 @@ def plot_sentiment(df, lexicon_name, dir_path, is_standard, min_intensity, start
 
     # LINE PLOT BY DAY
     plot_sentiment_day_key(df, lexicon_name, dir_path, is_standard, "score")
-    plot_sentiment_day_key(df, lexicon_name, dir_path, is_standard, "count")
+    #plot_sentiment_day_key(df, lexicon_name, dir_path, is_standard, "count")
     plot_sentiment_day_key_with_intensity(df, lexicon_name, dir_path, is_standard, "score", min_intensity)
-    plot_sentiment_day_key_with_intensity(df, lexicon_name, dir_path, is_standard, "count", min_intensity)
+    #plot_sentiment_day_key_with_intensity(df, lexicon_name, dir_path, is_standard, "count", min_intensity)
     plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, is_standard, "score", start_date, end_date)
-    plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, is_standard, "count", start_date, end_date)
+    #plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, is_standard, "count", start_date, end_date)
 
     # LINE PLOT BY HOUR
-    plot_sentiment_hour_key(df, lexicon_name, dir_path, is_standard, "score")
-    plot_sentiment_hour_key(df, lexicon_name, dir_path, is_standard, "count")
-    plot_sentiment_hour_key_with_intensity(df, lexicon_name, dir_path, is_standard, "score", min_intensity)
-    plot_sentiment_hour_key_with_intensity(df, lexicon_name, dir_path, is_standard, "count", min_intensity)
+    #plot_sentiment_hour_key(df, lexicon_name, dir_path, is_standard, "score")
+    #plot_sentiment_hour_key(df, lexicon_name, dir_path, is_standard, "count")
+    #plot_sentiment_hour_key_with_intensity(df, lexicon_name, dir_path, is_standard, "score", min_intensity)
+    #plot_sentiment_hour_key_with_intensity(df, lexicon_name, dir_path, is_standard, "count", min_intensity)
     plot_sentiment_hour_key_with_period(df, lexicon_name, dir_path, is_standard, "score", start_date, end_date)
-    plot_sentiment_hour_key_with_period(df, lexicon_name, dir_path, is_standard, "count", start_date, end_date)
+    #plot_sentiment_hour_key_with_period(df, lexicon_name, dir_path, is_standard, "count", start_date, end_date)

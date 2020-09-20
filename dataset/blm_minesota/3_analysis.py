@@ -4,7 +4,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 from Controller import DataAssess
-from Controller.Visualization import LinePlotViz, BarPlotViz
+from Controller.Visualization import LinePlotViz, KdePlotViz
 from Helper import DateHelper
 
 # SETTING
@@ -15,8 +15,8 @@ key_focus = "score"
 mood_set = "individual"
 master_dataset_file = dir_path+"dataset.csv"
 sentiment_dataset_file = dir_path+"04-post-sentiment-True-dataset.csv"
-focus_from_date = "2020-05-23"
-focus_to_date = "2020-06-01"
+focus_from_date = "2020-05-25"
+focus_to_date = "2020-06-02"
 isStandard = True
 
 # LOAD AND COMBINE DATASET FILE
@@ -33,9 +33,8 @@ df['tweet_created_hour'] = df['tweet_created_dt'].apply(lambda x: DateHelper.get
 
 # SCORE AND COUNT COMPARISON
 l_sentiment_date = "tweet_created_date"
-## BY DAY
 
-#LinePlotViz.plot_sentiment(df, "nrc", dir_path, isStandard, min_intensity, focus_from_date, focus_to_date)
+# LINE PLOT
+LinePlotViz.plot_sentiment(df, "nrc", dir_path, isStandard, min_intensity, focus_from_date, focus_to_date)
 #LinePlotViz.plot_sentiment(df, "dpm", dir_path, isStandard, min_intensity, focus_from_date, focus_to_date)
-
-BarPlotViz.plot_sentiment(df, "nrc", dir_path, isStandard, min_intensity, focus_from_date, focus_to_date)
+KdePlotViz.plot_sentiment(df, "nrc", dir_path, isStandard, min_intensity, focus_from_date, focus_to_date)
