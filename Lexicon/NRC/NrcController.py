@@ -136,8 +136,6 @@ def run(df, is_standard_model):
         df.loc[index, 'nrc_sentiment_count'] = emotion_info.get(key='nrc_sentiment_count')
         df.loc[index, 'nrc_sentiment_score'] = emotion_info.get(key='nrc_sentiment_score')
 
-       #print("{} >> Tweet: {}  ({})".format(emotion_info.get(key='nrc_sentiment'), row['text'], emotion_info.get(key='nrc_sentiment_score')))
-
     FileController.save_df_to_csv("tmp/NRC-processed_dataset.csv", df)
 
     if is_standard_model:
@@ -149,4 +147,10 @@ def run(df, is_standard_model):
                  'fear', 'fear_score', 'joy', 'joy_score', 'sadness', 'sadness_score',
                  'surprise', 'surprise_score', 'trust', 'trust_score'], axis=1, inplace=True)
 
+    return df
+
+
+def get_standard_model(df):
+    mask = ((df['nrc_sentiment'] != "trust") & (df['nrc_sentiment'] != "anticipation"))
+    df = df.loc[mask]
     return df
