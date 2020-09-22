@@ -35,7 +35,7 @@ df['tweet_created_hour'] = df['tweet_created_dt'].apply(lambda x: DateHelper.get
 # SCORE AND COUNT COMPARISON
 l_sentiment_date = "tweet_created_date"
 
-include_count = False
+include_count = True
 include_standard = True
 
 # LINE PLOT
