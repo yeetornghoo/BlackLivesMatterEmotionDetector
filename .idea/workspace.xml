@@ -20,57 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dataset/ISEAR/4_accuracy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/Visualization/KdePlotViz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Visualization/KdePlotViz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/Visualization/LinePlotViz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Visualization/LinePlotViz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexicon/DepecheMood/DepecheMoodController.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lexicon/DepecheMood/DepecheMoodController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/Visualization/KdePlotViz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Visualization/Tweets/KdePlotViz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/Visualization/LinePlotViz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Visualization/Tweets/LinePlotViz.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/3_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/3_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/dpm/kdeplot/count_kdeplot_by_day.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/dpm/kdeplot/count_kdeplot_by_day_by_period.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/dpm/kdeplot/count_kdeplot_by_day_by_period_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/dpm/kdeplot/count_kdeplot_by_day_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/dpm/kdeplot/score_kdeplot_by_day.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/dpm/kdeplot/score_kdeplot_by_day_by_period.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/dpm/kdeplot/score_kdeplot_by_day_by_period_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/dpm/kdeplot/score_kdeplot_by_day_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/count_kdeplot_by_day.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/count_kdeplot_by_day_by_period.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/count_kdeplot_by_day_by_period_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/count_kdeplot_by_day_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/score_kdeplot_by_day.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/kdeplot/count_kdeplot_by_day.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/kdeplot/count_kdeplot_by_day_by_period.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/kdeplot/count_kdeplot_by_day_by_period_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/kdeplot/count_kdeplot_by_day_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/kdeplot/score_kdeplot_by_day.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/kdeplot/score_kdeplot_by_day_by_period.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/kdeplot/score_kdeplot_by_day_by_period_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/kdeplot/score_kdeplot_by_day_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/lineplot/count_lineplot_by_day_by_period_facetgrid.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/lineplot/count_lineplot_by_day_by_period_facetgrid.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/lineplot/count_lineplot_by_day_by_period_linear.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/lineplot/count_lineplot_by_day_by_period_linear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/lineplot/count_lineplot_by_day_by_period_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/lineplot/count_lineplot_by_day_by_period_log.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/lineplot/count_lineplot_by_day_linear.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/lineplot/count_lineplot_by_day_linear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/lineplot/count_lineplot_by_day_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/lineplot/count_lineplot_by_day_log.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/lineplot/count_lineplot_by_day_with_intensity_linear.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/lineplot/count_lineplot_by_day_with_intensity_linear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/lineplot/count_lineplot_by_day_with_intensity_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/lineplot/count_lineplot_by_day_with_intensity_log.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/lineplot/score_lineplot_by_day_by_period_facetgrid.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/lineplot/score_lineplot_by_day_by_period_facetgrid.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/lineplot/score_lineplot_by_day_by_period_linear.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/lineplot/score_lineplot_by_day_by_period_linear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/lineplot/score_lineplot_by_day_by_period_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/lineplot/score_lineplot_by_day_by_period_log.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/lineplot/score_lineplot_by_day_linear.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/lineplot/score_lineplot_by_day_linear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/lineplot/score_lineplot_by_day_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/lineplot/score_lineplot_by_day_log.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/lineplot/score_lineplot_by_day_with_intensity_linear.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/lineplot/score_lineplot_by_day_with_intensity_linear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/lineplot/score_lineplot_by_day_with_intensity_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/dpm/lineplot/score_lineplot_by_day_with_intensity_log.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/nrc/kdeplot/count_kdeplot_by_day.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/nrc/kdeplot/count_kdeplot_by_day_by_period.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/nrc/kdeplot/count_kdeplot_by_day_by_period_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/nrc/kdeplot/count_kdeplot_by_day_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/nrc/kdeplot/score_kdeplot_by_day.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/nrc/kdeplot/score_kdeplot_by_day_by_period.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/nrc/kdeplot/score_kdeplot_by_day_by_period_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/nrc/kdeplot/score_kdeplot_by_day_facetgrid.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,19 +58,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\workspace\SocialMovementSentiment\Lexicon\EmoSenticNet" />
-      <recent name="C:\workspace\SocialMovementSentiment\Lexicon\DepecheMood" />
-      <recent name="C:\workspace\SocialMovementSentiment\Lexicon\NRC" />
-      <recent name="C:\workspace\SocialMovementSentiment\Model\NRC" />
-      <recent name="C:\workspace\SocialMovementSentiment\dataset" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\workspace\SocialMovementSentiment\dataset\blm_minesota" />
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace\SocialMovementSentiment\Controller\Visualization\Tweets" />
+      <recent name="C:\workspace\SocialMovementSentiment\Controller\Visualization" />
+      <recent name="C:\workspace\SocialMovementSentiment\Lexicon\EmoSenticNet" />
+      <recent name="C:\workspace\SocialMovementSentiment\Lexicon\DepecheMood" />
+      <recent name="C:\workspace\SocialMovementSentiment\Lexicon\NRC" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.3_analysis">
+  <component name="RunManager" selected="Python.4_accuracy">
     <configuration name="1_label_sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,12 +113,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="4_accuracy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SocialMovementSentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/ISEAR" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/ISEAR/4_accuracy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.1_label_sentiment" />
       <item itemvalue="Python.3_analysis" />
+      <item itemvalue="Python.4_accuracy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.4_accuracy" />
         <item itemvalue="Python.3_analysis" />
         <item itemvalue="Python.1_label_sentiment" />
       </list>
@@ -217,22 +194,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599801909840" />
-    <state width="1899" height="352" key="GridCell.Tab.0.bottom" timestamp="1600764725445">
+    <state width="1441" height="286" key="GridCell.Tab.0.bottom" timestamp="1600782621217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600764725445" />
-    <state width="1899" height="352" key="GridCell.Tab.0.center" timestamp="1600764725445">
+    <state width="1441" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600782621217" />
+    <state width="1441" height="286" key="GridCell.Tab.0.center" timestamp="1600782621217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600764725445" />
-    <state width="1899" height="352" key="GridCell.Tab.0.left" timestamp="1600764725445">
+    <state width="1441" height="286" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600782621217" />
+    <state width="1441" height="286" key="GridCell.Tab.0.left" timestamp="1600782621217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600764725445" />
-    <state width="1899" height="352" key="GridCell.Tab.0.right" timestamp="1600764725445">
+    <state width="1441" height="286" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600782621217" />
+    <state width="1441" height="286" key="GridCell.Tab.0.right" timestamp="1600782621217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600764725445" />
+    <state width="1441" height="286" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600782621217" />
     <state width="1446" height="336" key="GridCell.Tab.1.bottom" timestamp="1600602562479">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

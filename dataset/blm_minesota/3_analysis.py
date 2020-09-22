@@ -1,10 +1,6 @@
 import pandas as pd
 from datetime import datetime
-import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
-from Controller import DataAssess
-from Controller.Visualization import LinePlotViz, KdePlotViz
+from Controller.Visualization.Tweets import KdePlotViz
 from Helper import DateHelper
 
 # SETTING
