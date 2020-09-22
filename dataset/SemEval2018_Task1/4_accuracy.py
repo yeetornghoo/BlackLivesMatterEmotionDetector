@@ -7,17 +7,20 @@ import matplotlib.pyplot as plt
 from Controller import DataAssess, LogController
 from Controller.Visualization.Accuracy import NrcReview, DepecheMoodReview, EmoSenticNetReview
 
-dir_path = "C:/workspace/SocialMovementSentiment/dataset/ISEAR/"
-sentiment_dataset_file = "{}04-post-sentiment-False-ISEAR.txt".format(dir_path)
+dir_path = "C:/workspace/SocialMovementSentiment/dataset/SemEval2018_Task1/"
+sentiment_dataset_file = "{}04-post-sentiment-False-dataset.csv".format(dir_path)
 
 # LOAD SENTIMENT FILES
 df = pd.read_csv(sentiment_dataset_file, sep=",")
 DataAssess.run(df)
 
+
 # FIXED guilt and guit
-df.loc[df['ori_sentiment'] == 'guit', 'ori_sentiment'] = 'guilt'
+df = df.rename(columns={'Tweet': 'text'})
+df = df.rename(columns={'sentiment': 'ori_sentiment'})
+
 
 # REVIEW ORIGINAL AND NRC
-NrcReview.run(df, dir_path, "isear")
-DepecheMoodReview.run(df, dir_path, "isear")
-EmoSenticNetReview.run(df, dir_path, "isear")
+NrcReview.run(df, dir_path, "sameval2018")
+DepecheMoodReview.run(df, dir_path, "sameval2018")
+EmoSenticNetReview.run(df, dir_path, "sameval2018")

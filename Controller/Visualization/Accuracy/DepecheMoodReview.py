@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from Controller import LogController
 
 
-def run(df, dir_path):
+def run(df, dir_path, dataset_name):
 
     LogController.log_h2("check dpm sentiment")
     df_dpm = df[["text", "dpm_sentiment"]].groupby(["dpm_sentiment"], as_index=False).count()
@@ -19,7 +19,7 @@ def run(df, dir_path):
     df_tmp = df[["text", "ori_sentiment", "dpm_sentiment"]].groupby(["ori_sentiment", "dpm_sentiment"], as_index=False).count()
 
     # CREATE PLIT
-    save_file_name = "bar_isear_vs_dpm.png"
+    save_file_name = "bar_{}_vs_dpm.png".format(dataset_name)
     sns.set_theme(style="whitegrid")
     f, ax = plt.subplots(figsize=(15, 6))
     sns.color_palette("tab10")
