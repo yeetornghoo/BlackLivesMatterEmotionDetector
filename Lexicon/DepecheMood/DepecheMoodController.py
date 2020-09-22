@@ -181,10 +181,19 @@ def run(df, is_standard_model):
 
 def combine_joy(x):
 
+    str_mood = x
     if x == "happy" or x == "amused":
-        return "joy"
+        str_mood = "joy"
+    elif x == "annoyed":
+        str_mood = "disgust"
+    elif x == "afraid":
+        str_mood = "fear"
+    elif x == "sad":
+        str_mood = "sadness"
+    elif x == "inspired":
+        str_mood = "surprise"
 
-    return x
+    return str_mood
 
 def get_standard_model(df):
 
