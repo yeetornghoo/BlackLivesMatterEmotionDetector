@@ -32,14 +32,11 @@ df['tweet_created_date'] = df['tweet_created_dt'].apply(lambda x: datetime.strpt
 df['tweet_created_hour'] = df['tweet_created_dt'].apply(lambda x: DateHelper.get_date_with_hour(str(x), date_format))
 #DataAssess.run(df)
 
-# SCORE AND COUNT COMPARISON
-l_sentiment_date = "tweet_created_date"
-
 include_count = True
 include_standard = True
 
 # LINE PLOT
-LinePlotViz.plot_sentiment(df, "nrc", dir_path, min_intensity, focus_from_date, focus_to_date, include_count, include_standard)
-LinePlotViz.plot_sentiment(df, "dpm", dir_path, min_intensity, focus_from_date, focus_to_date, include_count, include_standard)
-#KdePlotViz.plot_sentiment(df, "nrc", dir_path, min_intensity, focus_from_date, focus_to_date, include_count, include_standard)
-#KdePlotViz.plot_sentiment(df, "dpm", dir_path, min_intensity, focus_from_date, focus_to_date, include_count, include_standard)
+#LinePlotViz.plot_sentiment(df, "nrc", dir_path, min_intensity, focus_from_date, focus_to_date, include_count, include_standard)
+#LinePlotViz.plot_sentiment(df, "dpm", dir_path, min_intensity, focus_from_date, focus_to_date, include_count, include_standard)
+KdePlotViz.plot_sentiment(df, "nrc", dir_path, min_intensity, focus_from_date, focus_to_date, include_count, include_standard)
+KdePlotViz.plot_sentiment(df, "dpm", dir_path, min_intensity, focus_from_date, focus_to_date, include_count, include_standard)

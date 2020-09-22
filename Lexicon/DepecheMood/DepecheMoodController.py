@@ -186,6 +186,8 @@ def combine_joy(x):
         str_mood = "joy"
     elif x == "annoyed":
         str_mood = "disgust"
+    elif x == "angry":
+        str_mood = "anger"
     elif x == "afraid":
         str_mood = "fear"
     elif x == "sad":
@@ -195,6 +197,7 @@ def combine_joy(x):
 
     return str_mood
 
+
 def get_standard_model(df):
 
     # EXCLUDE DON"T CARE
@@ -203,5 +206,7 @@ def get_standard_model(df):
 
     # COMBINE AMUSED AND HAPPY
     df['dpm_sentiment'] = df['dpm_sentiment'].apply(lambda x: combine_joy(str(x)))
+
+    df = df[df['dpm_sentiment'].notna()]
 
     return df

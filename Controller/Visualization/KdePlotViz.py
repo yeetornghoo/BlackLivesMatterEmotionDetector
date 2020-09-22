@@ -68,6 +68,9 @@ def plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, selected_key,
     senti_name = "{}_sentiment".format(lexicon_name)
     senti_key = "{}_sentiment_{}".format(lexicon_name, selected_key)
 
+    # REMOVE NULL
+    df = df[df[senti_name].notna()]
+
     # SET PLOT LEGEND AN OUTPUT
     y_attr_title = "Total Sentiment {}".format(selected_key)
     x_attr_title = "Tweet Date"
@@ -75,8 +78,8 @@ def plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, selected_key,
     legend_title = "{} Sentiment".format(lexicon_name.upper())
 
     # GENERATE DATAFRAME
-    start_date = DateHelper.get_date_with_time(n_start_date)
-    end_date = DateHelper.get_date_with_time(n_end_date)
+    start_date = DateHelper.get_date_with_time(n_start_date).date()
+    end_date = DateHelper.get_date_with_time(n_end_date).date()
     df = df.loc[(df['tweet_created_date'] > start_date) & (df['tweet_created_date'] <= end_date)]
 
     # INDIVIDUAL
@@ -84,13 +87,14 @@ def plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, selected_key,
     df_i = df[["tweet_created_date", senti_name, senti_key]].groupby(["tweet_created_date", senti_name], as_index=False).sum()
     df_i['tweet_created_date'] = pd.to_datetime(df_i['tweet_created_date'], format='%Y-%m-%d')
     df_i[senti_name] = df_i[senti_name].astype(str)
+
     plot(senti_key, "tweet_created_date", senti_name, df_i, y_attr_title, x_attr_title, title, legend_title, output_file)
     plot_facet_grid(senti_key, "tweet_created_date", senti_name, df_i, output_file)
 
     # STANDARD
     if include_standard:
 
-        if lexicon_name=="nrc":
+        if lexicon_name == "nrc":
             df_s = NrcController.get_standard_model(df)
         elif lexicon_name == "dpm":
             df_s = DepecheMoodController.get_standard_model(df)
@@ -99,15 +103,19 @@ def plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, selected_key,
         df_s = df_s[["tweet_created_date", senti_name, senti_key]].groupby(["tweet_created_date", senti_name], as_index=False).sum()
         df_s['tweet_created_date'] = pd.to_datetime(df_s['tweet_created_date'], format='%Y-%m-%d')
         df_s[senti_name] = df_s[senti_name].astype(str)
+
         plot(senti_key, "tweet_created_date", senti_name, df_s, y_attr_title, x_attr_title, title, legend_title, output_file)
         plot_facet_grid(senti_key, "tweet_created_date", senti_name, df_s, output_file)
 
 
 def plot_sentiment_day_key(df, lexicon_name, dir_path, selected_key, include_standard):
-    
+
     # PARAMETER
     senti_name = "{}_sentiment".format(lexicon_name)
     senti_key = "{}_sentiment_{}".format(lexicon_name, selected_key)
+
+    # REMOVE NULL
+    df = df[df[senti_name].notna()]
 
     # SET PLOT LEGEND AN OUTPUT
     y_attr_title = "Total Sentiment {}".format(selected_key)

@@ -67,6 +67,9 @@ def plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, selected_key,
     senti_name = "{}_sentiment".format(lexicon_name)
     senti_key = "{}_sentiment_{}".format(lexicon_name, selected_key)
 
+    # REMOVE NULL
+    df = df[df[senti_name].notna()]
+
     # SET PLOT LEGEND AN OUTPUT
     y_attr_title = "Total Sentiment {}".format(selected_key)
     x_attr_title = "Tweet Date"
@@ -106,6 +109,9 @@ def plot_sentiment_day_key_with_intensity(df, lexicon_name, dir_path, selected_k
     senti_name = "{}_sentiment".format(lexicon_name)
     senti_key = "{}_sentiment_{}".format(lexicon_name, selected_key)
 
+    # REMOVE NULL
+    df = df[df[senti_name].notna()]
+
     # SET PLOT LEGEND AN OUTPUT
     yAttrTitle = "Total Sentiment {}".format(selected_key)
     xAttrTitle = "Tweet Date"
@@ -139,6 +145,9 @@ def plot_sentiment_day_key(df, lexicon_name, dir_path, selected_key, include_sta
     # PARAMETER
     senti_name = "{}_sentiment".format(lexicon_name)
     senti_key = "{}_sentiment_{}".format(lexicon_name, selected_key)  # SCORE OR COUNT
+
+    # REMOVE NULL
+    df = df[df[senti_name].notna()]
 
     # SET PLOT LEGEND AN OUTPUT
     yAttrTitle = "Total Sentiment {}".format(selected_key)
