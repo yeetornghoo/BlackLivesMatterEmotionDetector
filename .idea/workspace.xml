@@ -107,6 +107,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.1_label_sentiment" />
+      <item itemvalue="Python.3_analysis" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.3_analysis" />
