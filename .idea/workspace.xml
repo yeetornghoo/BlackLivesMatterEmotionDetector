@@ -19,108 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/kdeplot/nrc/score_kdeplot_by_day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/kdeplot/nrc/score_kdeplot_by_day_by_period.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/kdeplot/nrc/score_kdeplot_by_day_by_period_facetgrid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/dpm/count_lineplot_by_day_by_period_facetgrid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/dpm/count_lineplot_by_day_by_period_linear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/dpm/count_lineplot_by_day_by_period_log.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/dpm/count_lineplot_by_day_linear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/dpm/count_lineplot_by_day_log.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/dpm/count_lineplot_by_day_with_intensity_linear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/dpm/count_lineplot_by_day_with_intensity_log.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/dpm/count_lineplot_by_hour_by_period_facetgrid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/dpm/count_lineplot_by_hour_by_period_linear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/dpm/count_lineplot_by_hour_linear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/dpm/count_lineplot_by_hour_with_intensity_linear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/dpm/score_lineplot_by_day_by_period_facetgrid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/dpm/score_lineplot_by_day_by_period_linear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/dpm/score_lineplot_by_day_by_period_log.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/dpm/score_lineplot_by_day_linear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/dpm/score_lineplot_by_day_log.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/dpm/score_lineplot_by_day_with_intensity_linear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/dpm/score_lineplot_by_day_with_intensity_log.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/dpm/score_lineplot_by_hour_by_period_facetgrid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/dpm/score_lineplot_by_hour_by_period_linear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/dpm/score_lineplot_by_hour_linear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/dpm/score_lineplot_by_hour_with_intensity_linear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/nrc/count_lineplot_by_day_by_period_facetgrid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/nrc/count_lineplot_by_day_by_period_linear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/nrc/count_lineplot_by_day_by_period_log.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/nrc/count_lineplot_by_day_linear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/nrc/count_lineplot_by_day_log.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/nrc/count_lineplot_by_day_with_intensity_linear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/nrc/count_lineplot_by_day_with_intensity_log.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/nrc/count_lineplot_by_hour_by_period_facetgrid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/nrc/count_lineplot_by_hour_by_period_linear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/nrc/count_lineplot_by_hour_linear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/nrc/count_lineplot_by_hour_with_intensity_linear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/nrc/score_lineplot_by_day_by_period_facetgrid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/nrc/score_lineplot_by_day_by_period_linear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/nrc/score_lineplot_by_day_by_period_log.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/nrc/score_lineplot_by_day_linear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/nrc/score_lineplot_by_day_log.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/nrc/score_lineplot_by_day_with_intensity_linear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/nrc/score_lineplot_by_day_with_intensity_log.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/nrc/score_lineplot_by_hour_by_period_facetgrid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/nrc/score_lineplot_by_hour_by_period_linear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/nrc/score_lineplot_by_hour_linear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/lineplot/nrc/score_lineplot_by_hour_with_intensity_linear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/3_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/3_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/kdeplot/dpm/score_kdeplot_by_day.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/kdeplot/dpm/score_kdeplot_by_day_by_period.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/kdeplot/dpm/score_kdeplot_by_day_by_period_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/kdeplot/dpm/score_kdeplot_by_day_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/kdeplot/nrc/score_kdeplot_by_day.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/kdeplot/nrc/score_kdeplot_by_day_by_period.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/kdeplot/nrc/score_kdeplot_by_day_by_period_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/kdeplot/nrc/score_kdeplot_by_day_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/dpm/count_lineplot_by_day_by_period_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/dpm/count_lineplot_by_day_by_period_linear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/dpm/count_lineplot_by_day_by_period_log.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/dpm/count_lineplot_by_day_linear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/dpm/count_lineplot_by_day_log.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/dpm/count_lineplot_by_day_with_intensity_linear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/dpm/count_lineplot_by_day_with_intensity_log.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/dpm/count_lineplot_by_hour_by_period_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/dpm/count_lineplot_by_hour_by_period_linear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/dpm/count_lineplot_by_hour_linear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/dpm/count_lineplot_by_hour_with_intensity_linear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/dpm/score_lineplot_by_day_by_period_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/dpm/score_lineplot_by_day_by_period_linear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/dpm/score_lineplot_by_day_by_period_log.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/dpm/score_lineplot_by_day_linear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/dpm/score_lineplot_by_day_log.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/dpm/score_lineplot_by_day_with_intensity_linear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/dpm/score_lineplot_by_day_with_intensity_log.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/dpm/score_lineplot_by_hour_by_period_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/dpm/score_lineplot_by_hour_by_period_linear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/dpm/score_lineplot_by_hour_linear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/dpm/score_lineplot_by_hour_with_intensity_linear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/nrc/count_lineplot_by_day_by_period_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/nrc/count_lineplot_by_day_by_period_linear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/nrc/count_lineplot_by_day_by_period_log.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/nrc/count_lineplot_by_day_linear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/nrc/count_lineplot_by_day_log.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/nrc/count_lineplot_by_day_with_intensity_linear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/nrc/count_lineplot_by_day_with_intensity_log.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/nrc/count_lineplot_by_hour_by_period_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/nrc/count_lineplot_by_hour_by_period_linear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/nrc/count_lineplot_by_hour_linear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/nrc/count_lineplot_by_hour_with_intensity_linear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/nrc/score_lineplot_by_day_by_period_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/nrc/score_lineplot_by_day_by_period_linear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/nrc/score_lineplot_by_day_by_period_log.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/nrc/score_lineplot_by_day_linear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/nrc/score_lineplot_by_day_log.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/nrc/score_lineplot_by_day_with_intensity_linear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/nrc/score_lineplot_by_day_with_intensity_log.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/nrc/score_lineplot_by_hour_by_period_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/nrc/score_lineplot_by_hour_by_period_linear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/nrc/score_lineplot_by_hour_linear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/lineplot/nrc/score_lineplot_by_hour_with_intensity_linear.png" beforeDir="false" />
-    </list>
+    <list default="true" id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,6 +107,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.1_label_sentiment" />
+      <item itemvalue="Python.3_analysis" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.3_analysis" />
