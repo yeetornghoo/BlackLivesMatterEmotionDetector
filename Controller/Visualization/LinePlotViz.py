@@ -18,7 +18,7 @@ def plot_folder_path(dir_path, is_standard, lexicon_name):
     else:
         is_standard_folder = "individual"
 
-    return outputFile + "{}/{}/{}/".format(is_standard_folder, plot_name, lexicon_name)
+    return outputFile + "{}/{}/{}/".format(is_standard_folder, lexicon_name, plot_name)
 
 
 def plot_facet_grid(y_attr, x_attr, h_attr, df, output_file):
@@ -79,8 +79,8 @@ def plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, selected_key,
     df = df.loc[(df['tweet_created_date'] > start_date) & (df['tweet_created_date'] <= end_date)]
 
     # INDIVIDUAL
-    df_i = df[["tweet_created_date", senti_name, senti_key]].groupby(["tweet_created_date", senti_name], as_index=False).sum()
     output_file = plot_folder_path(dir_path, False, lexicon_name) + "{}_{}_by_day_by_period".format(selected_key, plot_name)
+    df_i = df[["tweet_created_date", senti_name, senti_key]].groupby(["tweet_created_date", senti_name], as_index=False).sum()
     plot(senti_key, "tweet_created_date", senti_name, df_i, y_attr_title, x_attr_title, title, legend_title, output_file, "linear")
     plot(senti_key, "tweet_created_date", senti_name, df_i, y_attr_title, x_attr_title, title, legend_title, output_file, "log")
     plot_facet_grid(senti_key, "tweet_created_date", senti_name, df_i, output_file)
@@ -235,31 +235,13 @@ def plot_sentiment_hour_key(df, lexicon_name, dir_path, is_standard, selected_ke
 '''
 
 
-def reset_plot_folder(dir_path, lexicon_name):
 
-    # MAIN FOLDER (CREATE IF NOT EXIST)
-    standard_fdr = "{}img/standard".format(dir_path)
-    individual_fdr = "{}img/individual".format(dir_path)
-    FolderHelper.create_folder(standard_fdr)
-    FolderHelper.create_folder(individual_fdr)
-
-    # LEXICON FOLDER (RESET)
-    standard_fdr = standard_fdr + "/{}".format(plot_name)
-    individual_fdr = individual_fdr + "/{}".format(plot_name)
-    FolderHelper.create_folder(standard_fdr)
-    FolderHelper.create_folder(individual_fdr)
-
-    # LEXICON FOLDER (RESET)
-    standard_fdr = standard_fdr + "/{}".format(lexicon_name)
-    individual_fdr = individual_fdr + "/{}".format(lexicon_name)
-    FolderHelper.reset_folder(standard_fdr)
-    FolderHelper.reset_folder(individual_fdr)
 
 
 def plot_sentiment(df, lexicon_name, dir_path, min_intensity, start_date, end_date, include_count, include_standard):
 
     # RESET FOLDER
-    reset_plot_folder(dir_path, lexicon_name)
+    FolderHelper.reset_dataset_viz_output_folder(dir_path, lexicon_name, plot_name)
 
     # LINE PLOT BY DAY
     plot_sentiment_day_key(df, lexicon_name, dir_path, "score", include_standard)

@@ -5,6 +5,9 @@ import matplotlib.pyplot as plt
 from Helper import FolderHelper, DateHelper
 
 # SETTING
+from Lexicon.DepecheMood import DepecheMoodController
+from Lexicon.NRC import NrcController
+
 plot_name = "kdeplot"
 
 
@@ -16,19 +19,7 @@ def plot_folder_path(dir_path, is_standard, lexicon_name):
     else:
         is_standard_folder = "individual"
 
-    return outputFile + "{}/{}/{}/".format(is_standard_folder, plot_name, lexicon_name)
-
-
-def reset_plot_folder(dir_path, lexicon_name):
-
-    standard_fdr = "{}img/standard/{}".format(dir_path, plot_name)
-    individual_fdr = "{}img/individual/{}".format(dir_path, plot_name)
-
-    FolderHelper.reset_folder(standard_fdr)
-    FolderHelper.reset_folder(individual_fdr)
-
-    FolderHelper.create_folder("{}/{}".format(standard_fdr, lexicon_name))
-    FolderHelper.create_folder("{}/{}".format(individual_fdr, lexicon_name))
+    return outputFile + "{}/{}/{}/".format(is_standard_folder, lexicon_name, plot_name)
 
 
 def plot_facet_grid(y_attr, x_attr, h_attr, df, output_file):
@@ -71,7 +62,7 @@ def plot(y_attr, x_attr, h_attr, df, y_attr_title, x_attr_title, title, legend_t
     plt.close()
 
 
-def plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, is_standard, selected_key, n_start_date, n_end_date):
+def plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, selected_key, n_start_date, n_end_date, include_standard):
 
     # PARAMETER
     senti_name = "{}_sentiment".format(lexicon_name)
@@ -82,24 +73,37 @@ def plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, is_standard, 
     x_attr_title = "Tweet Date"
     title = "Total ({}) Sentiment {} Group by Day ({} to {})".format(lexicon_name, selected_key, n_start_date, n_end_date)
     legend_title = "{} Sentiment".format(lexicon_name.upper())
-    output_file = plot_folder_path(dir_path, is_standard, lexicon_name) + "{}_{}_by_day_by_period".format(selected_key, plot_name)
 
     # GENERATE DATAFRAME
-    start_date = datetime.strptime(n_start_date, "%Y-%m-%d").date()
-    end_date = datetime.strptime(n_end_date, "%Y-%m-%d").date()
+    start_date = DateHelper.get_date_with_time(n_start_date)
+    end_date = DateHelper.get_date_with_time(n_end_date)
     df = df.loc[(df['tweet_created_date'] > start_date) & (df['tweet_created_date'] <= end_date)]
 
-    grouper = df[["tweet_created_date", senti_name, senti_key]].groupby(["tweet_created_date", senti_name])
-    f_df = grouper[senti_key].sum().to_frame(name=senti_key).reset_index()
-    f_df['tweet_created_date'] = pd.to_datetime(f_df['tweet_created_date'], format='%Y-%m-%d')
-    f_df[senti_name] = f_df[senti_name].astype(str)
+    # INDIVIDUAL
+    output_file = plot_folder_path(dir_path, False, lexicon_name) + "{}_{}_by_day_by_period".format(selected_key, plot_name)
+    df_i = df[["tweet_created_date", senti_name, senti_key]].groupby(["tweet_created_date", senti_name], as_index=False).sum()
+    df_i['tweet_created_date'] = pd.to_datetime(df_i['tweet_created_date'], format='%Y-%m-%d')
+    df_i[senti_name] = df_i[senti_name].astype(str)
+    plot(senti_key, "tweet_created_date", senti_name, df_i, y_attr_title, x_attr_title, title, legend_title, output_file)
+    plot_facet_grid(senti_key, "tweet_created_date", senti_name, df_i, output_file)
 
-    # CREATE LINE PLOT
-    plot(senti_key, "tweet_created_date", senti_name, f_df, y_attr_title, x_attr_title, title, legend_title, output_file)
-    plot_facet_grid(senti_key, "tweet_created_date", senti_name, f_df, output_file)
+    # STANDARD
+    if include_standard:
+
+        if lexicon_name=="nrc":
+            df_s = NrcController.get_standard_model(df)
+        elif lexicon_name == "dpm":
+            df_s = DepecheMoodController.get_standard_model(df)
+
+        output_file = plot_folder_path(dir_path, include_standard, lexicon_name) + "{}_{}_by_day_by_period".format(selected_key, plot_name)
+        df_s = df_s[["tweet_created_date", senti_name, senti_key]].groupby(["tweet_created_date", senti_name], as_index=False).sum()
+        df_s['tweet_created_date'] = pd.to_datetime(df_s['tweet_created_date'], format='%Y-%m-%d')
+        df_s[senti_name] = df_s[senti_name].astype(str)
+        plot(senti_key, "tweet_created_date", senti_name, df_s, y_attr_title, x_attr_title, title, legend_title, output_file)
+        plot_facet_grid(senti_key, "tweet_created_date", senti_name, df_s, output_file)
 
 
-def plot_sentiment_day_key(df, lexicon_name, dir_path, is_standard, selected_key):
+def plot_sentiment_day_key(df, lexicon_name, dir_path, selected_key, include_standard):
     
     # PARAMETER
     senti_name = "{}_sentiment".format(lexicon_name)
@@ -110,22 +114,37 @@ def plot_sentiment_day_key(df, lexicon_name, dir_path, is_standard, selected_key
     x_attr_title = "Tweet Date"
     title = "Total ({}) Sentiment {} Group by Day".format(lexicon_name, selected_key)
     legend_title = "{} Sentiment".format(lexicon_name.upper())
-    output_file = plot_folder_path(dir_path, is_standard, lexicon_name) + "{}_{}_by_day".format(selected_key, plot_name)
-
     df['tweet_created_date'] = pd.to_datetime(df['tweet_created_date'], format='%Y-%m-%d')
 
-    # CREATE LINE PLOT
-    plot(senti_key, "tweet_created_date", senti_name, df, y_attr_title, x_attr_title, title, legend_title, output_file)
-    plot_facet_grid(senti_key, "tweet_created_date", senti_name, df, output_file)
+    # INDIVIDUAL
+    output_file = plot_folder_path(dir_path, False, lexicon_name) + "{}_{}_by_day".format(selected_key, plot_name)
+    df_i = df[["tweet_created_date", senti_name, senti_key]].groupby(["tweet_created_date", senti_name], as_index=False).sum()
+    plot(senti_key, "tweet_created_date", senti_name, df_i, y_attr_title, x_attr_title, title, legend_title, output_file)
+    plot_facet_grid(senti_key, "tweet_created_date", senti_name, df_i, output_file)
+
+    # STANDARD
+    if include_standard:
+
+        if lexicon_name=="nrc":
+            df_s = NrcController.get_standard_model(df)
+        elif lexicon_name == "dpm":
+            df_s = DepecheMoodController.get_standard_model(df)
+
+        # PLOT
+        output_file = plot_folder_path(dir_path, include_standard, lexicon_name) + "{}_{}_by_day".format(selected_key, plot_name)
+        df_s = df_s[["tweet_created_date", senti_name, senti_key]].groupby(["tweet_created_date", senti_name], as_index=False).sum()
+        plot(senti_key, "tweet_created_date", senti_name, df_s, y_attr_title, x_attr_title, title, legend_title, output_file)
+        plot_facet_grid(senti_key, "tweet_created_date", senti_name, df_s, output_file)
 
 
-def plot_sentiment(df, lexicon_name, dir_path, is_standard, min_intensity, start_date, end_date):
+def plot_sentiment(df, lexicon_name, dir_path, min_intensity, start_date, end_date, include_count, include_standard):
 
     # RESET FOLDER
-    reset_plot_folder(dir_path, lexicon_name)
+    FolderHelper.reset_dataset_viz_output_folder(dir_path, lexicon_name, plot_name)
 
-    # LINE PLOT BY DAY
-    plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, is_standard, "score", start_date, end_date)
-    # plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, is_standard, "count", start_date, end_date)
-    plot_sentiment_day_key(df, lexicon_name, dir_path, is_standard, "score")
-    # plot_sentiment_day_key(df, lexicon_name, dir_path, is_standard, "count")
+    plot_sentiment_day_key(df, lexicon_name, dir_path, "score", include_standard)
+    plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, "score", start_date, end_date, include_standard)
+
+    if include_count:
+        plot_sentiment_day_key(df, lexicon_name, dir_path, "count", include_standard)
+        plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, "count", start_date, end_date, include_standard)
