@@ -20,12 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Benchmark/CrimeIncidentReport/0_process.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Benchmark/CrimeIncidentReport/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Benchmark/CrimeIncidentReport/dataset_csv.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Benchmark/CrimeIncidentReport/img/lineplot_comparison.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Benchmark/MinneapolisPoliceStopDataset/0_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Benchmark/MinneapolisPoliceStopDataset/dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Benchmark/MinneapolisPoliceStopDataset/img/lineplot_comparison.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Helper/DateHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Helper/DateHelper.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +69,49 @@
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon\NRC" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.0_process">
+  <component name="RunManager" selected="Python.0_process (2)">
+    <configuration name="0_process (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SocialMovementSentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Benchmark/TrafficStopDataset" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Benchmark/TrafficStopDataset/0_process.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="0_process (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SocialMovementSentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Benchmark/MinneapolisPoliceStopDataset" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Benchmark/MinneapolisPoliceStopDataset/0_process.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="0_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,48 +125,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Benchmark/CrimeIncidentReport/0_process.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_label_sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SocialMovementSentiment" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/blm_minesota" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/blm_minesota/1_label_sentiment.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="3_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SocialMovementSentiment" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/blm_minesota" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/blm_minesota/3_analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,19 +176,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.1_label_sentiment" />
-      <item itemvalue="Python.3_analysis" />
       <item itemvalue="Python.4_accuracy (1)" />
       <item itemvalue="Python.4_accuracy" />
       <item itemvalue="Python.0_process" />
+      <item itemvalue="Python.0_process (1)" />
+      <item itemvalue="Python.0_process (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.0_process (2)" />
+        <item itemvalue="Python.0_process (1)" />
         <item itemvalue="Python.0_process" />
         <item itemvalue="Python.4_accuracy (1)" />
         <item itemvalue="Python.4_accuracy" />
-        <item itemvalue="Python.3_analysis" />
-        <item itemvalue="Python.1_label_sentiment" />
       </list>
     </recent_temporary>
   </component>
@@ -241,22 +239,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599801909840" />
-    <state width="1586" height="215" key="GridCell.Tab.0.bottom" timestamp="1600829563912">
+    <state width="1583" height="328" key="GridCell.Tab.0.bottom" timestamp="1600831437028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1586" height="215" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600829563912" />
-    <state width="1586" height="215" key="GridCell.Tab.0.center" timestamp="1600829563912">
+    <state width="1583" height="328" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600831437028" />
+    <state width="1583" height="328" key="GridCell.Tab.0.center" timestamp="1600831437027">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1586" height="215" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600829563912" />
-    <state width="1586" height="215" key="GridCell.Tab.0.left" timestamp="1600829563912">
+    <state width="1583" height="328" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600831437027" />
+    <state width="1583" height="328" key="GridCell.Tab.0.left" timestamp="1600831437027">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1586" height="215" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600829563912" />
-    <state width="1586" height="215" key="GridCell.Tab.0.right" timestamp="1600829563912">
+    <state width="1583" height="328" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600831437027" />
+    <state width="1583" height="328" key="GridCell.Tab.0.right" timestamp="1600831437028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1586" height="215" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600829563912" />
+    <state width="1583" height="328" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600831437028" />
     <state width="1446" height="336" key="GridCell.Tab.1.bottom" timestamp="1600602562479">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
