@@ -8,9 +8,18 @@ from Helper import DateHelper
 # SETTING
 dir_path = "C:/workspace/SocialMovementSentiment/SecondDataset/MinneapolisShotsFired/"
 source_dataset_file = dir_path+"dataset.csv"
-source_date_format = "%m/%d/%Y"
-focus_from_date = "05/01/2020"
-focus_to_date = "06/30/2020"
+source_date_format = "%Y/%m/%d %H:%M:%S+00"
+focus_from_date = "2020/05/01"
+focus_to_date = "2020/07/01"
+
+# SEABORN SETTING
+sns.color_palette("tab10")
+sns.set_style("ticks")
+sns.set_theme(style="whitegrid")
+
+# FILTER
+start_date = DateHelper.get_datetime64(focus_from_date, "%Y/%m/%d")
+end_date = DateHelper.get_datetime64(focus_to_date, "%Y/%m/%d")
 
 
 def get_blm_minesota(from_date, to_date):
@@ -36,42 +45,44 @@ def get_blm_minesota(from_date, to_date):
 # LOAD DATA FROM DATASET
 df = pd.read_csv(source_dataset_file, sep=",")
 
-# FIXED DATA ISSUE
-df['Response_Date'] = df['Response_Date'].astype('datetime64[ns]')
-
-# FILTER
-start_date = DateHelper.get_datetime64(focus_from_date, source_date_format)
-end_date = DateHelper.get_datetime64(focus_to_date, source_date_format)
-df = df.loc[(df['Response_Date'] >= start_date) & (df['Response_Date'] <= end_date)]
-df['Response_Date'] = df['Response_Date'].apply(lambda x: datetime.strptime(str(x), DateHelper.standard_date_format).date())
-df_group = df[["Response_Date", "Master_Incident_Number", "Problem"]].groupby(["Response_Date", "Problem"], as_index=False).count()
-df_group["Master_Incident_Number"] = df_group["Master_Incident_Number"]*20
 
 # GENERATE CHART TO COMPARE WITH MINESOTA DATA
 primary_df = get_blm_minesota(start_date, end_date)
 primary_df_group = primary_df[["tweet_created_date", "tweet_id"]].groupby(["tweet_created_date"], as_index=False).count()
 
-# CREATE LINE PLOT FROM PRIMARY DATA
 
-sns.color_palette("tab10")
-sns.set_style("ticks")
-sns.set_theme(style="whitegrid")
-fig, ax = plt.subplots(figsize=(25, 15))
+def generate_plot(df_s, df_p, start_date, end_date, x_attr, y_attr, h_attr, y_factor, sub_report_name):
 
-# CREATE LINE PLOT FROM PRIMARY DATA
-fig = sns.lineplot(y="tweet_id", x="tweet_created_date", data=primary_df_group, ax=ax, linewidth=2.5, color='#000000')
-fig.set(ylabel="Totol Tweet Count", xlabel="Dates")
-fig.set_xlabel(fig.get_xlabel(), fontsize=16)
-fig.set_ylabel(fig.get_ylabel(), fontsize=16)
+    # FIXED DATA ISSUE
+    df_s[x_attr] = df_s[x_attr].astype('datetime64[ns]')
 
-# CREATE SCATTER PLOT FROM SECONDARY DATA
-fig = sns.lineplot(x="Response_Date", y="Master_Incident_Number", hue="Problem", palette="muted", data=df_group)
+    # CREATE LINE PLOT FROM PRIMARY DATA
+    df_s = df_s.loc[(df_s[x_attr] >= start_date) & (df_s[x_attr] <= end_date)]
+    df_s[x_attr] = df_s[x_attr].apply(lambda x: datetime.strptime(str(x), DateHelper.standard_date_format).date())
+    df_group = df_s[[x_attr, y_attr, h_attr]].groupby([x_attr, h_attr], as_index=False).count()
+    df_group[y_attr] = df_group[y_attr]*y_factor
 
-plt.setp(ax.get_xticklabels(), rotation=45, ha="right", rotation_mode="anchor", fontsize='14')
-plt.setp(ax.get_yticklabels(), rotation_mode="anchor",  fontsize='14')
-plt.setp(fig.get_legend().get_texts(), fontsize='18')
-plt.setp(fig.get_legend().get_title(), fontsize='22')
+    # PLOT
+    fig, ax = plt.subplots(figsize=(25, 15))
 
-plt.title("Total #BLM Tweets v.s. Fire Shots")
-plt.savefig("{}img/lineplot_comparison.png".format(dir_path))
-plt.close()
+    # CREATE LINE PLOT FROM PRIMARY DATA
+    fig = sns.lineplot(y="tweet_id", x="tweet_created_date", data=df_p, ax=ax, linewidth=2.5, color='#000000')
+    fig.set(ylabel="Totol Tweet Count", xlabel="Date")
+    fig.set_xlabel(fig.get_xlabel(), fontsize=16)
+    fig.set_ylabel(fig.get_ylabel(), fontsize=16)
+
+    # CREATE SCATTER PLOT FROM SECONDARY DATA
+    fig = sns.lineplot(x=x_attr, y=y_attr, hue=h_attr, palette="muted", data=df_group)
+
+    plt.setp(ax.get_xticklabels(), rotation=45, ha="right", rotation_mode="anchor", fontsize='14')
+    plt.setp(ax.get_yticklabels(), rotation_mode="anchor",  fontsize='14')
+    plt.setp(fig.get_legend().get_texts(), fontsize='18')
+    plt.setp(fig.get_legend().get_title(), fontsize='22')
+
+    plt.title("Total #BLM Tweets v.s. Minneapolis Shot Fired ({})".format(sub_report_name.replace("_", " ")).upper(), fontsize='25')
+    plt.savefig("{}img/lineplot_comparison_{}.png".format(dir_path, sub_report_name))
+    plt.close()
+
+
+generate_plot(df, primary_df_group, start_date, end_date, "Response_Date", "Master_Incident_Number", "Problem", 30, "by_Problem")
+

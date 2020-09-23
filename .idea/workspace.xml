@@ -20,22 +20,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceStop/0_process.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceStop/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceStop/img/lineplot_comparison.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisShotsFired/0_process.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisShotsFired/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisShotsFired/img/lineplot_comparison.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondDataset/SaintPaulCrimeIncident/0_process.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondDataset/SaintPaulCrimeIncident/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondDataset/SaintPaulCrimeIncident/img/lineplot_comparison.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceIncident/0_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceIncident/dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceIncident/img/lineplot_comparison_by_description.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceIncident/img/lineplot_comparison_by_offense.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceStop/img/lineplot_comparison_by_callDisposition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceStop/img/lineplot_comparison_by_gender.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceStop/img/lineplot_comparison_by_personSearch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceStop/img/lineplot_comparison_by_problem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceStop/img/lineplot_comparison_by_race.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceStop/img/lineplot_comparison_by_reason.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceStop/img/lineplot_comparison_by_vehicleSearch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceUseofForce/0_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceUseofForce/dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceUseofForce/img/lineplot_comparison_by_EventAge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceUseofForce/img/lineplot_comparison_by_ForceType.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceUseofForce/img/lineplot_comparison_by_ForceTypeAction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceUseofForce/img/lineplot_comparison_by_Is911Call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceUseofForce/img/lineplot_comparison_by_PrimaryOffense.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceUseofForce/img/lineplot_comparison_by_Problem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceUseofForce/img/lineplot_comparison_by_Race.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceUseofForce/img/lineplot_comparison_by_Sex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceUseofForce/img/lineplot_comparison_by_SubjectInjury.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceUseofForce/img/lineplot_comparison_by_TypeOfResistance.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Benchmark/MinneapolisPoliceStopDataset/0_process.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Benchmark/MinneapolisPoliceStopDataset/dataset.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Benchmark/MinneapolisPoliceStopDataset/img/lineplot_comparison.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Benchmark/SaintPaulCrimeIncidentDataset/0_process.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Benchmark/SaintPaulCrimeIncidentDataset/dataset.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Benchmark/SaintPaulCrimeIncidentDataset/img/lineplot_comparison.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceStop/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceStop/0_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceStop/img/lineplot_comparison.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecondDataset/MinneapolisShotsFired/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisShotsFired/0_process.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +92,7 @@
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon\NRC" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.0_process (4)">
+  <component name="RunManager" selected="Python.0_process (2)">
     <configuration name="0_process (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,11 +101,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Benchmark/TrafficStopDataset" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceStop" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Benchmark/TrafficStopDataset/0_process.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceStop/0_process.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,32 +122,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Benchmark/MinneapolisPoliceStopDataset" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SecondDataset/SaintPaulCrimeIncident" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Benchmark/MinneapolisPoliceStopDataset/0_process.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="0_process (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SocialMovementSentiment" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Benchmark/CrimeIncidentDataset" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Benchmark/CrimeIncidentDataset/0_process.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SecondDataset/SaintPaulCrimeIncident/0_process.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,6 +156,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="0_process (5)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SocialMovementSentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceIncident" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceIncident/0_process.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="0_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,11 +185,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Benchmark/CrimeIncidentReport" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceUseofForce" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Benchmark/CrimeIncidentReport/0_process.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceUseofForce/0_process.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,19 +199,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.0_process (4)" />
+      <item itemvalue="Python.0_process (5)" />
       <item itemvalue="Python.0_process" />
       <item itemvalue="Python.0_process (1)" />
       <item itemvalue="Python.0_process (2)" />
-      <item itemvalue="Python.0_process (3)" />
-      <item itemvalue="Python.0_process (4)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.0_process (4)" />
-        <item itemvalue="Python.0_process (3)" />
         <item itemvalue="Python.0_process (2)" />
-        <item itemvalue="Python.0_process (1)" />
+        <item itemvalue="Python.0_process (4)" />
         <item itemvalue="Python.0_process" />
+        <item itemvalue="Python.0_process (1)" />
+        <item itemvalue="Python.0_process (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -251,22 +262,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599801909840" />
-    <state width="1583" height="393" key="GridCell.Tab.0.bottom" timestamp="1600866474129">
+    <state width="1899" height="304" key="GridCell.Tab.0.bottom" timestamp="1600874369523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1583" height="393" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600866474129" />
-    <state width="1583" height="393" key="GridCell.Tab.0.center" timestamp="1600866474129">
+    <state width="1899" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600874369523" />
+    <state width="1899" height="304" key="GridCell.Tab.0.center" timestamp="1600874369523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1583" height="393" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600866474129" />
-    <state width="1583" height="393" key="GridCell.Tab.0.left" timestamp="1600866474129">
+    <state width="1899" height="304" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600874369523" />
+    <state width="1899" height="304" key="GridCell.Tab.0.left" timestamp="1600874369523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1583" height="393" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600866474129" />
-    <state width="1583" height="393" key="GridCell.Tab.0.right" timestamp="1600866474129">
+    <state width="1899" height="304" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600874369523" />
+    <state width="1899" height="304" key="GridCell.Tab.0.right" timestamp="1600874369523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1583" height="393" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600866474129" />
+    <state width="1899" height="304" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600874369523" />
     <state width="1446" height="336" key="GridCell.Tab.1.bottom" timestamp="1600602562479">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
