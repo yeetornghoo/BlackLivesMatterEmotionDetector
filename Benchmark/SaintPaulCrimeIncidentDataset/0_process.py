@@ -6,7 +6,7 @@ from Controller import DataAssess
 from Helper import DateHelper
 
 # SETTING
-dir_path = "C:/workspace/SocialMovementSentiment/Benchmark/CrimeIncidentDataset/"
+dir_path = "C:/workspace/SocialMovementSentiment/Benchmark/SaintPaulCrimeIncidentDataset/"
 source_dataset_file = dir_path+"dataset.csv"
 source_date_format = "%m/%d/%Y"
 focus_from_date = "05/01/2020"
