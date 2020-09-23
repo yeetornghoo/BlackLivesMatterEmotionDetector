@@ -60,10 +60,17 @@ fig, ax = plt.subplots(figsize=(25, 15))
 # CREATE LINE PLOT FROM PRIMARY DATA
 fig = sns.lineplot(y="tweet_id", x="tweet_created_date", data=primary_df_group, ax=ax, linewidth=2.5, color='#000000')
 fig.set(ylabel="Totol Tweet Count", xlabel="Dates")
+fig.set_xlabel(fig.get_xlabel(), fontsize=16)
+fig.set_ylabel(fig.get_ylabel(), fontsize=16)
 
 # CREATE SCATTER PLOT FROM SECONDARY DATA
 fig = sns.lineplot(x="DATE", y="CASE NUMBER", hue="INCIDENT", palette="muted", data=df_group)
 
-plt.title("Total #BLM Tweets v.s. Plice Crime Reports")
+plt.setp(ax.get_xticklabels(), rotation=45, ha="right", rotation_mode="anchor", fontsize='14')
+plt.setp(ax.get_yticklabels(), rotation_mode="anchor",  fontsize='14')
+plt.setp(fig.get_legend().get_texts(), fontsize='18')
+plt.setp(fig.get_legend().get_title(), fontsize='22')
+
+plt.title("Total #BLM Tweets v.s. Police Crime Reports")
 plt.savefig("{}img/lineplot_comparison.png".format(dir_path))
 plt.close()
