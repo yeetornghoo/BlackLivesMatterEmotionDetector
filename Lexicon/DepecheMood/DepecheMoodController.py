@@ -177,3 +177,36 @@ def run(df, is_standard_model):
                  'inspired', 'inspired_score', 'sad', 'sad_score'], axis=1, inplace=True)
 
     return df
+
+
+def combine_joy(x):
+
+    str_mood = x
+    if x == "happy" or x == "amused":
+        str_mood = "joy"
+    elif x == "annoyed":
+        str_mood = "disgust"
+    elif x == "angry":
+        str_mood = "anger"
+    elif x == "afraid":
+        str_mood = "fear"
+    elif x == "sad":
+        str_mood = "sadness"
+    elif x == "inspired":
+        str_mood = "surprise"
+
+    return str_mood
+
+
+def get_standard_model(df):
+
+    # EXCLUDE DON"T CARE
+    mask = (df['dpm_sentiment'] != "dontcare")
+    df = df.loc[mask]
+
+    # COMBINE AMUSED AND HAPPY
+    df['dpm_sentiment'] = df['dpm_sentiment'].apply(lambda x: combine_joy(str(x)))
+
+    df = df[df['dpm_sentiment'].notna()]
+
+    return df

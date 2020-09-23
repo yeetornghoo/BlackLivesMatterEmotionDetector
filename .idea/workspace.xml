@@ -61,13 +61,14 @@
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace\SocialMovementSentiment\Controller\Visualization\Tweets" />
+      <recent name="C:\workspace\SocialMovementSentiment\Controller\Visualization" />
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon\EmoSenticNet" />
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon\DepecheMood" />
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon\NRC" />
-      <recent name="C:\workspace\SocialMovementSentiment\Model\NRC" />
-      <recent name="C:\workspace\SocialMovementSentiment\dataset" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.1_label_sentiment (1)">
     <configuration name="1_label_sentiment (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
@@ -90,6 +91,9 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+=======
+  <component name="RunManager" selected="Python.4_accuracy (1)">
+>>>>>>> dd7d7173b6c264a23aa40859a1d33694fe06b109
     <configuration name="1_label_sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,14 +136,66 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="4_accuracy (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SocialMovementSentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/SemEval2018_Task1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/SemEval2018_Task1/4_accuracy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4_accuracy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SocialMovementSentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/ISEAR" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/ISEAR/4_accuracy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.1_label_sentiment" />
       <item itemvalue="Python.3_analysis" />
+<<<<<<< HEAD
       <item itemvalue="Python.1_label_sentiment (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.1_label_sentiment (1)" />
+=======
+      <item itemvalue="Python.4_accuracy" />
+      <item itemvalue="Python.4_accuracy (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.4_accuracy (1)" />
+        <item itemvalue="Python.4_accuracy" />
+>>>>>>> dd7d7173b6c264a23aa40859a1d33694fe06b109
         <item itemvalue="Python.3_analysis" />
         <item itemvalue="Python.1_label_sentiment" />
       </list>
@@ -192,6 +248,7 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599801909840" />
+<<<<<<< HEAD
     <state width="1347" height="442" key="GridCell.Tab.0.bottom" timestamp="1600822386106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -208,6 +265,24 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1347" height="442" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600822386106" />
+=======
+    <state width="1440" height="363" key="GridCell.Tab.0.bottom" timestamp="1600784257671">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1440" height="363" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600784257671" />
+    <state width="1440" height="363" key="GridCell.Tab.0.center" timestamp="1600784257671">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1440" height="363" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600784257671" />
+    <state width="1440" height="363" key="GridCell.Tab.0.left" timestamp="1600784257671">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1440" height="363" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600784257671" />
+    <state width="1440" height="363" key="GridCell.Tab.0.right" timestamp="1600784257671">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1440" height="363" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600784257671" />
+>>>>>>> dd7d7173b6c264a23aa40859a1d33694fe06b109
     <state width="1446" height="336" key="GridCell.Tab.1.bottom" timestamp="1600602562479">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

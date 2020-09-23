@@ -6,6 +6,7 @@ model_moods = ['anger', 'disgust', 'fear', 'joy', 'sadness', 'surprise']
 mood_score_model = ['anger', 'anger_score', 'disgust', 'disgust_score', 'fear', 'fear_score', 'joy', 'joy_score',
                     'sadness', 'sadness_score', 'surprise', 'surprise_score']
 
+
 def set_standard_model(
         anger, anger_score,
         disgust, disgust_score,
