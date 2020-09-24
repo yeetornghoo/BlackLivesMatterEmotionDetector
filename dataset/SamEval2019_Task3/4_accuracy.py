@@ -12,13 +12,12 @@ sentiment_dataset_file = "{}04-post-sentiment-False-dataset.csv".format(dir_path
 
 # LOAD SENTIMENT FILES
 df = pd.read_csv(sentiment_dataset_file, sep=",")
-DataAssess.run(df)
+#DataAssess.run(df)
 
 
 # FIXED guilt and guit
 df = df.rename(columns={'tweet_text': 'text'})
 df = df.rename(columns={'label': 'ori_sentiment'})
-
 
 # REVIEW ORIGINAL AND NRC
 NrcReview.run(df, dir_path, "sameval2019")
