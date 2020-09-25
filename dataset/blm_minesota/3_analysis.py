@@ -1,6 +1,6 @@
 import pandas as pd
 from datetime import datetime
-from Controller.Visualization.Tweets import KdePlotViz
+from Controller.Visualization.Tweets import KdePlotViz, LinePlotViz
 from Helper import DateHelper
 
 # SETTING
@@ -32,7 +32,7 @@ include_count = True
 include_standard = True
 
 # LINE PLOT
-#LinePlotViz.plot_sentiment(df, "nrc", dir_path, min_intensity, focus_from_date, focus_to_date, include_count, include_standard)
-#LinePlotViz.plot_sentiment(df, "dpm", dir_path, min_intensity, focus_from_date, focus_to_date, include_count, include_standard)
+LinePlotViz.plot_sentiment(df, "nrc", dir_path, min_intensity, focus_from_date, focus_to_date, include_count, include_standard)
+LinePlotViz.plot_sentiment(df, "dpm", dir_path, min_intensity, focus_from_date, focus_to_date, include_count, include_standard)
 KdePlotViz.plot_sentiment(df, "nrc", dir_path, min_intensity, focus_from_date, focus_to_date, include_count, include_standard)
 KdePlotViz.plot_sentiment(df, "dpm", dir_path, min_intensity, focus_from_date, focus_to_date, include_count, include_standard)
