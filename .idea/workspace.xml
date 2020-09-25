@@ -20,7 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dataset/blm_washington/dataset_p_error.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/DataNLP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/DataNLP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/Visualization/Tweets/KdePlotViz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Visualization/Tweets/KdePlotViz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_washington/02-post-cleaning-dataset_p2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_washington/02-post-cleaning-dataset_p2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_washington/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_washington/0_process.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +71,7 @@
       <recent name="C:\workspace\SocialMovementSentiment\dataset" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.WST_0_MASTER">
+  <component name="RunManager" selected="Python.WST_1_DATA">
     <configuration name="WST_0_MASTER" type="PythonConfigurationType" factoryName="Python">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,7 +79,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\SocialMovementSentiment\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\Carlson\Anaconda3\envs\SocialMovementSentiment\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/blm_washington" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -87,7 +92,7 @@
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2">
-        <option name="RunConfigurationTask" enabled="true" run_configuration_name="WST_DATA" run_configuration_type="PythonConfigurationType" />
+        <option name="RunConfigurationTask" enabled="true" />
         <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_UploadGit" />
         <option name="RunConfigurationTask" enabled="true" run_configuration_name="WST_2_SENTI" run_configuration_type="PythonConfigurationType" />
         <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_UploadGit" />
@@ -100,7 +105,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\SocialMovementSentiment\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\Carlson\Anaconda3\envs\SocialMovementSentiment\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/blm_washington" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -121,7 +126,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\SocialMovementSentiment\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\Carlson\Anaconda3\envs\SocialMovementSentiment\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/blm_washington" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -144,7 +149,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="" />
+      <changelist id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="" />
       <created>1598364083573</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -176,10 +181,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="750" y="153" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1598530803895" />
-    <state x="733" y="0" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601012268638">
+    <state x="733" y="0" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601013546126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="733" y="0" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601012268638" />
+    <state x="733" y="0" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601013546126" />
     <state x="1048" y="349" key="#com.intellij.tools.ToolEditorDialog" timestamp="1601012255699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -192,22 +197,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601012252295" />
-    <state width="1509" height="676" key="GridCell.Tab.0.bottom" timestamp="1600396804372">
+    <state width="1428" height="405" key="GridCell.Tab.0.bottom" timestamp="1601038252027">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1509" height="676" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600396804372" />
-    <state width="1509" height="676" key="GridCell.Tab.0.center" timestamp="1600396804371">
+    <state width="1428" height="405" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601038252027" />
+    <state width="1428" height="405" key="GridCell.Tab.0.center" timestamp="1601038252027">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1509" height="676" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600396804371" />
-    <state width="1509" height="676" key="GridCell.Tab.0.left" timestamp="1600396804371">
+    <state width="1428" height="405" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601038252027" />
+    <state width="1428" height="405" key="GridCell.Tab.0.left" timestamp="1601038252027">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1509" height="676" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600396804371" />
-    <state width="1509" height="676" key="GridCell.Tab.0.right" timestamp="1600396804372">
+    <state width="1428" height="405" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601038252027" />
+    <state width="1428" height="405" key="GridCell.Tab.0.right" timestamp="1601038252027">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1509" height="676" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600396804372" />
+    <state width="1428" height="405" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601038252027" />
     <state width="1690" height="340" key="GridCell.Tab.1.bottom" timestamp="1599712753040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -224,10 +229,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1690" height="340" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599712753040" />
-    <state x="780" y="157" key="SettingsEditor" timestamp="1600306734168">
+    <state x="780" y="157" key="SettingsEditor" timestamp="1601013488870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="780" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600306734168" />
+    <state x="780" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601013488870" />
     <state x="1174" y="254" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1601012265403">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

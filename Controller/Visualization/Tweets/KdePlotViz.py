@@ -57,7 +57,7 @@ def plot_by_mood(y_attr, x_attr, h_attr, df, y_attr_title, x_attr_title, title, 
     # CREATE LINE PLOT
     fig = sns.kdeplot(data=df_mood, x=x_attr, y=y_attr, common_norm=False, alpha=.5, levels=5, fill=True, thresh=0.15)
     fig.set(ylabel=y_attr_title.upper(), xlabel=x_attr_title.upper())
-    #plt.title(title.upper())
+    plt.title("{}".format(selected_mood).upper(), fontsize='30')
     #fig.get_legend().set_title(legend_title.upper())
     #plt.setp(fig.get_legend().get_texts(), fontsize='15')
     #plt.setp(fig.get_legend().get_title(), fontsize='16')

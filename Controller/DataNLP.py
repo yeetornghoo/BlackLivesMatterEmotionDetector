@@ -10,6 +10,9 @@ corr_df = pd.read_csv('C:/workspace/SocialMovementSentiment/dataset/_custome/cor
 
 
 def process_sentence(sentence, islemm):
+
+    print(sentence)
+
     doc = nlp(sentence)
     words = []
 
