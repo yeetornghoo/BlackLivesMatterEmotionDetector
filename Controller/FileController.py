@@ -1,3 +1,6 @@
+from Helper import FolderHelper
+
+
 def save_log(folder_path, file_name, context):
     file_path = "{}/{}".format(folder_path, file_name)
     f = open(file_path, 'w')
