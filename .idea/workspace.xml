@@ -19,12 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/04-post-sentiment-False-dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/tmp/dpm-processed_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/tmp/dpm-processed_dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/tmp/esn-processed_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/tmp/esn-processed_dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/tmp/nrc-processed_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/tmp/nrc-processed_dataset.csv" afterDir="false" />
+    <list default="true" id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/dataset/blm_washington/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_washington/0_process.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
