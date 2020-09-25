@@ -20,18 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Controller/Visualization/WordClouldViz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/0.1_process.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/adj_wordclould.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/noun_wordclould.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/propn_wordclould.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/verb_wordclould.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/wordcloud/500/adj_wordclould.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/wordcloud/500/noun_wordclould.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/wordcloud/500/propn_wordclould.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/wordcloud/500/verb_wordclould.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_washington/99_submid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_washington/dataset_p1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_washington/dataset_p2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_washington/dataset_p3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_washington/dataset_p4.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_washington/tmp/dataset.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/3_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/3_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_washington/01-post-translate-dataset.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_washington/02-post-cleaning-dataset.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_washington/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_washington/0_process.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,10 +59,15 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dataset/blm_minesota" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dataset/blm_washington/1_label_sentiment.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\SocialMovementSentiment\dataset\blm_washington" />
+      <recent name="C:\workspace\SocialMovementSentiment\dataset\blm_minesota" />
+      <recent name="C:\workspace\SocialMovementSentiment\Lexicon" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\workspace\SocialMovementSentiment\Controller\Visualization\Tweets" />
       <recent name="C:\workspace\SocialMovementSentiment\Controller\Visualization" />
@@ -72,12 +75,8 @@
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon\DepecheMood" />
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon\NRC" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\workspace\SocialMovementSentiment\dataset\blm_minesota" />
-      <recent name="C:\workspace\SocialMovementSentiment\Lexicon" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.0.1_process">
+  <component name="RunManager" selected="Python.washington_submid">
     <configuration name="0.1_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,27 +90,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/blm_minesota/0.1_process.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="0_process (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SocialMovementSentiment" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SecondDataset/SaintPaulCrimeIncident" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SecondDataset/SaintPaulCrimeIncident/0_process.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="0_process (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="0_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,11 +127,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SecondDataset/MinneapolisShotsFired" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/blm_washington" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SecondDataset/MinneapolisShotsFired/0_process.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/blm_washington/0_process.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,20 +161,88 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="washington_data" type="PythonConfigurationType" factoryName="Python">
+      <module name="SocialMovementSentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/blm_washington" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/blm_washington/0_process.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="washington_sentiment" type="PythonConfigurationType" factoryName="Python">
+      <module name="SocialMovementSentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/blm_washington" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/blm_washington/1_label_sentiment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="washington_submid" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SocialMovementSentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/blm_washington" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/blm_washington/99_submid.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2">
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="washington_data" run_configuration_type="PythonConfigurationType" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="washington_sentiment" run_configuration_type="PythonConfigurationType" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Python.0.1_process" />
-      <item itemvalue="Python.0_process (2)" />
+      <item itemvalue="Python.washington_data" />
+      <item itemvalue="Python.washington_sentiment" />
       <item itemvalue="Python.0_process (3)" />
-      <item itemvalue="Python.0_process (4)" />
       <item itemvalue="Python.4_accuracy" />
+      <item itemvalue="Python.0.1_process" />
+      <item itemvalue="Python.0_process" />
+      <item itemvalue="Python.washington_submid" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.washington_submid" />
+        <item itemvalue="Python.0_process" />
         <item itemvalue="Python.0.1_process" />
         <item itemvalue="Python.4_accuracy" />
         <item itemvalue="Python.0_process (3)" />
-        <item itemvalue="Python.0_process (2)" />
-        <item itemvalue="Python.0_process (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -235,34 +281,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="750" y="153" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1598530803895" />
-    <state x="733" y="62" width="1092" height="978" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600306861745">
+    <state x="733" y="14" width="1092" height="1026" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600997161890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="733" y="62" width="1092" height="978" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600306861745" />
+    <state x="733" y="14" width="1092" height="1026" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600997161890" />
     <state x="574" y="109" width="1184" height="814" key="DiffContextDialog" timestamp="1599378624647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="574" y="109" width="1184" height="814" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599378624647" />
-    <state x="1059" y="267" key="FileChooserDialogImpl" timestamp="1599801909840">
+    <state x="1059" y="267" key="FileChooserDialogImpl" timestamp="1600997145199">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599801909840" />
-    <state width="1428" height="507" key="GridCell.Tab.0.bottom" timestamp="1600951506523">
+    <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600997145199" />
+    <state width="1899" height="309" key="GridCell.Tab.0.bottom" timestamp="1600997039322">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1428" height="507" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600951506523" />
-    <state width="1428" height="507" key="GridCell.Tab.0.center" timestamp="1600951506523">
+    <state width="1899" height="309" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600997039322" />
+    <state width="1899" height="309" key="GridCell.Tab.0.center" timestamp="1600997039322">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1428" height="507" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600951506523" />
-    <state width="1428" height="507" key="GridCell.Tab.0.left" timestamp="1600951506523">
+    <state width="1899" height="309" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600997039322" />
+    <state width="1899" height="309" key="GridCell.Tab.0.left" timestamp="1600997039321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1428" height="507" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600951506523" />
-    <state width="1428" height="507" key="GridCell.Tab.0.right" timestamp="1600951506523">
+    <state width="1899" height="309" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600997039321" />
+    <state width="1899" height="309" key="GridCell.Tab.0.right" timestamp="1600997039322">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1428" height="507" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600951506523" />
+    <state width="1899" height="309" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600997039322" />
     <state width="1446" height="336" key="GridCell.Tab.1.bottom" timestamp="1600602562479">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
