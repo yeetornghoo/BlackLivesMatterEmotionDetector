@@ -42,6 +42,29 @@ def plot_facet_grid(y_attr, x_attr, h_attr, df, output_file):
     plt.close()
 
 
+def plot_by_mood(y_attr, x_attr, h_attr, df, y_attr_title, x_attr_title, title, legend_title, output_file, selected_mood):
+
+    print(output_file)
+
+    df_mood = df.loc[df[h_attr] == selected_mood]
+
+    # PLOT SETTING
+    sns.color_palette("tab10")
+    sns.set_style("ticks")
+    sns.set_theme(style="whitegrid")
+    fig, ax = plt.subplots(figsize=(20, 14))
+
+    # CREATE LINE PLOT
+    fig = sns.kdeplot(data=df_mood, x=x_attr, y=y_attr, common_norm=False, alpha=.5, levels=5, fill=True, thresh=0.15)
+    fig.set(ylabel=y_attr_title.upper(), xlabel=x_attr_title.upper())
+    #plt.title(title.upper())
+    #fig.get_legend().set_title(legend_title.upper())
+    #plt.setp(fig.get_legend().get_texts(), fontsize='15')
+    #plt.setp(fig.get_legend().get_title(), fontsize='16')
+    plt.savefig("{}_{}.png".format(output_file, selected_mood))
+    plt.close()
+
+
 def plot(y_attr, x_attr, h_attr, df, y_attr_title, x_attr_title, title, legend_title, output_file):
 
     # PLOT SETTING
@@ -88,8 +111,22 @@ def plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, selected_key,
     df_i['tweet_created_date'] = pd.to_datetime(df_i['tweet_created_date'], format='%Y-%m-%d')
     df_i[senti_name] = df_i[senti_name].astype(str)
 
-    plot(senti_key, "tweet_created_date", senti_name, df_i, y_attr_title, x_attr_title, title, legend_title, output_file)
-    plot_facet_grid(senti_key, "tweet_created_date", senti_name, df_i, output_file)
+    #plot(senti_key, "tweet_created_date", senti_name, df_i, y_attr_title, x_attr_title, title, legend_title, output_file)
+    #plot_facet_grid(senti_key, "tweet_created_date", senti_name, df_i, output_file)
+
+    plot_by_mood(senti_key, "tweet_created_date", senti_name, df_i, y_attr_title, x_attr_title, title, legend_title, output_file, "trust")
+    plot_by_mood(senti_key, "tweet_created_date", senti_name, df_i, y_attr_title, x_attr_title, title, legend_title,
+                 output_file, "joy")
+    plot_by_mood(senti_key, "tweet_created_date", senti_name, df_i, y_attr_title, x_attr_title, title, legend_title,
+                 output_file, "sadness")
+    plot_by_mood(senti_key, "tweet_created_date", senti_name, df_i, y_attr_title, x_attr_title, title, legend_title,
+                 output_file, "anger")
+    plot_by_mood(senti_key, "tweet_created_date", senti_name, df_i, y_attr_title, x_attr_title, title, legend_title,
+                 output_file, "fear")
+    plot_by_mood(senti_key, "tweet_created_date", senti_name, df_i, y_attr_title, x_attr_title, title, legend_title,
+                 output_file, "disgust")
+    plot_by_mood(senti_key, "tweet_created_date", senti_name, df_i, y_attr_title, x_attr_title, title, legend_title,
+                 output_file, "surprise")
 
     # STANDARD
     if include_standard:
@@ -150,9 +187,9 @@ def plot_sentiment(df, lexicon_name, dir_path, min_intensity, start_date, end_da
     # RESET FOLDER
     FolderHelper.reset_dataset_viz_output_folder(dir_path, lexicon_name, plot_name)
 
-    plot_sentiment_day_key(df, lexicon_name, dir_path, "score", include_standard)
-    plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, "score", start_date, end_date, include_standard)
+    #plot_sentiment_day_key(df, lexicon_name, dir_path, "score", include_standard)
+    plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, "count", start_date, end_date, include_standard)
 
-    if include_count:
-        plot_sentiment_day_key(df, lexicon_name, dir_path, "count", include_standard)
-        plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, "count", start_date, end_date, include_standard)
+    #if include_count:
+    #    plot_sentiment_day_key(df, lexicon_name, dir_path, "count", include_standard)
+    #    plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, "count", start_date, end_date, include_standard)

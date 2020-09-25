@@ -20,16 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset/blm_washington/99_submid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_washington/dataset_p1.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_washington/dataset_p2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_washington/dataset_p3.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_washington/dataset_p4.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_washington/tmp/dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/count_kdeplot_by_day_by_period_anger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/count_kdeplot_by_day_by_period_disgust.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/count_kdeplot_by_day_by_period_fear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/count_kdeplot_by_day_by_period_joy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/count_kdeplot_by_day_by_period_sadness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/count_kdeplot_by_day_by_period_surprise.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/count_kdeplot_by_day_by_period_trust.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_washington/01-post-translate-dataset.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_washington/02-post-cleaning-dataset.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_washington/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_washington/0_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/Visualization/Tweets/KdePlotViz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Visualization/Tweets/KdePlotViz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/3_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/3_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/count_kdeplot_by_day.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/count_kdeplot_by_day_by_period.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/count_kdeplot_by_day_by_period_facetgrid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/count_kdeplot_by_day_facetgrid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/score_kdeplot_by_day.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_facetgrid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_facetgrid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/nrc/kdeplot/count_kdeplot_by_day.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/nrc/kdeplot/count_kdeplot_by_day_facetgrid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/nrc/kdeplot/score_kdeplot_by_day.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/nrc/kdeplot/score_kdeplot_by_day_by_period.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/nrc/kdeplot/score_kdeplot_by_day_by_period_facetgrid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/nrc/kdeplot/score_kdeplot_by_day_facetgrid.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +90,7 @@
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon\NRC" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.washington_submid">
+  <component name="RunManager" selected="Python.3_analysis">
     <configuration name="0.1_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,27 +104,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/blm_minesota/0.1_process.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="0_process (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SocialMovementSentiment" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SecondDataset/MinneapolisCovidCases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SecondDataset/MinneapolisCovidCases/0_process.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4_accuracy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="3_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,11 +141,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/SamEval2019_Task3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/blm_minesota" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/SamEval2019_Task3/4_accuracy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/blm_minesota/3_analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="KdePlotViz" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SocialMovementSentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Controller/Visualization/Tweets" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Controller/Visualization/Tweets/KdePlotViz.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -215,7 +229,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/blm_washington/99_submid.py" />
+      <option name="SCRIPT_NAME" value="C:\workspace\SocialMovementSentiment\dataset\blm_washington\99_submit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -230,19 +244,19 @@
     <list>
       <item itemvalue="Python.washington_data" />
       <item itemvalue="Python.washington_sentiment" />
-      <item itemvalue="Python.0_process (3)" />
-      <item itemvalue="Python.4_accuracy" />
       <item itemvalue="Python.0.1_process" />
       <item itemvalue="Python.0_process" />
       <item itemvalue="Python.washington_submid" />
+      <item itemvalue="Python.3_analysis" />
+      <item itemvalue="Python.KdePlotViz" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.3_analysis" />
+        <item itemvalue="Python.KdePlotViz" />
         <item itemvalue="Python.washington_submid" />
         <item itemvalue="Python.0_process" />
         <item itemvalue="Python.0.1_process" />
-        <item itemvalue="Python.4_accuracy" />
-        <item itemvalue="Python.0_process (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -293,22 +307,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600997145199" />
-    <state width="1899" height="309" key="GridCell.Tab.0.bottom" timestamp="1600997039322">
+    <state width="1899" height="309" key="GridCell.Tab.0.bottom" timestamp="1601002636856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="309" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600997039322" />
-    <state width="1899" height="309" key="GridCell.Tab.0.center" timestamp="1600997039322">
+    <state width="1899" height="309" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601002636856" />
+    <state width="1899" height="309" key="GridCell.Tab.0.center" timestamp="1601002636854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="309" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600997039322" />
-    <state width="1899" height="309" key="GridCell.Tab.0.left" timestamp="1600997039321">
+    <state width="1899" height="309" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601002636854" />
+    <state width="1899" height="309" key="GridCell.Tab.0.left" timestamp="1601002636854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="309" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600997039321" />
-    <state width="1899" height="309" key="GridCell.Tab.0.right" timestamp="1600997039322">
+    <state width="1899" height="309" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601002636854" />
+    <state width="1899" height="309" key="GridCell.Tab.0.right" timestamp="1601002636856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="309" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600997039322" />
+    <state width="1899" height="309" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601002636856" />
     <state width="1446" height="336" key="GridCell.Tab.1.bottom" timestamp="1600602562479">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
