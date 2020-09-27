@@ -30,5 +30,6 @@ def process(file_name):
 process("dataset_perror.csv")
 #process("dataset_p1.csv")
 #process("dataset_p2.csv")
-#process("dataset_p3.csv")
-#process("dataset_p4.csv")
+process("dataset_p3.csv")
+process("dataset_p4.csv")
+
