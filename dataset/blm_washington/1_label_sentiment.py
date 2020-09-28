@@ -27,7 +27,7 @@ def process(file_name):
     FileController.save_df_to_csv("04-post-sentiment-False-{}".format(is_standard_model, file_name), df)
 
 
-process("03-post-nlp-dataset_p1.csv")
+#process("03-post-nlp-dataset_p1.csv")
 process("03-post-nlp-dataset_p2.csv")
-process("03-post-nlp-dataset_p3.csv")
-process("03-post-nlp-dataset_p4.csv")
+#process("03-post-nlp-dataset_p3.csv")
+#process("03-post-nlp-dataset_p4.csv")

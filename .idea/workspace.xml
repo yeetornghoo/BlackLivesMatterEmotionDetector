@@ -20,26 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceIncident/img/lineplot_comparison_by_description_anger.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceIncident/img/lineplot_comparison_by_description_anticipation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceIncident/img/lineplot_comparison_by_description_disgust.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceIncident/img/lineplot_comparison_by_description_fear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceIncident/img/lineplot_comparison_by_description_joy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceIncident/img/lineplot_comparison_by_description_sadness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceIncident/img/lineplot_comparison_by_description_surprise.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceIncident/img/lineplot_comparison_by_description_trust.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceIncident/img/lineplot_comparison_by_offense_anger.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceIncident/img/lineplot_comparison_by_offense_anticipation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceIncident/img/lineplot_comparison_by_offense_disgust.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceIncident/img/lineplot_comparison_by_offense_fear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceIncident/img/lineplot_comparison_by_offense_joy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceIncident/img/lineplot_comparison_by_offense_sadness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceIncident/img/lineplot_comparison_by_offense_surprise.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceIncident/img/lineplot_comparison_by_offense_trust.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondDataset/export-4e3e0923-120a-4a98-9369-f7859d4790d7.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondDataset/export-b010634b-390a-4479-b5d6-d53fd89218f1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_washington/04-post-sentiment-False-False" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceIncident/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceIncident/0_process.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceIncident/img/lineplot_comparison_by_description.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecondDataset/MinneapolisPoliceIncident/img/lineplot_comparison_by_offense.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_washington/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_washington/0_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_washington/1_label_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_washington/1_label_sentiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_washington/dataset_p_error.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_washington/tmp/dpm-processed_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_washington/tmp/dpm-processed_dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_washington/tmp/esn-processed_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_washington/tmp/esn-processed_dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_washington/tmp/nrc-processed_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_washington/tmp/nrc-processed_dataset.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +75,7 @@
       <recent name="C:\workspace\SocialMovementSentiment\dataset" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.0_process">
+  <component name="RunManager" selected="Python.WST_2_SENTI">
     <configuration name="0_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,22 +228,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601012252295" />
-    <state width="1899" height="326" key="GridCell.Tab.0.bottom" timestamp="1601045874627">
+    <state width="1899" height="326" key="GridCell.Tab.0.bottom" timestamp="1601252806741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601045874627" />
-    <state width="1899" height="326" key="GridCell.Tab.0.center" timestamp="1601045874627">
+    <state width="1899" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601252806741" />
+    <state width="1899" height="326" key="GridCell.Tab.0.center" timestamp="1601252806741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="326" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601045874627" />
-    <state width="1899" height="326" key="GridCell.Tab.0.left" timestamp="1601045874627">
+    <state width="1899" height="326" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601252806741" />
+    <state width="1899" height="326" key="GridCell.Tab.0.left" timestamp="1601252806741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="326" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601045874627" />
-    <state width="1899" height="326" key="GridCell.Tab.0.right" timestamp="1601045874627">
+    <state width="1899" height="326" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601252806741" />
+    <state width="1899" height="326" key="GridCell.Tab.0.right" timestamp="1601252806741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="326" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601045874627" />
+    <state width="1899" height="326" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601252806741" />
     <state width="1690" height="340" key="GridCell.Tab.1.bottom" timestamp="1599712753040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

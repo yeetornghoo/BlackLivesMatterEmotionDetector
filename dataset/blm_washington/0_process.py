@@ -15,21 +15,20 @@ def process(file_name):
     DataAssess.run(df)
 
     # DATA TRANSLATION (en,pt,es,ru,fr)
-    #df = DataTranslation.run(df, "en")
-    #FileController.save_df_to_csv("01-post-translate-"+file_name, df)
+    df = DataTranslation.run(df, "en")
+    FileController.save_df_to_csv("01-post-translate-"+file_name, df)
 
     # DATA CLEANING
-    #df = DataCleaning.run(df)
-    #FileController.save_df_to_csv("02-post-cleaning-"+file_name, df)
+    df = DataCleaning.run(df)
+    FileController.save_df_to_csv("02-post-cleaning-"+file_name, df)
 
     # NLP TOKEN
     df = DataNLP.run(df)
     FileController.save_df_to_csv("03-post-nlp-"+file_name, df)
 
 
-process("dataset_perror.csv")
 #process("dataset_p1.csv")
 #process("dataset_p2.csv")
-process("dataset_p3.csv")
+#process("dataset_p3.csv")
 process("dataset_p4.csv")
 
