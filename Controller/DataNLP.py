@@ -1,21 +1,24 @@
 import pandas as pd
 import stanza
+
+from Helper import StringHelper
+
 stanza.download('en')
 from Controller import LogController
 
 allowed_upos = ['PUNCT', 'SYM']
 nlp = stanza.Pipeline(lang='en', processors='tokenize,pos,lemma', tokenize_no_ssplit=True)
-
 corr_df = pd.read_csv('C:/workspace/SocialMovementSentiment/dataset/_custome/correction.csv')
 
 
 def process_sentence(sentence, islemm):
 
-    print(sentence)
+    if StringHelper.isEmpty(sentence):
+        print("Excluded: {}".format(sentence))
+        return ""
 
     doc = nlp(sentence)
     words = []
-
     for i, sentence in enumerate(doc.sentences):
         for word in sentence.words:
             if word.upos not in allowed_upos:
@@ -23,7 +26,6 @@ def process_sentence(sentence, islemm):
                     words.append(word.lemma.lower())
                 else:
                     words.append(word.text.lower())
-
     return words
 
 
