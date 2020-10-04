@@ -20,11 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset/blm_washington/01-post-translate-dataset_p4.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_washington/02-post-cleaning-dataset_p4.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_washington/03-post-nlp-dataset_p4.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_washington/04-post-sentiment-False-dataset_p1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_washington/04-post-sentiment-False-dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_washington/04-post-sentiment-False-dataset_p2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_washington/04-post-sentiment-False-dataset_p3.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Helper/StringHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Helper/StringHelper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lexicon/NRC/NrcController.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lexicon/NRC/NrcController.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lexicon/StandardModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lexicon/StandardModel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/blm_washington/1_label_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_washington/1_label_sentiment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/blm_washington/tmp/dpm-processed_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_washington/tmp/dpm-processed_dataset.csv" afterDir="false" />
@@ -251,22 +252,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601012252295" />
-    <state width="1899" height="355" key="GridCell.Tab.0.bottom" timestamp="1601642687871">
+    <state width="1899" height="424" key="GridCell.Tab.0.bottom" timestamp="1601804994170">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="355" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601642687871" />
-    <state width="1899" height="355" key="GridCell.Tab.0.center" timestamp="1601642687870">
+    <state width="1899" height="424" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601804994170" />
+    <state width="1899" height="424" key="GridCell.Tab.0.center" timestamp="1601804994170">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="355" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601642687870" />
-    <state width="1899" height="355" key="GridCell.Tab.0.left" timestamp="1601642687870">
+    <state width="1899" height="424" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601804994170" />
+    <state width="1899" height="424" key="GridCell.Tab.0.left" timestamp="1601804994170">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="355" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601642687870" />
-    <state width="1899" height="355" key="GridCell.Tab.0.right" timestamp="1601642687871">
+    <state width="1899" height="424" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601804994170" />
+    <state width="1899" height="424" key="GridCell.Tab.0.right" timestamp="1601804994170">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="355" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601642687871" />
+    <state width="1899" height="424" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601804994170" />
     <state width="1690" height="340" key="GridCell.Tab.1.bottom" timestamp="1599712753040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

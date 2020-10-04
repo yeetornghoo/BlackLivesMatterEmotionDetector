@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 from ast import literal_eval
 
 # STANDARD MODEL
@@ -56,7 +57,7 @@ def get_top_mood_by_count(model, att_mood_name, att_mood_count_name):
 
 
 def get_unique_words(row):
-    if not StringHelper.isEmpty(row['lemma_tweet_text']):
+    if not pd.isnull(row['lemma_tweet_text']):
         lemma_form = literal_eval(row['lemma_tweet_text'])
         stand_form = literal_eval(row['tweet_text'])
         return list(set(lemma_form + stand_form))
