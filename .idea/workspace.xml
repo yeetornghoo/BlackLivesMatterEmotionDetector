@@ -20,11 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset/blm_washington/04-post-sentiment-False-dataset_p4.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/tmp/0.1_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/tmp/98_check_depechemood.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/tmp/98_check_emosenticnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/tmp/99_check_nrc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_washington/04-post-sentiment-False-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_washington/04-post-sentiment-False-dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_washington/tmp/dpm-processed_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_washington/tmp/dpm-processed_dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_washington/tmp/esn-processed_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_washington/tmp/esn-processed_dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/0.1_process.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/01-post-translate-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/01-post-translate-dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/02-post-cleaning-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/02-post-cleaning-dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/03-post-nlp-dataset.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/04-post-sentiment-False-dataset.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/04-post-sentiment-True-dataset.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/0_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/98_check_depechemood.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/98_check_emosenticnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/99_check_nrc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_washington/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_washington/0_process.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +81,28 @@
       <recent name="C:\workspace\SocialMovementSentiment\dataset" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.3_analysis">
+  <component name="RunManager" selected="Python.0_process (1)">
+    <configuration name="0_process (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SocialMovementSentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/blm_minesota" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/blm_minesota/0_process.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="0_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -209,9 +241,11 @@
       <item itemvalue="Python.0_process" />
       <item itemvalue="Python.DataNLP" />
       <item itemvalue="Python.3_analysis" />
+      <item itemvalue="Python.0_process (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.0_process (1)" />
         <item itemvalue="Python.3_analysis" />
         <item itemvalue="Python.DataNLP" />
         <item itemvalue="Python.0_process" />
@@ -269,22 +303,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601012252295" />
-    <state width="1899" height="545" key="GridCell.Tab.0.bottom" timestamp="1601864778058">
+    <state width="1899" height="327" key="GridCell.Tab.0.bottom" timestamp="1601866262539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="545" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601864778058" />
-    <state width="1899" height="545" key="GridCell.Tab.0.center" timestamp="1601864778058">
+    <state width="1899" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601866262539" />
+    <state width="1899" height="327" key="GridCell.Tab.0.center" timestamp="1601866262539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="545" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601864778058" />
-    <state width="1899" height="545" key="GridCell.Tab.0.left" timestamp="1601864778058">
+    <state width="1899" height="327" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601866262539" />
+    <state width="1899" height="327" key="GridCell.Tab.0.left" timestamp="1601866262538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="545" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601864778058" />
-    <state width="1899" height="545" key="GridCell.Tab.0.right" timestamp="1601864778058">
+    <state width="1899" height="327" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601866262538" />
+    <state width="1899" height="327" key="GridCell.Tab.0.right" timestamp="1601866262539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="545" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601864778058" />
+    <state width="1899" height="327" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601866262539" />
     <state width="1690" height="340" key="GridCell.Tab.1.bottom" timestamp="1599712753040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

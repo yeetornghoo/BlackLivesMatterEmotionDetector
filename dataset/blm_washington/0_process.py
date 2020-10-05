@@ -8,8 +8,8 @@ def process(file_name):
     df = pd.read_csv(file_name, sep=";")
 
     # DROP USELESS ATTRIBUTES
-    df.drop(['tweet_id', 'tweet_created_dt', 'retweets', 'favorites', 'permalink', 'to_person',
-             'username', 'state', 'mentions', 'hashtags', 'geo', 'record_inserted_date',
+    # DROP USELESS ATTRIBUTES
+    df.drop(['permalink', 'to_person', 'username', 'state', 'mentions', 'hashtags', 'geo', 'record_inserted_date',
              'radius', 'search_keyword'], axis=1, inplace=True)
     df['tweet_text'] = df['text']
     DataAssess.run(df)
