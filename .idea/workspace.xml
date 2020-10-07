@@ -20,12 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/tmp/04-post-sentiment-False-dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/tmp/NRC-processed_dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/tmp/dpm-processed_dataset.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/1_label_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/1_label_sentiment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/tmp/04-post-sentiment-dataset_Date.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/tmp/nrc-processed_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/tmp/nrc-processed_dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_washington/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_washington/0_process.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -316,22 +313,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601012252295" />
-    <state width="1602" height="333" key="GridCell.Tab.0.bottom" timestamp="1601888483795">
+    <state width="1602" height="333" key="GridCell.Tab.0.bottom" timestamp="1601973136388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1602" height="333" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601888483795" />
-    <state width="1602" height="333" key="GridCell.Tab.0.center" timestamp="1601888483795">
+    <state width="1602" height="333" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601973136388" />
+    <state width="1602" height="333" key="GridCell.Tab.0.center" timestamp="1601973136388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1602" height="333" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601888483795" />
-    <state width="1602" height="333" key="GridCell.Tab.0.left" timestamp="1601888483795">
+    <state width="1602" height="333" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601973136388" />
+    <state width="1602" height="333" key="GridCell.Tab.0.left" timestamp="1601973136388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1602" height="333" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601888483795" />
-    <state width="1602" height="333" key="GridCell.Tab.0.right" timestamp="1601888483795">
+    <state width="1602" height="333" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601973136388" />
+    <state width="1602" height="333" key="GridCell.Tab.0.right" timestamp="1601973136388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1602" height="333" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601888483795" />
+    <state width="1602" height="333" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601973136388" />
     <state width="1690" height="340" key="GridCell.Tab.1.bottom" timestamp="1599712753040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
