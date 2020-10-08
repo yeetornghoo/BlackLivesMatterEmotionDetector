@@ -6,7 +6,7 @@ from Lexicon.EmoSenticNet import EmoSenticNetController
 from Lexicon.NRC import NrcController
 
 file_name = "dataset.csv"
-is_standard_model = True
+is_standard_model = False
 # LOAD DATASET
 df = pd.read_csv("03-post-nlp-"+file_name, sep=",")
 '''
