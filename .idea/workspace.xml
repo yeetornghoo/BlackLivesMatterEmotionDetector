@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="" />
+    <list default="true" id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/04-post-sentiment-False-dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/tmp/dpm-processed_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/tmp/dpm-processed_dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/tmp/esn-processed_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/tmp/esn-processed_dataset.csv" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +53,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PythonSocialMediaApi" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -305,26 +310,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="574" y="109" width="1184" height="814" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599378624647" />
-    <state x="1059" y="267" key="FileChooserDialogImpl" timestamp="1601012252295">
+    <state x="1059" y="267" key="FileChooserDialogImpl" timestamp="1602304466933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601012252295" />
-    <state width="1602" height="333" key="GridCell.Tab.0.bottom" timestamp="1602134256419">
+    <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602304466933" />
+    <state width="1267" height="333" key="GridCell.Tab.0.bottom" timestamp="1602168660979">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1602" height="333" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602134256419" />
-    <state width="1602" height="333" key="GridCell.Tab.0.center" timestamp="1602134256418">
+    <state width="1267" height="333" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602168660979" />
+    <state width="1267" height="333" key="GridCell.Tab.0.center" timestamp="1602168660979">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1602" height="333" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602134256418" />
-    <state width="1602" height="333" key="GridCell.Tab.0.left" timestamp="1602134256418">
+    <state width="1267" height="333" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602168660979" />
+    <state width="1267" height="333" key="GridCell.Tab.0.left" timestamp="1602168660978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1602" height="333" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602134256418" />
-    <state width="1602" height="333" key="GridCell.Tab.0.right" timestamp="1602134256419">
+    <state width="1267" height="333" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602168660978" />
+    <state width="1267" height="333" key="GridCell.Tab.0.right" timestamp="1602168660979">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1602" height="333" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602134256419" />
+    <state width="1267" height="333" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602168660979" />
     <state width="1690" height="340" key="GridCell.Tab.1.bottom" timestamp="1599712753040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
