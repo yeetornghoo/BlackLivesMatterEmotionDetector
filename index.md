@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# YeeTorng Hoo (贺雨桐）
 
-You can use the [editor on GitHub](https://github.com/yeetornghoo/SocialMovementSentiment/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+I am a final year Master Student supervised by [Mohd Ridzwan Yaakub](http://www.ftsm.ukm.my/cait/Researchers_Ridzwan.html) at Sentiment Lab of [Universiti Kebangsaan Malaysia (UKM)](https://www.ukm.my/portal/). My research interests lie in natural language processing, natural language understanding, sentiment analysis, deep learning. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Technical Skills 
+Python, R-Script, TensorFlow, RapidMiner, Classification and Predictive Modeling, Pandas, Scikit-Lean, Azure, AWS, Hadoop, Java, C#, PHP, Javascript, Perl, Html, CSS, Javascript, ExtJs, Bash, Powershell, Agile Development, Scrum, PowerBI, Tableau, Jira, Jenkins, Git, DevOps, MS-SQL, Oracle, PostgreSQL and MySQL, Window, Linux, Release Management
 
-### Markdown
+## Industrial Experience
+- Release Management/Senior QA at SAP BusinessObject (Ireland)
+- Senior Software Engineer at Greenfinch Technology (Ireland)
+- Technical Consultant at Hewlett-Packard (Malaysia)
+- Software Engineer at Newspage Technology (Malaysia)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Extracurricular Activities & Awards 
+- 2016 – SAP Lab (Dublin, Ireland) - Outstanding Employee
+- 2015 - SAP Lab (Dublin, Ireland) - Extraordinary Employee
+- 2014, 2013 - SAP Lab (Dublin, Ireland) - Outstanding Employee
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yeetornghoo/SocialMovementSentiment/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Others
+- [Medium@carlson.hoo](https://medium.com/@carlson.hoo)
+- [Linkedin](https://www.linkedin.com/in/carlsonhoo)
+- [Latest CV](/docs/YEETORNG-HOO-CV.1.1.pdf)
