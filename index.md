@@ -1,7 +1,6 @@
-## #BlackLivesMatter: Decomposing the Social Movement and the Stories Behind
+# #BlackLivesMatter: Decomposing the Social Movement and the Stories Behind
 
-
-
+![](https://github.com/yeetornghoo/SocialMovementSentiment/blob/gh-pages/docs/obi-onyeador-zSl8Di_N_9U-unsplash.jpg)
 
 
 ## YeeTorng Hoo (贺雨桐）
