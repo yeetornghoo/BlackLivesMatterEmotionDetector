@@ -2,6 +2,8 @@
 
 `NLP` `NLU` `Sentiment Analysis` `Time Series`
 
+[Research Proposal](https://github.com/yeetornghoo/SocialMovementSentiment/blob/gh-pages/docs/YTHOO_Proposal_Detail_v0.9.pdf)
+
 ## Research Question
 
 ## Methodology 
