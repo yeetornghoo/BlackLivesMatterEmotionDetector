@@ -13,10 +13,10 @@ Understanding Social Movement is not an easy task, where it consists of many pos
 ## Methodology 
 following is the high-level methodology for this project
 ![](https://github.com/yeetornghoo/yeetornghoo.github.io/raw/main/docs/method.png)
-- Construct training dataset by using both labeled and unlabeled data
-- NRC Lexison to extract the Sentiment Score Intensity on word level
-- Word Embeded (GloVE and BERT) with LSTM to train the model
-- Use DTW (dynamic time warping) to compare the mood pattern on the social movement pattern by mood
+  1. Construct training dataset by using both labeled and unlabeled data
+  2. NRC Lexison to extract the Sentiment Score Intensity on word level
+  3. Word Embeded (GloVE and BERT) with LSTM to train the model
+  4. Use DTW (dynamic time warping) to compare the mood pattern on the social movement pattern by mood
 
 ## Relevant Publication
 - [How to Pick Fine Grained Emotion Lexicon](https://medium.com/@carlson.hoo/multi-class-sentiment-lexicon-comparison-44f22833562e)
