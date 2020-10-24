@@ -1,11 +1,9 @@
-# <br />
-
-![](https://github.com/yeetornghoo/yeetornghoo.github.io/raw/main/docs/photo-1591607574316-4a51832bff9b.jfif)
-<span>Photo by <a href="https://unsplash.com/@jacky_zeng?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jacky Zeng</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-
 # #BlackLivesMatter: Decomposing the Social Movement and the Stories Behind
 
 `NLP` `NLU` `Sentiment Analysis` `Time Series`
+
+![](https://github.com/yeetornghoo/yeetornghoo.github.io/raw/main/docs/photo-1591607574316-4a51832bff9b.jfif)
+<span>Photo by <a href="https://unsplash.com/@jacky_zeng?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jacky Zeng</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 [Research Proposal](https://github.com/yeetornghoo/yeetornghoo.github.io/blob/main/docs/YTHOO_Proposal_Detail_v0.9.pdf)
 
