@@ -9,7 +9,7 @@ Understanding Social Movement is not an easy task, where it consists of many pos
 
 ## Methodology 
 dfsf
-![](https://github.com/yeetornghoo/yeetornghoo.github.io/blob/main/docs/method.png)
+![](https://github.com/yeetornghoo/yeetornghoo.github.io/raw/main/docs/method.png)
 sdfsfd
 
 ## Relevant Publication
