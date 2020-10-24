@@ -1,6 +1,4 @@
-![](https://github.com/yeetornghoo/SocialMovementSentiment/blob/gh-pages/docs/obi-onyeador-zSl8Di_N_9U-unsplash.jpg)
-
-# YeeTorng Hoo (贺雨桐）5
+# YeeTorng Hoo (贺雨桐）
 
 I am a final year Master Student supervised by [Mohd Ridzwan Yaakub](http://www.ftsm.ukm.my/cait/Researchers_Ridzwan.html) at Sentiment Lab of [Universiti Kebangsaan Malaysia (UKM)](https://www.ukm.my/portal/). My research interests lie in natural language processing, natural language understanding, sentiment analysis, deep learning. 
 
