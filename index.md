@@ -1,4 +1,4 @@
-# #BlackLivesMatter: Decomposing the Social Movement and the Stories Behind
+#BlackLivesMatter: Decomposing the Social Movement and the Stories Behind
 
 
 
