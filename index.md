@@ -1,5 +1,7 @@
 # #BlackLivesMatter: Decomposing the Social Movement and the Stories Behind
 
+![](https://github.com/yeetornghoo/yeetornghoo.github.io/raw/main/docs/photo-1591607574316-4a51832bff9b.jfif)
+
 `NLP` `NLU` `Sentiment Analysis` `Time Series`
 
 [Research Proposal](https://github.com/yeetornghoo/yeetornghoo.github.io/blob/main/docs/YTHOO_Proposal_Detail_v0.9.pdf)
