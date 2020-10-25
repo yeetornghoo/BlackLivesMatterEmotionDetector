@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from Controller import DataAssess, LogController
 from Controller.Visualization.Accuracy import NrcReview, DepecheMoodReview, EmoSenticNetReview
 
-dir_path = "C:/workspace/SocialMovementSentiment/dataset/SamEval2019_Task3/"
+dir_path = "C:/workspace/SocialMovementSentiment/dataset/SemEval2019_Task3/"
 sentiment_dataset_file = "{}04-post-sentiment-False-dataset.csv".format(dir_path)
 
 # LOAD SENTIMENT FILES

@@ -6,7 +6,6 @@ file_name = "text_emotion.csv"
 df = pd.read_csv(file_name, sep=",", names=["tweet_id", "sentiment", "author", "content"])
 
 ## DROP USELESS ATTRIBUTES
-df.drop(['other'], axis=1, inplace=True)
 df['tweet_text'] = df['content']
 DataAssess.run(df)
 

@@ -8,7 +8,6 @@ df = pd.read_csv(sub_dir+file_name, sep=",", names=["tweet_id", "content", "sent
 
 
 ## DROP USELESS ATTRIBUTES
-#df.drop(['other'], axis=1, inplace=True)
 df['tweet_text'] = df['content']
 DataAssess.run(df)
 
