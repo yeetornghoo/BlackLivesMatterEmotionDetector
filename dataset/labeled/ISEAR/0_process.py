@@ -21,5 +21,6 @@ FileController.save_df_to_csv("02-post-cleaning-"+file_name, df)
 '''
 # NLP TOKEN
 df = DataNLP.run(df)
+
 FileController.save_df_to_csv("03-post-nlp-"+file_name, df)
 '''
