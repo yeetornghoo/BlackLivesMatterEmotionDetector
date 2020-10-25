@@ -9,9 +9,9 @@ def run(df):
     df = replace_special_char_df(df)
     df = remove_url_df(df)
     df = remove_atusername_df(df)
-    df = handle_emoji_df(df)  #REMOVE EMOJI
 
-    df = process_hasgtag_df(df)
+    #df = handle_emoji_df(df)  #REMOVE EMOJI
+    #df = process_hasgtag_df(df)
 
     # SPELLING CORRECTION
     df = replace_word_is_df(df)
