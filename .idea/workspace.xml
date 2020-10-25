@@ -20,7 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/smile_twitter/02-post-cleaning-dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/smile_twitter/03-post-spelling-dataset.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/DataCleaning.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/DataCleaning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/DataNLP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/DataNLP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/DataSpellingCorrection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/DataSpellingCorrection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Helper/StringHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Helper/StringHelper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/0_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/0_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/0_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/crownflower/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/crownflower/0_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/smile_twitter/01-post-translate-smile-annotations-final.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/smile_twitter/02-post-cleaning-smile-annotations-final.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/smile_twitter/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/smile_twitter/0_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/efc_spelling/EFC/filteredSpellingErrors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/lib/efc_spelling/EFC/filteredSpellingErrors.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/manual_correction/correction.csv" beforeDir="false" afterPath="$PROJECT_DIR$/lib/manual_correction/correction.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,22 +326,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601012252295" />
-    <state width="1165" height="505" key="GridCell.Tab.0.bottom" timestamp="1603633326010">
+    <state width="1899" height="358" key="GridCell.Tab.0.bottom" timestamp="1603643753492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1165" height="505" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603633326010" />
-    <state width="1165" height="505" key="GridCell.Tab.0.center" timestamp="1603633326009">
+    <state width="1899" height="358" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603643753492" />
+    <state width="1899" height="358" key="GridCell.Tab.0.center" timestamp="1603643753492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1165" height="505" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603633326009" />
-    <state width="1165" height="505" key="GridCell.Tab.0.left" timestamp="1603633326009">
+    <state width="1899" height="358" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603643753492" />
+    <state width="1899" height="358" key="GridCell.Tab.0.left" timestamp="1603643753492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1165" height="505" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603633326009" />
-    <state width="1165" height="505" key="GridCell.Tab.0.right" timestamp="1603633326009">
+    <state width="1899" height="358" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603643753492" />
+    <state width="1899" height="358" key="GridCell.Tab.0.right" timestamp="1603643753492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1165" height="505" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603633326009" />
+    <state width="1899" height="358" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603643753492" />
     <state width="1690" height="340" key="GridCell.Tab.1.bottom" timestamp="1599712753040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -351,9 +366,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1174" y="254" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.0.1920.1040@0.0.1920.1040" timestamp="1601012265403" />
-    <state x="835" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1603606039425">
+    <state x="835" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1603638704114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="835" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603606039425" />
+    <state x="835" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603638704114" />
   </component>
 </project>

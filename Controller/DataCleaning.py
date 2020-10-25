@@ -21,6 +21,8 @@ def run(df):
     df = replace_have_df(df)
     df = replace_would_df(df)
 
+    df = remove_extra_whitespace_df(df)
+
     return df
 
 
@@ -34,10 +36,28 @@ def has_unchanged_tweet(reg_pattern, df):
 
 
 # REPLACE SPECIAL CHARACTERS FROM THE SENTENCES
+def remove_extra_whitespace_char(sentence):
+    sentence = sentence.replace("    ", " ")
+    sentence = sentence.replace("   ", " ")
+    sentence = sentence.replace("  ", " ")
+    return sentence
+
+
+def remove_extra_whitespace_df(df):
+    LogController.log("Replace extra white space From The Sentences")
+    df['tweet_text'] = df['tweet_text'].apply(lambda x: remove_extra_whitespace_char(str(x)))
+    return df
+
+
+# REPLACE SPECIAL CHARACTERS FROM THE SENTENCES
 def replace_special_char(sentence):
     sentence = sentence.replace("“", '"')
     sentence = sentence.replace("”", '"')
     sentence = sentence.replace("’", "'")
+    sentence = sentence.replace("(", "")
+    sentence = sentence.replace(")", "")
+    sentence = sentence.replace("]", "")
+    sentence = sentence.replace("[", "")
     return sentence
 
 
