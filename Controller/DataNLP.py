@@ -1,6 +1,5 @@
 import pandas as pd
 import stanza
-from Controller.Dictionary import SpellingController
 from Helper import StringHelper
 
 stanza.download('en')
