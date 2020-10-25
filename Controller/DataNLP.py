@@ -1,6 +1,6 @@
 import pandas as pd
 import stanza
-
+from Controller.Dictionary import SpellingController
 from Helper import StringHelper
 
 stanza.download('en')
@@ -8,7 +8,7 @@ from Controller import LogController
 
 allowed_upos = ['PUNCT', 'SYM']
 nlp = stanza.Pipeline(lang='en', processors='tokenize,pos,lemma', tokenize_no_ssplit=True)
-corr_df = pd.read_csv('C:/workspace/SocialMovementSentiment/dataset/_custome/correction.csv')
+corr_df = pd.read_csv('C:/workspace/SocialMovementSentiment/lib/manual_correction/correction.csv')
 
 
 def process_sentence(sentence, islemm):

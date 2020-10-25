@@ -18,12 +18,14 @@ frames = [anger_df, fear_df, joy_df, sadness_df]
 df = pd.concat(frames)
 DataAssess.run(df)
 
-
 # DROP USELESS ATTRIBUTES
-df.drop(['ID'], axis=1, inplace=True)
 df['tweet_text'] = df['Tweet']
+df.drop(['ID'], axis=1, inplace=True)
+df.rename(columns={"Tweet": "tweet", "Affect Dimension": "affect_dimension",
+                   "Intensity Score": "intensity_score", "sentiment": "ori_sentiment"}, inplace=True)
+DataAssess.run(df)
 
-# DATA TRANSLATION (en,pt,es,ru,fr)
+# DATA TRANSLATION
 df = DataTranslation.run(df, "en")
 FileController.save_df_to_csv("01-post-translate-dataset.csv", df)
 
@@ -31,6 +33,8 @@ FileController.save_df_to_csv("01-post-translate-dataset.csv", df)
 df = DataCleaning.run(df)
 FileController.save_df_to_csv("02-post-cleaning-dataset.csv", df)
 
+'''
 # NLP TOKEN
 df = DataNLP.run(df)
 FileController.save_df_to_csv("03-post-nlp-dataset.csv", df)
+'''
