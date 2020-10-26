@@ -17,13 +17,9 @@ depechemoodplus_lexicon_file = model_folder + "DepecheMood++/DepecheMood_english
 
 
 # SET TOP SCORE MOOD
-def get_top_scores_moods(model, is_standard):
+def get_top_scores_moods(model):
 
     mood_list = model_moods
-    if is_standard:
-        mood_list = StandardModel.model_moods
-
-    mood_score_list = pd.Series({})
 
     sentence_top_mood = ""
     sentence_top_count = 0

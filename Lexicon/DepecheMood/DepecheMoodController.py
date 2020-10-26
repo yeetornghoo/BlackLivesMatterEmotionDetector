@@ -60,7 +60,7 @@ def get_word_sentiment_value(word, sentence_model):
     return sentence_model
 
 
-def get_sentence_mood(words, is_standard_model):
+def get_sentence_mood(words):
     # SET SENTENCE MODEL
     sentence_model = DepecheMoodModel.set_model(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
 
@@ -69,7 +69,7 @@ def get_sentence_mood(words, is_standard_model):
         sentence_model = get_word_sentiment_value(word, sentence_model)
 
     # GET TOP SENTIMENT BY SCORE
-    top_mood = DepecheMoodModel.get_top_scores_moods(sentence_model, is_standard_model)
+    top_mood = DepecheMoodModel.get_top_scores_moods(sentence_model)
     sentence_model = sentence_model.append(top_mood)
     return sentence_model
 

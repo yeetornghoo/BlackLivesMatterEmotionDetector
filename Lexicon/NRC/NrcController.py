@@ -96,7 +96,7 @@ def get_sentence_mood(words):
     model = NrcModel.set_model(anger, anger_score, anticipation, anticipation_score,
                                disgust, disgust_score, fear, fear_score,
                                joy, joy_score, sadness, sadness_score,
-                               surprise, surprise_score, trust, trust_score, is_standard)
+                               surprise, surprise_score, trust, trust_score)
     return model
 
 

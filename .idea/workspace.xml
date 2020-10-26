@@ -20,15 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/04-post-nlp-dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/04-post-nlp-dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/crownflower/04-post-nlp-dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/04-post-nlp-dataset.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lexicon/DepecheMood/DepecheMoodController.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lexicon/DepecheMood/DepecheMoodController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lexicon/DepecheMood/DepecheMoodModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lexicon/DepecheMood/DepecheMoodModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lexicon/NRC/NrcController.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lexicon/NRC/NrcController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lexicon/NRC/NrcModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lexicon/NRC/NrcModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lexicon/StandardModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lexicon/StandardModel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/1_label_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/1_label_sentiment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/1_label_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/1_label_sentiment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/1_label_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/1_label_sentiment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/data_viz.twb" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/data_viz.twb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/page-data-cleaning/dataset.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/page-data-cleaning/dataset.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/tmp/NRC-processed_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/tmp/NRC-processed_dataset.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,7 @@
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1_label_sentiment (3)">
+  <component name="RunManager" selected="Python.1_label_sentiment (1)">
     <configuration name="0_process (5)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -260,9 +260,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1_label_sentiment (1)" />
         <item itemvalue="Python.1_label_sentiment (3)" />
         <item itemvalue="Python.1_label_sentiment (2)" />
-        <item itemvalue="Python.1_label_sentiment (1)" />
         <item itemvalue="Python.1_label_sentiment" />
         <item itemvalue="Python.0_process (5)" />
       </list>
@@ -319,22 +319,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601012252295" />
-    <state width="1245" height="314" key="GridCell.Tab.0.bottom" timestamp="1603709445347">
+    <state width="1899" height="291" key="GridCell.Tab.0.bottom" timestamp="1603724441132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1245" height="314" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603709445347" />
-    <state width="1245" height="314" key="GridCell.Tab.0.center" timestamp="1603709445347">
+    <state width="1899" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603724441132" />
+    <state width="1899" height="291" key="GridCell.Tab.0.center" timestamp="1603724441132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1245" height="314" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603709445347" />
-    <state width="1245" height="314" key="GridCell.Tab.0.left" timestamp="1603709445347">
+    <state width="1899" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603724441132" />
+    <state width="1899" height="291" key="GridCell.Tab.0.left" timestamp="1603724441131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1245" height="314" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603709445347" />
-    <state width="1245" height="314" key="GridCell.Tab.0.right" timestamp="1603709445347">
+    <state width="1899" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603724441131" />
+    <state width="1899" height="291" key="GridCell.Tab.0.right" timestamp="1603724441132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1245" height="314" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603709445347" />
+    <state width="1899" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603724441132" />
     <state width="1899" height="346" key="GridCell.Tab.1.bottom" timestamp="1603644799614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
