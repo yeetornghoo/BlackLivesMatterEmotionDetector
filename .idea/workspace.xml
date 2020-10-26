@@ -19,24 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/smile_twitter/02-post-cleaning-dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/smile_twitter/03-post-spelling-dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/DataCleaning.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/DataCleaning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/DataNLP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/DataNLP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/DataSpellingCorrection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/DataSpellingCorrection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Helper/StringHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Helper/StringHelper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/0_process.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/0_process.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/0_process.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/crownflower/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/crownflower/0_process.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/smile_twitter/01-post-translate-smile-annotations-final.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/smile_twitter/02-post-cleaning-smile-annotations-final.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/smile_twitter/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/smile_twitter/0_process.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/efc_spelling/EFC/filteredSpellingErrors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/lib/efc_spelling/EFC/filteredSpellingErrors.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/manual_correction/correction.csv" beforeDir="false" afterPath="$PROJECT_DIR$/lib/manual_correction/correction.csv" afterDir="false" />
-    </list>
+    <list default="true" id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,124 +52,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\workspace\SocialMovementSentiment\Controller" />
-      <recent name="C:\workspace\SocialMovementSentiment\Lexicon\EmoSenticNet" />
-      <recent name="C:\workspace\SocialMovementSentiment\Lexicon\DepecheMood" />
-      <recent name="C:\workspace\SocialMovementSentiment\Lexicon\NRC" />
-      <recent name="C:\workspace\SocialMovementSentiment\Model\NRC" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\workspace\SocialMovementSentiment\dataset\blm_minesota" />
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace\SocialMovementSentiment\Lexicon\EmoSenticNet" />
+      <recent name="C:\workspace\SocialMovementSentiment\Lexicon\DepecheMood" />
+      <recent name="C:\workspace\SocialMovementSentiment\Lexicon\NRC" />
+      <recent name="C:\workspace\SocialMovementSentiment\Model\NRC" />
+      <recent name="C:\workspace\SocialMovementSentiment\dataset" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.0_process (4)">
-    <configuration name="0_process (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SocialMovementSentiment" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/0_process.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="0_process (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SocialMovementSentiment" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/labeled/SamEval2019_Task3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/SamEval2019_Task3/0_process.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="0_process (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SocialMovementSentiment" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/labeled/ISEAR" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/ISEAR/0_process.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="0_process (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SocialMovementSentiment" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/labeled/smile_twitter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/smile_twitter/0_process.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="0_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SocialMovementSentiment" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/labeled/crownflower" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/crownflower/0_process.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.WST_0_MASTER">
     <configuration name="WST_0_MASTER" type="PythonConfigurationType" factoryName="Python">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -207,7 +85,7 @@
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2">
-        <option name="RunConfigurationTask" enabled="true" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="WST_DATA" run_configuration_type="PythonConfigurationType" />
         <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_UploadGit" />
         <option name="RunConfigurationTask" enabled="true" run_configuration_name="WST_2_SENTI" run_configuration_type="PythonConfigurationType" />
         <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_UploadGit" />
@@ -259,26 +137,12 @@
       <item itemvalue="Python.WST_2_SENTI" />
       <item itemvalue="Python.WST_0_MASTER" />
       <item itemvalue="Python.WST_1_DATA" />
-      <item itemvalue="Python.0_process" />
-      <item itemvalue="Python.0_process (1)" />
-      <item itemvalue="Python.0_process (2)" />
-      <item itemvalue="Python.0_process (3)" />
-      <item itemvalue="Python.0_process (4)" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.0_process (4)" />
-        <item itemvalue="Python.0_process" />
-        <item itemvalue="Python.0_process (3)" />
-        <item itemvalue="Python.0_process (2)" />
-        <item itemvalue="Python.0_process (1)" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="" />
+      <changelist id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="" />
       <created>1598364083573</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -326,22 +190,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601012252295" />
-    <state width="1899" height="358" key="GridCell.Tab.0.bottom" timestamp="1603643753492">
+    <state width="1396" height="414" key="GridCell.Tab.0.bottom" timestamp="1601014411956">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="358" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603643753492" />
-    <state width="1899" height="358" key="GridCell.Tab.0.center" timestamp="1603643753492">
+    <state width="1396" height="414" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601014411956" />
+    <state width="1396" height="414" key="GridCell.Tab.0.center" timestamp="1601014411956">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="358" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603643753492" />
-    <state width="1899" height="358" key="GridCell.Tab.0.left" timestamp="1603643753492">
+    <state width="1396" height="414" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601014411956" />
+    <state width="1396" height="414" key="GridCell.Tab.0.left" timestamp="1601014411955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="358" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603643753492" />
-    <state width="1899" height="358" key="GridCell.Tab.0.right" timestamp="1603643753492">
+    <state width="1396" height="414" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601014411955" />
+    <state width="1396" height="414" key="GridCell.Tab.0.right" timestamp="1601014411956">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="358" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603643753492" />
+    <state width="1396" height="414" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601014411956" />
     <state width="1690" height="340" key="GridCell.Tab.1.bottom" timestamp="1599712753040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -366,9 +230,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1174" y="254" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.0.1920.1040@0.0.1920.1040" timestamp="1601012265403" />
-    <state x="835" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1603638704114">
+    <state x="835" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1599369715258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="835" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603638704114" />
+    <state x="835" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599369715258" />
   </component>
 </project>
