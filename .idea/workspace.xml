@@ -20,7 +20,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/01-post-translate-dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/02-post-cleaning-dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/03-post-spelling-dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/03-post-spelling-dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/03-post-spelling-dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/crownflower/01-post-translate-dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/crownflower/02-post-cleaning-dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/crownflower/03-post-spelling-dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/smile_twitter/01-post-translate-dataset.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/DataCleaning.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/DataCleaning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/DataSpellingCorrection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/DataSpellingCorrection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/01-post-translate-ISEAR.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/02-post-cleaning-ISEAR.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/0_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/02-post-cleaning-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/02-post-cleaning-dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/0_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/02-post-cleaning-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/02-post-cleaning-dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/0_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/crownflower/01-post-translate-text_emotion.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/crownflower/02-post-cleaning-text_emotion.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/crownflower/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/crownflower/0_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/smile_twitter/02-post-cleaning-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/smile_twitter/02-post-cleaning-dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/smile_twitter/03-post-spelling-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/smile_twitter/03-post-spelling-dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/smile_twitter/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/smile_twitter/0_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/manual_correction/correction.csv" beforeDir="false" afterPath="$PROJECT_DIR$/lib/manual_correction/correction.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +91,7 @@
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.0_process (4)">
+  <component name="RunManager" selected="Python.0_process (5)">
     <configuration name="0_process (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,27 +105,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/0_process.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="0_process (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SocialMovementSentiment" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/labeled/SamEval2019_Task3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/SamEval2019_Task3/0_process.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,6 +147,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/smile_twitter/0_process.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="0_process (5)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SocialMovementSentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/0_process.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,17 +271,17 @@
       <item itemvalue="Python.WST_1_DATA" />
       <item itemvalue="Python.0_process" />
       <item itemvalue="Python.0_process (1)" />
-      <item itemvalue="Python.0_process (2)" />
       <item itemvalue="Python.0_process (3)" />
       <item itemvalue="Python.0_process (4)" />
+      <item itemvalue="Python.0_process (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.0_process (5)" />
+        <item itemvalue="Python.0_process (1)" />
+        <item itemvalue="Python.0_process (3)" />
         <item itemvalue="Python.0_process (4)" />
         <item itemvalue="Python.0_process" />
-        <item itemvalue="Python.0_process (3)" />
-        <item itemvalue="Python.0_process (2)" />
-        <item itemvalue="Python.0_process (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -311,22 +336,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601012252295" />
-    <state width="1899" height="346" key="GridCell.Tab.0.bottom" timestamp="1603644799614">
+    <state width="1899" height="338" key="GridCell.Tab.0.bottom" timestamp="1603696640062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="346" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603644799614" />
-    <state width="1899" height="346" key="GridCell.Tab.0.center" timestamp="1603644799614">
+    <state width="1899" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603696640062" />
+    <state width="1899" height="338" key="GridCell.Tab.0.center" timestamp="1603696640062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="346" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603644799614" />
-    <state width="1899" height="346" key="GridCell.Tab.0.left" timestamp="1603644799614">
+    <state width="1899" height="338" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603696640062" />
+    <state width="1899" height="338" key="GridCell.Tab.0.left" timestamp="1603696640062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="346" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603644799614" />
-    <state width="1899" height="346" key="GridCell.Tab.0.right" timestamp="1603644799614">
+    <state width="1899" height="338" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603696640062" />
+    <state width="1899" height="338" key="GridCell.Tab.0.right" timestamp="1603696640062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="346" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603644799614" />
+    <state width="1899" height="338" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603696640062" />
     <state width="1899" height="346" key="GridCell.Tab.1.bottom" timestamp="1603644799614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

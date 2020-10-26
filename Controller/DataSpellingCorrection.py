@@ -7,17 +7,18 @@ from Helper import StringHelper
 from Helper.AppConfigHelper import get_app_config_by_key
 
 dir = get_app_config_by_key("app_dir")
+corr_df = pd.read_csv(dir+'lib/manual_correction/correction.csv')
 
 
+'''
 def load_dictionary():
     efc_df = pd.read_csv(dir+"lib/efc_spelling/EFC/filteredSpellingErrors.csv", sep="\t")
     efc_df.drop(['ErrorFrequency'], axis=1, inplace=True)
     return efc_df
 
 
-lib_df = load_dictionary()
-corr_df = pd.read_csv(dir+'lib/manual_correction/correction.csv')
 
+lib_df = load_dictionary()
 
 # SPELLING CORRECTION
 def efc_spelling_correction(df):
@@ -34,14 +35,14 @@ def efc_spelling_correction(df):
         for error in errors:
             error_str = StringHelper.trim_word(error)
             df["tweet_text"] = df["tweet_text"].str.replace(" {} ".format(error_str), " {} ".format(correction_str))
+            #df["tweet_text"] = df["tweet_text"].str.replace(error_str, correction_str)
 
     return df
-
+'''
 
 # SPELLING CORRECTION
 def spelling_correction(df):
     for index, row in corr_df.iterrows():
-
         df["tweet_text"] = df["tweet_text"].str.replace(" {} ".format(row["from_text"]), " {} ".format(row["to_text"]))
     return df
 
@@ -51,7 +52,7 @@ def remove_extra_whitespace_char(sentence):
     sentence = sentence.replace("    ", " ")
     sentence = sentence.replace("   ", " ")
     sentence = sentence.replace("  ", " ")
-    return sentence
+    return sentence.strip()
 
 
 def remove_extra_whitespace_df(df):
