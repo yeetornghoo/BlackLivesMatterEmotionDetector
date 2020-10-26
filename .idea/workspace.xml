@@ -19,7 +19,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="" />
+    <list default="true" id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lexicon/DepecheMood/DepecheMoodController.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lexicon/DepecheMood/DepecheMoodController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lexicon/DepecheMood/DepecheMoodModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lexicon/DepecheMood/DepecheMoodModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lexicon/EmoSenticNet/EmoSenticNetController.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lexicon/EmoSenticNet/EmoSenticNetController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lexicon/NRC/NrcController.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lexicon/NRC/NrcController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/0_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/1_label_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/1_label_sentiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/0_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/1_label_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/1_label_sentiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/0_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/1_label_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/1_label_sentiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/crownflower/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/crownflower/0_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/crownflower/1_label_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/crownflower/1_label_sentiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/smile_twitter/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/smile_twitter/0_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/smile_twitter/1_label_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/smile_twitter/1_label_sentiment.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +80,7 @@
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.0_process (5)">
+  <component name="RunManager" selected="Python.1_label_sentiment">
     <configuration name="0_process (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,7 +165,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="0_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1_label_sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -161,7 +177,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/crownflower/0_process.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/crownflower/1_label_sentiment.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -242,19 +258,19 @@
       <item itemvalue="Python.WST_2_SENTI" />
       <item itemvalue="Python.WST_0_MASTER" />
       <item itemvalue="Python.WST_1_DATA" />
-      <item itemvalue="Python.0_process" />
       <item itemvalue="Python.0_process (1)" />
       <item itemvalue="Python.0_process (3)" />
       <item itemvalue="Python.0_process (4)" />
       <item itemvalue="Python.0_process (5)" />
+      <item itemvalue="Python.1_label_sentiment" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1_label_sentiment" />
         <item itemvalue="Python.0_process (5)" />
         <item itemvalue="Python.0_process (1)" />
         <item itemvalue="Python.0_process (3)" />
         <item itemvalue="Python.0_process (4)" />
-        <item itemvalue="Python.0_process" />
       </list>
     </recent_temporary>
   </component>
@@ -293,10 +309,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="750" y="153" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1598530803895" />
-    <state x="733" y="0" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601012268638">
+    <state x="733" y="0" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603698933394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="733" y="0" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601012268638" />
+    <state x="733" y="0" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603698933394" />
     <state x="1048" y="349" key="#com.intellij.tools.ToolEditorDialog" timestamp="1601012255699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

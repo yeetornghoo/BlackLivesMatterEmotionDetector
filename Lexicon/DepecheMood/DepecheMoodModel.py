@@ -52,36 +52,14 @@ def get_top_scores_moods(model, is_standard):
 def set_model(afraid, afraid_score, amused, amused_score,
               angry, angry_score, annoyed, annoyed_score,
               dontcare, dontcare_score, happy, happy_score,
-              inspired, inspired_score, sad, sad_score, is_standard):
+              inspired, inspired_score, sad, sad_score):
 
-    if not is_standard:
+    model_dict = {
+        'afraid': afraid, 'afraid_score': afraid_score, 'amused': amused, 'amused_score': amused_score,
+        'angry': angry, 'angry_score': angry_score, 'annoyed': annoyed, 'annoyed_score': annoyed_score,
+        'dontcare': dontcare, 'dontcare_score': dontcare_score, 'happy': happy, 'happy_score': happy_score,
+        'inspired': inspired, 'inspired_score': inspired_score, 'sad': sad, 'sad_score': sad_score
+    }
 
-        model_dict = {
-            'afraid': afraid, 'afraid_score': afraid_score, 'amused': amused, 'amused_score': amused_score,
-            'angry': angry, 'angry_score': angry_score, 'annoyed': annoyed, 'annoyed_score': annoyed_score,
-            'dontcare': dontcare, 'dontcare_score': dontcare_score, 'happy': happy, 'happy_score': happy_score,
-            'inspired': inspired, 'inspired_score': inspired_score, 'sad': sad, 'sad_score': sad_score
-        }
-
-        model = pd.Series(model_dict, index=mood_score_model)
-
-    else:
-
-        std_anger = angry
-        std_anger_score = angry_score
-        std_disgust = annoyed
-        std_disgust_score = annoyed_score
-        std_fear = afraid
-        std_fear_score = afraid_score
-        std_joy = happy + amused
-        std_joy_score = happy_score + amused_score
-        std_sadness = sad
-        std_sadness_score = sad_score
-        std_surprise = inspired
-        std_surprise_score = inspired_score
-
-        model = StandardModel.set_standard_model(std_anger, std_anger_score, std_disgust, std_disgust_score,
-                                                 std_fear, std_fear_score, std_joy, std_joy_score,
-                                                 std_sadness, std_sadness_score, std_surprise, std_surprise_score)
-
+    model = pd.Series(model_dict, index=mood_score_model)
     return model

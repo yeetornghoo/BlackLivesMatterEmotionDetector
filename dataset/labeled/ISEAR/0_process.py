@@ -1,7 +1,6 @@
 import pandas as pd
 from Controller import DataCleaning, DataNLP, DataAssess, DataTranslation, FileController, DataSpellingCorrection
 
-'''
 file_name = "ISEAR.csv"
 
 # LOAD DATA FROM DATASET
@@ -15,7 +14,6 @@ DataAssess.run(df)
 df = DataTranslation.run(df, "en")
 FileController.save_df_to_csv("01-post-translate-dataset.csv", df)
 
-'''
 # DATA CLEANING
 df = pd.read_csv("01-post-translate-dataset.csv", sep=",")
 df = DataCleaning.run(df)
@@ -26,9 +24,3 @@ df = pd.read_csv("02-post-cleaning-dataset.csv", sep=",")
 df = DataSpellingCorrection.run(df)
 df.drop(['text'], axis=1, inplace=True)
 FileController.save_df_to_csv("03-post-spelling-dataset.csv", df)
-
-'''
-# NLP TOKEN
-df = DataNLP.run(df)
-FileController.save_df_to_csv("03-post-nlp-"+file_name, df)
-'''
