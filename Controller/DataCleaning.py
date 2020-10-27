@@ -3,9 +3,20 @@ import emoji
 from Controller import LogController
 
 
+def convert_single_line_str(ste):
+    return ste.replace('\n', '')
+
+
+def convert_single_line_df(df):
+    LogController.log("Replace extra white space From The Sentences")
+    df['tweet_text'] = df['tweet_text'].apply(lambda x: convert_single_line_str(str(x)))
+    return df
+
+
 def run(df):
     LogController.log_h1("START DATA CLEANING")
 
+    df = convert_single_line_df(df)
     df = replace_special_char_df(df)
     df = remove_url_df(df)
     df = remove_atusername_df(df)
