@@ -1,0 +1,738 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20193.19.1017.1259                               -->
+<workbook source-build='2019.3.1 (20193.19.1017.1259)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='03-post-spelling-dataset' inline='true' name='federated.15yim8u0orp62r15xjpqs1gyxirq' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='05-post-sentiment-dataset' name='textscan.1c2k1co0wxqrby179qa1o0coijcp'>
+            <connection class='textscan' directory='C:/workspace/SocialMovementSentiment/dataset/labeled/ISEAR' filename='05-post-sentiment-dataset.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1c2k1co0wxqrby179qa1o0coijcp' name='05-post-sentiment-dataset.csv' table='[05-post-sentiment-dataset#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_MY' separator=','>
+            <column datatype='string' name='ori_sentiment' ordinal='0' />
+            <column datatype='string' name='tweet_text' ordinal='1' />
+            <column datatype='string' name='sentiment' ordinal='2' />
+            <column datatype='string' name='final_tweet_text' ordinal='3' />
+            <column datatype='string' name='nrc_sentiment' ordinal='4' />
+            <column datatype='real' name='nrc_sentiment_count' ordinal='5' />
+            <column datatype='real' name='nrc_sentiment_score' ordinal='6' />
+            <column datatype='string' name='dpm_sentiment' ordinal='7' />
+            <column datatype='real' name='dpm_sentiment_count' ordinal='8' />
+            <column datatype='real' name='dpm_sentiment_score' ordinal='9' />
+            <column datatype='string' name='esn_sentiment' ordinal='10' />
+            <column datatype='real' name='esn_sentiment_count' ordinal='11' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[05-post-sentiment-dataset.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;RM&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_MY&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ori_sentiment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ori_sentiment]</local-name>
+            <parent-name>[05-post-sentiment-dataset.csv]</parent-name>
+            <remote-alias>ori_sentiment</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tweet_text</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tweet_text]</local-name>
+            <parent-name>[05-post-sentiment-dataset.csv]</parent-name>
+            <remote-alias>tweet_text</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sentiment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sentiment]</local-name>
+            <parent-name>[05-post-sentiment-dataset.csv]</parent-name>
+            <remote-alias>sentiment</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>final_tweet_text</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[final_tweet_text]</local-name>
+            <parent-name>[05-post-sentiment-dataset.csv]</parent-name>
+            <remote-alias>final_tweet_text</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nrc_sentiment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[nrc_sentiment]</local-name>
+            <parent-name>[05-post-sentiment-dataset.csv]</parent-name>
+            <remote-alias>nrc_sentiment</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nrc_sentiment_count</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[nrc_sentiment_count]</local-name>
+            <parent-name>[05-post-sentiment-dataset.csv]</parent-name>
+            <remote-alias>nrc_sentiment_count</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nrc_sentiment_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[nrc_sentiment_score]</local-name>
+            <parent-name>[05-post-sentiment-dataset.csv]</parent-name>
+            <remote-alias>nrc_sentiment_score</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dpm_sentiment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[dpm_sentiment]</local-name>
+            <parent-name>[05-post-sentiment-dataset.csv]</parent-name>
+            <remote-alias>dpm_sentiment</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dpm_sentiment_count</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[dpm_sentiment_count]</local-name>
+            <parent-name>[05-post-sentiment-dataset.csv]</parent-name>
+            <remote-alias>dpm_sentiment_count</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dpm_sentiment_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[dpm_sentiment_score]</local-name>
+            <parent-name>[05-post-sentiment-dataset.csv]</parent-name>
+            <remote-alias>dpm_sentiment_score</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>esn_sentiment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[esn_sentiment]</local-name>
+            <parent-name>[05-post-sentiment-dataset.csv]</parent-name>
+            <remote-alias>esn_sentiment</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>esn_sentiment_count</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[esn_sentiment_count]</local-name>
+            <parent-name>[05-post-sentiment-dataset.csv]</parent-name>
+            <remote-alias>esn_sentiment_count</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.511381' measure-ordering='alphabetic' measure-percentage='0.488619' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Malaysia&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='DPM'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='03-post-spelling-dataset' name='federated.15yim8u0orp62r15xjpqs1gyxirq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15yim8u0orp62r15xjpqs1gyxirq'>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column datatype='string' name='[dpm_sentiment]' role='dimension' type='nominal' />
+            <column-instance column='[dpm_sentiment]' derivation='None' name='[none:dpm_sentiment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[sentiment]' derivation='None' name='[none:sentiment:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[sentiment]' role='dimension' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <alphabetic-sort column='[federated.15yim8u0orp62r15xjpqs1gyxirq].[none:sentiment:nk]' direction='ASC' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' data-class='subtotal' scope='cols' value='#f28e2b' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='color' data-class='subtotal' scope='cols' value='#d3b348' />
+            <format attr='width' field='[federated.15yim8u0orp62r15xjpqs1gyxirq].[none:sentiment:nk]' value='136' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.15yim8u0orp62r15xjpqs1gyxirq].[sum:Number of Records:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='background-color' data-class='subtotal' scope='cols' value='#555555' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='16' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.15yim8u0orp62r15xjpqs1gyxirq].[sum:Number of Records:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.15yim8u0orp62r15xjpqs1gyxirq].[none:sentiment:nk]</rows>
+        <cols>[federated.15yim8u0orp62r15xjpqs1gyxirq].[none:dpm_sentiment:nk]</cols>
+      </table>
+      <simple-id uuid='{312A4BE9-EFDF-49BB-A9A5-833AE69A8B80}' />
+    </worksheet>
+    <worksheet name='DPMBoxPlot'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='03-post-spelling-dataset' name='federated.15yim8u0orp62r15xjpqs1gyxirq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15yim8u0orp62r15xjpqs1gyxirq'>
+            <column datatype='string' name='[dpm_sentiment]' role='dimension' type='nominal' />
+            <column datatype='real' name='[dpm_sentiment_score]' role='measure' type='quantitative' />
+            <column-instance column='[dpm_sentiment]' derivation='None' name='[none:dpm_sentiment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[dpm_sentiment_score]' derivation='None' name='[none:dpm_sentiment_score:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' data-class='subtotal' scope='cols' value='#f28e2b' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='color' data-class='subtotal' scope='cols' value='#d3b348' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='background-color' data-class='subtotal' scope='cols' value='#555555' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='16' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.15yim8u0orp62r15xjpqs1gyxirq].[none:dpm_sentiment:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.15yim8u0orp62r15xjpqs1gyxirq].[none:dpm_sentiment_score:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.15yim8u0orp62r15xjpqs1gyxirq].[none:dpm_sentiment_score:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.15yim8u0orp62r15xjpqs1gyxirq].[none:dpm_sentiment_score:qk]</rows>
+        <cols>[federated.15yim8u0orp62r15xjpqs1gyxirq].[none:dpm_sentiment:nk]</cols>
+      </table>
+      <simple-id uuid='{40EC7DB6-58D3-457C-AAB0-4BEEB02A841D}' />
+    </worksheet>
+    <worksheet name='ESN'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='03-post-spelling-dataset' name='federated.15yim8u0orp62r15xjpqs1gyxirq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15yim8u0orp62r15xjpqs1gyxirq'>
+            <column datatype='string' name='[esn_sentiment]' role='dimension' type='nominal' />
+            <column datatype='real' name='[esn_sentiment_count]' role='measure' type='quantitative' />
+            <column-instance column='[esn_sentiment]' derivation='None' name='[none:esn_sentiment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[sentiment]' derivation='None' name='[none:sentiment:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[sentiment]' role='dimension' type='nominal' />
+            <column-instance column='[esn_sentiment_count]' derivation='Sum' name='[sum:esn_sentiment_count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <alphabetic-sort column='[federated.15yim8u0orp62r15xjpqs1gyxirq].[none:sentiment:nk]' direction='ASC' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' data-class='subtotal' scope='cols' value='#f28e2b' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='color' data-class='subtotal' scope='cols' value='#d3b348' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='background-color' data-class='subtotal' scope='cols' value='#555555' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='16' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.15yim8u0orp62r15xjpqs1gyxirq].[sum:esn_sentiment_count:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.15yim8u0orp62r15xjpqs1gyxirq].[none:sentiment:nk]</rows>
+        <cols>[federated.15yim8u0orp62r15xjpqs1gyxirq].[none:esn_sentiment:nk]</cols>
+      </table>
+      <simple-id uuid='{AAF0E2F8-83F0-40CA-B3DA-93C156322263}' />
+    </worksheet>
+    <worksheet name='ESNBoxPlot'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='03-post-spelling-dataset' name='federated.15yim8u0orp62r15xjpqs1gyxirq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15yim8u0orp62r15xjpqs1gyxirq'>
+            <column datatype='string' name='[esn_sentiment]' role='dimension' type='nominal' />
+            <column datatype='real' name='[esn_sentiment_count]' role='measure' type='quantitative' />
+            <column-instance column='[esn_sentiment]' derivation='None' name='[none:esn_sentiment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[esn_sentiment_count]' derivation='None' name='[none:esn_sentiment_count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' data-class='subtotal' scope='cols' value='#f28e2b' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='color' data-class='subtotal' scope='cols' value='#d3b348' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='background-color' data-class='subtotal' scope='cols' value='#555555' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='16' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.15yim8u0orp62r15xjpqs1gyxirq].[none:esn_sentiment:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.15yim8u0orp62r15xjpqs1gyxirq].[none:esn_sentiment_count:qk]</rows>
+        <cols>[federated.15yim8u0orp62r15xjpqs1gyxirq].[none:esn_sentiment:nk]</cols>
+      </table>
+      <simple-id uuid='{BBF841DD-A321-4BF3-9298-85AE677925DB}' />
+    </worksheet>
+    <worksheet name='NRC'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='03-post-spelling-dataset' name='federated.15yim8u0orp62r15xjpqs1gyxirq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15yim8u0orp62r15xjpqs1gyxirq'>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[nrc_sentiment]' derivation='None' name='[none:nrc_sentiment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[sentiment]' derivation='None' name='[none:sentiment:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[nrc_sentiment]' role='dimension' type='nominal' />
+            <column datatype='string' name='[sentiment]' role='dimension' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <alphabetic-sort column='[federated.15yim8u0orp62r15xjpqs1gyxirq].[none:sentiment:nk]' direction='ASC' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.15yim8u0orp62r15xjpqs1gyxirq].[none:nrc_sentiment:nk]' value='79' />
+            <format attr='color' data-class='subtotal' scope='cols' value='#f28e2b' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='color' data-class='subtotal' scope='cols' value='#d3b348' />
+            <format attr='width' field='[federated.15yim8u0orp62r15xjpqs1gyxirq].[none:sentiment:nk]' value='136' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.15yim8u0orp62r15xjpqs1gyxirq].[sum:Number of Records:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='background-color' data-class='subtotal' scope='cols' value='#555555' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='16' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.15yim8u0orp62r15xjpqs1gyxirq].[sum:Number of Records:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.15yim8u0orp62r15xjpqs1gyxirq].[none:sentiment:nk]</rows>
+        <cols>[federated.15yim8u0orp62r15xjpqs1gyxirq].[none:nrc_sentiment:nk]</cols>
+      </table>
+      <simple-id uuid='{6D33E675-FF9E-4BF1-AB11-38031564C1E4}' />
+    </worksheet>
+    <worksheet name='NRCBoxPlot'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='03-post-spelling-dataset' name='federated.15yim8u0orp62r15xjpqs1gyxirq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15yim8u0orp62r15xjpqs1gyxirq'>
+            <column-instance column='[nrc_sentiment]' derivation='None' name='[none:nrc_sentiment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[nrc_sentiment_score]' derivation='None' name='[none:nrc_sentiment_score:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[nrc_sentiment]' role='dimension' type='nominal' />
+            <column datatype='real' name='[nrc_sentiment_score]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' data-class='subtotal' scope='cols' value='#f28e2b' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='color' data-class='subtotal' scope='cols' value='#d3b348' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='background-color' data-class='subtotal' scope='cols' value='#555555' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='16' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <reference-line axis-column='[federated.15yim8u0orp62r15xjpqs1gyxirq].[none:nrc_sentiment_score:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.15yim8u0orp62r15xjpqs1gyxirq].[none:nrc_sentiment_score:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.15yim8u0orp62r15xjpqs1gyxirq].[none:nrc_sentiment_score:qk]</rows>
+        <cols>[federated.15yim8u0orp62r15xjpqs1gyxirq].[none:nrc_sentiment:nk]</cols>
+      </table>
+      <simple-id uuid='{9D40AE29-C04E-41C8-8CBF-8029F952B157}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='NRC'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{2DD00AAC-1D81-4899-841B-F864B5B46744}' />
+    </window>
+    <window class='worksheet' name='NRCBoxPlot'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{A60A7CEE-2B9F-4408-9D58-3DCDCB99A149}' />
+    </window>
+    <window class='worksheet' name='DPM'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{03FBB914-526A-4400-88C6-343C3598B50C}' />
+    </window>
+    <window class='worksheet' name='DPMBoxPlot'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{782CBA90-300A-41C5-90F5-484D7786F11A}' />
+    </window>
+    <window class='worksheet' name='ESN'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{C337BCC5-ECCA-4A38-9789-C14A697DE0CE}' />
+    </window>
+    <window class='worksheet' maximized='true' name='ESNBoxPlot'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{21BAA36D-2118-4774-A8CB-44BA99B87C92}' />
+    </window>
+  </windows>
+</workbook>
