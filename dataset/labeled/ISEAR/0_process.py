@@ -19,13 +19,18 @@ FileController.save_df_to_csv("01-post-translate-dataset.csv", df)
 df = pd.read_csv("01-post-translate-dataset.csv", sep=",")
 df = DataCleaning.run(df)
 FileController.save_df_to_csv("02-post-cleaning-dataset.csv", df)
-'''
+
 
 # SPELLING
 df = pd.read_csv("02-post-cleaning-dataset.csv", sep=",")
 df = DataSpellingCorrection.run(df)
 df.drop(['text'], axis=1, inplace=True)
-
 df['sentiment'] = df['ori_sentiment']
-
 FileController.save_df_to_csv("03-post-spelling-dataset.csv", df)
+'''
+
+# FINAL DATASET
+df = pd.read_csv("03-post-spelling-dataset.csv", sep=",")
+df = df.loc[(df['sentiment'] != "guilt") & (df['sentiment'] != "guit") & (df['sentiment'] != "shame")]
+FileController.save_df_to_csv("train-dataset.csv", df)
+DataAssess.run(df)
