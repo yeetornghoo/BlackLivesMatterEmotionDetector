@@ -29,3 +29,5 @@ def run(df, dir_path, dataset_name):
     plt.close()
 
     LogController.log("chart {} is created".format(save_file_name))
+
+    print(df_tmp)

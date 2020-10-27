@@ -19,5 +19,5 @@ df.loc[df['ori_sentiment'] == 'guit', 'sentiment'] = 'guilt'
 
 # REVIEW ORIGINAL AND NRC
 #NrcReview.run(df, dir_path, "isear")
-#DepecheMoodReview.run(df, dir_path, "isear")
-EmoSenticNetReview.run(df, dir_path, "isear")
+DepecheMoodReview.run(df, dir_path, "isear")
+#EmoSenticNetReview.run(df, dir_path, "isear")
