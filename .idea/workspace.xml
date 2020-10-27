@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/dpm_labeled_boxplot.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/dpm_ori_labeled_comparison.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/isear_data_viz.twb" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/isear_data_viz.twb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/~isear_data_viz__16988.twbr" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/~isear_data_viz__16988.twbr" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
