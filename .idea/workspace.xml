@@ -19,21 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/bow_LinearSVC_confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/bow_MultinomialNB_confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/bow_SVN_confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/tdidf_LinearSVC_confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/tdidf_MultinomialNB_confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/tdidf_SVN_confusion_matrix.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/bow_linear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/bow_nm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/bow_svn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/tdidf_linear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/tdidf_nm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/tdidf_svn.png" beforeDir="false" />
-    </list>
+    <list default="true" id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
