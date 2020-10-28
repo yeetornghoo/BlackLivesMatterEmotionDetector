@@ -19,13 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="" />
-=======
     <list default="true" id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
->>>>>>> f0d4b3738fc18829b5d2e8fef9dc97a63c35e77b
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,21 +54,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\workspace\SocialMovementSentiment\dataset\blm_minesota" />
-      <recent name="C:\workspace\SocialMovementSentiment\Lexicon" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace\SocialMovementSentiment\Controller" />
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon\EmoSenticNet" />
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon\DepecheMood" />
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon\NRC" />
       <recent name="C:\workspace\SocialMovementSentiment\Model\NRC" />
-      <recent name="C:\workspace\SocialMovementSentiment\dataset" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\SocialMovementSentiment\dataset\blm_minesota" />
+      <recent name="C:\workspace\SocialMovementSentiment\Lexicon" />
     </key>
   </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="Python.WST_0_MASTER">
-=======
   <component name="RunManager" selected="Python.0_process">
     <configuration name="0_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
@@ -179,7 +172,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
->>>>>>> f0d4b3738fc18829b5d2e8fef9dc97a63c35e77b
     <configuration name="WST_0_MASTER" type="PythonConfigurationType" factoryName="Python">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -200,7 +192,7 @@
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2">
-        <option name="RunConfigurationTask" enabled="true" run_configuration_name="WST_DATA" run_configuration_type="PythonConfigurationType" />
+        <option name="RunConfigurationTask" enabled="true" />
         <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_UploadGit" />
         <option name="RunConfigurationTask" enabled="true" run_configuration_name="WST_2_SENTI" run_configuration_type="PythonConfigurationType" />
         <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_UploadGit" />
@@ -252,9 +244,6 @@
       <item itemvalue="Python.WST_2_SENTI" />
       <item itemvalue="Python.WST_0_MASTER" />
       <item itemvalue="Python.WST_1_DATA" />
-<<<<<<< HEAD
-    </list>
-=======
       <item itemvalue="Python.1_label_sentiment" />
       <item itemvalue="Python.1_label_sentiment (1)" />
       <item itemvalue="Python.1_label_sentiment (3)" />
@@ -270,12 +259,11 @@
         <item itemvalue="Python.1_label_sentiment (3)" />
       </list>
     </recent_temporary>
->>>>>>> f0d4b3738fc18829b5d2e8fef9dc97a63c35e77b
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="" />
+      <changelist id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="" />
       <created>1598364083573</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -323,47 +311,23 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601012252295" />
-<<<<<<< HEAD
-    <state width="1173" height="335" key="GridCell.Tab.0.bottom" timestamp="1603805018685">
-=======
-<<<<<<< HEAD
-    <state width="1396" height="414" key="GridCell.Tab.0.bottom" timestamp="1601014411956">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1396" height="414" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601014411956" />
-    <state width="1396" height="414" key="GridCell.Tab.0.center" timestamp="1601014411956">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1396" height="414" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601014411956" />
-    <state width="1396" height="414" key="GridCell.Tab.0.left" timestamp="1601014411955">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1396" height="414" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601014411955" />
-    <state width="1396" height="414" key="GridCell.Tab.0.right" timestamp="1601014411956">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1396" height="414" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601014411956" />
-    <state width="1690" height="340" key="GridCell.Tab.1.bottom" timestamp="1599712753040">
-=======
     <state width="1173" height="335" key="GridCell.Tab.0.bottom" timestamp="1603774433412">
->>>>>>> 9d3fe715a93dd97236b0f52b19e94aa677c0a58a
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1173" height="335" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603805018685" />
-    <state width="1173" height="335" key="GridCell.Tab.0.center" timestamp="1603805018684">
+    <state width="1173" height="335" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603774433412" />
+    <state width="1173" height="335" key="GridCell.Tab.0.center" timestamp="1603774433412">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1173" height="335" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603805018684" />
-    <state width="1173" height="335" key="GridCell.Tab.0.left" timestamp="1603805018684">
+    <state width="1173" height="335" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603774433412" />
+    <state width="1173" height="335" key="GridCell.Tab.0.left" timestamp="1603774433412">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1173" height="335" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603805018684" />
-    <state width="1173" height="335" key="GridCell.Tab.0.right" timestamp="1603805018685">
+    <state width="1173" height="335" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603774433412" />
+    <state width="1173" height="335" key="GridCell.Tab.0.right" timestamp="1603774433412">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1173" height="335" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603805018685" />
+    <state width="1173" height="335" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603774433412" />
     <state width="1899" height="346" key="GridCell.Tab.1.bottom" timestamp="1603644799614">
->>>>>>> f0d4b3738fc18829b5d2e8fef9dc97a63c35e77b
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="346" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603644799614" />
@@ -387,9 +351,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1174" y="254" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.0.1920.1040@0.0.1920.1040" timestamp="1601012265403" />
-    <state x="835" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1599369715258">
+    <state x="835" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1603638704114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="835" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599369715258" />
+    <state x="835" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603638704114" />
   </component>
 </project>
