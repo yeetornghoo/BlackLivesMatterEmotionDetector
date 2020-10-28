@@ -90,7 +90,7 @@
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1_label_sentiment (1)">
+  <component name="RunManager" selected="Python.3_generate_baseline (2)">
     <configuration name="0_process (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,27 +133,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1_label_sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SocialMovementSentiment" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/labeled/crownflower" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/crownflower/1_label_sentiment.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="3_generate_baseline (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,6 +146,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/ISEAR/3_generate_baseline.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3_generate_baseline (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SocialMovementSentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/3_generate_baseline.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -268,19 +268,19 @@
       <item itemvalue="Python.WST_2_SENTI" />
       <item itemvalue="Python.WST_0_MASTER" />
       <item itemvalue="Python.WST_1_DATA" />
-      <item itemvalue="Python.1_label_sentiment" />
       <item itemvalue="Python.0_process (1)" />
       <item itemvalue="Python.3_generate_baseline" />
       <item itemvalue="Python.3_generate_baseline (1)" />
       <item itemvalue="Python.1_label_sentiment (1)" />
+      <item itemvalue="Python.3_generate_baseline (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.3_generate_baseline (2)" />
         <item itemvalue="Python.1_label_sentiment (1)" />
         <item itemvalue="Python.3_generate_baseline (1)" />
         <item itemvalue="Python.3_generate_baseline" />
         <item itemvalue="Python.0_process (1)" />
-        <item itemvalue="Python.1_label_sentiment" />
       </list>
     </recent_temporary>
   </component>
