@@ -20,7 +20,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/4_generate_training_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/anger_bell_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/anger_boxplot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/anger_dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/anticipation_bell_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/anticipation_boxplot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/anticipation_dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/disgust_bell_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/disgust_boxplot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/disgust_dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/fear_bell_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/fear_boxplot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/fear_dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/joy_bell_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/joy_boxplot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/joy_dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/sadness_bell_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/sadness_boxplot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/sadness_dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/surprise_bell_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/surprise_boxplot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/surprise_dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/trust_bell_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/trust_boxplot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/trust_dataset.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/04-post-sentiment-True-dataset.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +92,7 @@
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1_label_sentiment (1)">
+  <component name="RunManager" selected="Python.4_generate_training_dataset">
     <configuration name="1_label_sentiment (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,7 +177,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3_generate_baseline" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="4_generate_training_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,11 +185,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/labeled/crownflower" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/blm_minesota" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/crownflower/3_generate_baseline.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/blm_minesota/4_generate_training_dataset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -244,19 +270,19 @@
       <item itemvalue="Python.WST_2_SENTI" />
       <item itemvalue="Python.WST_0_MASTER" />
       <item itemvalue="Python.WST_1_DATA" />
-      <item itemvalue="Python.3_generate_baseline" />
       <item itemvalue="Python.3_generate_baseline (1)" />
       <item itemvalue="Python.1_label_sentiment (1)" />
       <item itemvalue="Python.3_generate_baseline (2)" />
       <item itemvalue="Python.3_generate_baseline (3)" />
+      <item itemvalue="Python.4_generate_training_dataset" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.4_generate_training_dataset" />
         <item itemvalue="Python.1_label_sentiment (1)" />
         <item itemvalue="Python.3_generate_baseline (3)" />
         <item itemvalue="Python.3_generate_baseline (2)" />
         <item itemvalue="Python.3_generate_baseline (1)" />
-        <item itemvalue="Python.3_generate_baseline" />
       </list>
     </recent_temporary>
   </component>
