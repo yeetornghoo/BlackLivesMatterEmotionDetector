@@ -20,33 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/4_generate_training_dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/anger_bell_curve.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/anger_boxplot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/anger_dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/anticipation_bell_curve.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/anticipation_boxplot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/anticipation_dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/disgust_bell_curve.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/disgust_boxplot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/disgust_dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/fear_bell_curve.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/fear_boxplot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/fear_dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/joy_bell_curve.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/joy_boxplot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/joy_dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/sadness_bell_curve.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/sadness_boxplot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/sadness_dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/surprise_bell_curve.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/surprise_boxplot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/surprise_dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/trust_bell_curve.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/trust_boxplot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/trust_dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/02-post-cleaning-dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/03-post-spelling-dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/1_label_sentiment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/test-1-post-nlp-dataset.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/04-post-sentiment-True-dataset.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +70,7 @@
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.4_generate_training_dataset">
+  <component name="RunManager" selected="Python.1_label_sentiment">
     <configuration name="1_label_sentiment (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3_generate_baseline (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1_label_sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,11 +100,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/labeled/ISEAR" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/ISEAR/3_generate_baseline.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/1_label_sentiment.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,19 +248,19 @@
       <item itemvalue="Python.WST_2_SENTI" />
       <item itemvalue="Python.WST_0_MASTER" />
       <item itemvalue="Python.WST_1_DATA" />
-      <item itemvalue="Python.3_generate_baseline (1)" />
       <item itemvalue="Python.1_label_sentiment (1)" />
       <item itemvalue="Python.3_generate_baseline (2)" />
       <item itemvalue="Python.3_generate_baseline (3)" />
       <item itemvalue="Python.4_generate_training_dataset" />
+      <item itemvalue="Python.1_label_sentiment" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1_label_sentiment" />
         <item itemvalue="Python.4_generate_training_dataset" />
         <item itemvalue="Python.1_label_sentiment (1)" />
         <item itemvalue="Python.3_generate_baseline (3)" />
         <item itemvalue="Python.3_generate_baseline (2)" />
-        <item itemvalue="Python.3_generate_baseline (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -337,22 +315,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601012252295" />
-    <state width="1069" height="387" key="GridCell.Tab.0.bottom" timestamp="1604028053970">
+    <state width="1899" height="349" key="GridCell.Tab.0.bottom" timestamp="1604069290922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1069" height="387" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604028053970" />
-    <state width="1069" height="387" key="GridCell.Tab.0.center" timestamp="1604028053970">
+    <state width="1899" height="349" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604069290922" />
+    <state width="1899" height="349" key="GridCell.Tab.0.center" timestamp="1604069290922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1069" height="387" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604028053970" />
-    <state width="1069" height="387" key="GridCell.Tab.0.left" timestamp="1604028053970">
+    <state width="1899" height="349" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604069290922" />
+    <state width="1899" height="349" key="GridCell.Tab.0.left" timestamp="1604069290922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1069" height="387" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604028053970" />
-    <state width="1069" height="387" key="GridCell.Tab.0.right" timestamp="1604028053970">
+    <state width="1899" height="349" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604069290922" />
+    <state width="1899" height="349" key="GridCell.Tab.0.right" timestamp="1604069290922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1069" height="387" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604028053970" />
+    <state width="1899" height="349" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604069290922" />
     <state width="1899" height="346" key="GridCell.Tab.1.bottom" timestamp="1603644799614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
