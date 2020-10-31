@@ -1,5 +1,7 @@
 import pandas as pd
 
+from Controller import DataAssess, DataTranslation, FileController, DataCleaning, DataSpellingCorrection
+
 
 def replace_char(str_obj, fr_str, to_str):
     str_obj = str_obj.replace(fr_str, to_str)
@@ -12,7 +14,6 @@ def extract_class_mood(str_obj):
 
 
 def process_class(df, class_mood):
-    df['sentiment'] = df['tweet_text'].apply(lambda x: extract_class_mood(str(x)))
 
     #REMOVE HTML TAG
     open_tag = "<{}>".format(class_mood)
@@ -30,6 +31,8 @@ df['sentiment'] = "NA"
 df['tweet_text'] = df['tweet_text'].apply(lambda x: replace_char(str(x), "<cause>", ""))
 df['tweet_text'] = df['tweet_text'].apply(lambda x: replace_char(str(x), "<\cause>", ""))
 
+# EXTRACT MOOD CLASS
+df['sentiment'] = df['tweet_text'].apply(lambda x: extract_class_mood(str(x)))
 
 df = process_class(df, "happy")
 df = process_class(df, "sad")
@@ -38,22 +41,7 @@ df = process_class(df, "anger")
 df = process_class(df, "fear")
 df = process_class(df, "shame")
 
-
-
-print(df.head)
-
-
-#DataAssess.run(df)
-
-
-'''
-# DROP USELESS ATTRIBUTES
-df['tweet_text'] = df['Tweet']
-df.drop(['ID'], axis=1, inplace=True)
-df.rename(columns={"Tweet": "tweet", "Affect Dimension": "affect_dimension",
-                   "Intensity Score": "intensity_score", "sentiment": "ori_sentiment"}, inplace=True)
 DataAssess.run(df)
-
 df = DataTranslation.run(df, "en")
 FileController.save_df_to_csv("01-post-translate-dataset.csv", df)
 
@@ -62,11 +50,7 @@ df = pd.read_csv("01-post-translate-dataset.csv", sep=",")
 df = DataCleaning.run(df)
 FileController.save_df_to_csv("02-post-cleaning-dataset.csv", df)
 
-
 # SPELLING
 df = pd.read_csv("02-post-cleaning-dataset.csv", sep=",")
 df = DataSpellingCorrection.run(df)
-df.drop(['tweet', 'affect_dimension', 'intensity_score'], axis=1, inplace=True)
-df['sentiment'] = df['ori_sentiment']
 FileController.save_df_to_csv("03-post-spelling-dataset.csv", df)
-'''
