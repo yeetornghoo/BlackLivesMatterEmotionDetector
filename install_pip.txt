@@ -3,3 +3,6 @@ pip install emoji
 pip install googletrans 
 pip install pytorch 
 pip install stanza
+pip3 install lxml
+pip3 install html5lib
+pip3 install BeautifulSoup4

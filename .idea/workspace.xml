@@ -20,11 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/02-post-cleaning-dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/03-post-spelling-dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/1_label_sentiment.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/test-1-post-nlp-dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/0_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/1_label_sentiment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/3_generate_baseline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/Dataset/Emotion_Cause.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/Dataset/No Cause.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/Dataset/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/smile_twitter/test-1-post-nlp-dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/smile_twitter/tmp/NRC-processed_dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/smile_twitter/tmp/dpm-processed_dataset.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install_pip.txt" beforeDir="false" afterPath="$PROJECT_DIR$/install_pip.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +78,28 @@
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1_label_sentiment">
+  <component name="RunManager" selected="Python.0_process">
+    <configuration name="0_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SocialMovementSentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/labeled/emotioncause" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/emotioncause/0_process.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="1_label_sentiment (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,6 +121,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="1_label_sentiment (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SocialMovementSentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/labeled/smile_twitter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/smile_twitter/1_label_sentiment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="1_label_sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,48 +155,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/blm_minesota/nrc_dataset/1_label_sentiment.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="3_generate_baseline (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SocialMovementSentiment" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/3_generate_baseline.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="3_generate_baseline (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SocialMovementSentiment" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/3_generate_baseline.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -249,18 +257,18 @@
       <item itemvalue="Python.WST_0_MASTER" />
       <item itemvalue="Python.WST_1_DATA" />
       <item itemvalue="Python.1_label_sentiment (1)" />
-      <item itemvalue="Python.3_generate_baseline (2)" />
-      <item itemvalue="Python.3_generate_baseline (3)" />
       <item itemvalue="Python.4_generate_training_dataset" />
       <item itemvalue="Python.1_label_sentiment" />
+      <item itemvalue="Python.1_label_sentiment (2)" />
+      <item itemvalue="Python.0_process" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.0_process" />
+        <item itemvalue="Python.1_label_sentiment (2)" />
         <item itemvalue="Python.1_label_sentiment" />
         <item itemvalue="Python.4_generate_training_dataset" />
         <item itemvalue="Python.1_label_sentiment (1)" />
-        <item itemvalue="Python.3_generate_baseline (3)" />
-        <item itemvalue="Python.3_generate_baseline (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -315,22 +323,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601012252295" />
-    <state width="1899" height="349" key="GridCell.Tab.0.bottom" timestamp="1604069290922">
+    <state width="1492" height="316" key="GridCell.Tab.0.bottom" timestamp="1604118526375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="349" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604069290922" />
-    <state width="1899" height="349" key="GridCell.Tab.0.center" timestamp="1604069290922">
+    <state width="1492" height="316" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604118526375" />
+    <state width="1492" height="316" key="GridCell.Tab.0.center" timestamp="1604118526375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="349" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604069290922" />
-    <state width="1899" height="349" key="GridCell.Tab.0.left" timestamp="1604069290922">
+    <state width="1492" height="316" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604118526375" />
+    <state width="1492" height="316" key="GridCell.Tab.0.left" timestamp="1604118526375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="349" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604069290922" />
-    <state width="1899" height="349" key="GridCell.Tab.0.right" timestamp="1604069290922">
+    <state width="1492" height="316" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604118526375" />
+    <state width="1492" height="316" key="GridCell.Tab.0.right" timestamp="1604118526375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="349" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604069290922" />
+    <state width="1492" height="316" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604118526375" />
     <state width="1899" height="346" key="GridCell.Tab.1.bottom" timestamp="1603644799614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
