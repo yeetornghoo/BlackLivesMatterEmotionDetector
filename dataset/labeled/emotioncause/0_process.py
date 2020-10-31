@@ -16,11 +16,14 @@ def process_happy_tweet(df):
     df['tweet_text'] = df['tweet_text'].apply(lambda x: replace_char(str(x), "<happy>", ""))
     return df
 
+
 # LOAD DATA FROM DATASET
 df = pd.read_table("Dataset/Emotion_Cause.txt", names=["tweet_text"])
 df['tweet_text'] = df['tweet_text'].apply(lambda x: remove_cause(str(x)))
 
 df = process_happy_tweet(df)
+
+
 
 print(df['tweet_text'])
 
