@@ -6,26 +6,41 @@ def replace_char(str_obj, fr_str, to_str):
     return str_obj
 
 
-def remove_cause(str_obj):
-    str_obj = replace_char(str_obj, "<cause>", "")
-    str_obj = replace_char(str_obj, "<\cause>", "")
-    return str_obj
+def extract_class_mood(str_obj):
+    char_end_index = str_obj.index(">")
+    return str_obj[1:char_end_index]
 
 
-def process_happy_tweet(df):
-    df['tweet_text'] = df['tweet_text'].apply(lambda x: replace_char(str(x), "<happy>", ""))
+def process_class(df, class_mood):
+    df['sentiment'] = df['tweet_text'].apply(lambda x: extract_class_mood(str(x)))
+
+    #REMOVE HTML TAG
+    open_tag = "<{}>".format(class_mood)
+    close_tag = "<\{}>".format(class_mood)
+    df['tweet_text'] = df['tweet_text'].apply(lambda x: replace_char(str(x), open_tag, ""))
+    df['tweet_text'] = df['tweet_text'].apply(lambda x: replace_char(str(x), close_tag, ""))
     return df
 
 
 # LOAD DATA FROM DATASET
 df = pd.read_table("Dataset/Emotion_Cause.txt", names=["tweet_text"])
-df['tweet_text'] = df['tweet_text'].apply(lambda x: remove_cause(str(x)))
+df['sentiment'] = "NA"
 
-df = process_happy_tweet(df)
+# REMOVE CAUSE
+df['tweet_text'] = df['tweet_text'].apply(lambda x: replace_char(str(x), "<cause>", ""))
+df['tweet_text'] = df['tweet_text'].apply(lambda x: replace_char(str(x), "<\cause>", ""))
+
+
+df = process_class(df, "happy")
+df = process_class(df, "sad")
+df = process_class(df, "disgust")
+df = process_class(df, "anger")
+df = process_class(df, "fear")
+df = process_class(df, "shame")
 
 
 
-print(df['tweet_text'])
+print(df.head)
 
 
 #DataAssess.run(df)
