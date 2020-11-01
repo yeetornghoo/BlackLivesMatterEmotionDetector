@@ -29,7 +29,7 @@ def generate_word_assessment_by_upos_type(df, upos_type):
 
         if len(wordList) > 0:
 
-            fig, (ax1, ax2) = plt.subplots(1, 2)
+            fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 8))
             fig.suptitle("'{}' Word Visualization for '{}'".format(upos_type, mood))
 
             # GENERATE WORD FREQUENCY
