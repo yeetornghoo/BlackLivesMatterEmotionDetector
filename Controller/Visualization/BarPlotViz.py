@@ -15,3 +15,4 @@ def generate_barplot(df, title, xLabel, yLabel, img_path):
         ax.annotate(format(p.get_height(), '.1f'), (p.get_x() + p.get_width() / 2., p.get_height()),
                     ha='center', va='center', xytext=(0, 9), textcoords='offset points')
     plt.savefig(img_path)
+    plt.close()

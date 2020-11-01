@@ -1,6 +1,8 @@
 import pandas as pd
-from Controller import DataCleaning, DataAssess, DataTranslation, FileController, DataSpellingCorrection, LogController
+from Controller import DataCleaning, DataAssess, DataTranslation
+from Controller import FileController, DataSpellingCorrection, LogController, BaselineVizController
 
+'''
 # REFACTOR MOOD
 def change_mood_name(ori_mood):
 
@@ -35,7 +37,10 @@ df = df.loc[(df['sentiment'] != "boredom")
 
 df = DataCleaning.run(df)
 FileController.save_df_to_csv("baseline-dataset.csv", df)
+DataAssess.run(df)
 
-DataAssess.viz(df)
+'''
+df = pd.read_csv("baseline-dataset.csv", sep=",")
+BaselineVizController.run(df)
 
 LogController.log("Execution of 'script_2_generate_baseline.py' is completed.")

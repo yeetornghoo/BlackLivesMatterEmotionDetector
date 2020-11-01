@@ -7,6 +7,25 @@ allowed_upos = ['PUNCT', 'SYM']
 nlp = stanza.Pipeline(lang='en', processors='tokenize,pos,lemma', tokenize_no_ssplit=True)
 
 
+# https://universaldependencies.org/u/pos/
+# ADJ: adjective
+# ADV: adverb
+def get_sentence_by_pos(sentence, upos_type):
+
+    words = ""
+
+    if not StringHelper.isEmpty(sentence):
+        doc = nlp(sentence)
+
+        for i, sentence in enumerate(doc.sentences):
+            for word in sentence.words:
+                if word.upos == upos_type:
+                    # words.append(word.text.lower())
+                    words = words + "{} ".format(word.text.lower())
+
+    return words
+
+
 def process_sentence(sentence):
 
     if StringHelper.isEmpty(sentence):
