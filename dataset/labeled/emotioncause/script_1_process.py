@@ -24,7 +24,7 @@ def process_class(df, class_mood):
 
 
 # LOAD DATA FROM DATASET
-df = pd.read_table("Dataset/Emotion_Cause.txt", names=["tweet_text"])
+df = pd.read_table("dataset/Emotion_Cause.txt", names=["tweet_text"])
 df['sentiment'] = "NA"
 
 # REMOVE CAUSE

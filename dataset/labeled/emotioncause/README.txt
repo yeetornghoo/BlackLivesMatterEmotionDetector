@@ -1,1 +1,0 @@
-http://www.site.uottawa.ca/~diana/resources/emotion_stimulus_data/

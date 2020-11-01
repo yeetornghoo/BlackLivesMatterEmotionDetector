@@ -33,4 +33,5 @@ df = df.loc[(df['sentiment'] != "boredom")
             & (df['sentiment'] != "neutral")
             & (df['sentiment'] != "relief")]
 
+df = DataCleaning.run(df)
 FileController.save_df_to_csv("baseline-dataset.csv", df)
