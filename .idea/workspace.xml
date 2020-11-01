@@ -20,25 +20,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/crownflower/bak/01-post-translate-dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/crownflower/bak/02-post-cleaning-dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/crownflower/bak/03-post-spelling-dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/crownflower/bak/baseline-dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/crownflower/script_0_init.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/crownflower/script_1_process.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/crownflower/script_2_generate_baseline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/crownflower/test_lexicon/script_label_sentiment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/crownflower/test_lexicon/test-1-post-nlp-dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/crownflower/test_lexicon/test-2-post-sentiment-dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/crownflower/01-post-translate-dataset.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/crownflower/02-post-cleaning-dataset.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/crownflower/03-post-spelling-dataset.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/crownflower/0_process.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/crownflower/1_label_sentiment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/crownflower/3_generate_baseline.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/crownflower/baseline-dataset.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/crownflower/test-1-post-nlp-dataset.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/crownflower/test-2-post-sentiment-dataset.csv" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/bak/01-post-translate-dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/bak/02-post-cleaning-dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/bak/03-post-spelling-dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/bak/baseline-dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/dataset/devwithoutlabels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/dataset/terms.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/dataset/train.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/script_0_init.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/script_1_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/script_2_generate_baseline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/test_lexicon/script_label_sentiment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/test_lexicon/test-1-post-nlp-dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/test_lexicon/test-2-post-sentiment-dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/tmp/4_accuracy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/viz/count.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/viz/count_p.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/viz/data_viz.twb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/0_process.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/1_label_sentiment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/3_generate_baseline.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/4_accuracy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/count.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/count_p.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/data_viz.twb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/devwithoutlabels.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/terms.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/test-1-post-nlp-dataset.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/test-2-post-sentiment-dataset.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/train.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,28 +94,7 @@
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon\NRC" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.script_0_init (1)">
-    <configuration name="0_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SocialMovementSentiment" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/labeled/emotioncause" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/emotioncause/0_process.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.script_1_process">
     <configuration name="1_label_sentiment (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -258,23 +247,44 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="script_1_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SocialMovementSentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/script_1_process.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.WST_2_SENTI" />
       <item itemvalue="Python.WST_0_MASTER" />
       <item itemvalue="Python.WST_1_DATA" />
-      <item itemvalue="Python.0_process" />
       <item itemvalue="Python.1_label_sentiment (3)" />
       <item itemvalue="Python.3_generate_baseline" />
       <item itemvalue="Python.script_0_init" />
       <item itemvalue="Python.script_0_init (1)" />
+      <item itemvalue="Python.script_1_process" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.script_1_process" />
         <item itemvalue="Python.script_0_init (1)" />
         <item itemvalue="Python.script_0_init" />
         <item itemvalue="Python.3_generate_baseline" />
         <item itemvalue="Python.1_label_sentiment (3)" />
-        <item itemvalue="Python.0_process" />
       </list>
     </recent_temporary>
   </component>
@@ -329,22 +339,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601012252295" />
-    <state width="1235" height="175" key="GridCell.Tab.0.bottom" timestamp="1604203865207">
+    <state width="1235" height="175" key="GridCell.Tab.0.bottom" timestamp="1604204588497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1235" height="175" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604203865207" />
-    <state width="1235" height="175" key="GridCell.Tab.0.center" timestamp="1604203865207">
+    <state width="1235" height="175" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604204588497" />
+    <state width="1235" height="175" key="GridCell.Tab.0.center" timestamp="1604204588497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1235" height="175" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604203865207" />
-    <state width="1235" height="175" key="GridCell.Tab.0.left" timestamp="1604203865207">
+    <state width="1235" height="175" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604204588497" />
+    <state width="1235" height="175" key="GridCell.Tab.0.left" timestamp="1604204588497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1235" height="175" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604203865207" />
-    <state width="1235" height="175" key="GridCell.Tab.0.right" timestamp="1604203865207">
+    <state width="1235" height="175" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604204588497" />
+    <state width="1235" height="175" key="GridCell.Tab.0.right" timestamp="1604204588497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1235" height="175" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604203865207" />
+    <state width="1235" height="175" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604204588497" />
     <state width="1235" height="331" key="GridCell.Tab.1.bottom" timestamp="1604203831527">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

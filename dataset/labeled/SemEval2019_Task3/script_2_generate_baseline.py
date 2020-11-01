@@ -1,6 +1,7 @@
 import pandas as pd
 from Controller import DataCleaning, DataAssess, DataTranslation, FileController, DataSpellingCorrection
 
+
 # REFACTOR MOOD
 def change_mood_name(ori_mood):
 
@@ -26,8 +27,3 @@ df['sentiment'] = df['sentiment'].apply(lambda x: change_mood_name(str(x)))
 df = df[['sentiment', 'tweet_text']]
 df = df.loc[(df['sentiment'] != "others")]
 FileController.save_df_to_csv("baseline-dataset.csv", df)
-
-
-
-
-DataAssess.run(df)
