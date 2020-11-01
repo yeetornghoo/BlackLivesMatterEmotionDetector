@@ -1,7 +1,8 @@
 import pandas as pd
-from Controller import DataCleaning, DataAssess, FileController, DataNLP, DataTranslation, DataSpellingCorrection
+from Controller import DataCleaning, DataAssess, FileController, DataNLP, DataTranslation, DataSpellingCorrection, \
+    LogController
 
-# LOAD DATA FROM DATASET
+# LOAD AND PREPARE DATASET
 anger_df = pd.read_csv("dataset/EI-reg/training/EI-reg-En-anger-train.txt", sep="\t")
 anger_df["sentiment"] = "anger"
 
@@ -17,22 +18,28 @@ sadness_df["sentiment"] = "sadness"
 frames = [anger_df, fear_df, joy_df, sadness_df]
 df = pd.concat(frames)
 
-# DROP USELESS ATTRIBUTES
 df['tweet_text'] = df['Tweet']
 df.drop(['ID'], axis=1, inplace=True)
 df.rename(columns={"Tweet": "tweet", "Affect Dimension": "affect_dimension", "Intensity Score": "intensity_score", "sentiment": "ori_sentiment"}, inplace=True)
 
+
+# EXCLUDE NONE ENGLISH TEXT
 df = DataTranslation.run(df, "en")
 FileController.save_df_to_csv("01-post-translate-dataset.csv", df)
+
 
 # DATA CLEANING
 df = pd.read_csv("01-post-translate-dataset.csv", sep=",")
 df = DataCleaning.run(df)
 FileController.save_df_to_csv("02-post-cleaning-dataset.csv", df)
 
-# SPELLING
+
+# SPELLING CORRECTION
 df = pd.read_csv("02-post-cleaning-dataset.csv", sep=",")
 df = DataSpellingCorrection.run(df)
 df.drop(['tweet', 'affect_dimension', 'intensity_score'], axis=1, inplace=True)
 df['sentiment'] = df['ori_sentiment']
 FileController.save_df_to_csv("03-post-spelling-dataset.csv", df)
+
+
+LogController.log("Execution of 'script_1_process.py' is completed.")

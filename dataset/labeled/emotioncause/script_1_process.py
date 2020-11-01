@@ -1,6 +1,5 @@
 import pandas as pd
-
-from Controller import DataAssess, DataTranslation, FileController, DataCleaning, DataSpellingCorrection
+from Controller import DataAssess, DataTranslation, FileController, DataCleaning, DataSpellingCorrection, LogController
 
 
 def replace_char(str_obj, fr_str, to_str):
@@ -14,8 +13,6 @@ def extract_class_mood(str_obj):
 
 
 def process_class(df, class_mood):
-
-    #REMOVE HTML TAG
     open_tag = "<{}>".format(class_mood)
     close_tag = "<\{}>".format(class_mood)
     df['tweet_text'] = df['tweet_text'].apply(lambda x: replace_char(str(x), open_tag, ""))
@@ -23,7 +20,7 @@ def process_class(df, class_mood):
     return df
 
 
-# LOAD DATA FROM DATASET
+# LOAD AND PREPARE DATASET
 df = pd.read_table("dataset/Emotion_Cause.txt", names=["tweet_text"])
 df['sentiment'] = "NA"
 
@@ -41,16 +38,23 @@ df = process_class(df, "anger")
 df = process_class(df, "fear")
 df = process_class(df, "shame")
 
+
+# EXCLUDE NONE ENGLISH TEXT
 DataAssess.run(df)
 df = DataTranslation.run(df, "en")
 FileController.save_df_to_csv("01-post-translate-dataset.csv", df)
+
 
 # DATA CLEANING
 df = pd.read_csv("01-post-translate-dataset.csv", sep=",")
 df = DataCleaning.run(df)
 FileController.save_df_to_csv("02-post-cleaning-dataset.csv", df)
 
-# SPELLING
+
+# SPELLING CORRECTION
 df = pd.read_csv("02-post-cleaning-dataset.csv", sep=",")
 df = DataSpellingCorrection.run(df)
 FileController.save_df_to_csv("03-post-spelling-dataset.csv", df)
+
+
+LogController.log("Execution of 'script_1_process.py' is completed.")
