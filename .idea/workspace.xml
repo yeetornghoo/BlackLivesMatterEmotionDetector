@@ -19,7 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="" />
+    <list default="true" id="2f8f15e0-7f26-4810-9f1b-571c016b5c7c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/test_lexicon/test-1-post-nlp-dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/test_lexicon/test-2-post-sentiment-dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/script_1_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/1_label_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/test_lexicon/script_label_sentiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/3_generate_baseline.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/script_2_generate_baseline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/test-1-post-nlp-dataset.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/test-2-post-sentiment-dataset.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/emotioncause/3_generate_baseline.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/3_generate_baseline.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,19 +62,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\workspace\SocialMovementSentiment\Controller" />
-      <recent name="C:\workspace\SocialMovementSentiment\Lexicon\EmoSenticNet" />
-      <recent name="C:\workspace\SocialMovementSentiment\Lexicon\DepecheMood" />
-      <recent name="C:\workspace\SocialMovementSentiment\Lexicon\NRC" />
-      <recent name="C:\workspace\SocialMovementSentiment\Model\NRC" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\workspace\SocialMovementSentiment\dataset\blm_minesota" />
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace\SocialMovementSentiment\dataset\labeled\SemEval2018_Task1\test_sentiment" />
+      <recent name="C:\workspace\SocialMovementSentiment\Controller" />
+      <recent name="C:\workspace\SocialMovementSentiment\Lexicon\EmoSenticNet" />
+      <recent name="C:\workspace\SocialMovementSentiment\Lexicon\DepecheMood" />
+      <recent name="C:\workspace\SocialMovementSentiment\Lexicon\NRC" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.1_label_sentiment (3)">
+  <component name="RunManager" selected="Python.3_generate_baseline">
     <configuration name="0_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,7 +159,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4_generate_training_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="3_generate_baseline" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,11 +167,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/blm_minesota" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/labeled/emotioncause" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/blm_minesota/4_generate_training_dataset.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/emotioncause/3_generate_baseline.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -242,19 +252,19 @@
       <item itemvalue="Python.WST_2_SENTI" />
       <item itemvalue="Python.WST_0_MASTER" />
       <item itemvalue="Python.WST_1_DATA" />
-      <item itemvalue="Python.4_generate_training_dataset" />
       <item itemvalue="Python.1_label_sentiment" />
       <item itemvalue="Python.1_label_sentiment (2)" />
       <item itemvalue="Python.0_process" />
       <item itemvalue="Python.1_label_sentiment (3)" />
+      <item itemvalue="Python.3_generate_baseline" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.3_generate_baseline" />
         <item itemvalue="Python.1_label_sentiment (3)" />
         <item itemvalue="Python.0_process" />
         <item itemvalue="Python.1_label_sentiment (2)" />
         <item itemvalue="Python.1_label_sentiment" />
-        <item itemvalue="Python.4_generate_training_dataset" />
       </list>
     </recent_temporary>
   </component>
@@ -309,22 +319,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601012252295" />
-    <state width="1235" height="384" key="GridCell.Tab.0.bottom" timestamp="1604152165040">
+    <state width="1235" height="384" key="GridCell.Tab.0.bottom" timestamp="1604152808179">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1235" height="384" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604152165040" />
-    <state width="1235" height="384" key="GridCell.Tab.0.center" timestamp="1604152165040">
+    <state width="1235" height="384" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604152808179" />
+    <state width="1235" height="384" key="GridCell.Tab.0.center" timestamp="1604152808179">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1235" height="384" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604152165040" />
-    <state width="1235" height="384" key="GridCell.Tab.0.left" timestamp="1604152165039">
+    <state width="1235" height="384" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604152808179" />
+    <state width="1235" height="384" key="GridCell.Tab.0.left" timestamp="1604152808178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1235" height="384" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604152165039" />
-    <state width="1235" height="384" key="GridCell.Tab.0.right" timestamp="1604152165040">
+    <state width="1235" height="384" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604152808178" />
+    <state width="1235" height="384" key="GridCell.Tab.0.right" timestamp="1604152808179">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1235" height="384" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604152165040" />
+    <state width="1235" height="384" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604152808179" />
     <state width="1899" height="346" key="GridCell.Tab.1.bottom" timestamp="1603644799614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
