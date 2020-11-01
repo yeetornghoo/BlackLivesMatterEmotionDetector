@@ -66,28 +66,7 @@
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon\NRC" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.script_2_generate_baseline (5)">
-    <configuration name="BaselineVizController" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SocialMovementSentiment" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Controller" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Controller/BaselineVizController.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.script_2_generate_baseline (4)">
     <configuration name="WST_0_MASTER" type="PythonConfigurationType" factoryName="Python">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,6 +127,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/blm_washington/1_label_sentiment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="script_2_generate_baseline (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SocialMovementSentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/labeled/emotioncause" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/emotioncause/script_2_generate_baseline.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="script_2_generate_baseline (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SocialMovementSentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/labeled/ISEAR" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/ISEAR/script_2_generate_baseline.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,44 +240,23 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="script_2_generate_baseline" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SocialMovementSentiment" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/labeled/crownflower" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/crownflower/script_2_generate_baseline.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.WST_2_SENTI" />
       <item itemvalue="Python.WST_0_MASTER" />
       <item itemvalue="Python.WST_1_DATA" />
+      <item itemvalue="Python.script_2_generate_baseline (5)" />
+      <item itemvalue="Python.script_2_generate_baseline (1)" />
+      <item itemvalue="Python.script_2_generate_baseline (2)" />
       <item itemvalue="Python.script_2_generate_baseline (3)" />
       <item itemvalue="Python.script_2_generate_baseline (4)" />
-      <item itemvalue="Python.script_2_generate_baseline (5)" />
-      <item itemvalue="Python.script_2_generate_baseline" />
-      <item itemvalue="Python.BaselineVizController" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.script_2_generate_baseline (5)" />
-        <item itemvalue="Python.script_2_generate_baseline" />
-        <item itemvalue="Python.BaselineVizController" />
         <item itemvalue="Python.script_2_generate_baseline (4)" />
         <item itemvalue="Python.script_2_generate_baseline (3)" />
+        <item itemvalue="Python.script_2_generate_baseline (2)" />
+        <item itemvalue="Python.script_2_generate_baseline (1)" />
+        <item itemvalue="Python.script_2_generate_baseline (5)" />
       </list>
     </recent_temporary>
   </component>
