@@ -2,7 +2,7 @@ import pandas as pd
 from Controller import DataCleaning, DataAssess, DataTranslation
 from Controller import FileController, DataSpellingCorrection, LogController, BaselineVizController
 
-
+'''
 # REFACTOR MOOD
 def change_mood_name(ori_mood):
     p_mood = ori_mood
@@ -27,7 +27,7 @@ df = df.loc[(df['sentiment'] != "shame")]
             
 df = DataCleaning.run(df)
 FileController.save_df_to_csv("baseline-dataset.csv", df)
-
+'''
 
 df = pd.read_csv("baseline-dataset.csv", sep=",")
 BaselineVizController.run(df)

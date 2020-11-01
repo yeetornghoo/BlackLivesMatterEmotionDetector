@@ -4,7 +4,7 @@ import pandas as pd
 
 
 def generate_by_axessubplot(ax, text):
-    wordcloud = generate_word_cloud_object(text, 100, 2000, 3000)
+    wordcloud = generate_word_cloud_object(text, 100, 3000, 2000)
     if wordcloud is not None:
         ax.imshow(wordcloud)
         ax.axis('off')
