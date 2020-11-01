@@ -1,7 +1,6 @@
 import pandas as pd
 from Controller import DataCleaning, DataAssess, DataTranslation, FileController, DataSpellingCorrection
 
-
 # REFACTOR MOOD
 def change_mood_name(ori_mood):
 
