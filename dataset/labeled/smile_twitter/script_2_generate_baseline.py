@@ -29,7 +29,6 @@ df = df.loc[(df['sentiment'] != "others")]
 FileController.save_df_to_csv("baseline-dataset.csv", df)
 
 
-df = pd.read_csv("baseline-dataset.csv", sep=",")
 DataAssess.viz(df)
 
 
