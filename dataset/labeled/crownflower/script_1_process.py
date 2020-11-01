@@ -1,8 +1,10 @@
 import pandas as pd
 from Controller import DataCleaning, DataAssess, DataTranslation, FileController, DataSpellingCorrection
 
+
 # LOAD DATA FROM DATASET
-df = pd.read_csv("text_emotion.csv", sep=",", names=["tweet_id", "sentiment", "author", "content"])
+df = pd.read_csv("dataset/text_emotion.csv", sep=",", names=["tweet_id", "sentiment", "author", "content"])
+
 
 ## DROP USELESS ATTRIBUTES
 df['tweet_text'] = df['content']
