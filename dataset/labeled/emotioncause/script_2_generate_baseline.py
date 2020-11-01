@@ -13,7 +13,7 @@ def change_mood_name(ori_mood):
 
 # EXCLUDE UNWANTED MOOD
 df = pd.read_csv("03-post-spelling-dataset.csv", sep=",")
-df.drop(['content', 'author', 'tweet_id'], axis=1, inplace=True)
+#df.drop(['content', 'author', 'tweet_id'], axis=1, inplace=True)
 
 
 # REFACTOR MOODS
