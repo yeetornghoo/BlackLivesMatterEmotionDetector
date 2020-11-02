@@ -6,16 +6,12 @@ from Controller import BaselineVizController, PlutchikStandardController
 # EXCLUDE UNWANTED MOOD
 df = pd.read_csv("03-post-spelling-dataset.csv", sep=",")
 
-
 # RENAME MOOD
 df = PlutchikStandardController.rename_mood(df)
 df = PlutchikStandardController.get_standard(df)
 
-
 # REFACTOR COLUMN
-#df.drop(['ori_sentiment'], axis=1, inplace=True)
 df = df[['sentiment', 'tweet_text']]
-
 
 # SAVE FILE
 FileController.save_df_to_csv("baseline-dataset.csv", df)
