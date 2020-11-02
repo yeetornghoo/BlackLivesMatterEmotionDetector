@@ -27,7 +27,7 @@ def process(file_name):
     FileController.save_df_to_csv("03-post-nlp-"+file_name, df)
 
 
-#process("dataset_p1.csv")
-process("dataset_p2.csv")
+#process("dataset_p1.csv") # COMPLETED
+#process("dataset_p2.csv") # TO CHECK
 process("dataset_p3.csv")
 process("dataset_p4.csv")

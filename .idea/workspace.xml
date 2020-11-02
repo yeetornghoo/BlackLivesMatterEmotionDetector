@@ -20,30 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e7e1092-8b86-4278-a60a-964bf245779e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/count_kdeplot_by_day_by_period_anger.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/count_kdeplot_by_day_by_period_disgust.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/count_kdeplot_by_day_by_period_fear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/count_kdeplot_by_day_by_period_joy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/count_kdeplot_by_day_by_period_sadness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/count_kdeplot_by_day_by_period_surprise.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/count_kdeplot_by_day_by_period_trust.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/Visualization/Tweets/KdePlotViz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Visualization/Tweets/KdePlotViz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/3_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_minesota/3_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/count_kdeplot_by_day.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/count_kdeplot_by_day_by_period.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/count_kdeplot_by_day_by_period_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/count_kdeplot_by_day_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/score_kdeplot_by_day.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/nrc/kdeplot/count_kdeplot_by_day.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/nrc/kdeplot/count_kdeplot_by_day_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/nrc/kdeplot/score_kdeplot_by_day.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/nrc/kdeplot/score_kdeplot_by_day_by_period.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/nrc/kdeplot/score_kdeplot_by_day_by_period_facetgrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/blm_minesota/img/standard/nrc/kdeplot/score_kdeplot_by_day_facetgrid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/blm_washington/0_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/blm_washington/0_process.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +68,7 @@
       <recent name="C:\workspace\SocialMovementSentiment\Lexicon\NRC" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.3_analysis">
+  <component name="RunManager" selected="Python.washington_submid">
     <configuration name="0.1_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -229,7 +207,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\workspace\SocialMovementSentiment\dataset\blm_washington\99_submit.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/blm_washington/99_submit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -238,7 +216,9 @@
       <option name="INPUT_FILE" value="" />
       <method v="2">
         <option name="RunConfigurationTask" enabled="true" run_configuration_name="washington_data" run_configuration_type="PythonConfigurationType" />
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_UploadToGit" />
         <option name="RunConfigurationTask" enabled="true" run_configuration_name="washington_sentiment" run_configuration_type="PythonConfigurationType" />
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_UploadToGit" />
       </method>
     </configuration>
     <list>
@@ -252,9 +232,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.washington_submid" />
         <item itemvalue="Python.3_analysis" />
         <item itemvalue="Python.KdePlotViz" />
-        <item itemvalue="Python.washington_submid" />
         <item itemvalue="Python.0_process" />
         <item itemvalue="Python.0.1_process" />
       </list>
@@ -295,10 +275,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="750" y="153" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1598530803895" />
-    <state x="733" y="14" width="1092" height="1026" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600997161890">
+    <state x="733" y="14" width="1092" height="1026" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601011402363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="733" y="14" width="1092" height="1026" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600997161890" />
+    <state x="733" y="14" width="1092" height="1026" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601011402363" />
     <state x="574" y="109" width="1184" height="814" key="DiffContextDialog" timestamp="1599378624647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -343,6 +323,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="780" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600306734168" />
+    <state x="1174" y="261" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1601011399766">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1174" y="261" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.0.1920.1040@0.0.1920.1040" timestamp="1601011399766" />
     <state x="835" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1599369715258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
