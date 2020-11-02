@@ -5,6 +5,8 @@ moods = ['fear', 'anger', 'sadness', 'trust', 'joy', 'surprise', 'anticipation',
 joy_mood_synonyms = ["happy", "happiness"]
 sadness_mood_synonyms = ["sad"]
 anger_mood_synonyms = ["angry"]
+fear_mood_synonyms = ["worry"]
+disgust_mood_synonyms = ["hate"]
 
 
 def get_standard(df):
@@ -13,6 +15,18 @@ def get_standard(df):
 
     df = df.loc[(df['sentiment'].isin(moods))]
     return df
+
+
+def rename_to_fear(from_mood):
+    if from_mood in fear_mood_synonyms:
+        return "fear"
+    return from_mood
+
+
+def rename_to_disgust(from_mood):
+    if from_mood in disgust_mood_synonyms:
+        return "disgust"
+    return from_mood
 
 
 def rename_to_anger(from_mood):
@@ -44,4 +58,6 @@ def rename_mood(df):
     df['sentiment'] = df['sentiment'].apply(lambda x: rename_to_joy(str(x)))
     df['sentiment'] = df['sentiment'].apply(lambda x: rename_to_sadness(str(x)))
     df['sentiment'] = df['sentiment'].apply(lambda x: rename_to_anger(str(x)))
+    df['sentiment'] = df['sentiment'].apply(lambda x: rename_to_fear(str(x)))
+    df['sentiment'] = df['sentiment'].apply(lambda x: rename_to_disgust(str(x)))
     return df

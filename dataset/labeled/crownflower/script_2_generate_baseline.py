@@ -1,46 +1,28 @@
 import pandas as pd
-from Controller import DataCleaning, DataAssess, DataTranslation
-from Controller import FileController, DataSpellingCorrection, LogController, BaselineVizController
-
-'''
-# REFACTOR MOOD
-def change_mood_name(ori_mood):
-
-    p_mood = ori_mood
-
-    if ori_mood == "worry":
-        p_mood = "fear"
-    elif ori_mood == "happiness":
-        p_mood = "joy"
-    elif ori_mood == "hate":
-        p_mood = "disgust"
-
-    return p_mood
-
-
-# GENERATE BASELINE DATASET
-df = pd.read_csv("03-post-spelling-dataset.csv", sep=",")
-df.drop(['content', 'author', 'tweet_id'], axis=1, inplace=True)
-
-# REFACTOR MOODS
-df['sentiment'] = df['sentiment'].apply(lambda x: change_mood_name(str(x)))
-df = df[['sentiment', 'tweet_text']]
+from Controller import FileController, LogController
+from Controller import DataCleaning, DataTranslation, DataSpellingCorrection, DataAssess, DataNLP
+from Controller import BaselineVizController, PlutchikStandardController
 
 # EXCLUDE UNWANTED MOOD
-df = df.loc[(df['sentiment'] != "boredom")
-            & (df['sentiment'] != "empty")
-            & (df['sentiment'] != "enthusiasm")
-            & (df['sentiment'] != "fun")
-            & (df['sentiment'] != "love")
-            & (df['sentiment'] != "neutral")
-            & (df['sentiment'] != "relief")]
+df = pd.read_csv("03-post-spelling-dataset.csv", sep=",")
 
-df = DataCleaning.run(df)
+# RENAME MOOD
+df = PlutchikStandardController.rename_mood(df)
+df = PlutchikStandardController.get_standard(df)
+
+# REFACTOR COLUMN
+df = df[['sentiment', 'tweet_text']]
+
+# FILTER WORD OF TWEET
+df['ttl_tweet_text_word'] = df['tweet_text'].str.split().str.len()
+df = df.loc[(df['ttl_tweet_text_word'] > 2)]
+
+# SAVE FILE
 FileController.save_df_to_csv("baseline-dataset.csv", df)
-DataAssess.run(df)
 
-'''
+# VISUALIZE BASELINE DATASET
 df = pd.read_csv("baseline-dataset.csv", sep=",")
 BaselineVizController.run(df)
 
+# LOG
 LogController.log("Execution of 'script_2_generate_baseline.py' is completed.")
