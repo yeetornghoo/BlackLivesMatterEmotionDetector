@@ -13,7 +13,7 @@ df = PlutchikStandardController.get_standard(df)
 
 
 # REFACTOR COLUMN
-df.drop(['tweet', 'affect_dimension','intensity_score'], axis=1, inplace=True)
+df.drop(['tweet', 'affect_dimension', 'intensity_score'], axis=1, inplace=True)
 df = df[['sentiment', 'tweet_text']]
 
 # SAVE FILE

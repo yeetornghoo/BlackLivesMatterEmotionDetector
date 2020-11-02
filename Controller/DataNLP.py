@@ -8,8 +8,6 @@ nlp = stanza.Pipeline(lang='en', processors='tokenize,pos,lemma', tokenize_no_ss
 
 
 # https://universaldependencies.org/u/pos/
-# ADJ: adjective
-# ADV: adverb
 def get_sentence_by_pos(sentence, upos_type):
 
     words = ""
@@ -20,7 +18,6 @@ def get_sentence_by_pos(sentence, upos_type):
         for i, sentence in enumerate(doc.sentences):
             for word in sentence.words:
                 if word.upos == upos_type:
-                    # words.append(word.text.lower())
                     words = words + "{} ".format(word.text.lower())
 
     return words

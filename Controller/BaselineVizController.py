@@ -2,7 +2,7 @@ import pandas as pd
 import re
 import matplotlib.pyplot as plt
 from Controller import DataNLP, LogController
-from Controller.Visualization.BarPlotViz import generate_barplot
+from Controller.Visualization import BarPlotViz
 from Controller.Visualization import WordClouldViz
 from Controller.Visualization import WordFrequencyViz
 
@@ -10,10 +10,12 @@ from Controller.Visualization import WordFrequencyViz
 def generate_count(df):
     df_plot = df.groupby("sentiment").count()
     img_path = "img/baseline/0_dataset_sentiment_count.png"
-    generate_barplot(df_plot, "Baseline Dataset", "Sentiment", "# Records", img_path)
+    BarPlotViz.generate_barplot(df_plot, "Baseline Dataset", "Sentiment", "# Records", img_path)
 
 
 def generate_word_assessment_by_upos_type(df, upos_type):
+
+    LogController.log("processing {}...".format(upos_type))
 
     # GENERATE POS
     df['tweet_text_tmp'] = df['tweet_text'].apply(lambda x: DataNLP.get_sentence_by_pos(str(x), upos_type))
