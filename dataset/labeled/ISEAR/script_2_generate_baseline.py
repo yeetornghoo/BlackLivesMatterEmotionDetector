@@ -16,6 +16,7 @@ df = df[['sentiment', 'tweet_text']]
 # FILTER WORD OF TWEET
 df['ttl_tweet_text_word'] = df['tweet_text'].str.split().str.len()
 df = df.loc[(df['ttl_tweet_text_word'] > 2)]
+df.drop(columns=['ttl_tweet_text_word'], inplace=True)
 
 # SAVE FILE
 FileController.save_df_to_csv("baseline-dataset.csv", df)
