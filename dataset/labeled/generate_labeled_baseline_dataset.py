@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+import subprocess
 
 from Controller import FileController, DataCleaning, DataSpellingCorrection
 
@@ -10,6 +11,7 @@ label_dataset_folder = ["crownflower", "emotioncause", "ISEAR",
                         "smile_twitter"]
 
 '''
+# PROCESS DATASET
 for folder_name in label_dataset_folder:
     folder_path = "{}{}/".format(dir_path, folder_name)
     os.chdir(folder_path)
@@ -24,3 +26,7 @@ for folder_name in label_dataset_folder:
     df = df.append(df_tmp, ignore_index=True)
 
 FileController.save_df_to_csv("baseline-dataset.csv", df)
+
+subprocess.call(["git", "add", "."])
+subprocess.call(["git", "commit", "-m", "'AUTO: UPDATE LATEST UNLABELED BASELINE DATASET'"])
+subprocess.call(["git", "git push"])
