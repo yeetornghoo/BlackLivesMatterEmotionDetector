@@ -1,9 +1,9 @@
 import pandas as pd
-from Controller import DataCleaning, DataNLP, DataAssess, DataTranslation
-from Controller import FileController, DataSpellingCorrection, LogController
-from Helper import StringHelper
+from Controller import FileController, LogController
+from Controller import DataCleaning, DataTranslation, DataSpellingCorrection, DataAssess, DataNLP
+from Controller import BaselineVizController, PlutchikStandardController
 
-'''
+
 # LOAD AND PREPARE DATASET
 df = pd.read_csv("dataset/smile-annotations-final.csv", sep=",", names=["tweet_id", "content", "sentiment"])
 df['tweet_text'] = df['content']
@@ -19,7 +19,7 @@ FileController.save_df_to_csv("01-post-translate-dataset.csv", df)
 df = pd.read_csv("01-post-translate-dataset.csv", sep=",")
 df = DataCleaning.run(df)
 FileController.save_df_to_csv("02-post-cleaning-dataset.csv", df)
-'''
+
 
 # SPELLING CORRECTION
 df = pd.read_csv("02-post-cleaning-dataset.csv", sep=",")

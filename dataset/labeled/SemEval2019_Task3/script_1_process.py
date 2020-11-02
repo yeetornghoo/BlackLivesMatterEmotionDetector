@@ -1,6 +1,7 @@
 import pandas as pd
-from Controller import DataCleaning, DataAssess, FileController, DataNLP, DataTranslation, DataSpellingCorrection, \
-    LogController
+from Controller import FileController, LogController
+from Controller import DataCleaning, DataTranslation, DataSpellingCorrection, DataAssess, DataNLP
+from Controller import BaselineVizController, PlutchikStandardController
 
 # LOAD AND PREPARE DATASET
 df = pd.read_csv("dataset/train.txt", sep='\t', lineterminator='\r')
@@ -18,29 +19,12 @@ df = pd.read_csv("01-post-translate-dataset.csv", sep=",")
 df = DataCleaning.run(df)
 FileController.save_df_to_csv("02-post-cleaning-dataset.csv", df)
 
-
 # SPELLING CORRECTION
 df = pd.read_csv("02-post-cleaning-dataset.csv", sep=",")
 df = DataSpellingCorrection.run(df)
-df.rename(columns={"label": "ori_sentiment"}, inplace=True)
-
-
-# REFACTOR MOOD
-def change_mood_name(ori_mood):
-
-    p_mood = ori_mood
-
-    if ori_mood == "sad":
-        p_mood = "sadness"
-    elif ori_mood == "happy":
-        p_mood = "joy"
-
-    return p_mood
-
-
-df['sentiment'] = df['ori_sentiment'].apply(lambda x: change_mood_name(str(x)))
-df = df[['ori_sentiment', 'tweet_text', 'sentiment']]
+df.rename(columns={"label": "sentiment"}, inplace=True)
 FileController.save_df_to_csv("03-post-spelling-dataset.csv", df)
 
 
+# LOG
 LogController.log("Execution of 'script_1_process.py' is completed.")

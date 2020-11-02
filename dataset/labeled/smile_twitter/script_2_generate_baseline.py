@@ -1,7 +1,7 @@
 import pandas as pd
-from Controller import DataCleaning, DataAssess, DataTranslation, FileController
-from Controller import DataSpellingCorrection, LogController, BaselineVizController
-from Controller import PlutchikStandardController
+from Controller import FileController, LogController
+from Controller import DataCleaning, DataTranslation, DataSpellingCorrection, DataAssess, DataNLP
+from Controller import BaselineVizController, PlutchikStandardController
 
 # EXCLUDE UNWANTED MOOD
 df = pd.read_csv("03-post-spelling-dataset.csv", sep=",")
