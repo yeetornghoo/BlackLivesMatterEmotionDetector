@@ -10,16 +10,20 @@ df = pd.read_csv("03-post-spelling-dataset.csv", sep=",")
 df = PlutchikStandardController.rename_mood(df)
 df = PlutchikStandardController.get_standard(df)
 
+
 # REFACTOR COLUMN
 df.drop(['content', 'tweet_id'], axis=1, inplace=True)
 df = df[['sentiment', 'tweet_text']]
 
+
 # SAVE FILE
 FileController.save_df_to_csv("baseline-dataset.csv", df)
+
 
 # VISUALIZE BASELINE DATASET
 df = pd.read_csv("baseline-dataset.csv", sep=",")
 BaselineVizController.run(df)
+
 
 # LOG
 LogController.log("Execution of 'script_2_generate_baseline.py' is completed.")
