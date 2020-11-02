@@ -7,7 +7,7 @@ from Controller import BaselineVizController, PlutchikStandardController
 # LOAD AND PREPARE DATASET
 df = pd.read_csv("dataset/ISEAR.csv", sep=",", names=['ori_sentiment', 'text', 'other'])
 df['tweet_text'] = df['text']
-DataAssess.run(df)
+#DataAssess.run(df)
 
 
 # EXCLUDE NONE ENGLISH TEXT

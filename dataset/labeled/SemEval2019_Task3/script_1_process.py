@@ -7,7 +7,7 @@ from Controller import BaselineVizController, PlutchikStandardController
 df = pd.read_csv("dataset/train.txt", sep='\t', lineterminator='\r')
 df["tweet_text"] = df["turn1"] + " " + df["turn2"] + " " + df["turn3"]
 df.drop(['id', 'turn1', 'turn2', 'turn3'], axis=1, inplace=True)
-DataAssess.run(df)
+#DataAssess.run(df)
 
 # EXCLUDE NONE ENGLISH TEXT
 df = DataTranslation.run(df, "en")

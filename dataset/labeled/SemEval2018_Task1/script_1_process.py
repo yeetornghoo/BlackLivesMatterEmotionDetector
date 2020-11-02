@@ -22,7 +22,7 @@ df = pd.concat(frames)
 
 df['tweet_text'] = df['Tweet']
 df.rename(columns={"Tweet": "tweet", "Affect Dimension": "affect_dimension", "Intensity Score": "intensity_score"}, inplace=True)
-DataAssess.run(df)
+#DataAssess.run(df)
 
 
 # EXCLUDE NONE ENGLISH TEXT

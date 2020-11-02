@@ -34,7 +34,7 @@ df = process_class(df, "disgust")
 df = process_class(df, "anger")
 df = process_class(df, "fear")
 df = process_class(df, "shame")
-DataAssess.run(df)
+#DataAssess.run(df)
 
 # EXCLUDE NONE ENGLISH TEXT
 DataAssess.run(df)
