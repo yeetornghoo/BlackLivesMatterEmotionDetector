@@ -1,5 +1,7 @@
 import pandas as pd
-from Controller import DataAssess, DataTranslation, FileController, DataCleaning, DataSpellingCorrection, LogController
+from Controller import FileController, LogController
+from Controller import DataCleaning, DataTranslation, DataSpellingCorrection, DataAssess, DataNLP
+from Controller import BaselineVizController, PlutchikStandardController
 
 
 def replace_char(str_obj, fr_str, to_str):
@@ -23,21 +25,16 @@ def process_class(df, class_mood):
 # LOAD AND PREPARE DATASET
 df = pd.read_table("dataset/Emotion_Cause.txt", names=["tweet_text"])
 df['sentiment'] = "NA"
-
-# REMOVE CAUSE
 df['tweet_text'] = df['tweet_text'].apply(lambda x: replace_char(str(x), "<cause>", ""))
 df['tweet_text'] = df['tweet_text'].apply(lambda x: replace_char(str(x), "<\cause>", ""))
-
-# EXTRACT MOOD CLASS
 df['sentiment'] = df['tweet_text'].apply(lambda x: extract_class_mood(str(x)))
-
 df = process_class(df, "happy")
 df = process_class(df, "sad")
 df = process_class(df, "disgust")
 df = process_class(df, "anger")
 df = process_class(df, "fear")
 df = process_class(df, "shame")
-
+DataAssess.run(df)
 
 # EXCLUDE NONE ENGLISH TEXT
 DataAssess.run(df)

@@ -1,5 +1,7 @@
 import pandas as pd
-from Controller import DataCleaning, DataAssess, DataTranslation, FileController, DataSpellingCorrection, LogController
+from Controller import FileController, LogController
+from Controller import DataCleaning, DataTranslation, DataSpellingCorrection, DataAssess, DataNLP
+from Controller import BaselineVizController, PlutchikStandardController
 
 # LOAD AND PREPARE DATASET
 df = pd.read_csv("dataset/text_emotion.csv", sep=",", names=["tweet_id", "sentiment", "author", "content"])

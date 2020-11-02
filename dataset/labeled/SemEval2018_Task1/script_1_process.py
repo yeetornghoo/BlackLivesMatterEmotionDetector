@@ -1,6 +1,8 @@
 import pandas as pd
-from Controller import DataCleaning, DataAssess, FileController, DataNLP, DataTranslation, DataSpellingCorrection, \
-    LogController
+from Controller import FileController, LogController
+from Controller import DataCleaning, DataTranslation, DataSpellingCorrection, DataAssess, DataNLP
+from Controller import BaselineVizController, PlutchikStandardController
+
 
 # LOAD AND PREPARE DATASET
 anger_df = pd.read_csv("dataset/EI-reg/training/EI-reg-En-anger-train.txt", sep="\t")
@@ -19,8 +21,8 @@ frames = [anger_df, fear_df, joy_df, sadness_df]
 df = pd.concat(frames)
 
 df['tweet_text'] = df['Tweet']
-df.drop(['ID'], axis=1, inplace=True)
-df.rename(columns={"Tweet": "tweet", "Affect Dimension": "affect_dimension", "Intensity Score": "intensity_score", "sentiment": "ori_sentiment"}, inplace=True)
+df.rename(columns={"Tweet": "tweet", "Affect Dimension": "affect_dimension", "Intensity Score": "intensity_score"}, inplace=True)
+DataAssess.run(df)
 
 
 # EXCLUDE NONE ENGLISH TEXT
@@ -37,8 +39,6 @@ FileController.save_df_to_csv("02-post-cleaning-dataset.csv", df)
 # SPELLING CORRECTION
 df = pd.read_csv("02-post-cleaning-dataset.csv", sep=",")
 df = DataSpellingCorrection.run(df)
-df.drop(['tweet', 'affect_dimension', 'intensity_score'], axis=1, inplace=True)
-df['sentiment'] = df['ori_sentiment']
 FileController.save_df_to_csv("03-post-spelling-dataset.csv", df)
 
 
