@@ -28,5 +28,5 @@ for folder_name in label_dataset_folder:
 FileController.save_df_to_csv("baseline-dataset.csv", df)
 
 subprocess.call(["git", "add", "."])
-subprocess.call(["git", "commit", "-m", "'AUTO: UPDATE LATEST UNLABELED BASELINE DATASET'"])
+subprocess.call(["git", "commit", "-m", "AUTO: UPDATE LATEST UNLABELED BASELINE DATASET"])
 subprocess.call(["git", "push"])
