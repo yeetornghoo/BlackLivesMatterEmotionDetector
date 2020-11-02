@@ -29,4 +29,4 @@ FileController.save_df_to_csv("baseline-dataset.csv", df)
 
 subprocess.call(["git", "add", "."])
 subprocess.call(["git", "commit", "-m", "'AUTO: UPDATE LATEST UNLABELED BASELINE DATASET'"])
-subprocess.call(["git", "git push"])
+subprocess.call(["git", "push"])
