@@ -1,7 +1,7 @@
 import pandas as pd
 import re
 import matplotlib.pyplot as plt
-from Controller import DataNLP
+from Controller import DataNLP, LogController
 from Controller.Visualization.BarPlotViz import generate_barplot
 from Controller.Visualization import WordClouldViz
 from Controller.Visualization import WordFrequencyViz
@@ -51,6 +51,9 @@ def generate_word_assessment(df):
 
 
 def run(df):
+
+    LogController.log_h1("Visualize Baseline Dataset")
+
     # CREATE SIMPLE COUNT BY SENTIMENT BAR PLOT
     generate_count(df)
     generate_word_assessment(df)

@@ -67,9 +67,6 @@ def run(df):
     LogController.log("Custome Spelling Correction")
     df = spelling_correction(df)
 
-    #LogController.log("EFC Spelling Correction")
-    #df = efc_spelling_correction(df)
-
     LogController.log("Remove Extra Whitespace")
     df = remove_extra_whitespace_df(df)
 
