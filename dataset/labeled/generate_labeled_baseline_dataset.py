@@ -1,6 +1,6 @@
 import pandas as pd
 import subprocess
-from Controller import FileController
+from Controller import FileController, GitController
 from Controller.Baseline import BaselineViz
 
 dir_path = "C:/workspace/SocialMovementSentiment/dataset/labeled/"
@@ -31,8 +31,5 @@ df = pd.read_csv("{}master/baseline-dataset.csv".format(dir_path), sep=",")
 out_path = "master/img/baseline/"
 BaselineViz.run(df, out_path)
 
-
-# UPLOAD TO GITHUB
-subprocess.call(["git", "add", "."])
-subprocess.call(["git", "commit", "-m", "AUTO: UPDATE LATEST UNLABELED BASELINE DATASET"])
-subprocess.call(["git", "push"])
+# COMMIT TO GIT
+GitController.commit("auto: update latest labeled datasets")
