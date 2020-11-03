@@ -19,10 +19,14 @@ parent_folder = ""
 def confusion_matrix(classifier, X, y, name, wordvectorname, df):
     class_names = df.sentiment.unique()
 
-    disp = plot_confusion_matrix(classifier, X, y, display_labels=class_names, cmap=plt.cm.Blues)
+    fig, ax = plt.subplots(figsize=(8, 6))
+
+    disp = plot_confusion_matrix(classifier, X, y, cmap=plt.cm.Blues, ax=ax)
+
+    plt.xticks(rotation=50)
 
     plt.title("Confusion matrix of {} {}".format(wordvectorname, name))
-
+    ax.tick_params(axis='both', which='major', labelsize=10)
     img_file_name = confusion_matrix_file_name_pattern.format(wordvectorname, name).lower()
     plt.savefig(path_dir+img_file_name)
 
@@ -105,12 +109,13 @@ def run_tfidf(df, X, y, foldername):
 
 
 def run(df, foldername):
-    X = df['tweet_text'].values
+
+    X = df['tweet_text'].values.astype('U')
     y = df['sentiment'].values
 
     run_bow(df, X, y, foldername)
     run_tfidf(df, X, y, foldername)
 
-    f.close()
+    #f.close()
 
 
