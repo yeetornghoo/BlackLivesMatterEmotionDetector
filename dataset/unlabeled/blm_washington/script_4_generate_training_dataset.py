@@ -1,7 +1,19 @@
 import pandas as pd
-from Controller import FileController, DataAssess, DataNLP
-from Lexicon.DepecheMood import DepecheMoodController
-from Lexicon.EmoSenticNet import EmoSenticNetController
-from Lexicon.NRC import NrcController
+import seaborn as sns
+from Controller.Baseline import BaselineViz
+from Controller import GitController
 
-#PENDING
+# SETTING
+sns.set_theme(style="whitegrid")
+df = pd.read_csv("04-post-sentiment-False-dataset.csv", sep=",")
+df = df[["nrc_sentiment", "nrc_sentiment_score", "text"]]
+df.rename(columns={"nrc_sentiment": "sentiment",
+                   "nrc_sentiment_score": "sentiment_score",
+                   "text": "tweet_text"}, inplace=True)
+out_path = "img/baseline/"
+
+# GENERATE VISUAL FOR THE LATEST BASELINE DATASET
+BaselineViz.run(df, out_path)
+
+# COMMIT TO GIT
+GitController.commit("auto: update latest unlabeled data - washington dc")
