@@ -51,7 +51,7 @@ def generate_mood_viz(df, class_name, percentage, out_path):
     df_q3 = df.loc[(df["sentiment_score"] >= q3_value)]
 
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 8))
-    fig.suptitle("Dataset Visualization by '{}' \n {} records for {} and above".format(class_name, len(df_q3.index), percentage))
+    fig.suptitle("Dataset Visualization by '{}' \n {} records for {}% and above".format(class_name, len(df_q3.index), percentage))
 
     BellCurveViz.generate_bellcurve(df, percentage, ax1)
     BoxplotViz.generate_boxplot(df, percentage, ax2)
@@ -89,7 +89,7 @@ def run(df, out_path):
 
     # CREATE SIMPLE COUNT BY SENTIMENT BAR PLOT
     generate_count(df, out_path)
-    #generate_word_assessment(df, out_path)
+    generate_word_assessment(df, out_path)
 
 
 def run_mood(df, out_path, min_perc):
