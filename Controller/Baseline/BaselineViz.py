@@ -4,17 +4,14 @@ import matplotlib.pyplot as plt
 from Controller import LogController, DataNLP
 from Controller.Visualization import BarPlotViz, WordClouldViz, BellCurveViz, BoxplotViz, WordFrequencyViz
 
-# SETTING
-out_path = "master/img/baseline/"
 
-
-def generate_count(df):
+def generate_count(df, out_path):
     df_plot = df.groupby("sentiment")["sentiment"].count()
     img_path = "{}0_dataset_sentiment_count.png".format(out_path)
     BarPlotViz.generate_barplot(df_plot, "Baseline Dataset", "Sentiment", "# Records", img_path)
 
 
-def generate_word_assessment_by_upos_type(df, upos_type):
+def generate_word_assessment_by_upos_type(df, upos_type, out_path):
 
     LogController.log("processing {}...".format(upos_type))
 
@@ -48,7 +45,7 @@ def generate_word_assessment_by_upos_type(df, upos_type):
     plt.close('all')
 
 
-def generate_mood_viz(df, class_name, percentage):
+def generate_mood_viz(df, class_name, percentage, out_path):
 
     q3_value = df["sentiment_score"].quantile(percentage)
     df_q3 = df.loc[(df["sentiment_score"] >= q3_value)]
@@ -65,33 +62,37 @@ def generate_mood_viz(df, class_name, percentage):
     plt.close('all')
 
 
-def df_summary(df, class_name, percentage):
+def df_summary(df, class_name, percentage, out_path):
     df_class = df.loc[(df["sentiment"] == class_name)]
-    generate_mood_viz(df_class, class_name, percentage)
+    generate_mood_viz(df_class, class_name, percentage, out_path)
 
 
-def generate_mood_assessment(df):
-    min_perc = 0.75
-    df_summary(df, "fear", min_perc)
-    df_summary(df, "anger", min_perc)
-    df_summary(df, "sadness", min_perc)
-    df_summary(df, "trust", min_perc)
-    df_summary(df, "joy", min_perc)
-    df_summary(df, "surprise", min_perc)
-    df_summary(df, "anticipation", min_perc)
-    df_summary(df, "disgust", min_perc)
+def generate_mood_assessment(df, out_path, min_perc):
+    df_summary(df, "fear", min_perc, out_path)
+    df_summary(df, "anger", min_perc, out_path)
+    df_summary(df, "sadness", min_perc, out_path)
+    df_summary(df, "trust", min_perc, out_path)
+    df_summary(df, "joy", min_perc, out_path)
+    df_summary(df, "surprise", min_perc, out_path)
+    df_summary(df, "anticipation", min_perc, out_path)
+    df_summary(df, "disgust", min_perc, out_path)
 
 
-def generate_word_assessment(df):
-    generate_word_assessment_by_upos_type(df, "ADJ")
-    generate_word_assessment_by_upos_type(df, "VERB")
+def generate_word_assessment(df, out_path):
+    generate_word_assessment_by_upos_type(df, "ADJ", out_path)
+    generate_word_assessment_by_upos_type(df, "VERB", out_path)
 
 
-def run(df):
+def run(df, out_path):
 
     LogController.log_h1("Visualize Baseline Dataset")
 
     # CREATE SIMPLE COUNT BY SENTIMENT BAR PLOT
-    generate_count(df)
-    generate_word_assessment(df)
-    generate_mood_assessment(df)
+    generate_count(df, out_path)
+    #generate_word_assessment(df, out_path)
+
+
+def run_mood(df, out_path, min_perc):
+
+    run(df, out_path)
+    generate_mood_assessment(df, out_path, min_perc)

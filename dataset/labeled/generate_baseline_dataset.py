@@ -16,7 +16,6 @@ for folder_name in label_dataset_folder:
     exec(open('script_0_init.py').read())
 '''
 
-
 # COMBINE FINAL BASELINE DATASET
 df = pd.DataFrame()
 for folder_name in label_dataset_folder:
@@ -24,7 +23,6 @@ for folder_name in label_dataset_folder:
     df_tmp = pd.read_csv(baseline_ds_path, sep=",")
     df = df.append(df_tmp, ignore_index=True)
 FileController.save_df_to_csv("master/baseline-dataset.csv", df)
-
 
 # GENERATE VISUAL FOR THE LATEST BASELINE DATASET
 df = pd.read_csv("{}master/baseline-dataset.csv".format(dir_path), sep=",")
