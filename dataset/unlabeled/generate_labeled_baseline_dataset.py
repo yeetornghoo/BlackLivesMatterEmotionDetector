@@ -23,7 +23,7 @@ FileController.save_df_to_csv("{}master/baseline-dataset.csv".format(dir_path), 
 # GENERATE VISUAL FOR THE LATEST BASELINE DATASET
 df = pd.read_csv("{}master/baseline-dataset.csv".format(dir_path), sep=",")
 out_path = "master/img/baseline/"
-BaselineViz.run_mood(df, out_path)
+BaselineViz.run_mood(df, out_path, 0.75)
 
 
 # UPLOAD TO GITHUB
