@@ -1,7 +1,7 @@
 import pandas as pd
 from datetime import datetime
 
-from Controller import DataAssess
+from Controller import DataAssess, BaselineVizController
 from Controller.Visualization.Tweets import KdePlotViz, LinePlotViz
 from Helper import DateHelper
 
