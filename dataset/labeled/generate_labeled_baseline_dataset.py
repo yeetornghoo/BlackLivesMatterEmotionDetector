@@ -6,9 +6,8 @@ from Controller import FileController, DataCleaning, DataSpellingCorrection
 
 dir_path = "C:/workspace/SocialMovementSentiment/dataset/labeled/"
 
-label_dataset_folder = ["crownflower", "emotioncause", "ISEAR",
-                        "SemEval2018_Task1", "SemEval2019_Task3",
-                        "smile_twitter"]
+label_dataset_folder = ["emotioncause", "ISEAR",
+                        "SemEval2018_Task1", "SemEval2019_Task3"]
 
 '''
 # PROCESS DATASET
