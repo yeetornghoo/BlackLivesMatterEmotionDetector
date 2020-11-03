@@ -25,7 +25,7 @@ for folder_name in label_dataset_folder:
     df_tmp = pd.read_csv(baseline_ds_path, sep=",")
     df = df.append(df_tmp, ignore_index=True)
 
-FileController.save_df_to_csv("baseline-dataset.csv", df)
+FileController.save_df_to_csv("master/baseline-dataset.csv", df)
 
 subprocess.call(["git", "add", "."])
 subprocess.call(["git", "commit", "-m", "AUTO: UPDATE LATEST UNLABELED BASELINE DATASET"])
