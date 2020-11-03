@@ -45,6 +45,7 @@ def generate_word_assessment_by_upos_type(df, upos_type):
             plt.savefig(img_path.lower())
 
     plt.close()
+    plt.close('all')
 
 
 def generate_word_assessment(df):

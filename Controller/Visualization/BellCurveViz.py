@@ -8,7 +8,7 @@ sns.set_theme(style="whitegrid")
 plt.style.use('fivethirtyeight')
 
 
-def generate_bellcurve(df, class_name, percentage, img_path, ax):
+def generate_bellcurve(df, percentage, ax):
 
     min_value = round(df["sentiment_score"].min(), 4)
     max_value = round(df["sentiment_score"].max(), 4)
@@ -20,16 +20,11 @@ def generate_bellcurve(df, class_name, percentage, img_path, ax):
     x = np.arange(min_value, max_value, 0.001)
     y = norm.pdf(x, mean_value, std_value)
     ax.plot(x, y)
-    #ax.text(4, 0.2, "Total Record : {}".format(len(df.index)), fontsize=15, color='red')
 
-
-    # PLOT
-    plt.axvline(x=q3_value, linestyle="--", linewidth=2, color="r")
-    plt.text(q3_value + 0.1, 0.4, "upper Quantitle of {}% ({})".format(percentage * 100, round(q3_value, 4)))
-    plt.axvline(x=mean_value, linestyle="--", linewidth=2, color="r")
-    plt.text(mean_value + 0.05, 0.1, "Mean: {}".format(mean_value))
-    plt.axvspan(q3_value, max_value, hatch="/", alpha=0.1)
-
-    # PLOT
-    plt.title("Bell Curve of '{}'".format(class_name))
-    #plt.savefig("{}{}_bell_curve.png".format(img_path, class_name))
+    # DECORATION
+    ax.text((q3_value+0.1), 0.4, "{} (Upper Quantitle of {}%)".format(q3_value, (percentage * 100)))
+    ax.text((mean_value-0.1), 0.05, "Mean: {}".format(mean_value), horizontalalignment='right')
+    ax.axvline(x=q3_value, linestyle="--", linewidth=2, color="r")
+    ax.axvline(x=mean_value, linestyle="--", linewidth=1, color="b")
+    ax.axvspan(q3_value, max_value, hatch="/", alpha=0.1)
+    ax.title.set_text('Bell Curve')
