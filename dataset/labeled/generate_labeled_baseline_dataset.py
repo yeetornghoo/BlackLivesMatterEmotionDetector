@@ -1,7 +1,6 @@
 import os
 import pandas as pd
 import subprocess
-
 from Controller import FileController, DataCleaning, DataSpellingCorrection
 
 dir_path = "C:/workspace/SocialMovementSentiment/dataset/labeled/"

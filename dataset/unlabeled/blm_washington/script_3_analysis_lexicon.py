@@ -1,7 +1,7 @@
 import pandas as pd
 from datetime import datetime
 
-from Controller import DataAssess, BaselineVizController
+from Controller import DataAssess
 from Controller.Visualization import BarPlotViz
 from Controller.Visualization.Tweets import KdePlotViz, LinePlotViz
 from Helper import DateHelper
@@ -9,7 +9,7 @@ from Helper import DateHelper
 # SETTING
 date_format = "%Y-%m-%d %H:%M:%S"
 min_intensity = 1.2
-dir_path = "C:/workspace/SocialMovementSentiment/dataset/blm_minesota/"
+dir_path = "C:/workspace/SocialMovementSentiment/dataset/blm_minnesota/"
 focus_from_date = "2020-05-23"
 focus_to_date = "2020-06-05"
 

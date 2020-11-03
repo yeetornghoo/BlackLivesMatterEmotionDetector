@@ -1,7 +1,6 @@
 from Controller import LogController
 
 
-
 def run(df):
     LogController.log_h1("START DATA ASSESS")
 
