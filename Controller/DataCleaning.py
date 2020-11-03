@@ -1,27 +1,43 @@
 import re
-import pandas as pd
 import emoji
-from ast import literal_eval
 from Controller import LogController
+
+
+def convert_single_line_str(ste):
+    return ste.replace('\n', '')
+
+
+def convert_single_line_df(df):
+    LogController.log("Replace extra white space From The Sentences")
+    df['tweet_text'] = df['tweet_text'].apply(lambda x: convert_single_line_str(str(x)))
+    return df
+
 
 def run(df):
     LogController.log_h1("START DATA CLEANING")
 
+    df = convert_single_line_df(df)
     df = replace_special_char_df(df)
     df = remove_url_df(df)
+    df = remove_atusername_df(df)
+
+    #df = handle_emoji_df(df)  #REMOVE EMOJI
+    #df = process_hasgtag_df(df)
+
+    # SPELLING CORRECTION
     df = replace_word_is_df(df)
     df = replace_are_df(df)
     df = replace_am_df(df)
     df = replace_will_df(df)
     df = replace_have_df(df)
     df = replace_would_df(df)
-    df = remove_atusername_df(df)
-    df = process_hasgtag_df(df)
-    df = handle_emoji_df(df)
+
+    df = remove_extra_whitespace_df(df)
+
     return df
 
 
-def has_unchange_tweet(reg_pattern, df):
+def has_unchanged_tweet(reg_pattern, df):
     for index, row in df.iterrows():
         search_result = re.search(reg_pattern, row["tweet_text"])
         if search_result is not None:
@@ -31,21 +47,39 @@ def has_unchange_tweet(reg_pattern, df):
 
 
 # REPLACE SPECIAL CHARACTERS FROM THE SENTENCES
+def remove_extra_whitespace_char(sentence):
+    sentence = sentence.replace("    ", " ")
+    sentence = sentence.replace("   ", " ")
+    sentence = sentence.replace("  ", " ")
+    return sentence
+
+
+def remove_extra_whitespace_df(df):
+    LogController.log("Replace extra white space From The Sentences")
+    df['tweet_text'] = df['tweet_text'].apply(lambda x: remove_extra_whitespace_char(str(x)))
+    return df
+
+
+# REPLACE SPECIAL CHARACTERS FROM THE SENTENCES
 def replace_special_char(sentence):
     sentence = sentence.replace("“", '"')
     sentence = sentence.replace("”", '"')
     sentence = sentence.replace("’", "'")
+    sentence = sentence.replace("(", "")
+    sentence = sentence.replace(")", "")
+    sentence = sentence.replace("]", "")
+    sentence = sentence.replace("[", "")
     return sentence
 
 
 def replace_special_char_df(df):
     LogController.log("Replace Special Characters From The Sentences")
-    has_unchange = True
+    has_unchanged = True
     reg_pattern = "(“|”|’)"
 
-    while has_unchange:
+    while has_unchanged:
         df['tweet_text'] = df['tweet_text'].apply(lambda x: replace_special_char(str(x)))
-        has_unchange = has_unchange_tweet(reg_pattern, df)
+        has_unchanged = has_unchanged_tweet(reg_pattern, df)
 
     return df
 
@@ -60,12 +94,12 @@ def remove_url(sentence, reg_pattern):
 
 def remove_url_df(df):
     LogController.log("Remove URL From The Sentences")
-    has_unchange = True
+    has_unchanged = True
     reg_pattern = "(?P<url>https?://[^\s]+)"
 
-    while has_unchange:
+    while has_unchanged:
         df['tweet_text'] = df['tweet_text'].apply(lambda x: remove_url(str(x), reg_pattern))
-        has_unchange = has_unchange_tweet(reg_pattern, df)
+        has_unchanged = has_unchanged_tweet(reg_pattern, df)
 
     return df
 
@@ -83,12 +117,12 @@ def replace_word_is(sentence, reg_pattern):
 
 def replace_word_is_df(df):
     LogController.log("Replace 'S To IS From The Sentences")
-    has_unchange = True
+    has_unchanged = True
     reg_pattern = "[-A-Za-z]+'[Ss]+"
 
-    while has_unchange:
+    while has_unchanged:
         df['tweet_text'] = df['tweet_text'].apply(lambda x: replace_word_is(str(x), reg_pattern))
-        has_unchange = has_unchange_tweet(reg_pattern, df)
+        has_unchanged = has_unchanged_tweet(reg_pattern, df)
 
     return df
 
@@ -106,12 +140,12 @@ def replace_are(sentence, reg_pattern):
 
 def replace_are_df(df):
     LogController.log("Replace 'RE To ARE From The Sentences")
-    has_unchange = True
+    has_unchanged = True
     reg_pattern = "[-A-Za-z]+'[ERer]+"
 
-    while has_unchange:
+    while has_unchanged:
         df['tweet_text'] = df['tweet_text'].apply(lambda x: replace_are(str(x), reg_pattern))
-        has_unchange = has_unchange_tweet(reg_pattern, df)
+        has_unchanged = has_unchanged_tweet(reg_pattern, df)
 
     return df
 
@@ -129,12 +163,12 @@ def replace_am(sentence, reg_pattern):
 
 def replace_am_df(df):
     LogController.log("Replace 'M To AM From The Sentences")
-    has_unchange = True
+    has_unchanged = True
     reg_pattern = "[Ii]+'[Mm]+"
 
-    while has_unchange:
+    while has_unchanged:
         df['tweet_text'] = df['tweet_text'].apply(lambda x: replace_am(str(x), reg_pattern))
-        has_unchange = has_unchange_tweet(reg_pattern, df)
+        has_unchanged = has_unchanged_tweet(reg_pattern, df)
 
     return df
 
@@ -152,12 +186,12 @@ def replace_will(sentence, reg_pattern):
 
 def replace_will_df(df):
     LogController.log("Replace 'LL To WILL From The Sentences")
-    has_unchange = True
+    has_unchanged = True
     reg_pattern = "[-A-Za-z]+'(LL|ll)"
 
-    while has_unchange:
+    while has_unchanged:
         df['tweet_text'] = df['tweet_text'].apply(lambda x: replace_will(str(x), reg_pattern))
-        has_unchange = has_unchange_tweet(reg_pattern, df)
+        has_unchanged = has_unchanged_tweet(reg_pattern, df)
 
     return df
 
@@ -175,12 +209,12 @@ def replace_have(sentence, reg_pattern):
 
 def replace_have_df(df):
     LogController.log("Replace 'VE To HAVE From The Sentences")
-    has_unchange = True
+    has_unchanged = True
     reg_pattern = "[-A-Za-z]+'(VE|ve)"
 
-    while has_unchange:
+    while has_unchanged:
         df['tweet_text'] = df['tweet_text'].apply(lambda x: replace_have(str(x), reg_pattern))
-        has_unchange = has_unchange_tweet(reg_pattern, df)
+        has_unchanged = has_unchanged_tweet(reg_pattern, df)
 
     return df
 
@@ -198,12 +232,12 @@ def replace_would(sentence, reg_pattern):
 
 def replace_would_df(df):
     LogController.log("Replace 'D To WOULD From The Sentences")
-    has_unchange = True
+    has_unchanged = True
     reg_pattern = "[-A-Za-z]+'[Dd] "
 
-    while has_unchange:
+    while has_unchanged:
         df['tweet_text'] = df['tweet_text'].apply(lambda x: replace_would(str(x), reg_pattern))
-        has_unchange = has_unchange_tweet(reg_pattern, df)
+        has_unchanged = has_unchanged_tweet(reg_pattern, df)
 
     return df
 
@@ -219,12 +253,12 @@ def remove_atusername(sentence, reg_pattern):
 
 def remove_atusername_df(df):
     LogController.log("Remove @USERNAME")
-    has_unchange = True
+    has_unchanged = True
     reg_pattern = "@[^\s]+"
 
-    while has_unchange:
+    while has_unchanged:
         df['tweet_text'] = df['tweet_text'].apply(lambda x: remove_atusername(str(x), reg_pattern))
-        has_unchange = has_unchange_tweet(reg_pattern, df)
+        has_unchanged = has_unchanged_tweet(reg_pattern, df)
 
     return df
 
@@ -250,12 +284,12 @@ def process_hasgtag(sentence, reg_pattern):
 
 def process_hasgtag_df(df):
     LogController.log("Process Hasgtag")
-    has_unchange = True
+    has_unchanged = True
     reg_pattern = "#[^\s]+"
 
-    while has_unchange:
+    while has_unchanged:
         df['tweet_text'] = df['tweet_text'].apply(lambda x: process_hasgtag(str(x), reg_pattern))
-        has_unchange = has_unchange_tweet(reg_pattern, df)
+        has_unchanged = has_unchanged_tweet(reg_pattern, df)
 
     return df
 
@@ -266,5 +300,7 @@ def handle_emoji_df(df):
     for emot in emoji.UNICODE_EMOJI:
         to_emot_text = emoji.UNICODE_EMOJI[emot].replace(",", "").replace(":", "").replace("'s", "").replace("-", "_")
         if to_emot_text != "keycap_*" and to_emot_text != "keycap_asterisk":
-            df["tweet_text"] = df["tweet_text"].str.replace(emot, " " + to_emot_text + " ")
+            #print("------------found " + emot + " to " + to_emot_text)
+            #df["tweet_text"] = df["tweet_text"].str.replace(emot, " " + to_emot_text + " ")
+            df["tweet_text"] = df["tweet_text"].str.replace(emot, "")
     return df

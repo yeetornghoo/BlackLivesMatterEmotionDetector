@@ -60,7 +60,7 @@ def set_emotion_model(anger, anger_score, anticipation, anticipation_score,
     return pd.Series(model, index=index)
 
 
-def get_sentence_mood(words, is_standard):
+def get_sentence_mood(words):
 
     # LOCAL VARIABLES
     anger = 0
@@ -89,20 +89,18 @@ def get_sentence_mood(words, is_standard):
         joy, joy_score = get_word_sentiment_value(joy_lexicon, word, joy, joy_score, "joy")
         sadness, sadness_score = get_word_sentiment_value(sadness_lexicon, word, sadness, sadness_score, "sadness")
         surprise, surprise_score = get_word_sentiment_value(surprise_lexicon, word, surprise, surprise_score, "surprise")
-
-        if not is_standard:
-            anticipation, anticipation_score = get_word_sentiment_value(anticipation_lexicon, word, anticipation, anticipation_score, "anticipation")
-            trust, trust_score = get_word_sentiment_value(trust_lexicon, word, trust, trust_score, "trust")
+        anticipation, anticipation_score = get_word_sentiment_value(anticipation_lexicon, word, anticipation, anticipation_score, "anticipation")
+        trust, trust_score = get_word_sentiment_value(trust_lexicon, word, trust, trust_score, "trust")
 
     # CREATE MOOD MODEL TO BE RETURN
     model = NrcModel.set_model(anger, anger_score, anticipation, anticipation_score,
                                disgust, disgust_score, fear, fear_score,
                                joy, joy_score, sadness, sadness_score,
-                               surprise, surprise_score, trust, trust_score, is_standard)
+                               surprise, surprise_score, trust, trust_score)
     return model
 
 
-def run(df, is_standard_model):
+def run(df):
 
     LogController.log_h1("START NRC SENTIMENT ANALYSIS")
     iCount = 0
@@ -112,40 +110,36 @@ def run(df, is_standard_model):
         iCount += 1
         print(iCount)
 
-        emotion_info = get_sentence_mood(StandardModel.get_unique_words(row), is_standard_model)
-        df.loc[index, 'anger'] = emotion_info.get(key='anger')
-        df.loc[index, 'anger_score'] = emotion_info.get(key='anger_score')
-        df.loc[index, 'disgust'] = emotion_info.get(key='disgust')
-        df.loc[index, 'disgust_score'] = emotion_info.get(key='disgust_score')
-        df.loc[index, 'fear'] = emotion_info.get(key='fear')
-        df.loc[index, 'fear_score'] = emotion_info.get(key='fear_score')
-        df.loc[index, 'joy'] = emotion_info.get(key='joy')
-        df.loc[index, 'joy_score'] = emotion_info.get(key='joy_score')
-        df.loc[index, 'sadness'] = emotion_info.get(key='sadness')
-        df.loc[index, 'sadness_score'] = emotion_info.get(key='sadness_score')
-        df.loc[index, 'surprise'] = emotion_info.get(key='surprise')
-        df.loc[index, 'surprise_score'] = emotion_info.get(key='surprise_score')
+        token_word = StandardModel.get_unique_words(row)
 
-        if not is_standard_model:
+        if len(pd.isnull(token_word)) > 0:
+
+            emotion_info = get_sentence_mood(token_word)
+            df.loc[index, 'anger'] = emotion_info.get(key='anger')
+            df.loc[index, 'anger_score'] = emotion_info.get(key='anger_score')
+            df.loc[index, 'disgust'] = emotion_info.get(key='disgust')
+            df.loc[index, 'disgust_score'] = emotion_info.get(key='disgust_score')
+            df.loc[index, 'fear'] = emotion_info.get(key='fear')
+            df.loc[index, 'fear_score'] = emotion_info.get(key='fear_score')
+            df.loc[index, 'joy'] = emotion_info.get(key='joy')
+            df.loc[index, 'joy_score'] = emotion_info.get(key='joy_score')
+            df.loc[index, 'sadness'] = emotion_info.get(key='sadness')
+            df.loc[index, 'sadness_score'] = emotion_info.get(key='sadness_score')
+            df.loc[index, 'surprise'] = emotion_info.get(key='surprise')
+            df.loc[index, 'surprise_score'] = emotion_info.get(key='surprise_score')
             df.loc[index, 'anticipation'] = emotion_info.get(key='anticipation')
             df.loc[index, 'anticipation_score'] = emotion_info.get(key='anticipation_score')
             df.loc[index, 'trust'] = emotion_info.get(key='trust')
             df.loc[index, 'trust_score'] = emotion_info.get(key='trust_score')
-
-        df.loc[index, 'nrc_sentiment'] = emotion_info.get(key='nrc_sentiment')
-        df.loc[index, 'nrc_sentiment_count'] = emotion_info.get(key='nrc_sentiment_count')
-        df.loc[index, 'nrc_sentiment_score'] = emotion_info.get(key='nrc_sentiment_score')
+            df.loc[index, 'nrc_sentiment'] = emotion_info.get(key='nrc_sentiment')
+            df.loc[index, 'nrc_sentiment_count'] = emotion_info.get(key='nrc_sentiment_count')
+            df.loc[index, 'nrc_sentiment_score'] = emotion_info.get(key='nrc_sentiment_score')
 
     FileController.save_df_to_csv("tmp/NRC-processed_dataset.csv", df)
 
-    if is_standard_model:
-        df.drop(['anger', 'anger_score', 'disgust', 'disgust_score',
-                 'fear', 'fear_score', 'joy', 'joy_score', 'sadness', 'sadness_score',
-                 'surprise', 'surprise_score'], axis=1, inplace=True)
-    else:
-        df.drop(['anger', 'anger_score', 'anticipation', 'anticipation_score', 'disgust', 'disgust_score',
-                 'fear', 'fear_score', 'joy', 'joy_score', 'sadness', 'sadness_score',
-                 'surprise', 'surprise_score', 'trust', 'trust_score'], axis=1, inplace=True)
+    df.drop(['anger', 'anger_score', 'anticipation', 'anticipation_score', 'disgust', 'disgust_score',
+             'fear', 'fear_score', 'joy', 'joy_score', 'sadness', 'sadness_score',
+             'surprise', 'surprise_score', 'trust', 'trust_score'], axis=1, inplace=True)
 
     return df
 

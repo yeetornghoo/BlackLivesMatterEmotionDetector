@@ -24,13 +24,9 @@ trust_lexicon_file = model_folder + "trust-scores.txt"
 
 
 # SET TOP SCORE MOOD
-def get_top_scores_moods(model, is_standard):
+def get_top_scores_moods(model):
 
     mood_list = model_moods
-    if is_standard:
-        mood_list = StandardModel.model_moods
-
-    mood_score_list = pd.Series({})
 
     sentence_top_mood = ""
     sentence_top_count = 0
@@ -59,20 +55,19 @@ def get_top_scores_moods(model, is_standard):
 def set_model(anger, anger_score, anticipation, anticipation_score,
               disgust, disgust_score, fear, fear_score,
               joy, joy_score, sadness, sadness_score,
-              surprise, surprise_score, trust, trust_score, is_standard):
+              surprise, surprise_score, trust, trust_score):
 
     model = StandardModel.set_standard_model(anger, anger_score, disgust, disgust_score,
                                              fear, fear_score, joy, joy_score,
                                              sadness, sadness_score, surprise, surprise_score)
-    if not is_standard:
-        additional_moods = pd.Series({'anticipation': anticipation,
-                                      'anticipation_score': anticipation_score,
-                                      'trust': trust,
-                                      'trust_score': trust_score})
-        model = model.append(additional_moods)
+    additional_moods = pd.Series({'anticipation': anticipation,
+                                  'anticipation_score': anticipation_score,
+                                  'trust': trust,
+                                  'trust_score': trust_score})
+    model = model.append(additional_moods)
 
     # CHECK TOP 1 MODEL
-    top_mood = get_top_scores_moods(model, is_standard)
+    top_mood = get_top_scores_moods(model)
     model = model.append(top_mood)
 
     return model

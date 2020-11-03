@@ -12,3 +12,4 @@ def run(df):
     print(df.describe())
     LogController.log_h2("Show Dataframe number of null")
     print(df.isna().sum())
+

@@ -1,0 +1,501 @@
+"Incident ID","Incident Date",State,"City Or County",Address,"# Killed","# Injured",Operations
+1795101,"September 14, 2020",Minnesota,Minneapolis,"N Dupont Ave and N 36th St",0,0,N/A
+1795052,"September 14, 2020",Minnesota,Minneapolis,"1800 block of Washington Ave",0,0,N/A
+1795050,"September 14, 2020",Minnesota,Minneapolis,"3600 block of N Colfax Ave",0,1,N/A
+1795049,"September 14, 2020",Minnesota,Minneapolis,"3300 block of N Humboldt Ave",0,0,N/A
+1795987,"September 14, 2020",Minnesota,"Minneapolis (Edina)","6401 France Ave S",0,1,N/A
+1796000,"September 14, 2020",Minnesota,Minneapolis,"2500 block of Cedar Ave S",0,2,N/A
+1795084,"September 14, 2020",Minnesota,Minneapolis,"3807 N Fremont Ave",1,1,N/A
+1794269,"September 13, 2020",Minnesota,Minneapolis,"12th Ave SE and 7th St SE",0,0,N/A
+1794267,"September 13, 2020",Minnesota,Minneapolis,"11th Ave S and E 22nd St",0,0,N/A
+1794266,"September 13, 2020",Minnesota,Minneapolis,"Lyndale Ave S and 33rd St",0,0,N/A
+1793812,"September 13, 2020",Minnesota,Shakopee,"200 block of Pottok Ln",0,0,N/A
+1793786,"September 13, 2020",Minnesota,Minneapolis,"N 4th St and N 2nd Ave",0,2,N/A
+1794725,"September 13, 2020",Minnesota,Minneapolis,"3100 block of N Humboldt Ave",0,1,N/A
+1793405,"September 12, 2020",Minnesota,Minneapolis,"E 26th St and Stevens Ave",0,0,N/A
+1792937,"September 12, 2020",Minnesota,Minneapolis,"31st Ave and Colfax Ave N",0,0,N/A
+1792935,"September 12, 2020",Minnesota,"Minneapolis (Columbia Heights)","4600 block of Tyler St NE",0,0,N/A
+1793810,"September 12, 2020",Minnesota,Minneapolis,"14th Ave SE and SE 8th St",0,0,N/A
+1793792,"September 12, 2020",Minnesota,Duluth,"100 block of W 1st St",0,1,N/A
+1793400,"September 12, 2020",Minnesota,"Saint Paul","800 block of Lawson Ave E",1,0,N/A
+1792232,"September 11, 2020",Minnesota,Minneapolis,"6000 block of Portland Ave S",0,0,N/A
+1792938,"September 11, 2020",Minnesota,Minneapolis,"3300 block of 4th Ave S",0,0,N/A
+1791365,"September 10, 2020",Minnesota,Minneapolis,"E 48th St and Chicago Ave",0,0,N/A
+1791356,"September 10, 2020",Minnesota,Minneapolis,"700 block of W Broadway Ave",0,1,N/A
+1792228,"September 10, 2020",Minnesota,Minneapolis,"1500 Block of Russell Ave N",0,0,N/A
+1792226,"September 10, 2020",Minnesota,Minneapolis,"500 Block of E Franklin Ave",0,0,N/A
+1792222,"September 10, 2020",Minnesota,Minneapolis,"42nd Ave and Adair Ave",0,0,N/A
+1791351,"September 9, 2020",Minnesota,"Minneapolis (Brooklyn Park)","6200 block of 78th Ave N",0,1,N/A
+1789921,"September 9, 2020",Minnesota,"Saint Paul","2134 Ford Pkwy",0,0,N/A
+1787834,"September 7, 2020",Minnesota,"Saint Paul","1300 block of Hewitt Ave",0,0,N/A
+1788755,"September 7, 2020",Minnesota,Minneapolis,"800 block E Franklin Ave",0,0,N/A
+1788745,"September 7, 2020",Minnesota,Minneapolis,"1500 block of E 22nd St",0,0,N/A
+1787114,"September 6, 2020",Minnesota,Minneapolis,"1300 Nicollet Mall",0,1,N/A
+1787109,"September 6, 2020",Minnesota,"Saint Paul","Payne Ave and Ivy Ave",0,0,N/A
+1787842,"September 6, 2020",Minnesota,Minneapolis,"7600 block of W Broadway Ave",0,1,N/A
+1787823,"September 6, 2020",Minnesota,Minneapolis,"701 Park Ave St",0,1,N/A
+1786697,"September 6, 2020",Minnesota,Minneapolis,"2700 block of Cedar Ave S",0,0,N/A
+1786685,"September 6, 2020",Minnesota,Minneapolis,"280 2nd Ave N",0,0,N/A
+1788864,"September 6, 2020",Minnesota,Hayward,"20051 800th Ave",0,1,N/A
+1786641,"September 6, 2020",Minnesota,Minneapolis,"8400 block of Xerxes Ave N",0,2,N/A
+1786270,"September 5, 2020",Minnesota,Minneapolis,"3500 block of Columbus Ave",0,1,N/A
+1786189,"September 5, 2020",Minnesota,"Saint Paul","300 block of Ravoux St",0,0,N/A
+1786183,"September 5, 2020",Minnesota,"Minneapolis (Fridley)","5750 E River Rd",0,0,N/A
+1786645,"September 5, 2020",Minnesota,"Saint Paul","721 Arcade St",0,0,N/A
+1786186,"September 4, 2020",Minnesota,"Saint Paul","1500 block of E Jessamine Ln",0,1,N/A
+1785666,"September 4, 2020",Minnesota,"Saint Paul (West Saint Paul)","2045 Christensen Ave",1,0,N/A
+1786376,"September 4, 2020",Minnesota,"Cass Lake",N/A,0,0,N/A
+1786423,"September 4, 2020",Minnesota,Duluth,"200 block of 70th Ave W",0,0,N/A
+1785094,"September 4, 2020",Minnesota,Minneapolis,"5800 block of 73rd Ave N",0,0,N/A
+1784248,"September 3, 2020",Minnesota,"Saint Paul","Charles Ave and N Victoria St",0,1,N/A
+1784246,"September 3, 2020",Minnesota,"Saint Paul","Sherburne Ave and Rice St",0,1,N/A
+1784244,"September 3, 2020",Minnesota,"Saint Paul","800 block of Cook Ave",1,0,N/A
+1785089,"September 3, 2020",Minnesota,Minneapolis,"3400 15th Ave S",0,0,N/A
+1785086,"September 3, 2020",Minnesota,"Saint Paul (Apple Valley)","7600 Block of 142nd St W",0,0,N/A
+1785083,"September 3, 2020",Minnesota,Minneapolis,"Russell Ave N and N 30th Ave",0,0,N/A
+1783004,"September 2, 2020",Minnesota,"Saint Paul","700 block of 3rd St E",0,1,N/A
+1786177,"September 2, 2020",Minnesota,Burnsville,"Sunny Acres Ln",0,0,N/A
+1783292,"September 2, 2020",Minnesota,Minneapolis,"3rd Ave S and E 18th St",0,1,N/A
+1783318,"September 1, 2020",Minnesota,Minneapolis,"Logan Ave N and Oak Park Ave N",0,0,N/A
+1782041,"September 1, 2020",Minnesota,Minneapolis,"I-94 and W Broadway Ave",0,0,N/A
+1782123,"September 1, 2020",Minnesota,"Saint Paul","1200 block of Hazelwood St",1,0,N/A
+1783303,"September 1, 2020",Minnesota,Minneapolis,"13th Ave S and E 28th St",0,0,N/A
+1782021,"September 1, 2020",Minnesota,"Saint Paul","Winter St and Jackson St",0,1,N/A
+1782023,"September 1, 2020",Minnesota,"Saint Paul","1300 block of Stillwater Ave E",0,2,N/A
+1782900,"September 1, 2020",Minnesota,Duluth,"20 block of Village View Dr",0,1,N/A
+1780365,"August 31, 2020",Minnesota,"Minneapolis (Bloomington)","8300 block of 15th Ave",1,2,N/A
+1782108,"August 31, 2020",Minnesota,Austin,"200 block of 12th Ave SW",0,0,N/A
+1782107,"August 31, 2020",Minnesota,Austin,"700 block of Second St NW",0,0,N/A
+1782057,"August 31, 2020",Minnesota,Minneapolis,"N Oliver Ave and N 30th Ave",0,0,N/A
+1780871,"August 31, 2020",Minnesota,Minnespolis,"2400 block of Emerson Ave N",1,0,N/A
+1780848,"August 31, 2020",Minnesota,Minneapolis,"2900 block of N Oliver Ave",1,0,N/A
+1780701,"August 30, 2020",Minnesota,Minneapolis,"8340 15th Ave S",1,2,N/A
+1780898,"August 30, 2020",Minnesota,Milwaukee,"4400 block of N 58th St",1,1,N/A
+1780208,"August 30, 2020",Minnesota,"Minneapolis (Brooklyn Park)","6917 76th Ave N",1,2,N/A
+1779647,"August 30, 2020",Minnesota,Minneapolis,"Broadway St NE and NE 2nd St",0,0,N/A
+1779597,"August 30, 2020",Minnesota,Minneapolis,"2400 block of Emerson Ave N",1,0,N/A
+1779582,"August 30, 2020",Minnesota,Duluth,"20 block of W 11th St",0,0,N/A
+1782989,"August 30, 2020",Minnesota,"Saint Paul","Cesar Chavez St and S Robert St",0,1,N/A
+1780212,"August 30, 2020",Minnesota,Minneapolis,"Knox Ave N",1,0,N/A
+1779254,"August 29, 2020",Minnesota,Minneapolis,"5100 block of Camden Ave N",0,0,N/A
+1778754,"August 29, 2020",Minnesota,"Minneapolis (Brooklyn Park)","7700 block of Georgia Ave",0,1,N/A
+1779624,"August 29, 2020",Minnesota,Bemidji,"2830 Ridgeway Ave",0,1,N/A
+1778763,"August 29, 2020",Minnesota,Minneapolis,"W Broadway Ave and N Irving Ave",0,1,N/A
+1779611,"August 29, 2020",Minnesota,Minneapolis,"6300 block of Boone Ave N",0,1,N/A
+1779592,"August 29, 2020",Minnesota,"Long Prairie","County 38 and County 11",1,1,N/A
+1779576,"August 29, 2020",Minnesota,Duluth,"W 1st St and N 24th Ave W",0,0,N/A
+1778767,"August 28, 2020",Minnesota,Minneapolis,"1600 block of Golden Valley Rd",0,0,N/A
+1778435,"August 28, 2020",Minnesota,Minneapolis,"2400 block of Irving Ave N",0,4,N/A
+1777296,"August 27, 2020",Minnesota,"Saint Paul (Lino Lakes)","6900 block of W Shadow Lake Dr",1,0,N/A
+1778061,"August 27, 2020",Minnesota,"Cannon Falls","33811 County 24 Blvd",1,0,N/A
+1778077,"August 27, 2020",Minnesota,Duluth,"400 block of E 8th St",0,2,N/A
+1778074,"August 27, 2020",Minnesota,Duluth,"2nd Ave E",0,0,N/A
+1778056,"August 27, 2020",Minnesota,"Saint Paul","1700 block of Rose Ave",0,0,N/A
+1778051,"August 27, 2020",Minnesota,Minneapolis,"2235 W Broadway",0,0,N/A
+1778047,"August 27, 2020",Minnesota,Minneapolis,"Nicollet Ave and W 31st St",0,0,N/A
+1778040,"August 27, 2020",Minnesota,Minneapolis,"N 21st Ave and N Thomas Ave",0,1,N/A
+1777308,"August 27, 2020",Minnesota,Minneapolis,"3500 block of Chicago Ave S",1,0,N/A
+1776162,"August 26, 2020",Minnesota,Minneapolis,"3800 block of Elliot Ave S",0,1,N/A
+1776161,"August 26, 2020",Minnesota,Minneapolis,"900 block of 25th Ave S",0,0,N/A
+1776159,"August 26, 2020",Minnesota,"Saint Paul","1500 block of Westminster St",0,1,N/A
+1776050,"August 26, 2020",Minnesota,Minneapolis,"101 N 9th St",2,0,N/A
+1778069,"August 26, 2020",Minnesota,Austin,"900 block of Sixth Ave SE",0,0,N/A
+1776157,"August 25, 2020",Minnesota,"Saint Paul (New Brighton)","2100 block of County Rd E",0,1,N/A
+1774481,"August 24, 2020",Minnesota,"Minneapolis (Columbia Heights)","4600 block of Central Ave NE",1,0,N/A
+1776151,"August 24, 2020",Minnesota,Burnsville,"810 County Rd 42 W",0,0,N/A
+1773721,"August 24, 2020",Minnesota,"Saint Paul","1201 Jackson St",0,1,N/A
+1774695,"August 24, 2020",Minnesota,Minneapolis,"Nicollet Ave S and 58th St E",0,0,N/A
+1774688,"August 24, 2020",Minnesota,Minneapolis,"3700 block of Hiawatha Ave",0,1,N/A
+1774681,"August 24, 2020",Minnesota,Minneapolis,"N 15th Ave and N Irving Ave",0,0,N/A
+1774476,"August 24, 2020",Minnesota,Minneapolis,"2300 block of James Ave N",1,0,N/A
+1771986,"August 22, 2020",Minnesota,"Saint Paul (Mendota Heights)","2600 block of 19th Ave NE",0,0,N/A
+1771982,"August 22, 2020",Minnesota,"Saint Paul","Rice St and Maryland Ave",0,2,N/A
+1771558,"August 22, 2020",Minnesota,"Saint Paul (White Bear Lake)","2300 block of Co Rd E",0,1,N/A
+1773701,"August 22, 2020",Minnesota,"Saint Paul (Vadnais Heights)","Thornhill Dr",1,0,N/A
+1772524,"August 22, 2020",Minnesota,Minneapolis,"Emerson Ave S and W Lake St",0,0,N/A
+1771950,"August 22, 2020",Minnesota,Burnsville,"600 block of E 145th St",1,0,N/A
+1771553,"August 22, 2020",Minnesota,Minneapolis,"600 block of 145th St E",0,1,N/A
+1771964,"August 21, 2020",Minnesota,Minneapolis,"3100 block of Hennepin Ave",0,1,N/A
+1771980,"August 21, 2020",Minnesota,Minneapolis,"2600 19th Ave NE",0,0,N/A
+1770906,"August 21, 2020",Minnesota,Minneapolis,"3000 Block of Upton Ave N",0,1,N/A
+1770902,"August 21, 2020",Minnesota,"Saint Paul","Cherokee Ave and Annapolis St",0,0,N/A
+1770897,"August 21, 2020",Minnesota,Minneapolis,"425 W Broadway Ave",0,1,N/A
+1770107,"August 20, 2020",Minnesota,"Saint Paul","200 block of Charles Ave",0,1,N/A
+1771966,"August 20, 2020",Minnesota,Minneapolis,"425 W Broadway Ave",0,1,N/A
+1770892,"August 20, 2020",Minnesota,"Saint Paul","900 Block of Woodbridge St",0,0,N/A
+1770888,"August 20, 2020",Minnesota,Minneapolis,"800 Block of 21st Ave N",0,0,N/A
+1770093,"August 19, 2020",Minnesota,"Saint Paul","1700 block of Rose Ave",0,1,N/A
+1769519,"August 19, 2020",Minnesota,"Saint Paul","1100 block of Bush Ave",1,0,N/A
+1769036,"August 18, 2020",Minnesota,Minneapolis,"W Broadway Ave and N Washburn Ave",0,1,N/A
+1768035,"August 18, 2020",Minnesota,Minneapolis,"2100 block of Bryant Ave N",0,1,N/A
+1767905,"August 18, 2020",Minnesota,Minneapolis,"W 59th St and Nicolett Ave",1,0,N/A
+1767509,"August 18, 2020",Minnesota,Minneapolis,"E 46th St and Hiawatha Ave",1,0,N/A
+1767514,"August 17, 2020",Minnesota,"Minneapolis (Blaine)","600 block of 120th Ave NE",2,0,N/A
+1767875,"August 17, 2020",Minnesota,Bemidji,"2830 Ridgeway Ave NW",0,0,N/A
+1766439,"August 17, 2020",Minnesota,"South Saint Paul","17th Ave N and Congress St",1,1,N/A
+1766239,"August 16, 2020",Minnesota,Minneapolis,"22nd St W and Lyndale Ave",0,1,N/A
+1765603,"August 16, 2020",Minnesota,Minneapolis,"900 block of 22nd Ave N",0,1,N/A
+1766998,"August 16, 2020",Minnesota,Minneapolis,"Columbus Ave S and E 34th St",0,0,N/A
+1766992,"August 16, 2020",Minnesota,Minneapolis,"Bloomington Ave and E 28th St",0,0,N/A
+1766987,"August 16, 2020",Minnesota,Minneapolis,"E 31st St and 23rd Ave S",0,0,N/A
+1765426,"August 15, 2020",Minnesota,Minneapolis,"Lyndale Ave S and W 29th St",0,1,N/A
+1767922,"August 15, 2020",Minnesota,"Saint Paul","1600 block of Euclid St",0,0,N/A
+1765422,"August 15, 2020",Minnesota,Minneapolis,"1600 block of W 36th St",0,2,N/A
+1765421,"August 15, 2020",Minnesota,Minneapolis,"W 27th St and Colfax Ave S",0,0,N/A
+1765415,"August 15, 2020",Minnesota,Minneapolis,"3000 block of Dupont Ave N",0,1,N/A
+1765222,"August 14, 2020",Minnesota,Minneapolis,"Spruce Pl and W Grant St",0,1,N/A
+1764182,"August 14, 2020",Minnesota,Minneapolis,"1700 block of 3rd St E",1,0,N/A
+1765210,"August 14, 2020",Minnesota,Minneapolis,"425 7th St S",1,0,N/A
+1764180,"August 13, 2020",Minnesota,Minneapolis,"52nd Ave and Fremont Ave",0,1,N/A
+1763466,"August 13, 2020",Minnesota,"Minneapolis (Brooklyn Park)","5805 73rd Ave N",1,0,N/A
+1764201,"August 13, 2020",Minnesota,Minneapolis,"N 17th Ave and Emerson Ave N",0,1,N/A
+1764198,"August 13, 2020",Minnesota,Minneapolis,"1st St and 5th Ave",0,0,N/A
+1764196,"August 13, 2020",Minnesota,Minneapolis,"37th St and Colfax Ave N",0,0,N/A
+1764194,"August 13, 2020",Minnesota,Minneapolis,"40th Ave and Emerson Ave",0,1,N/A
+1764177,"August 13, 2020",Minnesota,Minneapolis,"22nd Ave and Lyndale Ave",0,1,N/A
+1762969,"August 12, 2020",Minnesota,Minneapolis,"W Broadway Ave and N Lyndale Ave",0,2,N/A
+1762963,"August 12, 2020",Minnesota,Minneapolis,"2300 Plymouth Ave N",0,0,N/A
+1763476,"August 12, 2020",Minnesota,Duluth,"N 2nd Ave W and W 3rd St",0,1,N/A
+1762560,"August 12, 2020",Minnesota,Rochester,"Eastgate Dr SE",0,0,N/A
+1762978,"August 11, 2020",Minnesota,Minneapolis,"3500 block of 1st Ave S",0,0,N/A
+1762976,"August 11, 2020",Minnesota,Minneapolis,"2000 block of Chicago Ave S",0,0,N/A
+1762069,"August 11, 2020",Minnesota,Minneapolis,"621 N 29th Ave",0,1,N/A
+1762063,"August 11, 2020",Minnesota,Minneapolis,"2700 18th Ave S",0,0,N/A
+1762090,"August 11, 2020",Minnesota,"Saint Paul","Winnipeg Ave W and N Park St",0,0,N/A
+1762581,"August 11, 2020",Minnesota,"Saint Paul","445 Galtier St",0,1,N/A
+1762053,"August 11, 2020",Minnesota,Minneapolis,"4100 block of N Bryant Ave",0,2,N/A
+1762083,"August 10, 2020",Minnesota,Minneapolis,"2100 N Dupont Ave",0,1,N/A
+1762081,"August 10, 2020",Minnesota,Minneapolis,"N Upton Ave",0,1,N/A
+1759801,"August 9, 2020",Minnesota,Minneapolis,"E Lake St and S Chicago Ave",1,0,N/A
+1759834,"August 9, 2020",Minnesota,Minneapolis,"E 31st St and Park Ave",0,1,N/A
+1760123,"August 9, 2020",Minnesota,"Saint Paul","N Sibley St and 4th St E",0,2,N/A
+1762073,"August 8, 2020",Minnesota,Minneapolis,"700 block of 6th Ave SE",0,0,N/A
+1759826,"August 8, 2020",Minnesota,Minneapolis,"2200 block of Aldrich Ave N",0,1,N/A
+1758580,"August 8, 2020",Minnesota,Minneapolis,"5800 block of Bossen Ter",0,0,N/A
+1758941,"August 8, 2020",Minnesota,Minneapolis,"4739 Hiawatha Ave",0,1,N/A
+1758473,"August 8, 2020",Minnesota,Minneapolis,"2900 block of NE Tyler St",0,1,N/A
+1758471,"August 8, 2020",Minnesota,Minneapolis,"3500 block of Columbus Ave S",0,1,N/A
+1758569,"August 7, 2020",Minnesota,Minneapolis,"1300 block of Olson Memorial Hwy",0,0,N/A
+1758484,"August 7, 2020",Minnesota,Minneapolis,"100 block of 15th St",0,1,N/A
+1757016,"August 6, 2020",Minnesota,"Saint Paul","US-10 and E Wheelock Pkwy",0,1,N/A
+1757493,"August 6, 2020",Minnesota,"Albert Lea","900 block of W Front St",0,0,N/A
+1756655,"August 5, 2020",Minnesota,"Saint Paul","300 block of Winona St W",0,0,N/A
+1755325,"August 4, 2020",Minnesota,Minneapolis,"19th St E and Elliot Ave",1,0,N/A
+1754355,"August 3, 2020",Minnesota,Minneapolis,"600 block of 22nd Ave NE",0,0,N/A
+1753899,"August 3, 2020",Minnesota,Minneapolis,"4th St SE and 12th Ave SE",0,1,N/A
+1753901,"August 2, 2020",Minnesota,Minneapolis,"200 block of W 15th St",0,1,N/A
+1752676,"August 1, 2020",Minnesota,Minneapolis,"1600 block of Hillside Ave N",0,1,N/A
+1752672,"August 1, 2020",Minnesota,Minneapolis,"N Thomas Ave and N 29th Ave",0,1,N/A
+1752671,"August 1, 2020",Minnesota,Minneapolis,"1300 block of W 28th St",0,0,N/A
+1752669,"August 1, 2020",Minnesota,"Minneapolis (Brooklyn Park)","8000 block of Brooklyn Blvd",0,1,N/A
+1752475,"August 1, 2020",Minnesota,Minneapolis,"1st Ave N and 5th St",0,3,N/A
+1752473,"August 1, 2020",Minnesota,Minneapolis,"Golden Valley Rd",0,1,N/A
+1753120,"August 1, 2020",Minnesota,Minneapolis,"E 25th St and Chicago Ave S",0,1,N/A
+1753102,"August 1, 2020",Minnesota,Minneapolis,"1500 block of E 19th St",1,0,N/A
+1752666,"July 31, 2020",Minnesota,"Saint Paul","1300 block of Sherburn Ave",0,2,N/A
+1751430,"July 31, 2020",Minnesota,"Saint Paul","John Ireland Blvd and Marshall Ave",0,2,N/A
+1751704,"July 31, 2020",Minnesota,Minneapolis,"1800 block of Bryant Ave N",0,1,N/A
+1752469,"July 31, 2020",Minnesota,Minneapolis,"4000 block of N Humboldt Ave",1,0,N/A
+1751690,"July 31, 2020",Minnesota,Minneapolis,"4900 block of Upton Ave N",0,1,N/A
+1751423,"July 31, 2020",Minnesota,Duluth,"29 W 11th St",0,1,N/A
+1750882,"July 30, 2020",Minnesota,"Saint Paul","MN-36 and Rice St",0,0,N/A
+1752640,"July 30, 2020",Minnesota,"Saint Paul (West Saint Paul)","1625 Humboldt Ave",0,1,N/A
+1750588,"July 30, 2020",Minnesota,Minneapolis,"E 22nd St and Elliot Ave",0,0,N/A
+1750586,"July 30, 2020",Minnesota,Minneapolis,"1604 E Lake St",0,1,N/A
+1758505,"July 30, 2020",Minnesota,"Elk River","US-169 and Ranch Rd",0,0,N/A
+1750870,"July 30, 2020",Minnesota,"Saint Paul","Winnipeg Ave and Park St",0,0,N/A
+1750868,"July 30, 2020",Minnesota,"Minneapolis (Blaine)","3200 block of 91st Curve NE",0,0,N/A
+1750863,"July 30, 2020",Minnesota,Minneapolis,"2400 block of 18th Ave S",0,1,N/A
+1750591,"July 29, 2020",Minnesota,Minneapolis,"Lyndale Ave and W Broadway Ave",0,1,N/A
+1750590,"July 29, 2020",Minnesota,Minneapolis,"1500 block of 22nd Ave N",0,0,N/A
+1750161,"July 29, 2020",Minnesota,Minneapolis,"2400 block of 18th Ave S",1,1,N/A
+1750419,"July 29, 2020",Minnesota,Minneapolis,"Glenwood Ave and Knox Ave N",0,1,N/A
+1748542,"July 28, 2020",Minnesota,Minneapolis,"505 W Lake St",0,1,N/A
+1749507,"July 28, 2020",Minnesota,Minneapolis,"3600 Block of Aldrich Ave N",0,0,N/A
+1749496,"July 28, 2020",Minnesota,Minneapolis,"E Minnehaha Pkwy and 28th Ave S",0,0,N/A
+1748546,"July 28, 2020",Minnesota,"Saint Paul","1700 block of Thomas Ave",0,1,N/A
+1754903,"July 28, 2020",Minnesota,"Minneapolis (Brooklyn Park)","600 block of 81st Ave N",0,0,N/A
+1755176,"July 28, 2020",Minnesota,"Beltrami (county)",N/A,0,0,N/A
+1747522,"July 27, 2020",Minnesota,Minneapolis,"2300 block of Irving Ave N",0,2,N/A
+1748535,"July 27, 2020",Minnesota,"Minneapolis (Brooklyn Park)","6500 block of Zane Ave N",0,0,N/A
+1747959,"July 27, 2020",Minnesota,"Saint Paul","1900 block of Upper Afton Rd",0,1,N/A
+1747968,"July 27, 2020",Minnesota,Minneapolis,"26th Ave NE and Ulysses St NE",0,1,N/A
+1746924,"July 26, 2020",Minnesota,Minneapolis,"2700 block of 14th Ave",0,0,N/A
+1746918,"July 26, 2020",Minnesota,"Minneapolis (Brooklyn Park)","Zane Ave and 63rd Ave N",0,0,N/A
+1747459,"July 26, 2020",Minnesota,"Saint Paul","Edmund St and St Albans St",1,0,N/A
+1747617,"July 26, 2020",Minnesota,Rochester,"1216 2nd St SW",0,1,N/A
+1745819,"July 25, 2020",Minnesota,Minneapolis,"3700 block of Elliot Ave S",0,1,N/A
+1746071,"July 25, 2020",Minnesota,Minneapolis,"1000 block of Logan Ave N",0,2,N/A
+1746078,"July 25, 2020",Minnesota,Minneapolis,"1600 block of Plymouth Ave N",0,2,N/A
+1746354,"July 25, 2020",Minnesota,Minneapolis,"E Franklin Ave and Chicago Ave",0,1,N/A
+1745827,"July 24, 2020",Minnesota,"Minneapolis (Brooklyn Park)","Unity Ave N and 73rd Ave N",0,0,N/A
+1745813,"July 24, 2020",Minnesota,Minneapolis,"I-394 and Penn Ave S",0,1,N/A
+1745745,"July 24, 2020",Minnesota,"Minneapolis (Bloomington)","7851 Normandale Blvd",0,1,N/A
+1748514,"July 24, 2020",Minnesota,Fertile,"111 Albert Ave NW",1,0,N/A
+1744241,"July 23, 2020",Minnesota,"Minneapolis (Brooklyn Park)","6321 Zane Ave N",0,1,N/A
+1743823,"July 23, 2020",Minnesota,Minneapolis,"2500 block of 15th Ave S",0,1,N/A
+1743831,"July 23, 2020",Minnesota,Minneapolis,"4th Ave SE and 4th St SE",0,1,N/A
+1744247,"July 23, 2020",Minnesota,"Saint Paul","1400 block of Arkwright St",0,0,N/A
+1743840,"July 23, 2020",Minnesota,Minneapolis,"E 35th St and Chicago Ave S",1,0,N/A
+1744392,"July 23, 2020",Minnesota,"Saint Paul (New Brighton)","20th Ave NW and NW 14th St",0,1,N/A
+1744255,"July 23, 2020",Minnesota,Minneapolis,"2900 block of Newton Ave",0,0,N/A
+1744236,"July 23, 2020",Minnesota,Minneapolis,"2200 block of 4th Ave N",0,1,N/A
+1743039,"July 23, 2020",Minnesota,Glyndon,N/A,0,0,N/A
+1743924,"July 22, 2020",Minnesota,Minneapolis,"N 7th St and Aldrich Ave",0,0,N/A
+1743918,"July 22, 2020",Minnesota,Minneapolis,"3800 block of 12th St",0,0,N/A
+1743860,"July 22, 2020",Minnesota,"Saint Paul","390 Maryland Ave E",0,1,N/A
+1743850,"July 22, 2020",Minnesota,Minneapolis,"35th St and 10th Ave S",0,0,N/A
+1743842,"July 22, 2020",Minnesota,Minneapolis,"2200 block of Aldrich Ave S",0,1,N/A
+1742036,"July 21, 2020",Minnesota,Minneapolis,"800 E 28th St",0,1,N/A
+1741315,"July 21, 2020",Minnesota,Minneapolis,"3845 S Hiawatha Ave S",0,1,N/A
+1741312,"July 21, 2020",Minnesota,"Saint Paul","University Ave and N Asbury St",0,1,N/A
+1744231,"July 21, 2020",Minnesota,"Saint Paul","500 block of Summit Ave",0,0,N/A
+1740713,"July 20, 2020",Minnesota,Minneapolis,"1000 block of E 22nd St",1,0,N/A
+1739005,"July 18, 2020",Minnesota,Minneapolis,"3000 block of Columbus Ave S",0,1,N/A
+1742371,"July 18, 2020",Minnesota,Aurora,"26 W 3rd Ave N",0,0,N/A
+1744902,"July 17, 2020",Minnesota,Minneapolis,"3700 block of Elliot Ave",0,1,N/A
+1744926,"July 17, 2020",Minnesota,Minneapolis,"32nd St E and Park Ave",0,0,N/A
+1743570,"July 17, 2020",Minnesota,Austin,"1300 block of 1st Pl SE",0,0,N/A
+1737984,"July 16, 2020",Minnesota,"Albert Lea","1201 Gene St",0,1,N/A
+1744936,"July 16, 2020",Minnesota,Minneapolis,"38th St E and Chicago Ave",0,0,N/A
+1743561,"July 16, 2020",Minnesota,"Minneapolis (Crystal)","57th Ave and W Broadway Ave",0,0,N/A
+1744900,"July 16, 2020",Minnesota,Minneapolis,"3400 block 15th Ave S",0,1,N/A
+1736952,"July 16, 2020",Minnesota,Minneapolis,"14th Ave S and E 33rd St",0,1,N/A
+1737995,"July 16, 2020",Minnesota,"Albert Lea","1007 Dunham St",0,0,N/A
+1740428,"July 16, 2020",Minnesota,"Saint Paul","100 block of Bigelow Ln",0,0,N/A
+1740427,"July 16, 2020",Minnesota,"Saint Paul","1000 block of Hudson Rd",0,0,N/A
+1737413,"July 16, 2020",Minnesota,Minneapolis,"730 E 22nd St",0,2,N/A
+1737421,"July 16, 2020",Minnesota,Minneapolis,"Sheridan Ave N",0,1,N/A
+1745845,"July 15, 2020",Minnesota,Minneapolis,"4000 block of 5th Ave S",0,0,N/A
+1735909,"July 15, 2020",Minnesota,Minneapolis,"2000 block of Chicago Ave",0,0,N/A
+1735905,"July 15, 2020",Minnesota,Minneapolis,"2500 block of Harriet Ave S",0,0,N/A
+1736358,"July 15, 2020",Minnesota,"Minneapolis (Brooklyn Park)","6321 Zane Ave N",0,1,N/A
+1740424,"July 15, 2020",Minnesota,"Saint Paul","Bush Ave and Van Dyke St",0,2,N/A
+1740420,"July 15, 2020",Minnesota,"Saint Paul","2000 block of Suburban Ave",0,0,N/A
+1736366,"July 15, 2020",Minnesota,"Saint Paul","Western Ave N and Concordia Ave W",1,2,N/A
+1735169,"July 15, 2020",Minnesota,"Saint Paul","University Ave and Asbury St",0,1,N/A
+1736380,"July 15, 2020",Minnesota,Minneapolis,"Cedar Ave and S 7th St",0,0,N/A
+1736378,"July 15, 2020",Minnesota,Minneapolis,"N Colfax Ave and 36th Ave N",0,1,N/A
+1736361,"July 15, 2020",Minnesota,"Saint Paul","Victoria St and Fuller Ave",0,0,N/A
+1735462,"July 14, 2020",Minnesota,Minneapolis,"2500 block of 10th Ave S",1,0,N/A
+1734676,"July 14, 2020",Minnesota,Minneapolis,"Hennepin Ave and S 10th St",0,0,N/A
+1734674,"July 14, 2020",Minnesota,Minneapolis,"S James Ave and W 36th St",0,1,N/A
+1734640,"July 14, 2020",Minnesota,Minneapolis,"Oliver Ave N and N 29th Ave",0,1,N/A
+1735185,"July 14, 2020",Minnesota,Minneapolis,"2600 block of Cedar Ave",0,0,N/A
+1735184,"July 14, 2020",Minnesota,Minneapolis,"3600 block of Elliot Ave S",0,0,N/A
+1735183,"July 14, 2020",Minnesota,Minneapolis,"24th St and 11th Ave S",0,0,N/A
+1735182,"July 14, 2020",Minnesota,Minneapolis,"1900 block of Oliver Ave N",0,0,N/A
+1734663,"July 14, 2020",Minnesota,Minneapolis,"10th Ave S and E 32nd St",0,1,N/A
+1745768,"July 13, 2020",Minnesota,"Minneapolis (Fridley)","Rice Creek Blvd NE",0,0,N/A
+1734666,"July 13, 2020",Minnesota,Minneapolis,"3200 block of Logan Ave N",0,1,N/A
+1733896,"July 13, 2020",Minnesota,Minneapolis,"2500 block of Golden Valley Rd",1,0,N/A
+1735165,"July 13, 2020",Minnesota,"Saint Paul","Burns Ave and US-10",0,2,N/A
+1735163,"July 13, 2020",Minnesota,"Saint Paul","Marshall Ave",0,1,N/A
+1733514,"July 13, 2020",Minnesota,"Saint Paul (Mendota Heights)",MN-55,1,0,N/A
+1733904,"July 13, 2020",Minnesota,Minneapolis,"Lyndale Ave S and 25th St W",0,1,N/A
+1733900,"July 13, 2020",Minnesota,Minneapolis,"400 block of Fillmore St NE",0,1,N/A
+1738434,"July 12, 2020",Minnesota,Minneapolis,"33rd St E and 14th Ave S",0,0,N/A
+1735852,"July 12, 2020",Minnesota,Brainerd,"200 block of Hawkins Dr",0,0,N/A
+1733519,"July 12, 2020",Minnesota,Minneapolis,"W Broadway Ave and N Bryant Ave",0,1,N/A
+1733517,"July 12, 2020",Minnesota,"Saint Paul","Cypress St and 3rd St E",0,0,N/A
+1733488,"July 12, 2020",Minnesota,"Saint Paul","700 block of N Milton St",0,1,N/A
+1733480,"July 12, 2020",Minnesota,"Saint Paul","Maryland Ave E and White Bear Ave",0,0,N/A
+1733475,"July 12, 2020",Minnesota,"Saint Paul","University Ave and Fairview Ave",0,1,N/A
+1733468,"July 12, 2020",Minnesota,"Saint Paul","Rice St and Arlington Ave W",0,0,N/A
+1733451,"July 12, 2020",Minnesota,Minneapolis,"600 block of 23rd Ave N",0,0,N/A
+1732762,"July 12, 2020",Minnesota,Minneapolis,"3300 block of France Ave N",0,1,N/A
+1731934,"July 11, 2020",Minnesota,Minneapolis,"3100 block of Emerson Ave N",0,1,N/A
+1732813,"July 11, 2020",Minnesota,Minneapolis,"38th St E and Chicago Ave",0,1,N/A
+1732829,"July 11, 2020",Minnesota,Duluth,"Raleigh St and 56th Ave W",0,0,N/A
+1732825,"July 11, 2020",Minnesota,Duluth,"100 block of E 3rd St",0,1,N/A
+1732738,"July 11, 2020",Minnesota,Minneapolis,"7900 block of Lad Parkway N",0,1,N/A
+1732789,"July 11, 2020",Minnesota,Minneapolis,"900 block of E 22nd St",0,0,N/A
+1737966,"July 11, 2020",Minnesota,"Minneapolis (Bloomington)","7815 Nicollet Ave",1,0,N/A
+1731614,"July 11, 2020",Minnesota,Minneapolis,"3300 block of 1st Ave S",0,0,N/A
+1731928,"July 11, 2020",Minnesota,Minneapolis,"26th Ave and Emerson Ave",1,0,N/A
+1730568,"July 10, 2020",Minnesota,Minneapolis,"2900 block of N 6th St",1,1,N/A
+1731298,"July 10, 2020",Minnesota,Minneapolis,"Chicago Ave and E 37th St",0,0,N/A
+1731027,"July 10, 2020",Minnesota,Minneapolis,"1700 Bryant Ave N",0,1,N/A
+1730909,"July 10, 2020",Minnesota,Rochester,"1600 block of 8th St S",0,1,N/A
+1731301,"July 10, 2020",Minnesota,Minneapolis,"4700 block of Bryant Ave N",0,1,N/A
+1730557,"July 10, 2020",Minnesota,Minneapolis,"E 29th St and Park Ave S",0,1,N/A
+1730564,"July 10, 2020",Minnesota,Minneapolis,"E 38th St and Chicago Ave S",0,2,N/A
+1731306,"July 10, 2020",Minnesota,"Saint Paul","Van Dyke St and Wilson Ave",0,0,N/A
+1731304,"July 10, 2020",Minnesota,Minneapolis,"1400 block of 26th Ave N",0,1,N/A
+1738425,"July 9, 2020",Minnesota,Minneapolis,"38th St E and Chicago Ave",0,1,N/A
+1729981,"July 9, 2020",Minnesota,Minneapolis,"Lake St E and Chicago Ave",0,1,N/A
+1729566,"July 9, 2020",Minnesota,Minneapolis,"E 32nd St and 2nd Ave S",0,2,N/A
+1729975,"July 9, 2020",Minnesota,Minneapolis,"36th Ave N and Logan Ave N",0,1,N/A
+1730205,"July 9, 2020",Minnesota,Minneapolis,"24th St E and Cedar Ave S",0,2,N/A
+1730551,"July 9, 2020",Minnesota,Minneapolis,"N 6th St and 21st Ave N",0,1,N/A
+1730234,"July 9, 2020",Minnesota,Minneapolis,"N Dowling Ave and Fremont Ave N",0,0,N/A
+1730233,"July 9, 2020",Minnesota,Minneapolis,"5100 block of Vincent Ave N",0,0,N/A
+1730226,"July 9, 2020",Minnesota,Minneapolis,"1700 block of E Lake St",0,0,N/A
+1730216,"July 9, 2020",Minnesota,Minneapolis,"N Lyndale Ave and N 25th Ave",0,1,N/A
+1729569,"July 8, 2020",Minnesota,Minneapolis,"W 27th St and Grand Ave S",0,0,N/A
+1730914,"July 8, 2020",Minnesota,Rochester,"1600 block of 8th S",0,0,N/A
+1729025,"July 8, 2020",Minnesota,Minneapolis,"N Queen Ave and 36th Ave N",0,0,N/A
+1729571,"July 8, 2020",Minnesota,Minneapolis,"2600 block of Broadway",0,1,N/A
+1729565,"July 8, 2020",Minnesota,Minneapolis,"2200 block of Fremont Ave",0,0,N/A
+1728507,"July 7, 2020",Minnesota,Minneapolis,"3500 block of 35th St E",0,0,N/A
+1728501,"July 7, 2020",Minnesota,"Saint Paul","Marion St and Geranium Ave W",0,1,N/A
+1728491,"July 7, 2020",Minnesota,Minneapolis,"24th St and 18th Ave",0,1,N/A
+1728541,"July 7, 2020",Minnesota,Minneapolis,"3200 block of 2nd Ave S",1,0,N/A
+1728546,"July 7, 2020",Minnesota,Minneapolis,"10th St N and Hawthorne Ave",0,1,N/A
+1728726,"July 7, 2020",Minnesota,Minneapolis,N/A,0,1,N/A
+1728543,"July 7, 2020",Minnesota,"Saint Paul","300 block of Fuller Ave",0,0,N/A
+1728544,"July 7, 2020",Minnesota,Minneapolis,"2100 block of Emerson Ave N",1,1,N/A
+1728510,"July 6, 2020",Minnesota,"Saint Paul","300 block of Portland Ave",0,0,N/A
+1728495,"July 6, 2020",Minnesota,Minneapolis,"1100 block of 25th Ave N",0,1,N/A
+1727444,"July 6, 2020",Minnesota,"Minneapolis (Spring Lake Park)","7700 block of Jackson St NE",0,0,N/A
+1727131,"July 6, 2020",Minnesota,Minneapolis,"N Aldrich Ave and N 41st Ave",0,0,N/A
+1727438,"July 6, 2020",Minnesota,Minneapolis,"Humboldt Ave N and 49th Ave N",0,1,N/A
+1727451,"July 6, 2020",Minnesota,"Saint Paul","1000 block of E 4th St",0,0,N/A
+1727449,"July 6, 2020",Minnesota,"Saint Paul","200 block of N Kent St",0,1,N/A
+1726874,"July 5, 2020",Minnesota,Minneapolis,"E 37th St and S Elliot Ave",1,1,N/A
+1725555,"July 5, 2020",Minnesota,Minneapolis,"600 block of 37th Ave NE",0,0,N/A
+1725553,"July 5, 2020",Minnesota,"Saint Paul","800 block of Jenks Ave E",0,0,N/A
+1725546,"July 5, 2020",Minnesota,Minneapolis,"5100 block of Knox Ave N",0,1,N/A
+1727156,"July 4, 2020",Minnesota,Minneapolis,"E 1st St",0,0,N/A
+1727150,"July 4, 2020",Minnesota,Duluth,N/A,0,0,N/A
+1727134,"July 4, 2020",Minnesota,Duluth,N/A,0,0,N/A
+1725544,"July 4, 2020",Minnesota,"Zumbro Falls","404th Ave",1,0,N/A
+1724593,"July 4, 2020",Minnesota,"Saint Paul","1060 Edgewater Blvd",0,1,N/A
+1725554,"July 4, 2020",Minnesota,Minneapolis,"2800 block of Pillsbury Ave",0,0,N/A
+1725491,"July 4, 2020",Minnesota,"Minneapolis (Brooklyn Park)","7900 block of Aldrich Ave N",0,4,N/A
+1723732,"July 3, 2020",Minnesota,Minneapolis,"Chicago Ave and Franklin Ave",0,2,N/A
+1724625,"July 3, 2020",Minnesota,Minneapolis,"2800 block of 27th Ave",0,0,N/A
+1723755,"July 3, 2020",Minnesota,Minneapolis,"1840 Penn Ave N",0,1,N/A
+1723146,"July 2, 2020",Minnesota,"Saint Paul","Winnipeg Ave W and Rice St",0,0,N/A
+1723135,"July 2, 2020",Minnesota,Minneapolis,"1924 Chicago Ave S",0,0,N/A
+1722873,"July 2, 2020",Minnesota,Minneapolis,"N 21st Ave and N 4th St",1,0,N/A
+1722439,"July 1, 2020",Minnesota,Minneapolis,"E 21st Ave and Bloomington Ave",0,1,N/A
+1722926,"July 1, 2020",Minnesota,Minneapolis,"10th Ave S and E 24th St",0,0,N/A
+1722166,"July 1, 2020",Minnesota,Minneapolis,"E Franklin Ave and Chicago Ave",0,1,N/A
+1721676,"July 1, 2020",Minnesota,"Saint Paul","1537 University Ave W",1,0,N/A
+1721529,"June 30, 2020",Minnesota,Minneapolis,"2800 block of Delaware St SE",0,0,N/A
+1721087,"June 30, 2020",Minnesota,"Saint Paul","2000 block of Como Ave",0,1,N/A
+1721527,"June 30, 2020",Minnesota,Minneapolis,"1122 Lowry Ave N",0,1,N/A
+1723710,"June 29, 2020",Minnesota,Austin,"I-90 and 11th Dr NE",0,0,N/A
+1721096,"June 29, 2020",Minnesota,Shafer,"Quinlan Ln",0,0,N/A
+1720035,"June 29, 2020",Minnesota,Minneapolis,"1900 block of Elliot Ave",0,0,N/A
+1720034,"June 29, 2020",Minnesota,Minneapolis,"1600 block of Vincent Ave N",0,0,N/A
+1720595,"June 29, 2020",Minnesota,Minneapolis,"3700 block of N 6th St",0,0,N/A
+1720591,"June 29, 2020",Minnesota,Minneapolis,"700 block of 21st Ave N",0,1,N/A
+1720580,"June 29, 2020",Minnesota,Minneapolis,"Nicollet Ave and S 10th St",0,1,N/A
+1719546,"June 28, 2020",Minnesota,Minneapolis,"W Broadway Ave and Fremont Ave N",0,0,N/A
+1719531,"June 28, 2020",Minnesota,"Saint Paul","600 block of Bedford St",0,1,N/A
+1719418,"June 28, 2020",Minnesota,Minneapolis,"2400 block of 18th Ave South",0,1,N/A
+1719412,"June 28, 2020",Minnesota,Minneapolis,N/A,0,1,N/A
+1720194,"June 28, 2020",Minnesota,Rochester,"300 block of 16th St NE",0,0,N/A
+1720189,"June 28, 2020",Minnesota,Rochester,"2800 block of Northern Valley Dr NE",0,1,N/A
+1719543,"June 28, 2020",Minnesota,Minneapolis,"2400 block of Elliot Ave S",0,0,N/A
+1719117,"June 28, 2020",Minnesota,Minneapolis,"W 45th St and Wentworth Ave",0,0,N/A
+1719539,"June 28, 2020",Minnesota,"Minneapolis (Columbia Heights)","3900 block of University Ave NE",0,0,N/A
+1720015,"June 28, 2020",Minnesota,"Minneapolis (Bloomington)","2231 Killebrew Dr",0,0,N/A
+1718909,"June 27, 2020",Minnesota,Minneapolis,"2600 block of 10th Ave",0,0,N/A
+1719080,"June 27, 2020",Minnesota,Minneapolis,"24th Ave N and 6th St N",0,2,N/A
+1718703,"June 27, 2020",Minnesota,"Saint Paul","Maryland Ave E and Payne Ave",0,1,N/A
+1718691,"June 27, 2020",Minnesota,"Saint Paul","Arlington Ave W and Rice St",0,1,N/A
+1718697,"June 27, 2020",Minnesota,"Saint Paul","Pierce Butler Route",0,0,N/A
+1718354,"June 27, 2020",Minnesota,Minneapolis,"430 N 1st Ave",0,2,N/A
+1718342,"June 27, 2020",Minnesota,Minneapolis,"3200 block of 6th St N",0,1,N/A
+1722898,"June 27, 2020",Minnesota,"Saint Paul","1100 block of Arundel St",0,0,N/A
+1722885,"June 27, 2020",Minnesota,Chisholm,"McNiven Rd",0,0,N/A
+1723707,"June 27, 2020",Minnesota,Austin,"700 block of 11th St NE",0,0,N/A
+1718898,"June 27, 2020",Minnesota,Minneapolis,"730 E 22nd St",0,1,N/A
+1719113,"June 27, 2020",Minnesota,Minneapolis,"3000 block of 4th St E",0,0,N/A
+1719103,"June 27, 2020",Minnesota,"Saint Paul","3rd St E and Hazelwood St",0,1,N/A
+1718905,"June 27, 2020",Minnesota,"Saint Paul","1000 block of 4th St E",0,1,N/A
+1717822,"June 26, 2020",Minnesota,Minneapolis,"1700 block of Queen Ave N",0,2,N/A
+1717821,"June 26, 2020",Minnesota,"Saint Paul","Central Ave and Dale St",0,0,N/A
+1718363,"June 26, 2020",Minnesota,"Minneapolis (Spring Lake Park)","7700 block of Jackson St NE",0,0,N/A
+1717420,"June 26, 2020",Minnesota,"Sauk Rapids","700 block of Broadway Ave S",0,1,N/A
+1716605,"June 25, 2020",Minnesota,Minneapolis,"18th St E and 11th Ave S",0,1,N/A
+1716686,"June 25, 2020",Minnesota,Minneapolis,"W 49th St and Emerson Ave S",0,1,N/A
+1717606,"June 25, 2020",Minnesota,Minneapolis,"3700 block of 6th St N",0,0,N/A
+1716926,"June 25, 2020",Minnesota,"Saint Paul","200 block of South St W",0,0,N/A
+1716936,"June 25, 2020",Minnesota,Minneapolis,"E 27th St and West River Pkwy S",0,0,N/A
+1716934,"June 25, 2020",Minnesota,Minneapolis,"3700 block of 6th St N",0,0,N/A
+1717597,"June 25, 2020",Minnesota,Minneapolis,"1900 block of EM Stately St",0,1,N/A
+1715929,"June 24, 2020",Minnesota,Minneapolis,"Plymouth Ave N and Logan Ave N",0,1,N/A
+1715922,"June 24, 2020",Minnesota,Minneapolis,"500 block of 8th Ave NE",0,0,N/A
+1716696,"June 24, 2020",Minnesota,"Waite Park","10 block of Cherry St",1,0,N/A
+1716678,"June 24, 2020",Minnesota,Minneapolis,"N 21st Ave and Bryant Ave N",0,1,N/A
+1716669,"June 24, 2020",Minnesota,Minneapolis,"36th Ave N and N 6th St",0,1,N/A
+1716658,"June 24, 2020",Minnesota,Minneapolis,"3100 Russell Ave N",0,1,N/A
+1715481,"June 24, 2020",Minnesota,Andover,"300 block of Andover Blvd NW",1,0,N/A
+1716548,"June 24, 2020",Minnesota,"Minneapolis (Bloomington)","4500 block of W 88th St",0,0,N/A
+1718009,"June 24, 2020",Minnesota,Winona,"7th St and and Druey Ct",0,0,N/A
+1715568,"June 23, 2020",Minnesota,Minneapolis,"N 29th Ave and Logan Ave N",0,0,N/A
+1714804,"June 23, 2020",Minnesota,Minneapolis,"4100 block of Aldrich Ave",1,0,N/A
+1713381,"June 22, 2020",Minnesota,Minneapolis,"2100 block of Bryant Ave N",0,1,N/A
+1712830,"June 22, 2020",Minnesota,Austin,"300 block of S Main St",0,0,N/A
+1715506,"June 22, 2020",Minnesota,Minneapolis,"2927 N Irving Ave",0,0,N/A
+1712876,"June 22, 2020",Minnesota,Minneapolis,"N Morgan Ave and N 16th Ave",0,4,N/A
+1712898,"June 22, 2020",Minnesota,Minneapolis,"627 W Broadway",0,4,N/A
+1714268,"June 22, 2020",Minnesota,Minneapolis,"N 25th Ave and N 4th St",0,1,N/A
+1712834,"June 22, 2020",Minnesota,Austin,"800 block of 6th Ave SE",0,0,N/A
+1713977,"June 22, 2020",Minnesota,"Minneapolis (Crystal)","5216 W Broadway Ave",0,3,N/A
+1711670,"June 21, 2020",Minnesota,"Minneapolis (Crystal)","5216 W Broadway Ave",1,0,N/A
+1712518,"June 21, 2020",Minnesota,Minneapolis,"3315 Bryant Ave N",1,0,N/A
+1712089,"June 21, 2020",Minnesota,Minneapolis,"2000 block of Lyndale Ave N",0,1,N/A
+1712082,"June 21, 2020",Minnesota,Minneapolis,"3100 block of Girard Ave N",0,1,N/A
+1712070,"June 21, 2020",Minnesota,Minneapolis,"Plymouth Ave and Morgan Ave",0,1,N/A
+1711410,"June 21, 2020",Minnesota,Minneapolis,"2939 Hennepin Ave S",0,11,N/A
+1714321,"June 21, 2020",Minnesota,Austin,"1800 block of 4th Ave NW",0,0,N/A
+1712846,"June 21, 2020",Minnesota,Minneapolis,"49th St N and Emerson Ave N",0,0,N/A
+1712844,"June 21, 2020",Minnesota,Minneapolis,"Franklin Ave and Chicago Ave S",0,1,N/A
+1717221,"June 21, 2020",Minnesota,Rochester,"1500 block of 4th Ave SE",0,0,N/A
+1714262,"June 21, 2020",Minnesota,Minneapolis,"7th St N and 1st Ave N",1,0,N/A
+1721102,"June 20, 2020",Minnesota,Minneapolis,"100 block of 4th St NE",0,0,N/A
+1711336,"June 20, 2020",Minnesota,Minneapolis,"800 block of 21st Ave N",0,2,N/A
+1711332,"June 20, 2020",Minnesota,Minneapolis,"2700 block of University Ave SE",0,1,N/A
+1711329,"June 20, 2020",Minnesota,Minneapolis,"1100 block of Olson Memorial Hwy",0,1,N/A
+1722882,"June 19, 2020",Minnesota,"Saint Paul","425 Rice St",0,1,N/A
+1710186,"June 19, 2020",Minnesota,"Saint Paul","800 block of Central Ave W",0,1,N/A
+1711065,"June 19, 2020",Minnesota,Minneapolis,"Lyndale Ave S and W 22nd St",0,0,N/A
+1710904,"June 19, 2020",Minnesota,Minneapolis,"700 block of W Broadway Ave",0,2,N/A
+1710304,"June 19, 2020",Minnesota,Minneapolis,"54th St and 28th Ave",0,2,N/A
+1710285,"June 19, 2020",Minnesota,Minneapolis,"E 38th St and Chicago Ave",1,0,N/A
+1710176,"June 19, 2020",Minnesota,Minneapolis,"3400 block of Elliot Ave S",1,0,N/A
+1709464,"June 19, 2020",Minnesota,"Saint Paul","970 block of Wakefield Ave",0,0,N/A
+1711341,"June 19, 2020",Minnesota,"Saint Paul (Maplewood)","2300 block of E Stillwater Rd",0,0,N/A
+1709191,"June 18, 2020",Minnesota,"Saint Paul","100 block of Bigelow Ln",0,0,N/A
+1709187,"June 18, 2020",Minnesota,"Saint Paul","1000 block of Hudson Rd",0,0,N/A
+1710183,"June 18, 2020",Minnesota,"Cannon Falls","115 Village Ave E",0,1,N/A
+1709164,"June 17, 2020",Minnesota,Minneapolis,"Plymouth Ave N and James Ave N",0,0,N/A
+1709184,"June 17, 2020",Minnesota,"Saint Paul","Bush Ave and Van Dyke St",0,2,N/A
+1709178,"June 17, 2020",Minnesota,"Saint Paul","1000 block of Western Ave N",0,0,N/A
+1709176,"June 17, 2020",Minnesota,"Saint Paul","2000 block of Suburban Ave",0,0,N/A
+1708073,"June 17, 2020",Minnesota,Minneapolis,"Elliot Ave and E 19th St",0,1,N/A
+1707673,"June 16, 2020",Minnesota,Minneapolis,"1100 block of 21st Ave",0,3,N/A
+1708082,"June 16, 2020",Minnesota,Minneapolis,"E Lake St and Oakland Ave",0,1,N/A
+1706813,"June 16, 2020",Minnesota,Minneapolis,"N 21st Ave and Irving Ave N",0,1,N/A
+1708392,"June 16, 2020",Minnesota,Minneapolis,"38th St and Chicago Ave",0,2,N/A
+1708389,"June 16, 2020",Minnesota,Minneapolis,"600 block of W Broadway Ave",0,2,N/A
+1707585,"June 16, 2020",Minnesota,"Minneapolis (Bloomington)","8911 Penn Ave S",0,1,N/A
+1707650,"June 16, 2020",Minnesota,Minneapolis,"2400 block of N 35th St",1,0,N/A
+1709551,"June 16, 2020",Minnesota,"Thief River Falls",N/A,0,1,N/A
+1705698,"June 15, 2020",Minnesota,"Saint Cloud","1000 block of 10th Ave S",0,2,N/A
+1707242,"June 15, 2020",Minnesota,Minneapolis,"Plymouth Ave N and Fremont Ave N",0,1,N/A
+1707240,"June 15, 2020",Minnesota,Minneapolis,"Glenwood Ave and Penn Ave N",0,1,N/A
+1707655,"June 15, 2020",Minnesota,Minneapolis,"5200 block of N Teutonia Ave",0,1,N/A
+1707653,"June 15, 2020",Minnesota,Minneapolis,"2600 block of N 50th St",1,0,N/A
+1704879,"June 14, 2020",Minnesota,Minneapolis,"328 W Broadway Ave",1,6,N/A
+1705361,"June 14, 2020",Minnesota,Minneapolis,"29th Ave and Girard Ave",0,1,N/A
+1727105,"June 14, 2020",Minnesota,"Saint Paul","Jessamine Ave and Arcade St",0,1,N/A
+1716581,"June 13, 2020",Minnesota,"Minneapolis (Brooklyn Park)","6300 block of Zane Ave N",0,1,N/A
+1704194,"June 13, 2020",Minnesota,"Saint Paul","160 Larpenter Ave W",1,0,N/A
+1716583,"June 12, 2020",Minnesota,"Minneapolis (Brooklyn Park)","7900 block of Kyle Ave",0,0,N/A
+1704929,"June 11, 2020",Minnesota,Minneapolis,"2706 Lowry Ave N",0,0,N/A
+1709132,"June 10, 2020",Minnesota,"Minneapolis (Spring Lake Park)","Hwy 65 NE and 83rd Ave",0,0,N/A
+1702346,"June 10, 2020",Minnesota,"Saint Paul","Hazelwood St and Maryland Ave E",0,0,N/A
+1705010,"June 10, 2020",Minnesota,Minneapolis,"Franklin Ave E and Bloomington Ave S",0,1,N/A
+1705156,"June 9, 2020",Minnesota,Minneapolis,"1900 block of 4th Ave S",0,1,N/A
+1705152,"June 9, 2020",Minnesota,Minneapolis,"400 block of Morgan Ave N",0,1,N/A
+1701770,"June 9, 2020",Minnesota,"Saint Cloud","800 block of 8th Ave SE",0,0,N/A
+1705146,"June 8, 2020",Minnesota,Minneapolis,N/A,0,1,N/A
+1700302,"June 8, 2020",Minnesota,"Saint Paul (White Bear Lake)","5050 Lake Ave",0,2,N/A
+1700917,"June 8, 2020",Minnesota,Rochester,"400 block of 5th Ave SE",0,1,N/A
+1700911,"June 8, 2020",Minnesota,Shakopee,"2400 block of Paha Cir",1,0,N/A

@@ -5,6 +5,9 @@ from ast import literal_eval
 from Controller import LogController, FileController
 from Helper import AppConfigHelper
 
+# TEST
+
+
 dir_path = AppConfigHelper.get_app_config_by_key("app_dir")
 selected_lexicon_path = "Lexicon/WordNetAffectEmotionLists/"
 mood_list = ['anger', 'disgust', 'fear', 'joy', 'sadness', 'surprise']

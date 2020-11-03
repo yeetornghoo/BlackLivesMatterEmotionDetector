@@ -61,11 +61,11 @@ def plot(y_attr, x_attr, g_attr, df, y_attr_title, x_attr_title, title, legend_t
     plt.close()
 
 
-def plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, selected_key, n_start_date, n_end_date, include_standard):
+def plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, selected_key, n_start_date, n_end_date):
 
     # PARAMETER
-    senti_name = "{}_sentiment".format(lexicon_name)
-    senti_key = "{}_sentiment_{}".format(lexicon_name, selected_key)
+    senti_name = "sentiment"
+    senti_key = "sentiment_score"
 
     # REMOVE NULL
     df = df[df[senti_name].notna()]
@@ -88,26 +88,12 @@ def plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, selected_key,
     plot(senti_key, "tweet_created_date", senti_name, df_i, y_attr_title, x_attr_title, title, legend_title, output_file, "log")
     plot_facet_grid(senti_key, "tweet_created_date", senti_name, df_i, output_file)
 
-    # STANDARD
-    if include_standard:
-        if lexicon_name == "nrc":
-            df_s = NrcController.get_standard_model(df)
-        elif lexicon_name == "dpm":
-            df_s = DepecheMoodController.get_standard_model(df)
 
-        # PLOT
-        output_file = plot_folder_path(dir_path, True, lexicon_name) + "{}_{}_by_day_by_period".format(selected_key, plot_name)
-        df_s = df_s[["tweet_created_date", senti_name, senti_key]].groupby(["tweet_created_date", senti_name], as_index=False).sum()
-        plot(senti_key, "tweet_created_date", senti_name, df_s, y_attr_title, x_attr_title, title, legend_title, output_file, "linear")
-        plot(senti_key, "tweet_created_date", senti_name, df_s, y_attr_title, x_attr_title, title, legend_title, output_file, "log")
-        plot_facet_grid(senti_key, "tweet_created_date", senti_name, df_s, output_file)
-
-
-def plot_sentiment_day_key_with_intensity(df, lexicon_name, dir_path, selected_key, min_intensity, include_standard):
+def plot_sentiment_day_key_with_intensity(df, lexicon_name, dir_path, selected_key, min_intensity):
 
     # PARAMETER
-    senti_name = "{}_sentiment".format(lexicon_name)
-    senti_key = "{}_sentiment_{}".format(lexicon_name, selected_key)
+    senti_name = "sentiment"
+    senti_key = "sentiment_score"
 
     # REMOVE NULL
     df = df[df[senti_name].notna()]
@@ -127,24 +113,12 @@ def plot_sentiment_day_key_with_intensity(df, lexicon_name, dir_path, selected_k
     plot(senti_key, "tweet_created_date", senti_name, df_i, yAttrTitle, xAttrTitle, title, legend_title, output_file, "linear")
     plot(senti_key, "tweet_created_date", senti_name, df_i, yAttrTitle, xAttrTitle, title, legend_title, output_file, "log")
 
-    # STANDARD
-    if include_standard:
-        if lexicon_name=="nrc":
-            df_s = NrcController.get_standard_model(df)
-        elif lexicon_name == "dpm":
-            df_s = DepecheMoodController.get_standard_model(df)
 
-        # PLOT
-        output_file = plot_folder_path(dir_path, True, lexicon_name) + "{}_{}_by_day_with_intensity".format(selected_key, plot_name)
-        df_s = df_s[["tweet_created_date", senti_name, senti_key]].groupby(["tweet_created_date", senti_name]).sum()
-        plot(senti_key, "tweet_created_date", senti_name, df_s, yAttrTitle, xAttrTitle, title, legend_title, output_file, "linear")
-        plot(senti_key, "tweet_created_date", senti_name, df_s, yAttrTitle, xAttrTitle, title, legend_title, output_file, "log")
+def plot_sentiment_day_key(df, lexicon_name, dir_path, selected_key):
 
-
-def plot_sentiment_day_key(df, lexicon_name, dir_path, selected_key, include_standard):
     # PARAMETER
-    senti_name = "{}_sentiment".format(lexicon_name)
-    senti_key = "{}_sentiment_{}".format(lexicon_name, selected_key)  # SCORE OR COUNT
+    senti_name = "sentiment"
+    senti_key = "sentiment_score"
 
     # REMOVE NULL
     df = df[df[senti_name].notna()]
@@ -160,20 +134,6 @@ def plot_sentiment_day_key(df, lexicon_name, dir_path, selected_key, include_sta
     df_i = df[["tweet_created_date", senti_name, senti_key]].groupby(["tweet_created_date", senti_name]).sum()
     plot(senti_key, "tweet_created_date", senti_name, df_i, yAttrTitle, xAttrTitle, title, legend_title, output_file, "linear")
     plot(senti_key, "tweet_created_date", senti_name, df_i, yAttrTitle, xAttrTitle, title, legend_title, output_file, "log")
-
-    # STANDARD
-    if include_standard:
-
-        if lexicon_name=="nrc":
-            df_s = NrcController.get_standard_model(df)
-        elif lexicon_name == "dpm":
-            df_s = DepecheMoodController.get_standard_model(df)
-
-        # PLOT
-        output_file = plot_folder_path(dir_path, True, lexicon_name) + "{}_{}_by_day".format(selected_key, plot_name)
-        df_s = df_s[["tweet_created_date", senti_name, senti_key]].groupby(["tweet_created_date", senti_name]).sum()
-        plot(senti_key, "tweet_created_date", senti_name, df_s, yAttrTitle, xAttrTitle, title, legend_title, output_file, "linear")
-        plot(senti_key, "tweet_created_date", senti_name, df_s, yAttrTitle, xAttrTitle, title, legend_title, output_file, "log")
 
 '''
 def plot_sentiment_hour_key_with_period(df, lexicon_name, dir_path, is_standard, selected_key, n_start_date, n_end_date):
@@ -244,23 +204,15 @@ def plot_sentiment_hour_key(df, lexicon_name, dir_path, is_standard, selected_ke
 '''
 
 
-
-
-
-def plot_sentiment(df, lexicon_name, dir_path, min_intensity, start_date, end_date, include_count, include_standard):
+def plot_sentiment(df, lexicon_name, dir_path, min_intensity, start_date, end_date):
 
     # RESET FOLDER
     FolderHelper.reset_dataset_viz_output_folder(dir_path, lexicon_name, plot_name)
 
     # LINE PLOT BY DAY
-    plot_sentiment_day_key(df, lexicon_name, dir_path, "score", include_standard)
-    plot_sentiment_day_key_with_intensity(df, lexicon_name, dir_path, "score", min_intensity, include_standard)
-    plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, "score", start_date, end_date, include_standard)
-
-    if include_count:
-        plot_sentiment_day_key(df, lexicon_name, dir_path, "count", include_standard)
-        plot_sentiment_day_key_with_intensity(df, lexicon_name, dir_path, "count", min_intensity, include_standard)
-        plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, "count", start_date, end_date, include_standard)
+    plot_sentiment_day_key(df, lexicon_name, dir_path, "score")
+    plot_sentiment_day_key_with_intensity(df, lexicon_name, dir_path, "score", min_intensity)
+    plot_sentiment_day_key_with_period(df, lexicon_name, dir_path, "score", start_date, end_date)
 
     '''
     # LINE PLOT BY HOUR

@@ -1,7 +1,10 @@
 import pandas as pd
+import numpy as np
 from ast import literal_eval
 
 # STANDARD MODEL
+from Helper import StringHelper
+
 model_moods = ['anger', 'disgust', 'fear', 'joy', 'sadness', 'surprise']
 mood_score_model = ['anger', 'anger_score', 'disgust', 'disgust_score', 'fear', 'fear_score', 'joy', 'joy_score',
                     'sadness', 'sadness_score', 'surprise', 'surprise_score']
@@ -54,6 +57,9 @@ def get_top_mood_by_count(model, att_mood_name, att_mood_count_name):
 
 
 def get_unique_words(row):
-    lemma_form = literal_eval(row['lemma_tweet_text'])
-    stand_form = literal_eval(row['tweet_text'])
-    return list(set(lemma_form + stand_form))
+    if not pd.isnull(row['final_tweet_text']):
+        #lemma_form = literal_eval(row['lemma_tweet_text'])
+        #stand_form = literal_eval(row['tweet_text'])
+        final_tweet = literal_eval(row['final_tweet_text'])
+        return list(set(final_tweet))
+    return []
