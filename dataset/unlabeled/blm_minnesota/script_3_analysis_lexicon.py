@@ -24,7 +24,6 @@ df.rename(columns={"nrc_sentiment": "sentiment",
                    "nrc_sentiment_count": "sentiment_count",
                    "nrc_sentiment_score": "sentiment_score"}, inplace=True)
 
-
 # PREPARE THE ATTRIBUTE
 df['tweet_created_date'] = df['tweet_created_dt'].apply(lambda x: datetime.strptime(str(x), date_format).date())
 df['tweet_created_hour'] = df['tweet_created_dt'].apply(lambda x: DateHelper.get_date_with_hour(str(x), date_format))
@@ -33,7 +32,6 @@ DataAssess.run(df)
 # LINE PLOT
 LinePlotViz.plot_sentiment(df, "nrc", dir_path, min_intensity, focus_from_date, focus_to_date)
 KdePlotViz.plot_sentiment(df, "nrc", dir_path, focus_from_date, focus_to_date)
-
 
 # TWEET COUNT
 img_path = dir_path+"img/tweet_count.png"
