@@ -24,7 +24,7 @@ end_date = DateHelper.get_datetime64(focus_to_date, "%Y/%m/%d")
 
 def get_blm_minesota(from_date, to_date):
 
-    primary_dir_path = "C:/workspace/SocialMovementSentiment/dataset/blm_minesota/"
+    primary_dir_path = "C:/workspace/SocialMovementSentiment/dataset/blm_minnesota/"
     primary_dataset_source_file = "{}dataset.csv".format(primary_dir_path)
 
     # PRIMARY SOURCE
