@@ -1,0 +1,34 @@
+import pandas as pd
+from datetime import datetime
+
+from Controller import DataAssess
+from Controller.Visualization.Tweets import KdePlotViz, LinePlotViz
+from Helper import DateHelper
+
+# SETTING
+date_format = "%Y-%m-%d %H:%M:%S"
+min_intensity = 1.2
+dir_path = "C:/workspace/SocialMovementSentiment/dataset/blm_minesota/"
+focus_from_date = "2020-05-23"
+focus_to_date = "2020-06-05"
+
+# LOAD AND PREPARE DATASET
+df = pd.read_csv("05-post-sentiment-dataset.csv", sep=",")
+
+# REMOVE UNUSE COLUMN
+df.drop(['text', 'dpm_sentiment', 'dpm_sentiment_count', 'dpm_sentiment_score',
+         'esn_sentiment', 'esn_sentiment_count'], axis=1, inplace=True)
+
+df.rename(columns={"nrc_sentiment": "sentiment",
+                   "nrc_sentiment_count": "sentiment_count",
+                   "nrc_sentiment_score": "sentiment_score"}, inplace=True)
+
+
+# PREPARE THE ATTRIBUTE
+df['tweet_created_date'] = df['tweet_created_dt'].apply(lambda x: datetime.strptime(str(x), date_format).date())
+df['tweet_created_hour'] = df['tweet_created_dt'].apply(lambda x: DateHelper.get_date_with_hour(str(x), date_format))
+DataAssess.run(df)
+
+# LINE PLOT
+LinePlotViz.plot_sentiment(df, "nrc", dir_path, min_intensity, focus_from_date, focus_to_date)
+KdePlotViz.plot_sentiment(df, "nrc", dir_path, focus_from_date, focus_to_date)
