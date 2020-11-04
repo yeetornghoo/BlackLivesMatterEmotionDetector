@@ -10,11 +10,10 @@ df.drop(['text'], axis=1, inplace=True)
 df = DataNLP.run(df)
 FileController.save_df_to_csv("04-post-nlp-dataset.csv", df)
 
-'''
+
 # CHECK SENTIMENT
 df = pd.read_csv("04-post-nlp-dataset.csv", sep=",")
 df = NrcController.run(df)
 #df = DepecheMoodController.run(df)
 #df = EmoSenticNetController.run(df)
 df = pd.read_csv("05-post-sentiment-dataset.csv", sep=",")
-'''
