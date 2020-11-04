@@ -28,7 +28,7 @@ out_path = "master/img/baseline/"
 #BaselineViz.df_summary(df, "fear", min_perc, out_path)
 #BaselineViz.df_summary(df, "anger", min_perc, out_path)
 #BaselineViz.df_summary(df, "sadness", min_perc, out_path)
-BaselineViz.df_summary(df, "trust", 0.7, out_path)
+BaselineViz.df_summary(df, "trust", 0.68, out_path)
 #BaselineViz.df_summary(df, "joy", min_perc, out_path)
 #BaselineViz.df_summary(df, "surprise", min_perc, out_path)
 #BaselineViz.df_summary(df, "anticipation", min_perc, out_path)
