@@ -6,3 +6,6 @@ pip install stanza
 pip3 install lxml
 pip3 install html5lib
 pip3 install BeautifulSoup4
+pip3 install matplotlib
+pip install wordcloud
+pip install seaborn
