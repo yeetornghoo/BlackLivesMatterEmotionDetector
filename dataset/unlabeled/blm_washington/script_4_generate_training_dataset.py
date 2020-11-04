@@ -16,4 +16,4 @@ out_path = "img/baseline/"
 BaselineViz.run(df, out_path)
 
 # COMMIT TO GIT
-GitController.commit("auto: update latest unlabeled data - washington dc")
+#GitController.commit("auto: update latest unlabeled data - washington dc")
