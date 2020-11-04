@@ -5,7 +5,9 @@ from Controller import GitController
 
 # SETTING
 sns.set_theme(style="whitegrid")
-df = pd.read_csv("05-post-sentiment-dataset.csv", sep=",")
+#df = pd.read_csv("05-post-sentiment-dataset.csv", sep=",")
+df = pd.read_csv("04-post-sentiment-False-dataset.csv", sep=",")
+
 df = df.loc[:, ['tweet_id', 'nrc_sentiment', 'nrc_sentiment_score', "text"]]
 df.rename(columns={"nrc_sentiment": "sentiment",
                    "nrc_sentiment_score": "sentiment_score",
