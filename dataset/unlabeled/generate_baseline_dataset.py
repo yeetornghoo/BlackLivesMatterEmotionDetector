@@ -23,7 +23,17 @@ FileController.save_df_to_csv("{}master/baseline-dataset.csv".format(dir_path), 
 # GENERATE VISUAL FOR THE LATEST BASELINE DATASET
 df = pd.read_csv("{}master/baseline-dataset.csv".format(dir_path), sep=",")
 out_path = "master/img/baseline/"
-BaselineViz.run_mood(df, out_path, 0.75)
+#BaselineViz.run_mood(df, out_path, 0.75)
+
+#BaselineViz.df_summary(df, "fear", min_perc, out_path)
+#BaselineViz.df_summary(df, "anger", min_perc, out_path)
+#BaselineViz.df_summary(df, "sadness", min_perc, out_path)
+BaselineViz.df_summary(df, "trust", 0.5, out_path)
+#BaselineViz.df_summary(df, "joy", min_perc, out_path)
+#BaselineViz.df_summary(df, "surprise", min_perc, out_path)
+#BaselineViz.df_summary(df, "anticipation", min_perc, out_path)
+#BaselineViz.df_summary(df, "disgust", min_perc, out_path)
+
 
 # COMMIT TO GIT
 GitController.commit("auto: update latest labeled datasets")
