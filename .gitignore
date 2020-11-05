@@ -1,2 +1,5 @@
 _*
 dataset/*/_*
+.idea/
+.idea/*
+.idea/*.xml
