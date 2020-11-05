@@ -13,7 +13,7 @@ df.rename(columns={"nrc_sentiment": "sentiment",
 out_path = "img/baseline/"
 
 # GENERATE VISUAL FOR THE LATEST BASELINE DATASET
-BaselineViz.run(df, out_path)
+BaselineViz.run_mood(df, out_path, 0.5)
 
 # COMMIT TO GIT
 #GitController.commit("auto: update latest unlabeled data - washington dc")
