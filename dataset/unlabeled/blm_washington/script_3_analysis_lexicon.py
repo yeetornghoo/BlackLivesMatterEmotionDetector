@@ -30,4 +30,4 @@ KdePlotViz.plot_sentiment(df, "nrc", dir_path, focus_from_date, focus_to_date)
 img_path = dir_path+"img/tweet_count.png"
 df_count = df.loc[:, ['sentiment', 'tweet_text']]
 df_count = df_count.groupby("sentiment").count()
-BarPlotViz.generate_barplot(df_count, "Minnesota Sentiment Tweet Acount", "Sentiment", "# of Tweets", img_path)
+BarPlotViz.generate_barplot(df_count, "Washington D.C Sentiment Tweet Account", "Sentiment", "# of Tweets", img_path)

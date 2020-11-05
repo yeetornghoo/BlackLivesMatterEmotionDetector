@@ -1,7 +1,7 @@
 import pandas as pd
 import seaborn as sns
 from Controller.Baseline import BaselineViz
-from Controller import GitController, FileController
+from Controller import GitController, FileController, DataCleaning
 
 # SETTING
 sns.set_theme(style="whitegrid")
