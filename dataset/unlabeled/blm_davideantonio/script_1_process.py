@@ -22,4 +22,3 @@ FileController.save_df_to_csv("03-post-spelling-dataset.csv", df)
 
 # LOG
 LogController.log("Execution of 'script_1_process.py' is completed.")
-
