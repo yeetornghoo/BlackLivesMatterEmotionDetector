@@ -21,11 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fe8b93ec-7eaa-48b7-98fe-1988f17dc409" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/01-post-translate-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/01-post-translate-dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/02-post-cleaning-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/02-post-cleaning-dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/03-post-spelling-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/03-post-spelling-dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/script_2_label_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/script_2_label_sentiment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/script_3_analysis_lexicon.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/script_3_analysis_lexicon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_washington/script_4_generate_training_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_washington/script_4_generate_training_dataset.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +45,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.script_4_generate_training_dataset (1)">
+  <component name="RunManager" selected="Python.script_4_generate_training_dataset (2)">
     <configuration name="script_0_init" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="script_4_generate_training_dataset (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="script_4_generate_training_dataset (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,11 +117,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/unlabeled/blm_washington" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/script_2_label_sentiment.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/unlabeled/blm_washington/script_4_generate_training_dataset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,14 +152,15 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.script_4_generate_training_dataset (1)" />
       <item itemvalue="Python.script_0_init" />
       <item itemvalue="Python.script_1_process" />
       <item itemvalue="Python.script_4_generate_training_dataset" />
       <item itemvalue="Python.script_1_process (1)" />
+      <item itemvalue="Python.script_4_generate_training_dataset (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.script_4_generate_training_dataset (2)" />
         <item itemvalue="Python.script_1_process (1)" />
         <item itemvalue="Python.script_1_process" />
         <item itemvalue="Python.script_4_generate_training_dataset" />
@@ -222,22 +219,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601012252295" />
-    <state width="1538" height="433" key="GridCell.Tab.0.bottom" timestamp="1604573655000">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1604578082328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1538" height="433" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604573655000" />
-    <state width="1538" height="433" key="GridCell.Tab.0.center" timestamp="1604573654999">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604578082328" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1604578082328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1538" height="433" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604573654999" />
-    <state width="1538" height="433" key="GridCell.Tab.0.left" timestamp="1604573654999">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604578082328" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1604578082328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1538" height="433" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604573654999" />
-    <state width="1538" height="433" key="GridCell.Tab.0.right" timestamp="1604573655000">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604578082328" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1604578082328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1538" height="433" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604573655000" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604578082328" />
     <state width="1235" height="331" key="GridCell.Tab.1.bottom" timestamp="1604229988897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
