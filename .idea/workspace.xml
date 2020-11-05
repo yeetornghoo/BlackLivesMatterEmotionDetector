@@ -44,7 +44,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.script_1_process">
+  <component name="RunManager" selected="Python.script_4_generate_training_dataset (1)">
     <configuration name="generate_baseline_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,7 +108,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="script_2_label_sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="script_4_generate_training_dataset (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,7 +120,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/unlabeled/blm_washington/script_2_label_sentiment.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/unlabeled/blm_washington/script_4_generate_training_dataset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,17 +153,17 @@
     <list>
       <item itemvalue="Python.script_0_init" />
       <item itemvalue="Python.script_1_process" />
-      <item itemvalue="Python.script_2_label_sentiment" />
       <item itemvalue="Python.generate_baseline_dataset" />
       <item itemvalue="Python.script_4_generate_training_dataset" />
+      <item itemvalue="Python.script_4_generate_training_dataset (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.script_4_generate_training_dataset (1)" />
         <item itemvalue="Python.script_1_process" />
         <item itemvalue="Python.script_4_generate_training_dataset" />
         <item itemvalue="Python.script_0_init" />
         <item itemvalue="Python.generate_baseline_dataset" />
-        <item itemvalue="Python.script_2_label_sentiment" />
       </list>
     </recent_temporary>
   </component>
