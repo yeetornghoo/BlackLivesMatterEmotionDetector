@@ -16,7 +16,6 @@ focus_to_date = "2020-06-05"
 # LOAD AND PREPARE DATASET
 df = pd.read_csv("05-post-sentiment-dataset.csv", sep=",")
 
-
 # PREPARE THE ATTRIBUTE
 df['tweet_created_date'] = df['tweet_created_dt'].apply(lambda x: datetime.strptime(str(x), date_format).date())
 df['tweet_created_hour'] = df['tweet_created_dt'].apply(lambda x: DateHelper.get_date_with_hour(str(x), date_format))
