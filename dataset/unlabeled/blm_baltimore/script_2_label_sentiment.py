@@ -17,7 +17,6 @@ df = NrcController.run(df)
 #df = EmoSenticNetController.run(df)
 
 # REMOVE COLUMNS
-#df.drop(['place', 'retweet_count', 'favorite_count', 'lang', 'full_text'], axis=1, inplace=True)
 df.rename(columns={"nrc_sentiment": "sentiment", "nrc_sentiment_count": "sentiment_count",
                    "nrc_sentiment_score": "sentiment_score", "created_at": "tweet_created_dt"}, inplace=True)
 df = df[["tweet_text", "sentiment", "sentiment_count", "sentiment_score", "tweet_created_dt"]]
