@@ -1,7 +1,7 @@
 import pandas as pd
 import re
 import matplotlib.pyplot as plt
-from Controller import LogController, DataNLP
+from Controller import LogController, DataNLP, FileController
 from Controller.Visualization import BarPlotViz, WordClouldViz, BellCurveViz, BoxplotViz, WordFrequencyViz
 
 
@@ -60,6 +60,9 @@ def generate_mood_viz(df, class_name, percentage, out_path):
 
     fig.clear()
     plt.close('all')
+
+    # SAVE FILE
+    FileController.save_df_to_csv("tmp/tmp-{}-dataset.csv".format(class_name), df_q3)
 
 
 def df_summary(df, class_name, percentage, out_path):

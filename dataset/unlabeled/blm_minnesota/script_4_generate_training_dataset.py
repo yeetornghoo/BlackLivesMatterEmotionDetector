@@ -1,7 +1,7 @@
 import pandas as pd
 import seaborn as sns
 from Controller.Baseline import BaselineViz
-from Controller import GitController, FileController
+from Controller import GitController, FileController, PlutchikStandardController
 
 out_path = "img/baseline/"
 
@@ -12,14 +12,20 @@ df = pd.read_csv("05-post-sentiment-dataset.csv", sep=",")
 # FILTER WORD OF TWEET
 df['ttl_tweet_text_word'] = df['tweet_text'].str.split().str.len()
 df = df.loc[(df['ttl_tweet_text_word'] > 2)]
-
-# SAVE FILE
 df = df.loc[:, ['sentiment', 'sentiment_count', 'sentiment_score', "tweet_text"]]
-FileController.save_df_to_csv("baseline-dataset.csv", df)
 
 # GENERATE VISUAL FOR THE LATEST BASELINE DATASET
 BaselineViz.run_mood(df, out_path, 0.5)
 
-# COMMIT TO GIT
-# GitController.commit("auto: update latest unlabeled data - minnesota")
+# COMBINE TMP FILE
+final_df = pd.DataFrame()
+for mood in PlutchikStandardController.moods:
+    tmp_df = pd.DataFrame()
+    tmp_df = pd.read_csv("tmp/tmp-{}-dataset.csv".format(mood), sep=",")
+    final_df.append(tmp_df)
+
+BaselineViz.generate_count(df, out_path)
+
+# SAVE FILE
+FileController.save_df_to_csv("baseline-dataset.csv", df)
 
