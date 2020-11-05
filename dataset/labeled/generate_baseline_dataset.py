@@ -1,6 +1,9 @@
 import os
 import pandas as pd
-from Controller import FileController, GitController
+from Controller import FileController
+
+'''
+from Controller import GitController
 from Controller.Baseline import BaselineViz
 
 dir_path = "C:/workspace/SocialMovementSentiment/dataset/labeled/"
@@ -28,3 +31,4 @@ BaselineViz.run(df, out_path)
 
 # COMMIT TO GIT
 GitController.commit("auto: update latest labeled datasets")
+'''
