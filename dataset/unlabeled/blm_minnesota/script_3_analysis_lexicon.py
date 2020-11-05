@@ -16,13 +16,6 @@ focus_to_date = "2020-06-05"
 # LOAD AND PREPARE DATASET
 df = pd.read_csv("05-post-sentiment-dataset.csv", sep=",")
 
-# REMOVE UNUSE COLUMN
-df.drop(['text', 'dpm_sentiment', 'dpm_sentiment_count', 'dpm_sentiment_score',
-         'esn_sentiment', 'esn_sentiment_count'], axis=1, inplace=True)
-
-df.rename(columns={"nrc_sentiment": "sentiment",
-                   "nrc_sentiment_count": "sentiment_count",
-                   "nrc_sentiment_score": "sentiment_score"}, inplace=True)
 
 # PREPARE THE ATTRIBUTE
 df['tweet_created_date'] = df['tweet_created_dt'].apply(lambda x: datetime.strptime(str(x), date_format).date())
