@@ -9,7 +9,7 @@ from Helper import DateHelper
 # SETTING
 date_format = "%Y-%m-%d %H:%M:%S"
 min_intensity = 1.2
-dir_path = "C:/workspace/SocialMovementSentiment/dataset/blm_minnesota/"
+dir_path = "C:/workspace/SocialMovementSentiment/dataset/unlabeled/blm_minnesota/"
 focus_from_date = "2020-05-23"
 focus_to_date = "2020-06-05"
 
@@ -30,4 +30,4 @@ KdePlotViz.plot_sentiment(df, "nrc", dir_path, focus_from_date, focus_to_date)
 img_path = dir_path+"img/tweet_count.png"
 df_count = df.loc[:, ['sentiment', 'tweet_text']]
 df_count = df_count.groupby("sentiment").count()
-BarPlotViz.generate_barplot(df_count, "Minnesota Sentiment Tweet Acount", "Sentiment", "# of Tweets", img_path)
+BarPlotViz.generate_barplot(df_count, "Minnesota Sentiment Tweet Account", "Sentiment", "# of Tweets", img_path)

@@ -17,9 +17,6 @@ df = NrcController.run(df)
 #df = EmoSenticNetController.run(df)
 
 # REMOVE UNUSE COLUMN
-df.drop(['text', 'dpm_sentiment', 'dpm_sentiment_count', 'dpm_sentiment_score',
-         'esn_sentiment', 'esn_sentiment_count'], axis=1, inplace=True)
-
 df.rename(columns={"nrc_sentiment": "sentiment",
                    "nrc_sentiment_count": "sentiment_count",
                    "nrc_sentiment_score": "sentiment_score"}, inplace=True)
