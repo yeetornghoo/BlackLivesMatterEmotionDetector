@@ -10,3 +10,5 @@ pip3 install matplotlib
 pip install wordcloud
 pip install seaborn
 pip install emot
+pip install nltk
+pip install sklearn
