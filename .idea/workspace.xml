@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fe8b93ec-7eaa-48b7-98fe-1988f17dc409" name="Default Changelist" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       <change afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_baltimore/img/validation/0_preliminary/bow_linearsvc_confusion_matrix.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_baltimore/img/validation/0_preliminary/bow_svn_confusion_matrix.png" afterDir="false" />
@@ -56,6 +57,8 @@
       <change afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_washington/img/validation/0_preliminary/tf-idf_svn_confusion_matrix.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_washington/script_5_quick_validation.py" afterDir="false" />
 >>>>>>> 8978cb2bf896b6dd9b98ea12d8988ac4f0bcea0a
+=======
+>>>>>>> 07570c680e7b1894b152dae8491c96974c167527
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -262,10 +265,11 @@
         <item itemvalue="Python.generate_baseline_dataset" />
 =======
       <item itemvalue="Python.script_2_label_sentiment" />
-      <item itemvalue="Python.script_5_quick_validation" />
+      <item itemvalue="Python.script_3_analysis_lexicon" />
       <item itemvalue="Python.script_5_quick_validation (1)" />
       <item itemvalue="Python.script_5_quick_validation (2)" />
       <item itemvalue="Python.script_5_quick_validation (3)" />
+      <item itemvalue="Python.script_5_quick_validation" />
     </list>
     <recent_temporary>
       <list>
