@@ -116,6 +116,6 @@ def run(df, foldername):
     run_bow(df, X, y, foldername)
     run_tfidf(df, X, y, foldername)
 
-    f.close()
+    #f.close()
 
 
