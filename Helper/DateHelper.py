@@ -20,3 +20,9 @@ def get_datetime64(str_date, input_format):
     new_date = datetime.strptime(str_date, input_format)
     new_date = np.datetime64(new_date)
     return new_date
+
+
+# HANDLE DATETIME END WITH +00:00
+def standardize_date(str_input):
+    end_index = str_input.find('+')
+    return str_input[0:end_index]

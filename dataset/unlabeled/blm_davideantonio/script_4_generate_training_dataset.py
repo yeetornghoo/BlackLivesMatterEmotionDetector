@@ -15,7 +15,7 @@ df = df.loc[(df['ttl_tweet_text_word'] > 2)]
 df = df.loc[:, ['sentiment', 'sentiment_count', 'sentiment_score', "tweet_text"]]
 
 # GENERATE VISUAL FOR THE LATEST BASELINE DATASET
-BaselineViz.run_mood(df, out_path, 0.5)
+BaselineViz.run_mood(df, out_path, 0.75)
 
 # COMBINE TMP FILE
 final_df = pd.DataFrame()
