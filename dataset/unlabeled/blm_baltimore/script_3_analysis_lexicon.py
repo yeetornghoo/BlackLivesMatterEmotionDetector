@@ -9,7 +9,7 @@ from Helper import DateHelper
 # SETTING
 date_format = "%Y-%m-%d %H:%M:%S"
 min_intensity = 1.2
-dir_path = "C:/workspace/SocialMovementSentiment/dataset/blm_minnesota/"
+dir_path = "C:/workspace/SocialMovementSentiment/dataset/unlabeled/blm_baltimore/"
 focus_from_date = "2020-05-23"
 focus_to_date = "2020-06-05"
 

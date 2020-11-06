@@ -92,7 +92,7 @@ def run(df, out_path):
 
     # CREATE SIMPLE COUNT BY SENTIMENT BAR PLOT
     generate_count(df, out_path)
-    #generate_word_assessment(df, out_path)
+    generate_word_assessment(df, out_path)
 
 
 def run_mood(df, out_path, min_perc):
