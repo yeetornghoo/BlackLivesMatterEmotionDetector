@@ -11,7 +11,7 @@ out_path = "img/baseline/"
 # FILTER WORD OF TWEET
 df['ttl_tweet_text_word'] = df['tweet_text'].str.split().str.len()
 df = df.loc[(df['ttl_tweet_text_word'] > 2)]
-df.drop(columns=['tweet_created_dt', 'retweets', 'favorites', 'ttl_tweet_text_word'], inplace=True)
+df = df[['sentiment', 'sentiment_count', 'sentiment_score', "tweet_text"]]
 
 # GENERATE VISUAL FOR THE LATEST BASELINE DATASET
 BaselineViz.run_mood(df, out_path, 0.75)

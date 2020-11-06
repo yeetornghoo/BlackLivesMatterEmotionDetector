@@ -1,6 +1,5 @@
 import pandas as pd
 from datetime import datetime
-
 from Controller import DataAssess
 from Controller.Visualization import BarPlotViz
 from Controller.Visualization.Tweets import KdePlotViz, LinePlotViz
@@ -15,8 +14,6 @@ focus_to_date = "2020-06-05"
 
 # LOAD AND PREPARE DATASET
 df = pd.read_csv("05-post-sentiment-dataset.csv", sep=",")
-
-df.rename(columns={"created_at": "tweet_created_dt"}, inplace=True)
 
 # PREPARE THE ATTRIBUTE
 df['tweet_created_date'] = df['tweet_created_dt'].apply(lambda x: datetime.strptime(str(x), date_format).date())

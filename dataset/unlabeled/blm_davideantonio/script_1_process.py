@@ -5,6 +5,8 @@ from Controller import DataCleaning, DataTranslation, DataSpellingCorrection
 # LOAD AND PREPARE DATASET
 df = pd.read_csv("dataset/dataset.csv", sep=",")
 df['tweet_text'] = df['full_text']
+df['tweet_created_dt'] = df['created_at']
+
 
 # EXCLUDE NONE ENGLISH TEXT
 df = DataTranslation.run(df, "en")
@@ -18,6 +20,7 @@ FileController.save_df_to_csv("02-post-cleaning-dataset.csv", df)
 # SPELLING CORRECTION
 df = pd.read_csv("02-post-cleaning-dataset.csv", sep=",")
 df = DataSpellingCorrection.run(df)
+df = df[["tweet_created_dt", "tweet_text"]]
 FileController.save_df_to_csv("03-post-spelling-dataset.csv", df)
 
 # LOG

@@ -1,6 +1,5 @@
 import pandas as pd
 from datetime import datetime
-
 from Controller import DataAssess
 from Controller.Visualization import BarPlotViz
 from Controller.Visualization.Tweets import KdePlotViz, LinePlotViz
@@ -24,7 +23,6 @@ DataAssess.run(df)
 # LINE PLOT
 LinePlotViz.plot_sentiment(df, "nrc", dir_path, min_intensity, focus_from_date, focus_to_date)
 KdePlotViz.plot_sentiment(df, "nrc", dir_path, focus_from_date, focus_to_date)
-
 
 # TWEET COUNT
 img_path = dir_path+"img/tweet_count.png"

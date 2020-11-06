@@ -1,25 +1,47 @@
 import pandas as pd
 import subprocess
-from Controller import FileController, GitController
+from Controller import FileController, GitController, LogController
 from Controller.Baseline import BaselineViz
 
 df = pd.DataFrame()
 dir_path = "C:/workspace/SocialMovementSentiment/dataset/unlabeled/"
+dataset = "baseline-dataset.csv"
 
 # GENERATE BASELINE DATASET
-
-# COMBINE FINAL BASELINE DATASET
-ds_minnesota_file = "{}/blm_minnesota/05-post-sentiment-dataset.csv".format(dir_path)
+# - MINNESOTA
+ds_minnesota_file = "{}blm_minnesota/{}".format(dir_path, dataset)
 ds_minnesota = pd.read_csv(ds_minnesota_file, sep=",")
-ds_minnesota = ds_minnesota[["tweet_text", "nrc_sentiment", "nrc_sentiment_score"]]
-ds_washington_file = "{}/blm_washington/04-post-sentiment-False-dataset.csv".format(dir_path)
+ds_minnesota = ds_minnesota[["tweet_text", "sentiment", "sentiment_score"]]
+LogController.log("Added {} rows".format(len(ds_minnesota.index)))
+df = df.append(ds_minnesota, ignore_index=True)
+
+'''
+# - WASHINGTON DC
+ds_washington_file = "{}blm_washington/{}".format(dir_path, dataset)
 ds_washington = pd.read_csv(ds_washington_file, sep=",")
-ds_washington = ds_washington[["tweet_text", "nrc_sentiment", "nrc_sentiment_score"]]
-df = pd.concat([ds_minnesota, ds_washington], axis=0)
-df.rename(columns={"nrc_sentiment": "sentiment", "nrc_sentiment_score": "sentiment_score"}, inplace=True)
+ds_washington = ds_washington[["tweet_text", "sentiment", "sentiment_score"]]
+LogController.log("Added {} rows".format(len(ds_washington.index)))
+df = df.append(ds_washington, ignore_index=True)
+
+# - DAVID EANTONIE
+ds_davideantonio_file = "{}blm_davideantonio/{}".format(dir_path, dataset)
+ds_davideantonio = pd.read_csv(ds_davideantonio_file, sep=",")
+ds_davideantonio = ds_davideantonio[["tweet_text", "sentiment", "sentiment_score"]]
+LogController.log("Added {} rows".format(len(ds_davideantonio.index)))
+df = df.append(ds_davideantonio, ignore_index=True)
+
+# - BALTIMORE
+ds_baltimore_file = "{}blm_baltimore/{}".format(dir_path, dataset)
+ds_baltimore = pd.read_csv(ds_baltimore_file, sep=",")
+ds_baltimore = ds_baltimore[["tweet_text", "sentiment", "sentiment_score"]]
+LogController.log("Added {} rows".format(len(ds_baltimore.index)))
+df = df.append(ds_baltimore, ignore_index=True)
+'''
+
+df = df[["sentiment", "tweet_text"]]
 FileController.save_df_to_csv("{}master/baseline-dataset.csv".format(dir_path), df)
 
-
+'''
 # GENERATE VISUAL FOR THE LATEST BASELINE DATASET
 df = pd.read_csv("{}master/baseline-dataset.csv".format(dir_path), sep=",")
 out_path = "master/img/baseline/"
@@ -38,3 +60,4 @@ BaselineViz.df_summary(df, "surprise", 0.0, out_path)
 
 # COMMIT TO GIT
 #GitController.commit("auto: update latest labeled datasets")
+'''

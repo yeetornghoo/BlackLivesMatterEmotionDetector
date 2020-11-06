@@ -51,6 +51,7 @@ def remove_extra_whitespace_char(sentence):
     sentence = sentence.replace("    ", " ")
     sentence = sentence.replace("   ", " ")
     sentence = sentence.replace("  ", " ")
+    sentence = sentence.replace('\n', ' ').replace('\r', '')
     return sentence
 
 
