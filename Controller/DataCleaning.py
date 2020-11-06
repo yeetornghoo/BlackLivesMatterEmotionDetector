@@ -1,5 +1,5 @@
 import re
-import emoji
+import string
 from Controller import LogController
 from emot.emo_unicode import UNICODE_EMO, EMOTICONS
 
@@ -22,7 +22,7 @@ def run(df):
     df = handle_emoji_df(df)
     df = handle_emocon_df(df)
     #df = process_hasgtag_df(df)
-
+    df = remove_punctuation_df(df)
     # SPELLING CORRECTION
     df = replace_word_is_df(df)
     df = replace_are_df(df)
@@ -318,3 +318,14 @@ def handle_emoji_df(df):
         except:
             print("error")
     return df
+
+
+def remove_punctuation_df(df):
+    LogController.log("Remove Punctuation")
+    df['tweet_text'] = df['tweet_text'].apply(lambda x: remove_punctuation(str(x)))
+    return df
+
+
+def remove_punctuation(text):
+    PUNCT_TO_REMOVE = string.punctuation
+    return text.translate(str.maketrans('', '', PUNCT_TO_REMOVE))
