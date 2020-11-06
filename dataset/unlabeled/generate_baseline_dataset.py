@@ -1,42 +1,28 @@
 import pandas as pd
+import os
 import subprocess
-from Controller import FileController, GitController, LogController
+from Controller import FileController, GitController, LogController, PlutchikStandardController
 from Controller.Baseline import BaselineViz
 
-df = pd.DataFrame()
+# SETTING
 dir_path = "C:/workspace/SocialMovementSentiment/dataset/unlabeled/"
-dataset = "baseline-dataset.csv"
+label_dataset_folder = ["blm_davideantonio", "blm_baltimore", "blm_minnesota", "blm_washington"]
 
-# GENERATE BASELINE DATASET
-# - MINNESOTA
-ds_minnesota_file = "{}blm_minnesota/{}".format(dir_path, dataset)
-ds_minnesota = pd.read_csv(ds_minnesota_file, sep=",")
-ds_minnesota = ds_minnesota[["tweet_text", "sentiment", "sentiment_score"]]
-LogController.log("Added {} rows".format(len(ds_minnesota.index)))
-df = df.append(ds_minnesota, ignore_index=True)
+# LOOP DATASET
+df = pd.DataFrame()
+for folder_name in label_dataset_folder:
 
-'''
-# - WASHINGTON DC
-ds_washington_file = "{}blm_washington/{}".format(dir_path, dataset)
-ds_washington = pd.read_csv(ds_washington_file, sep=",")
-ds_washington = ds_washington[["tweet_text", "sentiment", "sentiment_score"]]
-LogController.log("Added {} rows".format(len(ds_washington.index)))
-df = df.append(ds_washington, ignore_index=True)
+    folder_path = "{}{}/".format(dir_path, folder_name)
+    os.chdir(folder_path)
+    exec(open('script_0_init.py').read())
 
-# - DAVID EANTONIE
-ds_davideantonio_file = "{}blm_davideantonio/{}".format(dir_path, dataset)
-ds_davideantonio = pd.read_csv(ds_davideantonio_file, sep=",")
-ds_davideantonio = ds_davideantonio[["tweet_text", "sentiment", "sentiment_score"]]
-LogController.log("Added {} rows".format(len(ds_davideantonio.index)))
-df = df.append(ds_davideantonio, ignore_index=True)
+    # PROCESS INVIDIUAL DATASET
+    dataset_file_path = "{}{}/baseline-dataset.csv".format(dir_path, folder_name)
+    ds_tmp = pd.read_csv(dataset_file_path, sep=",")
+    ds_tmp = ds_tmp[["tweet_text", "sentiment", "sentiment_score"]]
 
-# - BALTIMORE
-ds_baltimore_file = "{}blm_baltimore/{}".format(dir_path, dataset)
-ds_baltimore = pd.read_csv(ds_baltimore_file, sep=",")
-ds_baltimore = ds_baltimore[["tweet_text", "sentiment", "sentiment_score"]]
-LogController.log("Added {} rows".format(len(ds_baltimore.index)))
-df = df.append(ds_baltimore, ignore_index=True)
-'''
+    LogController.log("Added {} with {} rows".format(folder_name, len(ds_tmp.index)))
+    df = df.append(ds_tmp, ignore_index=True)
 
 df = df[["sentiment", "tweet_text"]]
 FileController.save_df_to_csv("{}master/baseline-dataset.csv".format(dir_path), df)
@@ -57,7 +43,8 @@ BaselineViz.df_summary(df, "anticipation", 0.0, out_path)
 BaselineViz.df_summary(df, "disgust", 0.3, out_path)
 BaselineViz.df_summary(df, "trust", 0.68, out_path)
 BaselineViz.df_summary(df, "surprise", 0.0, out_path)
+'''
 
 # COMMIT TO GIT
-#GitController.commit("auto: update latest labeled datasets")
-'''
+GitController.commit("auto: update latest labeled datasets")
+
