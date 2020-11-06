@@ -6,7 +6,7 @@ from Controller.Baseline import BaselineViz
 
 # SETTING
 dir_path = "C:/workspace/SocialMovementSentiment/dataset/unlabeled/"
-label_dataset_folder = ["blm_davideantonio", "blm_baltimore", "blm_minnesota", "blm_washington"]
+label_dataset_folder = ["blm_baltimore", "blm_davideantonio", "blm_minnesota", "blm_washington"]
 
 # LOOP DATASET
 df = pd.DataFrame()
