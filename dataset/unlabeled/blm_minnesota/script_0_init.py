@@ -6,4 +6,4 @@ exec(open('script_3_analysis_lexicon.py').read())
 exec(open('script_4_generate_training_dataset.py').read())
 
 # COMMIT TO GIT
-GitController.commit("auto: update blm_david eatonio")
+GitController.commit("auto: update blm_minnesota")
