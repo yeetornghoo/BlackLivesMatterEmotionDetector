@@ -299,7 +299,7 @@ def handle_emocon_df(df):
     LogController.log("Process Emocon")
     for emot in EMOTICONS:
         try:
-            print(emot)
+            #print(emot)
             to_str = EMOTICONS[emot].replace(",", "").replace(":", "")
             df["tweet_text"] = df["tweet_text"].str.replace(emot,  " " + to_str + " ")
         except:
@@ -312,7 +312,7 @@ def handle_emoji_df(df):
     LogController.log("Process Emoji")
     for emot in UNICODE_EMO:
         try:
-            print(emot)
+            #print(emot)
             to_str = UNICODE_EMO[emot].replace(",", "").replace(":", "")
             df["tweet_text"] = df["tweet_text"].str.replace(emot,  " " + to_str + " ")
         except:
