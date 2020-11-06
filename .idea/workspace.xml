@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe8b93ec-7eaa-48b7-98fe-1988f17dc409" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_baltimore/script_0_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_baltimore/script_0_init.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_baltimore/script_1_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_baltimore/script_1_process.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_baltimore/script_2_label_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_baltimore/script_2_label_sentiment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/script_0_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/script_0_init.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/script_1_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/script_1_process.py" afterDir="false" />
-    </list>
+    <list default="true" id="fe8b93ec-7eaa-48b7-98fe-1988f17dc409" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
