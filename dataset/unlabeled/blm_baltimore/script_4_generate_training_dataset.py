@@ -28,6 +28,7 @@ for mood in PlutchikStandardController.moods:
 BaselineViz.generate_count(df, out_path)
 
 # SAVE FILE
+df = df[["sentiment", "tweet_text"]]
 FileController.save_df_to_csv("baseline-dataset.csv", df)
 
 

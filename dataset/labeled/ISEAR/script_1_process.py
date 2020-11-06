@@ -5,8 +5,6 @@ from Controller import DataCleaning, DataTranslation, DataSpellingCorrection
 # LOAD AND PREPARE DATASET
 df = pd.read_csv("dataset/ISEAR.csv", sep=",", names=['sentiment', 'text', 'other'])
 df['tweet_text'] = df['text']
-#DataAssess.run(df)
-
 
 # EXCLUDE NONE ENGLISH TEXT
 df = DataTranslation.run(df, "en")
