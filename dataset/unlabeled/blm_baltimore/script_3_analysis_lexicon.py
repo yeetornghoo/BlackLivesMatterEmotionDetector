@@ -7,7 +7,7 @@ from Controller.Visualization.Tweets import KdePlotViz, LinePlotViz
 from Helper import DateHelper
 
 # SETTING
-date_format = "%Y-%m-%d %H:%M:%S"
+date_format = "%Y-%m-%d %H:%M:%S+00:00"
 min_intensity = 1.2
 dir_path = "C:/workspace/SocialMovementSentiment/dataset/unlabeled/blm_baltimore/"
 focus_from_date = "2020-05-23"
