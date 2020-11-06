@@ -27,7 +27,7 @@ FileController.save_df_to_csv("master/baseline-dataset.csv", df)
 df = pd.read_csv("{}master/baseline-dataset.csv".format(dir_path), sep=",")
 out_path = "master/img/baseline/"
 BaselineViz.run(df, out_path)
+'''
 
 # COMMIT TO GIT
 GitController.commit("auto: update latest labeled datasets")
-'''
