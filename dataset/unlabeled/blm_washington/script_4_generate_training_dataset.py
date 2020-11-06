@@ -14,7 +14,7 @@ df = df.loc[(df['ttl_tweet_text_word'] > 2)]
 df.drop(columns=['tweet_created_dt', 'retweets', 'favorites', 'ttl_tweet_text_word'], inplace=True)
 
 # GENERATE VISUAL FOR THE LATEST BASELINE DATASET
-BaselineViz.run_mood(df, out_path, 0.5)
+BaselineViz.run_mood(df, out_path, 0.75)
 
 # COMBINE TMP FILE
 final_df = pd.DataFrame()
