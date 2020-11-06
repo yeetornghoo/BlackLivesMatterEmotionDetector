@@ -61,16 +61,17 @@ def run_ML(wordVecName, wordVecObj, df, X, y, foldername):
     for name, clf in clf_dict.items():
 
         # TRAIN MODEL
-        random_state = 12883823
-        rkf = RepeatedKFold(n_splits=2, n_repeats=2, random_state=random_state)
+        rkf = RepeatedKFold(n_splits=2, n_repeats=2, random_state=12883823)
 
         icount = 0
         for train_index, test_index in rkf.split(df):
+
             X_train, X_test = X[train_index], X[test_index]  # FEATURES
             y_train, y_test = y[train_index], y[test_index]  # CLASSES
 
             # TRAINING SET
             v_X_train = wordVecObj.transform(X_train)  # FEATURE TRAINING SET
+            print(v_X_train)
             clf.fit(v_X_train, y_train)
 
             icount += 1
@@ -116,6 +117,6 @@ def run(df, foldername):
     run_bow(df, X, y, foldername)
     run_tfidf(df, X, y, foldername)
 
-    #f.close()
+    f.close()
 
 
