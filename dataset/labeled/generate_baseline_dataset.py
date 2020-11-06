@@ -22,7 +22,6 @@ for folder_name in label_dataset_folder:
     df = df.append(df_tmp, ignore_index=True)
 FileController.save_df_to_csv("master/baseline-dataset.csv", df)
 
-'''
 # GENERATE VISUAL FOR THE LATEST BASELINE DATASET
 df = pd.read_csv("{}master/baseline-dataset.csv".format(dir_path), sep=",")
 out_path = "master/img/baseline/"
@@ -30,4 +29,3 @@ BaselineViz.run(df, out_path)
 
 # COMMIT TO GIT
 GitController.commit("auto: update latest labeled datasets")
-'''
