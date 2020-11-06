@@ -6,7 +6,7 @@ from Controller.Baseline import BaselineViz
 
 # SETTING
 dir_path = "C:/workspace/SocialMovementSentiment/dataset/unlabeled/"
-label_dataset_folder = ["blm_davideantonio", "blm_baltimore", "blm_minnesota", "blm_washington"]
+label_dataset_folder = ["blm_baltimore", "blm_davideantonio", "blm_minnesota", "blm_washington"]
 
 # LOOP DATASET
 df = pd.DataFrame()
@@ -17,7 +17,7 @@ for folder_name in label_dataset_folder:
     exec(open('script_0_init.py').read())
 
     # PROCESS INVIDIUAL DATASET
-    dataset_file_path = "{}{}/baseline-dataset.csv".format(dir_path, folder_name)
+    dataset_file_path = "{}/baseline-dataset.csv".format(dir_path)
     ds_tmp = pd.read_csv(dataset_file_path, sep=",")
     ds_tmp = ds_tmp[["tweet_text", "sentiment", "sentiment_score"]]
 
