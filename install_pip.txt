@@ -9,3 +9,4 @@ pip3 install BeautifulSoup4
 pip3 install matplotlib
 pip install wordcloud
 pip install seaborn
+pip install emot

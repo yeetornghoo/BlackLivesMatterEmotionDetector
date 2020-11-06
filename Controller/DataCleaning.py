@@ -1,7 +1,7 @@
 import re
 import emoji
 from Controller import LogController
-
+from emot.emo_unicode import UNICODE_EMO, EMOTICONS
 
 def convert_single_line_str(ste):
     return ste.replace('\n', '')
@@ -15,13 +15,12 @@ def convert_single_line_df(df):
 
 def run(df):
     LogController.log_h1("START DATA CLEANING")
-
     df = convert_single_line_df(df)
     df = replace_special_char_df(df)
     df = remove_url_df(df)
     df = remove_atusername_df(df)
-
-    #df = handle_emoji_df(df)  #REMOVE EMOJI
+    df = handle_emoji_df(df)
+    df = handle_emocon_df(df)
     #df = process_hasgtag_df(df)
 
     # SPELLING CORRECTION
@@ -295,13 +294,27 @@ def process_hasgtag_df(df):
     return df
 
 
+# HANDLE EMOCON
+def handle_emocon_df(df):
+    LogController.log("Process Emocon")
+    for emot in EMOTICONS:
+        try:
+            #print(emot)
+            to_str = EMOTICONS[emot].replace(",", "").replace(":", "")
+            df["tweet_text"] = df["tweet_text"].str.replace(emot,  " " + to_str + " ")
+        except:
+            print("error")
+    return df
+
+
 # HANDLE EMOJI
 def handle_emoji_df(df):
     LogController.log("Process Emoji")
-    for emot in emoji.UNICODE_EMOJI:
-        to_emot_text = emoji.UNICODE_EMOJI[emot].replace(",", "").replace(":", "").replace("'s", "").replace("-", "_")
-        if to_emot_text != "keycap_*" and to_emot_text != "keycap_asterisk":
-            #print("------------found " + emot + " to " + to_emot_text)
-            #df["tweet_text"] = df["tweet_text"].str.replace(emot, " " + to_emot_text + " ")
-            df["tweet_text"] = df["tweet_text"].str.replace(emot, "")
+    for emot in UNICODE_EMO:
+        try:
+            #print(emot)
+            to_str = UNICODE_EMO[emot].replace(",", "").replace(":", "")
+            df["tweet_text"] = df["tweet_text"].str.replace(emot,  " " + to_str + " ")
+        except:
+            print("error")
     return df
