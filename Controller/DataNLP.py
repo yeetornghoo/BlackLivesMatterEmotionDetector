@@ -53,6 +53,6 @@ def run(df):
     df['final_tweet_text'] = df['tweet_text'].apply(lambda x: process_sentence(str(x)))
 
     LogController.log("Lemmatize Words")
-    df["tweet_text"] = df["tweet_text"].apply(lambda text: lemmatize_words(text))
+    df["tweet_text"] = df["tweet_text"].apply(lambda text: lemmatize_words(str(text)))
 
     return df
