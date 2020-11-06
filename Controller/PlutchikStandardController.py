@@ -14,6 +14,8 @@ def get_standard(df):
     LogController.log_h1("Filter data with Pluntchil's Standard")
 
     df = df.loc[(df['sentiment'].isin(moods))]
+    df = df[df['sentiment'].notna()]
+
     return df
 
 
