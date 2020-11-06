@@ -16,7 +16,10 @@ focus_to_date = "2020-06-05"
 # LOAD AND PREPARE DATASET
 df = pd.read_csv("05-post-sentiment-dataset.csv", sep=",")
 
-# PREPARE THE ATTRIBUTE
+df['tweet_created_dt'] = df['tweet_created_dt'].apply(lambda x: DateHelper.standardize_date(str(x)))
+df['tweet_created_dt']
+
+'''
 df['tweet_created_date'] = df['tweet_created_dt'].apply(lambda x: datetime.strptime(str(x), date_format).date())
 df['tweet_created_hour'] = df['tweet_created_dt'].apply(lambda x: DateHelper.get_date_with_hour(str(x), date_format))
 DataAssess.run(df)
@@ -30,3 +33,4 @@ img_path = dir_path+"img/tweet_count.png"
 df_count = df.loc[:, ['sentiment', 'tweet_text']]
 df_count = df_count.groupby("sentiment").count()
 BarPlotViz.generate_barplot(df_count, "Baltimore Sentiment Tweet Account", "Sentiment", "# of Tweets", img_path)
+'''
