@@ -8,7 +8,7 @@ from Helper import DateHelper
 
 # SETTING
 date_format = "%Y-%m-%d %H:%M:%S"
-min_intensity = 1.2
+min_intensity = 0.0
 dir_path = "C:/workspace/SocialMovementSentiment/dataset/unlabeled/blm_baltimore/"
 focus_from_date = "2020-05-23"
 focus_to_date = "2020-06-05"
@@ -22,7 +22,7 @@ df['tweet_created_hour'] = df['tweet_created_dt'].apply(lambda x: DateHelper.get
 DataAssess.run(df)
 
 # LINE PLOT
-LinePlotViz.plot_sentiment(df, "nrc", dir_path, min_intensity, focus_from_date, focus_to_date)
+#LinePlotViz.plot_sentiment(df, "nrc", dir_path, min_intensity, focus_from_date, focus_to_date)
 KdePlotViz.plot_sentiment(df, "nrc", dir_path, focus_from_date, focus_to_date)
 
 # TWEET COUNT
