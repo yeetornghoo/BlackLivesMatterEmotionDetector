@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe8b93ec-7eaa-48b7-98fe-1988f17dc409" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset/master/baseline-dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/master/script_1_combine_dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/master/script_2_validate_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/bow_multinomialnb_confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/script_1_generate_baseline.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/master/script_1_combine_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/script_1_create_and_validate_baseline_dataset.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.script_2_validate_dataset">
-    <configuration name="script_1_combine_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="script_1_create_and_validate_baseline_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,7 +60,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/master/script_1_combine_dataset.py" />
+      <option name="SCRIPT_NAME" value="C:\workspace\SocialMovementSentiment\dataset\master\script_1_create_and_validate_baseline_dataset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,13 +178,13 @@
       <item itemvalue="Python.script_1_process (1)" />
       <item itemvalue="Python.script_4_generate_training_dataset" />
       <item itemvalue="Python.script_2_label_sentiment" />
-      <item itemvalue="Python.script_1_combine_dataset" />
       <item itemvalue="Python.script_2_validate_dataset" />
+      <item itemvalue="Python.script_1_create_and_validate_baseline_dataset" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.script_2_validate_dataset" />
-        <item itemvalue="Python.script_1_combine_dataset" />
+        <item itemvalue="Python.script_1_create_and_validate_baseline_dataset" />
         <item itemvalue="Python.script_2_label_sentiment" />
         <item itemvalue="Python.script_1_process (1)" />
         <item itemvalue="Python.script_4_generate_training_dataset" />
@@ -242,22 +242,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601012252295" />
-    <state width="1473" height="338" key="GridCell.Tab.0.bottom" timestamp="1604752667906">
+    <state width="1473" height="338" key="GridCell.Tab.0.bottom" timestamp="1604752684192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1473" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604752667906" />
-    <state width="1473" height="338" key="GridCell.Tab.0.center" timestamp="1604752667906">
+    <state width="1473" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604752684192" />
+    <state width="1473" height="338" key="GridCell.Tab.0.center" timestamp="1604752684192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1473" height="338" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604752667906" />
-    <state width="1473" height="338" key="GridCell.Tab.0.left" timestamp="1604752667906">
+    <state width="1473" height="338" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604752684192" />
+    <state width="1473" height="338" key="GridCell.Tab.0.left" timestamp="1604752684192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1473" height="338" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604752667906" />
-    <state width="1473" height="338" key="GridCell.Tab.0.right" timestamp="1604752667906">
+    <state width="1473" height="338" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604752684192" />
+    <state width="1473" height="338" key="GridCell.Tab.0.right" timestamp="1604752684192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1473" height="338" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604752667906" />
+    <state width="1473" height="338" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604752684192" />
     <state width="1235" height="331" key="GridCell.Tab.1.bottom" timestamp="1604229988897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
