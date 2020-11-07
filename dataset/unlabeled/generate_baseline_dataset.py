@@ -19,7 +19,7 @@ for folder_name in label_dataset_folder:
     # PROCESS INVIDIUAL DATASET
     dataset_file_path = "{}/baseline-dataset.csv".format(dir_path)
     ds_tmp = pd.read_csv(dataset_file_path, sep=",")
-    ds_tmp = ds_tmp[["tweet_text", "sentiment", "sentiment_score"]]
+    ds_tmp = ds_tmp[["tweet_text", "sentiment"]]
 
     LogController.log("Added {} with {} rows".format(folder_name, len(ds_tmp.index)))
     df = df.append(ds_tmp, ignore_index=True)
