@@ -61,13 +61,13 @@ def generate_mood_viz(df, class_name, percentage, out_path):
     fig.clear()
     plt.close('all')
 
-    # SAVE FILE
-    FileController.save_df_to_csv("tmp/tmp-{}-dataset.csv".format(class_name), df_q3)
+    return df_q3
 
 
 def df_summary(df, class_name, percentage, out_path):
     df_class = df.loc[(df["sentiment"] == class_name)]
-    generate_mood_viz(df_class, class_name, percentage, out_path)
+    df = generate_mood_viz(df_class, class_name, percentage, out_path)
+    return df
 
 
 def generate_mood_assessment(df, out_path, min_perc):

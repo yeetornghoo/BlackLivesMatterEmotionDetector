@@ -13,20 +13,11 @@ df = pd.read_csv("05-post-sentiment-dataset.csv", sep=",")
 df['ttl_tweet_text_word'] = df['tweet_text'].str.split().str.len()
 df = df.loc[(df['ttl_tweet_text_word'] > 2)]
 df = df[['sentiment', 'sentiment_count', 'sentiment_score', "tweet_text"]]
+df = df[df['sentiment'].notna()]
 
 # GENERATE VISUAL FOR THE LATEST BASELINE DATASET
-BaselineViz.run_mood(df, out_path, 0.75)
-
-# COMBINE TMP FILE
-final_df = pd.DataFrame()
-for mood in PlutchikStandardController.moods:
-    tmp_df = pd.DataFrame()
-    tmp_df = pd.read_csv("tmp/tmp-{}-dataset.csv".format(mood), sep=",")
-    final_df.append(tmp_df)
-
-BaselineViz.generate_count(df, out_path)
+BaselineViz.run_mood(df, out_path, 0.0)
 
 # SAVE FILE
-df = df[["sentiment", "tweet_text"]]
+df = df[["sentiment", "sentiment_score", "tweet_text"]]
 FileController.save_df_to_csv("baseline-dataset.csv", df)
-
