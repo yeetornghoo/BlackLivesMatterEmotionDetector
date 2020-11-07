@@ -23,7 +23,7 @@ for folder_name in label_dataset_folder:
 FileController.save_df_to_csv("master/baseline-dataset.csv", df)
 
 # GENERATE VISUAL FOR THE LATEST BASELINE DATASET
-df = pd.read_csv("{}master/baseline-dataset.csv".format(dir_path), sep=",")
+df = pd.read_csv("master/baseline-dataset.csv", sep=",")
 out_path = "master/img/baseline/"
 BaselineViz.run(df, out_path)
 
