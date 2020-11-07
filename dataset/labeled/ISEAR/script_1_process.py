@@ -1,7 +1,7 @@
 import pandas as pd
 from Controller import FileController, LogController
 from Controller import DataCleaning, DataTranslation, DataSpellingCorrection
-
+'''
 # LOAD AND PREPARE DATASET
 df = pd.read_csv("dataset/ISEAR.csv", sep=",", names=['sentiment', 'text', 'other'])
 df['tweet_text'] = df['text']
@@ -9,7 +9,7 @@ df['tweet_text'] = df['text']
 # EXCLUDE NONE ENGLISH TEXT
 df = DataTranslation.run(df, "en")
 FileController.save_df_to_csv("01-post-translate-dataset.csv", df)
-
+'''
 # DATA CLEANING
 df = pd.read_csv("01-post-translate-dataset.csv", sep=",")
 df = DataCleaning.run(df)
