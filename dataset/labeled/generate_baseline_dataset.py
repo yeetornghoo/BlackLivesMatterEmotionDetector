@@ -7,7 +7,10 @@ from Controller.Baseline import BaselineViz
 dir_path = "C:/workspace/SocialMovementSentiment/dataset/labeled/"
 
 label_dataset_folder = ["crownflower", "emotioncause", "ISEAR", "SemEval2018_Task1", "SemEval2019_Task3", "smile_twitter"]
+<<<<<<< HEAD
 
+=======
+>>>>>>> f70b7301731ef1da64e36eae0d1e76c93cc23e13
 '''
 # GENERATE BASELINE DATASET
 for folder_name in label_dataset_folder:
@@ -23,6 +26,7 @@ for folder_name in label_dataset_folder:
     df_tmp = pd.read_csv(baseline_ds_path, sep=",")
     df = df.append(df_tmp, ignore_index=True)
 FileController.save_df_to_csv("master/baseline-dataset.csv", df)
+'''
 
 # GENERATE VISUAL FOR THE LATEST BASELINE DATASET
 df = pd.read_csv("master/baseline-dataset.csv", sep=",")
@@ -30,4 +34,4 @@ out_path = "master/img/baseline/"
 BaselineViz.run(df, out_path)
 
 # COMMIT TO GIT
-GitController.commit("auto: update latest labeled datasets")
+#GitController.commit("auto: update latest labeled datasets")
