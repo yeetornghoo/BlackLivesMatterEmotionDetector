@@ -38,13 +38,12 @@ out_path = "master/img/baseline/"
 #BaselineViz.df_summary(df, "sadness", min_perc, out_path)
 #BaselineViz.df_summary(df, "joy", min_perc, out_path)
 
-
 BaselineViz.df_summary(df, "anticipation", 0.0, out_path)
 BaselineViz.df_summary(df, "disgust", 0.3, out_path)
 BaselineViz.df_summary(df, "trust", 0.68, out_path)
 BaselineViz.df_summary(df, "surprise", 0.0, out_path)
-'''
 
 # COMMIT TO GIT
 GitController.commit("auto: update latest labeled datasets")
+'''
 
