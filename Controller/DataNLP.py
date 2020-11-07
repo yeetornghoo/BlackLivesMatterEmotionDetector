@@ -8,6 +8,9 @@ nlp = stanza.Pipeline(lang='en', processors='tokenize,pos,lemma', tokenize_no_ss
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 
+import nltk
+nltk.download('wordnet')
+
 # https://universaldependencies.org/u/pos/
 def get_sentence_by_pos(sentence, upos_type):
 
