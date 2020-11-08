@@ -4,9 +4,14 @@ translator = Translator()
 
 
 def get_sentence_language(sentence):
-    trs_obj = translator.detect(sentence)
-    if trs_obj.confidence > 0.95:
-        return trs_obj.lang
+    
+    try:
+        trs_obj = translator.detect(sentence)
+        if trs_obj.confidence > 0.95:
+            return trs_obj.lang
+    except:
+        print("Something went wrong")
+
     return "UNKNOWN"
 
 
