@@ -30,7 +30,7 @@ for folder_name in label_dataset_folder:
     exec(open('script_0_init.py').read())
 
     # PROCESS INVIDIUAL DATASET
-    dataset_file_path = "{}{}/baseline-dataset.csv".format(dir_path, folder_name)
+    dataset_file_path = "{}/baseline-dataset.csv".format(folder_path)
     ds_tmp = pd.read_csv(dataset_file_path, sep=",")
     ds_tmp = ds_tmp[["sentiment", "sentiment_score", "tweet_text"]]
 
