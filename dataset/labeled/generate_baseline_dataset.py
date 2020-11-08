@@ -7,6 +7,7 @@ from Controller.Baseline import BaselineViz
 dir_path = "C:/workspace/SocialMovementSentiment/dataset/labeled/"
 label_dataset_folder = ["emotioncause", "ISEAR", "SemEval2018_Task1", "SemEval2019_Task3"]
 
+'''
 # GENERATE BASELINE DATASET
 for folder_name in label_dataset_folder:
     folder_path = "{}{}/".format(dir_path, folder_name)
@@ -25,3 +26,5 @@ out_path = dir_path+"master/img/baseline/"
 BaselineViz.run(df, out_path)
 
 FileController.save_df_to_csv(dir_path+"master/baseline-dataset.csv", df)
+'''
+
