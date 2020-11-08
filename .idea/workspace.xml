@@ -20,7 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe8b93ec-7eaa-48b7-98fe-1988f17dc409" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/master/img/baseline/anger_bell_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/master/img/baseline/anticipation_bell_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/master/img/baseline/disgust_bell_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/master/img/baseline/fear_bell_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/master/img/baseline/joy_bell_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/master/img/baseline/sadness_bell_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/master/img/baseline/surprise_bell_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/labeled/master/img/baseline/trust_bell_curve.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/generate_baseline_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/generate_baseline_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/master/baseline-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/master/baseline-dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/master/baseline-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/baseline-dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/master/script_1_create_and_validate_baseline_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/script_1_create_and_validate_baseline_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/script_1_generate_baseline.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/script_1_generate_baseline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/generate_baseline_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/generate_baseline_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/baseline-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/baseline-dataset.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +60,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.generate_baseline_dataset">
-    <configuration name="generate_baseline_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.script_1_generate_baseline">
+    <configuration name="script_1_generate_baseline" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -53,11 +69,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/labeled" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/generate_baseline_dataset.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/script_1_generate_baseline.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,16 +188,16 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.script_3_analysis_lexicon" />
+      <item itemvalue="Python.script_1_generate_baseline" />
       <item itemvalue="Python.script_1_process (1)" />
+      <item itemvalue="Python.script_2_label_sentiment" />
+      <item itemvalue="Python.script_3_analysis_lexicon" />
       <item itemvalue="Python.script_4_generate_training_dataset (2)" />
       <item itemvalue="Python.script_4_generate_training_dataset" />
-      <item itemvalue="Python.script_2_label_sentiment" />
-      <item itemvalue="Python.generate_baseline_dataset" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.generate_baseline_dataset" />
+        <item itemvalue="Python.script_1_generate_baseline" />
         <item itemvalue="Python.script_2_label_sentiment" />
         <item itemvalue="Python.script_1_process (1)" />
         <item itemvalue="Python.script_4_generate_training_dataset" />
@@ -240,22 +256,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601012252295" />
-    <state width="1362" height="259" key="GridCell.Tab.0.bottom" timestamp="1604644629395">
+    <state width="1547" height="213" key="GridCell.Tab.0.bottom" timestamp="1604840290900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604644629395" />
-    <state width="1362" height="259" key="GridCell.Tab.0.center" timestamp="1604644629395">
+    <state width="1547" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604840290900" />
+    <state width="1547" height="213" key="GridCell.Tab.0.center" timestamp="1604840290900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="259" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604644629395" />
-    <state width="1362" height="259" key="GridCell.Tab.0.left" timestamp="1604644629395">
+    <state width="1547" height="213" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604840290900" />
+    <state width="1547" height="213" key="GridCell.Tab.0.left" timestamp="1604840290900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="259" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604644629395" />
-    <state width="1362" height="259" key="GridCell.Tab.0.right" timestamp="1604644629395">
+    <state width="1547" height="213" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604840290900" />
+    <state width="1547" height="213" key="GridCell.Tab.0.right" timestamp="1604840290900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="259" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604644629395" />
+    <state width="1547" height="213" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604840290900" />
     <state width="1235" height="331" key="GridCell.Tab.1.bottom" timestamp="1604229988897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -267,9 +283,9 @@
     <state width="1235" height="331" key="GridCell.Tab.1.left" timestamp="1604229988897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="151" key="SettingsEditor" timestamp="1604644923795">
+    <state x="461" y="151" key="SettingsEditor" timestamp="1604593569229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604644923795" />
+    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604593569229" />
   </component>
 </project>

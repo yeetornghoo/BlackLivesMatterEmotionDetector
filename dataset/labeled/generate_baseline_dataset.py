@@ -1,11 +1,9 @@
 import os
 import pandas as pd
 from Controller import FileController
-from Controller import GitController
 from Controller.Baseline import BaselineViz
 
 dir_path = "C:/workspace/SocialMovementSentiment/dataset/labeled/"
-
 label_dataset_folder = ["emotioncause", "ISEAR", "SemEval2018_Task1", "SemEval2019_Task3"]
 
 # GENERATE BASELINE DATASET
