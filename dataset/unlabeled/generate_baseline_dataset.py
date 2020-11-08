@@ -9,7 +9,6 @@ label_dataset_folder = ["blm_baltimore", "blm_davideantonio", "blm_minnesota", "
 mood_perc = [["fear", 0.78], ["anger", 1], ["sadness", 1], ["trust", 0.68],
              ["joy", 0.90], ["surprise", 0.0], ["anticipation", 0.0], ["disgust", 0.0]]
 
-'''
 
 # FILTER DATA BY PERCENTAGE
 def filter_data_by_perc(df_input):
@@ -19,13 +18,14 @@ def filter_data_by_perc(df_input):
         df_out = df_out.append(df_tmp)
     return df_out
 
+
 # LOOP DATASET
 df = pd.DataFrame()
 for folder_name in label_dataset_folder:
 
     folder_path = "{}{}/".format(dir_path, folder_name)
     os.chdir(folder_path)
-    #exec(open('script_0_init.py').read())
+    exec(open('script_0_init.py').read())
 
     # PROCESS INVIDIUAL DATASET
     dataset_file_path = "{}/baseline-dataset.csv".format(folder_path)
@@ -37,11 +37,9 @@ for folder_name in label_dataset_folder:
 
 df = filter_data_by_perc(df)
 
-
-
-out_path = "master/img/baseline/"
-#BaselineViz.run(df, out_path)
+out_path = dir_path+"master/img/baseline/"
+BaselineViz.run(df, out_path)
 
 FileController.save_df_to_csv(dir_path + "master/baseline-dataset.csv", df)
-'''
+
 
