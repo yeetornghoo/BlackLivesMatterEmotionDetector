@@ -20,6 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe8b93ec-7eaa-48b7-98fe-1988f17dc409" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/bow_linearsvc_confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/bow_svn_confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/tf-idf_multinomialnb_confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/tf-idf_svn_confusion_matrix.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
