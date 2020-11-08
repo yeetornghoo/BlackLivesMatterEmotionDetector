@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe8b93ec-7eaa-48b7-98fe-1988f17dc409" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/04-post-nlp-dataset.csv" afterDir="false" />
+=======
+>>>>>>> a2d1ee35280ae916ad4079321df83e3b72caa03c
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/script_2_label_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/script_2_label_sentiment.py" afterDir="false" />
     </list>
