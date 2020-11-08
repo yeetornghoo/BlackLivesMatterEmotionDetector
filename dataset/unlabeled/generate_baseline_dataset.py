@@ -10,6 +10,7 @@ mood_perc = [["fear", 0.78], ["anger", 1], ["sadness", 1], ["trust", 0.68],
              ["joy", 0.90], ["surprise", 0.0], ["anticipation", 0.0], ["disgust", 0.0]]
 out_path = "master/img/baseline/"
 
+'''
 
 # FILTER DATA BY PERCENTAGE
 def filter_data_by_perc(df_input):
@@ -19,7 +20,6 @@ def filter_data_by_perc(df_input):
         df_tmp = BaselineViz.df_summary(df_input, mood, perc, out_path)
         df_out = df_out.append(df_tmp)
     return df_out
-
 
 # LOOP DATASET
 df = pd.DataFrame()
@@ -40,3 +40,4 @@ for folder_name in label_dataset_folder:
 df = filter_data_by_perc(df)
 BaselineViz.run(df, out_path)
 FileController.save_df_to_csv("{}master/baseline-dataset.csv".format(main_path), df)
+'''
