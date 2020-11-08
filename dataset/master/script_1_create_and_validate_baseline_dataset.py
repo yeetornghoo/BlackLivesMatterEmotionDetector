@@ -14,4 +14,4 @@ df = df.append(pd.read_csv(dir_path+"unlabeled/master/baseline-dataset.csv", sep
 FileController.save_df_to_csv(dir_path+"master/baseline-dataset.csv", df)
 
 # VALIDATE BY MACHINE LEARNING
-QuickValidation.run(df, "master")
+#QuickValidation.run(df, "master")
