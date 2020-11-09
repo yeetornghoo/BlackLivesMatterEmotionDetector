@@ -20,7 +20,7 @@ def process_class(df, class_mood):
     df['tweet_text'] = df['tweet_text'].apply(lambda x: replace_char(str(x), close_tag, ""))
     return df
 
-'''
+
 # LOAD AND PREPARE DATASET
 df = pd.read_table("dataset/Emotion_Cause.txt", names=["tweet_text"])
 df['sentiment'] = "NA"
@@ -39,7 +39,7 @@ df = process_class(df, "shame")
 DataAssess.run(df)
 df = DataTranslation.run(df, "en")
 FileController.save_df_to_csv("01-post-translate-dataset.csv", df)
-'''
+
 
 # DATA CLEANING
 df = pd.read_csv("01-post-translate-dataset.csv", sep=",")
