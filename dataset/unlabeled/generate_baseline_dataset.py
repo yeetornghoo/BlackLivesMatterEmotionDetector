@@ -23,7 +23,11 @@ def filter_data_by_perc(df_input):
 df = pd.DataFrame()
 for folder_name in label_dataset_folder:
 
+    print("dir_path: {}".format(dir_path))
+    print("folder_name: {}".format(folder_name))
+
     folder_path = "{}{}/".format(dir_path, folder_name)
+    print("folder_path: {}".format(folder_path))
     os.chdir(folder_path)
     exec(open('script_0_init.py').read())
 
