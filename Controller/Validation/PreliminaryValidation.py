@@ -100,7 +100,7 @@ def run_machine_learnings(wordVecName, wordVecObj, df, X, y, path_dir):
     clf_dict = {
         'MultinomialNB': MultinomialNB(),
         'SVN': svm.SVC(C=1.0, kernel='rbf', degree=3, gamma='scale', coef0=0.0, shrinking=True, probability=False,
-                       tol=0.001, cache_size=200, class_weight=None, verbose=False, max_iter=2000,
+                       tol=0.001, cache_size=200, class_weight=None, verbose=False, max_iter=1000,
                        decision_function_shape='ovr', random_state=2),
         'LinearSVC': LinearSVC(penalty='l2', loss='squared_hinge', dual=True, tol=0.001, C=1.0, multi_class='ovr',
                                fit_intercept=True, intercept_scaling=1, class_weight=None, verbose=0, random_state=None,
@@ -115,6 +115,7 @@ def run_machine_learnings(wordVecName, wordVecObj, df, X, y, path_dir):
         print(f'Vector Name     : {wordVecName}')
         run_ml_repeatedkfold(wordVecName, wordVecObj, df, X, y, clf, clf_name, path_dir, f)
 
+    f.close()
 
 def run_bow(df, X, y, path_dir):
 
@@ -152,7 +153,7 @@ def run(df, foldername):
     run_bow(df, X, y, path_dir)
     run_tfidf(df, X, y, path_dir)
 
-    #f.close()
+
 
 
 
