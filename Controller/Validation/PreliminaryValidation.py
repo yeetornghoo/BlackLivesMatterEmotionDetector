@@ -39,7 +39,7 @@ def log_wiki_result(name, wordVecName, ac_value, f1_value, pr_value, re_value, p
 
     github_url = "https://github.com/yeetornghoo/SocialMovementSentiment/blob/master/dataset/labeled/"
     img_file_name = confusion_matrix_file_name_pattern.format(wordVecName, name).lower()
-    cfm_file_url = "![]({}{}/img/validation/0_preliminary/{})".format(github_url, path_dir, img_file_name)
+    cfm_file_url = "![]({}/img/validation/0_preliminary/{})".format(github_url, img_file_name)
 
     line_msg = "| {} |  {} |  {} |  {} |  {} | {} |".format("{} with {}".format(name, wordVecName), ac_value, f1_value, pr_value, re_value, cfm_file_url)
     f.write(line_msg+"\n")
