@@ -28,6 +28,7 @@ def confusion_matrix(classifier, X, y, name, wordvectorname, df, path_dir):
     ax.tick_params(axis='both', which='major', labelsize=10)
     img_file_name = confusion_matrix_file_name_pattern.format(wordvectorname, name).lower()
     plt.savefig(path_dir+img_file_name)
+    plt.clf()
 
 
 def show_percentage(x):
