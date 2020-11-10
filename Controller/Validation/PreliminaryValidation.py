@@ -95,7 +95,8 @@ def run_ml_repeatedkfold(wordVecName, wordVecObj, df, X, y, clf, clf_name, folde
 
     # SAVE MODEL
     filename = foldername + ("/model/model_{}_{}.sav".format(clf_name, wordVecName)).lower()
-    pickle.dump(clf, open(filename, 'wb'))
+    print(filename)
+    #pickle.dump(clf, open(filename, 'wb'))
 
 
 def run_machine_learnings(wordVecName, wordVecObj, df, X, y, foldername):
