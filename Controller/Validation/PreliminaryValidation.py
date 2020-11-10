@@ -151,5 +151,9 @@ def run(df, foldername):
     run_bow(df, X, y, path_dir)
     run_tfidf(df, X, y, path_dir)
 
+<<<<<<< HEAD
+=======
+    #f.close()
+>>>>>>> 0ef7149a4f4542024eae32835c5a34a92fea8bf7
 
 

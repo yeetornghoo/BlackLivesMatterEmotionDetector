@@ -22,11 +22,56 @@
     <list default="true" id="fe8b93ec-7eaa-48b7-98fe-1988f17dc409" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/Validation/PreliminaryValidation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Validation/PreliminaryValidation.py" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/dataset/master/baseline-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/baseline-dataset.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/bow_multinomialnb_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/bow_multinomialnb_confusion_matrix.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/master/model/model_multinomialnb_bow.sav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/model/model_multinomialnb_bow.sav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/script_5_quick_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/script_5_quick_validation.py" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/validation/0_preliminary/bow_linearsvc_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/validation/0_preliminary/bow_linearsvc_confusion_matrix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/validation/0_preliminary/bow_multinomialnb_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/validation/0_preliminary/bow_multinomialnb_confusion_matrix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/validation/0_preliminary/bow_svn_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/validation/0_preliminary/bow_svn_confusion_matrix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/validation/0_preliminary/result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/validation/0_preliminary/tf-idf_linearsvc_confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/validation/0_preliminary/tf-idf_multinomialnb_confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/validation/0_preliminary/tf-idf_svn_confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/script_3_quick_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/script_3_quick_validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/img/validation/0_preliminary/bow_linearsvc_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/img/validation/0_preliminary/bow_linearsvc_confusion_matrix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/img/validation/0_preliminary/bow_multinomialnb_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/img/validation/0_preliminary/bow_multinomialnb_confusion_matrix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/img/validation/0_preliminary/bow_svn_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/img/validation/0_preliminary/bow_svn_confusion_matrix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/img/validation/0_preliminary/result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/img/validation/0_preliminary/tf-idf_linearsvc_confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/img/validation/0_preliminary/tf-idf_multinomialnb_confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/img/validation/0_preliminary/tf-idf_svn_confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/script_3_quick_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/script_3_quick_validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/img/validation/0_preliminary/bow_linearsvc_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/img/validation/0_preliminary/bow_linearsvc_confusion_matrix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/img/validation/0_preliminary/bow_multinomialnb_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/img/validation/0_preliminary/bow_multinomialnb_confusion_matrix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/img/validation/0_preliminary/bow_svn_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/img/validation/0_preliminary/bow_svn_confusion_matrix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/img/validation/0_preliminary/result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/img/validation/0_preliminary/tf-idf_linearsvc_confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/img/validation/0_preliminary/tf-idf_multinomialnb_confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/img/validation/0_preliminary/tf-idf_svn_confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/script_3_quick_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/script_3_quick_validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/crownflower/script_3_quick_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/crownflower/script_3_quick_validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/bow_linearsvc_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/bow_linearsvc_confusion_matrix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/bow_multinomialnb_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/bow_multinomialnb_confusion_matrix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/bow_svn_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/bow_svn_confusion_matrix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/tf-idf_linearsvc_confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/tf-idf_multinomialnb_confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/tf-idf_svn_confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/emotioncause/script_0_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/script_0_init.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/emotioncause/script_3_quick_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/script_3_quick_validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/smile_twitter/img/validation/0_preliminary/bow_linearsvc_confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/smile_twitter/img/validation/0_preliminary/bow_multinomialnb_confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/smile_twitter/img/validation/0_preliminary/bow_svn_confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/smile_twitter/img/validation/0_preliminary/result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/smile_twitter/img/validation/0_preliminary/tf-idf_linearsvc_confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/smile_twitter/img/validation/0_preliminary/tf-idf_multinomialnb_confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/smile_twitter/img/validation/0_preliminary/tf-idf_svn_confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/smile_twitter/script_3_quick_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/smile_twitter/script_3_quick_validation.py" afterDir="false" />
+>>>>>>> 0ef7149a4f4542024eae32835c5a34a92fea8bf7
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,6 +290,7 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601012252295" />
+<<<<<<< HEAD
     <state width="1899" height="302" key="GridCell.Tab.0.bottom" timestamp="1605001830296">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -261,6 +307,24 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="302" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605001830296" />
+=======
+    <state width="1547" height="351" key="GridCell.Tab.0.bottom" timestamp="1605001109912">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1547" height="351" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605001109912" />
+    <state width="1547" height="351" key="GridCell.Tab.0.center" timestamp="1605001109912">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1547" height="351" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605001109912" />
+    <state width="1547" height="351" key="GridCell.Tab.0.left" timestamp="1605001109911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1547" height="351" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605001109911" />
+    <state width="1547" height="351" key="GridCell.Tab.0.right" timestamp="1605001109912">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1547" height="351" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605001109912" />
+>>>>>>> 0ef7149a4f4542024eae32835c5a34a92fea8bf7
     <state width="1235" height="331" key="GridCell.Tab.1.bottom" timestamp="1604229988897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
