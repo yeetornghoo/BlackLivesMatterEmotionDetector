@@ -8,6 +8,7 @@ from sklearn.metrics import plot_confusion_matrix
 from sklearn.model_selection import RepeatedKFold
 import matplotlib.pyplot as plt
 from sklearn.feature_extraction.text import TfidfVectorizer
+import pickle
 
 path_dir = "img/validation/0_preliminary/"
 f = open(path_dir+"result.txt", "a")
@@ -73,14 +74,10 @@ def run_ML(wordVecName, wordVecObj, df, X, y, foldername):
             v_X_train = wordVecObj.transform(X_train)  # FEATURE TRAINING SET
             clf.fit(v_X_train, y_train)
 
-            # PREDICTION
-            v_X_test = wordVecObj.transform(X_test)
-            pred = clf.predict(v_X_test)
-
             icount += 1
 
-        #v_X_test = wordVecObj.transform(X)
-        #pred = clf.predict(v_X_test)
+        v_X_test = wordVecObj.transform(X)
+        pred = clf.predict(v_X_test)
 
         ac_value = round(accuracy_score(y, pred), 4)
         f1_value = round(f1_score(y, pred, average='macro'), 4)
@@ -96,6 +93,10 @@ def run_ML(wordVecName, wordVecObj, df, X, y, foldername):
         log_wiki_result(name, wordVecName, ac_value, f1_value, pr_value, re_value, foldername)
 
         confusion_matrix(clf, v_X_test, y, name, wordVecName, df)
+
+        # SAVE MODEL
+        filename = ("model_{}_{}.sav".format(name, wordVecName)).lower()
+        pickle.dump(clf, open(filename, 'wb'))
 
 
 def run_bow(df, X, y, foldername):
