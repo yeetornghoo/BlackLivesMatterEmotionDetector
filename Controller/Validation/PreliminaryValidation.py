@@ -126,7 +126,7 @@ def run_bow(df, X, y, foldername):
     run_machine_learnings("BOW", BOW, df, X, y, foldername)
 
     # SAVE VECTOR
-    pickle.dump(BOW, open("model/bow.pickle", "wb"))
+    pickle.dump(BOW, open(foldername+"model/bow.pickle", "wb"))
 
 
 def run_tfidf(df, X, y, foldername):
@@ -138,7 +138,7 @@ def run_tfidf(df, X, y, foldername):
     run_machine_learnings("TF-IDF", TFIDF, df, X, y, foldername)
 
     # SAVE VECTOR
-    pickle.dump(TFIDF, open("model/tfidf.pickle", "wb"))
+    pickle.dump(TFIDF, open(foldername+"model/tfidf.pickle", "wb"))
 
 
 def run(df, foldername):
