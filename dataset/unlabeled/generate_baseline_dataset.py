@@ -4,7 +4,7 @@ from Controller import FileController, LogController
 from Controller.Baseline import BaselineViz
 
 # SETTING
-dir_path = "C:/workspace/SocialMovementSentiment/dataset/unlabeled/"
+unlabeled_path = "C:/workspace/SocialMovementSentiment/dataset/unlabeled/"
 label_dataset_folder = ["blm_baltimore", "blm_davideantonio", "blm_minnesota", "blm_washington"]
 mood_perc = [["fear", 0.78], ["anger", 1], ["sadness", 1], ["trust", 0.68],
              ["joy", 0.90], ["surprise", 0.0], ["anticipation", 0.0], ["disgust", 0.0]]
@@ -23,10 +23,10 @@ def filter_data_by_perc(df_input):
 df = pd.DataFrame()
 for folder_name in label_dataset_folder:
 
-    print("dir_path: {}".format(dir_path))
+    print("dir_path: {}".format(unlabeled_path))
     print("folder_name: {}".format(folder_name))
 
-    folder_path = "{}{}/".format(dir_path, folder_name)
+    folder_path = "{}{}/".format(unlabeled_path, folder_name)
     print("folder_path: {}".format(folder_path))
     os.chdir(folder_path)
     exec(open('script_0_init.py').read())
@@ -41,9 +41,9 @@ for folder_name in label_dataset_folder:
 
 df = filter_data_by_perc(df)
 
-out_path = dir_path+"master/img/baseline/"
+out_path = unlabeled_path + "master/img/baseline/"
 BaselineViz.run(df, out_path)
 
-FileController.save_df_to_csv(dir_path + "master/baseline-dataset.csv", df)
+FileController.save_df_to_csv(unlabeled_path + "master/baseline-dataset.csv", df)
 
 
