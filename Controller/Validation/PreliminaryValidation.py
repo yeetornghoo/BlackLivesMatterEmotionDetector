@@ -14,6 +14,7 @@ from Helper import FolderHelper
 
 confusion_matrix_file_name_pattern = "{}_{}_confusion_matrix.png"
 
+
 def confusion_matrix(classifier, X, y, name, wordvectorname, df, path_dir):
     class_names = df.sentiment.unique()
 
@@ -151,9 +152,7 @@ def run(df, foldername):
     run_bow(df, X, y, path_dir)
     run_tfidf(df, X, y, path_dir)
 
-<<<<<<< HEAD
-=======
     #f.close()
->>>>>>> 0ef7149a4f4542024eae32835c5a34a92fea8bf7
+
 
 
