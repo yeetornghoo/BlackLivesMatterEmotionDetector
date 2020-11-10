@@ -1,6 +1,6 @@
 import pandas as pd
 
-from Controller.Validation import QuickValidation
+from Controller.Validation import PreliminaryValidation
 
 df = pd.read_csv("baseline-dataset.csv", sep=",")
-QuickValidation.run(df, "ISEAR")
+PreliminaryValidation.run(df, "ISEAR")
