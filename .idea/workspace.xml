@@ -19,11 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="fe8b93ec-7eaa-48b7-98fe-1988f17dc409" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/04-post-nlp-dataset.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/script_2_label_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/script_2_label_sentiment.py" afterDir="false" />
     </list>
+=======
+    <list default="true" id="fe8b93ec-7eaa-48b7-98fe-1988f17dc409" name="Default Changelist" comment="" />
+>>>>>>> e476c53671915fec2ad2bfce3d7ac7df8b8d2b9f
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +50,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.script_2_label_sentiment">
+=======
+  <component name="RunManager" selected="Python.script_5_quick_validation">
+>>>>>>> e476c53671915fec2ad2bfce3d7ac7df8b8d2b9f
     <configuration name="script_1_process (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,11 +105,19 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/unlabeled/blm_washington/script_2_label_sentiment.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/unlabeled/blm_washington" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/unlabeled/blm_washington/script_3_analysis_lexicon.py" />
+>>>>>>> e476c53671915fec2ad2bfce3d7ac7df8b8d2b9f
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,7 +126,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="script_3_analysis_lexicon" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="script_4_generate_training_dataset (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> e476c53671915fec2ad2bfce3d7ac7df8b8d2b9f
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,6 +142,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/unlabeled/blm_washington/script_3_analysis_lexicon.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -143,6 +164,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+=======
+>>>>>>> e476c53671915fec2ad2bfce3d7ac7df8b8d2b9f
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/unlabeled/blm_washington/script_4_generate_training_dataset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -173,20 +196,54 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="script_5_quick_validation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SocialMovementSentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/script_5_quick_validation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.script_1_process (1)" />
       <item itemvalue="Python.script_4_generate_training_dataset (2)" />
+<<<<<<< HEAD
       <item itemvalue="Python.script_3_analysis_lexicon" />
       <item itemvalue="Python.script_4_generate_training_dataset" />
       <item itemvalue="Python.script_2_label_sentiment" />
     </list>
     <recent_temporary>
       <list>
+=======
+      <item itemvalue="Python.script_4_generate_training_dataset" />
+      <item itemvalue="Python.script_2_label_sentiment" />
+      <item itemvalue="Python.script_5_quick_validation" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.script_5_quick_validation" />
+>>>>>>> e476c53671915fec2ad2bfce3d7ac7df8b8d2b9f
         <item itemvalue="Python.script_2_label_sentiment" />
         <item itemvalue="Python.script_1_process (1)" />
         <item itemvalue="Python.script_4_generate_training_dataset" />
         <item itemvalue="Python.script_4_generate_training_dataset (2)" />
+<<<<<<< HEAD
         <item itemvalue="Python.script_3_analysis_lexicon" />
+=======
+>>>>>>> e476c53671915fec2ad2bfce3d7ac7df8b8d2b9f
       </list>
     </recent_temporary>
   </component>
@@ -241,6 +298,7 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601012252295" />
+<<<<<<< HEAD
     <state width="1898" height="326" key="GridCell.Tab.0.bottom" timestamp="1604594885331">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -257,6 +315,24 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1898" height="326" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604594885331" />
+=======
+    <state width="1726" height="231" key="GridCell.Tab.0.bottom" timestamp="1604983244963">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1726" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604983244963" />
+    <state width="1726" height="231" key="GridCell.Tab.0.center" timestamp="1604983244962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1726" height="231" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604983244962" />
+    <state width="1726" height="231" key="GridCell.Tab.0.left" timestamp="1604983244962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1726" height="231" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604983244962" />
+    <state width="1726" height="231" key="GridCell.Tab.0.right" timestamp="1604983244963">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1726" height="231" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604983244962" />
+>>>>>>> e476c53671915fec2ad2bfce3d7ac7df8b8d2b9f
     <state width="1235" height="331" key="GridCell.Tab.1.bottom" timestamp="1604229988897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
