@@ -95,7 +95,7 @@ def run_ML(wordVecName, wordVecObj, df, X, y, foldername):
         confusion_matrix(clf, v_X_test, y, name, wordVecName, df)
 
         # SAVE MODEL
-        filename = ("model_{}_{}.sav".format(name, wordVecName)).lower()
+        filename = ("model/model_{}_{}.sav".format(name, wordVecName)).lower()
         pickle.dump(clf, open(filename, 'wb'))
 
 
