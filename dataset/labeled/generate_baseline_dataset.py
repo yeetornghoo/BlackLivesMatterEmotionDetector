@@ -19,8 +19,8 @@ for folder_name in label_dataset_folder:
     df_tmp = pd.read_csv(baseline_ds_path, sep=",")
     df = df.append(df_tmp, ignore_index=True)
 
+FileController.save_df_to_csv(dir_path+"master/baseline-dataset.csv", df)
+
 # GENERATE VISUAL FOR THE LATEST BASELINE DATASET
 out_path = dir_path+"master/img/baseline/"
 BaselineViz.run(df, out_path)
-
-FileController.save_df_to_csv(dir_path+"master/baseline-dataset.csv", df)
