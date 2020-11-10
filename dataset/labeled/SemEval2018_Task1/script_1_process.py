@@ -1,7 +1,7 @@
 import pandas as pd
 from Controller import FileController, LogController
 from Controller import DataCleaning, DataTranslation, DataSpellingCorrection
-
+'''
 # LOAD AND PREPARE DATASET
 anger_df = pd.read_csv("dataset/EI-reg/training/EI-reg-En-anger-train.txt", sep="\t")
 anger_df["sentiment"] = "anger"
@@ -25,7 +25,7 @@ df.rename(columns={"Tweet": "tweet", "Affect Dimension": "affect_dimension", "In
 # EXCLUDE NONE ENGLISH TEXT
 df = DataTranslation.run(df, "en")
 FileController.save_df_to_csv("01-post-translate-dataset.csv", df)
-
+'''
 
 # DATA CLEANING
 df = pd.read_csv("01-post-translate-dataset.csv", sep=",")
