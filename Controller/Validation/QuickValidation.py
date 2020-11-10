@@ -73,10 +73,14 @@ def run_ML(wordVecName, wordVecObj, df, X, y, foldername):
             v_X_train = wordVecObj.transform(X_train)  # FEATURE TRAINING SET
             clf.fit(v_X_train, y_train)
 
+            # PREDICTION
+            v_X_test = wordVecObj.transform(X_test)
+            pred = clf.predict(v_X_test)
+
             icount += 1
 
-        v_X_test = wordVecObj.transform(X)
-        pred = clf.predict(v_X_test)
+        #v_X_test = wordVecObj.transform(X)
+        #pred = clf.predict(v_X_test)
 
         ac_value = round(accuracy_score(y, pred), 4)
         f1_value = round(f1_score(y, pred, average='macro'), 4)
