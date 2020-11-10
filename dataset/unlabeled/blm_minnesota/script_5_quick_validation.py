@@ -7,7 +7,7 @@ from Controller import LogController
 dir_path = "C:/workspace/SocialMovementSentiment/dataset/master/"
 
 # LOAD PRETRAINED MODEL
-clf_model = pickle.load(open(dir_path+"model/model_linearsvc_bow.sav", 'rb'))
+clf_model = pickle.load(open(dir_path+"model/model_multinomialnb_bow.sav", 'rb'))
 wvc_model = pickle.load(open(dir_path+"model/bow.pickle", 'rb'))
 
 # LOAD TEST DATA
@@ -15,8 +15,6 @@ df = pd.read_csv("baseline-dataset.csv", sep=",")
 df = df[["sentiment", "tweet_text"]]
 X = df['tweet_text'].values.astype('U')
 y = df['sentiment'].values
-
-print(X.shape)
 
 # VECTOR
 v_X_test = wvc_model.transform(X)

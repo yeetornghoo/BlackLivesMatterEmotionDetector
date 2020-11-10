@@ -5,21 +5,16 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
 from sklearn import svm
 from numpy import mean
-from numpy import std
 from sklearn.metrics import plot_confusion_matrix
-from sklearn.model_selection import RepeatedKFold, cross_val_score
+from sklearn.model_selection import RepeatedKFold
 import matplotlib.pyplot as plt
 from sklearn.feature_extraction.text import TfidfVectorizer
 import pickle
+from Helper import FolderHelper
 
-path_dir = "img/validation/0_preliminary/"
-f = open(path_dir+"result.txt", "a")
-f.truncate(0)
 confusion_matrix_file_name_pattern = "{}_{}_confusion_matrix.png"
-parent_folder = ""
 
-
-def confusion_matrix(classifier, X, y, name, wordvectorname, df):
+def confusion_matrix(classifier, X, y, name, wordvectorname, df, path_dir):
     class_names = df.sentiment.unique()
 
     fig, ax = plt.subplots(figsize=(8, 6))
@@ -38,7 +33,7 @@ def show_percentage(x):
     return "{0:.2f}%".format(round(x, 2) * 100)
 
 
-def log_wiki_result(name, wordVecName, ac_value, f1_value, pr_value, re_value, foldername):
+def log_wiki_result(name, wordVecName, ac_value, f1_value, pr_value, re_value, foldername, f):
 
     github_url = "https://github.com/yeetornghoo/SocialMovementSentiment/blob/master/dataset/labeled/"
     img_file_name = confusion_matrix_file_name_pattern.format(wordVecName, name).lower()
@@ -48,7 +43,7 @@ def log_wiki_result(name, wordVecName, ac_value, f1_value, pr_value, re_value, f
     f.write(line_msg+"\n")
 
 
-def run_ml_repeatedkfold(wordVecName, wordVecObj, df, X, y, clf, clf_name, foldername):
+def run_ml_repeatedkfold(wordVecName, wordVecObj, df, X, y, clf, clf_name, path_dir, f):
 
     print(f'Spliting Type   : repeatedkfold')
 
@@ -88,18 +83,17 @@ def run_ml_repeatedkfold(wordVecName, wordVecObj, df, X, y, clf, clf_name, folde
     LogController.log('Testing Recall score: {} \n'.format(round(mean(re_scores), 4)))
 
     log_wiki_result(clf_name, wordVecName, round(mean(ac_scores), 4), round(mean(f1_scores), 4),
-                    round(mean(pr_scores), 4), round(mean(re_scores), 4), foldername)
+                    round(mean(pr_scores), 4), round(mean(re_scores), 4), path_dir, f)
 
     # CONFUSION MATRIC
-    confusion_matrix(clf, v_X, y, clf_name, wordVecName, df)
+    confusion_matrix(clf, v_X, y, clf_name, wordVecName, df, path_dir)
 
     # SAVE MODEL
-    filename = foldername + ("/model/model_{}_{}.sav".format(clf_name, wordVecName)).lower()
-    print(filename)
-    #pickle.dump(clf, open(filename, 'wb'))
+    filename = path_dir + ("model_{}_{}.sav".format(clf_name, wordVecName)).lower()
+    pickle.dump(clf, open(filename, 'wb'))
 
 
-def run_machine_learnings(wordVecName, wordVecObj, df, X, y, foldername):
+def run_machine_learnings(wordVecName, wordVecObj, df, X, y, path_dir):
 
     # DEFINE MACHINE LEARNING MODEL
     clf_dict = {
@@ -112,44 +106,50 @@ def run_machine_learnings(wordVecName, wordVecObj, df, X, y, foldername):
                                max_iter=30000)
     }
 
+    f = open(path_dir + "result.txt", "a")
+    f.truncate(0)
+
     for clf_name, clf in clf_dict.items():
         print(f'ML Name         : {clf_name}')
         print(f'Vector Name     : {wordVecName}')
-        run_ml_repeatedkfold(wordVecName, wordVecObj, df, X, y, clf, clf_name, foldername)
+        run_ml_repeatedkfold(wordVecName, wordVecObj, df, X, y, clf, clf_name, path_dir, f)
 
 
-def run_bow(df, X, y, foldername):
+def run_bow(df, X, y, path_dir):
+
     LogController.log_h1("CHECK BOW WORD VECTOR")
     BOW = CountVectorizer()
     BOW.fit_transform(X)
 
     # RUN MACHINE LEARNING
-    run_machine_learnings("BOW", BOW, df, X, y, foldername)
+    run_machine_learnings("BOW", BOW, df, X, y, path_dir)
 
     # SAVE VECTOR
-    #pickle.dump(BOW, open(foldername+"model/bow.pickle", "wb"))
+    pickle.dump(BOW, open(path_dir+"bow.pickle", "wb"))
 
 
-def run_tfidf(df, X, y, foldername):
+def run_tfidf(df, X, y, path_dir):
     LogController.log_h1("CHECK TF-IDF WORD VECTOR")
     TFIDF = TfidfVectorizer()
     TFIDF.fit_transform(X)
 
     # RUN MACHINE LEARNING
-    run_machine_learnings("TF-IDF", TFIDF, df, X, y, foldername)
+    run_machine_learnings("TF-IDF", TFIDF, df, X, y, path_dir)
 
     # SAVE VECTOR
-    #pickle.dump(TFIDF, open(foldername+"model/tfidf.pickle", "wb"))
+    pickle.dump(TFIDF, open(path_dir+"tfidf.pickle", "wb"))
 
 
 def run(df, foldername):
 
+    path_dir = foldername + "/img/validation/0_preliminary/"
+    FolderHelper.reset_folder(path_dir)
+
     X = df['tweet_text'].values.astype('U')
     y = df['sentiment'].values
 
-    run_bow(df, X, y, foldername)
-    #run_tfidf(df, X, y, foldername)
+    run_bow(df, X, y, path_dir)
+    run_tfidf(df, X, y, path_dir)
 
-    f.close()
 
 
