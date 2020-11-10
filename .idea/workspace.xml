@@ -20,21 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe8b93ec-7eaa-48b7-98fe-1988f17dc409" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/master/img/validation/0_preliminary/model_linearsvc_tf-idf.sav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/master/img/validation/0_preliminary/model_multinomialnb_tf-idf.sav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/master/img/validation/0_preliminary/model_svn_tf-idf.sav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/master/img/validation/0_preliminary/tf-idf_linearsvc_confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/master/img/validation/0_preliminary/tf-idf_multinomialnb_confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/master/img/validation/0_preliminary/tf-idf_svn_confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/labeled/master/img/validation/0_preliminary/tfidf.pickle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/generate_baseline_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/generate_baseline_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/master/baseline-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/master/baseline-dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/validation/0_preliminary/bow.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/validation/0_preliminary/bow.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/validation/0_preliminary/model_linearsvc_bow.sav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/validation/0_preliminary/model_linearsvc_bow.sav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/validation/0_preliminary/model_linearsvc_tf-idf.sav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/validation/0_preliminary/model_linearsvc_tf-idf.sav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/validation/0_preliminary/tfidf.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/img/validation/0_preliminary/tfidf.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/img/validation/0_preliminary/bow.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/img/validation/0_preliminary/bow.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/img/validation/0_preliminary/model_linearsvc_bow.sav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/img/validation/0_preliminary/model_linearsvc_bow.sav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/img/validation/0_preliminary/model_linearsvc_tf-idf.sav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/img/validation/0_preliminary/model_linearsvc_tf-idf.sav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/img/validation/0_preliminary/tfidf.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/img/validation/0_preliminary/tfidf.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/img/validation/0_preliminary/bow.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/img/validation/0_preliminary/bow.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/img/validation/0_preliminary/model_linearsvc_bow.sav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/img/validation/0_preliminary/model_linearsvc_bow.sav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/img/validation/0_preliminary/model_linearsvc_tf-idf.sav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/img/validation/0_preliminary/model_linearsvc_tf-idf.sav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/img/validation/0_preliminary/tfidf.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/img/validation/0_preliminary/tfidf.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/bow.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/bow.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/model_linearsvc_bow.sav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/model_linearsvc_bow.sav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/model_linearsvc_tf-idf.sav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/model_linearsvc_tf-idf.sav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/tfidf.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/tfidf.pickle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/labeled/master/img/baseline/0_dataset_sentiment_count.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/master/img/baseline/0_dataset_sentiment_count.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/master/img/validation/0_preliminary/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/master/img/validation/0_preliminary/result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/master/script_2_preliminary_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/master/script_2_preliminary_validation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/master/baseline-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/baseline-dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/master/script_1_create_and_validate_baseline_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/script_1_create_and_validate_baseline_dataset.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +62,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.script_1_create_and_validate_baseline_dataset">
+  <component name="RunManager" selected="Python.generate_baseline_dataset">
     <configuration name="generate_baseline_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,6 +190,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.script_3_analysis_lexicon" />
       <item itemvalue="Python.script_1_process (1)" />
       <item itemvalue="Python.script_2_label_sentiment" />
       <item itemvalue="Python.script_1_create_and_validate_baseline_dataset" />
@@ -194,8 +199,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.script_1_create_and_validate_baseline_dataset" />
         <item itemvalue="Python.generate_baseline_dataset" />
+        <item itemvalue="Python.script_1_create_and_validate_baseline_dataset" />
         <item itemvalue="Python.script_2_preliminary_validation" />
         <item itemvalue="Python.script_2_label_sentiment" />
         <item itemvalue="Python.script_1_process (1)" />
@@ -253,22 +258,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601012252295" />
-    <state width="1471" height="228" key="GridCell.Tab.0.bottom" timestamp="1605012562614">
+    <state width="1642" height="372" key="GridCell.Tab.0.bottom" timestamp="1605012695719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1471" height="228" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605012562614" />
-    <state width="1471" height="228" key="GridCell.Tab.0.center" timestamp="1605012562614">
+    <state width="1642" height="372" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605012695719" />
+    <state width="1642" height="372" key="GridCell.Tab.0.center" timestamp="1605012695719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1471" height="228" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605012562614" />
-    <state width="1471" height="228" key="GridCell.Tab.0.left" timestamp="1605012562614">
+    <state width="1642" height="372" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605012695719" />
+    <state width="1642" height="372" key="GridCell.Tab.0.left" timestamp="1605012695719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1471" height="228" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605012562614" />
-    <state width="1471" height="228" key="GridCell.Tab.0.right" timestamp="1605012562614">
+    <state width="1642" height="372" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605012695719" />
+    <state width="1642" height="372" key="GridCell.Tab.0.right" timestamp="1605012695719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1471" height="228" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605012562614" />
+    <state width="1642" height="372" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605012695719" />
     <state width="1235" height="331" key="GridCell.Tab.1.bottom" timestamp="1604229988897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
