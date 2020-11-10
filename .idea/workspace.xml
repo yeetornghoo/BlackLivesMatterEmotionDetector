@@ -174,12 +174,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.script_3_analysis_lexicon" />
+      <item itemvalue="Python.script_1_create_and_validate_baseline_dataset" />
       <item itemvalue="Python.script_1_process (1)" />
+      <item itemvalue="Python.script_2_label_sentiment" />
+      <item itemvalue="Python.script_3_analysis_lexicon" />
       <item itemvalue="Python.script_4_generate_training_dataset (2)" />
       <item itemvalue="Python.script_4_generate_training_dataset" />
-      <item itemvalue="Python.script_2_label_sentiment" />
-      <item itemvalue="Python.script_1_create_and_validate_baseline_dataset" />
     </list>
     <recent_temporary>
       <list>

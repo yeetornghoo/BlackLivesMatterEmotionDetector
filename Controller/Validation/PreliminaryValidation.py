@@ -95,7 +95,7 @@ def run_ml_repeatedkfold(wordVecName, wordVecObj, df, X, y, clf, clf_name, path_
     pickle.dump(clf, open(filename, 'wb'))
 
 
-def run_machine_learnings(wordVecName, wordVecObj, df, X, y, path_dir):
+def run_machine_learnings(wordVecName, wordVecObj, df, X, y, path_dir, f):
 
     # DEFINE MACHINE LEARNING MODEL
     clf_dict = {
@@ -108,36 +108,33 @@ def run_machine_learnings(wordVecName, wordVecObj, df, X, y, path_dir):
                                max_iter=30000)
     }
 
-    f = open(path_dir + "result.txt", "a")
-    f.truncate(0)
-
     for clf_name, clf in clf_dict.items():
         print(f'ML Name         : {clf_name}')
         print(f'Vector Name     : {wordVecName}')
         run_ml_repeatedkfold(wordVecName, wordVecObj, df, X, y, clf, clf_name, path_dir, f)
 
-    f.close()
 
-def run_bow(df, X, y, path_dir):
+
+def run_bow(df, X, y, path_dir, f):
 
     LogController.log_h1("CHECK BOW WORD VECTOR")
     BOW = CountVectorizer()
     BOW.fit_transform(X)
 
     # RUN MACHINE LEARNING
-    run_machine_learnings("BOW", BOW, df, X, y, path_dir)
+    run_machine_learnings("BOW", BOW, df, X, y, path_dir, f)
 
     # SAVE VECTOR
     pickle.dump(BOW, open(path_dir+"bow.pickle", "wb"))
 
 
-def run_tfidf(df, X, y, path_dir):
+def run_tfidf(df, X, y, path_dir, f):
     LogController.log_h1("CHECK TF-IDF WORD VECTOR")
     TFIDF = TfidfVectorizer()
     TFIDF.fit_transform(X)
 
     # RUN MACHINE LEARNING
-    run_machine_learnings("TF-IDF", TFIDF, df, X, y, path_dir)
+    run_machine_learnings("TF-IDF", TFIDF, df, X, y, path_dir, f)
 
     # SAVE VECTOR
     pickle.dump(TFIDF, open(path_dir+"tfidf.pickle", "wb"))
@@ -151,10 +148,10 @@ def run(df, foldername):
     X = df['tweet_text'].values.astype('U')
     y = df['sentiment'].values
 
-    run_bow(df, X, y, path_dir)
-    run_tfidf(df, X, y, path_dir)
+    f = open(path_dir + "result.txt", "a")
+    f.truncate(0)
 
+    run_bow(df, X, y, path_dir, f)
+    run_tfidf(df, X, y, path_dir, f)
 
-
-
-
+    f.close()
