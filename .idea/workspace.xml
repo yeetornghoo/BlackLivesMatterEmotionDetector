@@ -21,7 +21,44 @@
   <component name="ChangeListManager">
     <list default="true" id="fe8b93ec-7eaa-48b7-98fe-1988f17dc409" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/Validation/PreliminaryValidation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Validation/PreliminaryValidation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_baltimore/05-post-sentiment-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_baltimore/05-post-sentiment-dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_baltimore/baseline-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_baltimore/baseline-dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_baltimore/img/baseline/0_dataset_sentiment_count.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_baltimore/img/baseline/0_dataset_sentiment_count.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_baltimore/img/baseline/anger_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_baltimore/img/baseline/anger_bell_curve.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_baltimore/img/baseline/sadness_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_baltimore/img/baseline/sadness_bell_curve.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_baltimore/img/individual/nrc/kdeplot/score_kdeplot_by_day.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_baltimore/img/individual/nrc/kdeplot/score_kdeplot_by_day.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_baltimore/img/individual/nrc/kdeplot/score_kdeplot_by_day_facetgrid.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_baltimore/img/individual/nrc/kdeplot/score_kdeplot_by_day_facetgrid.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_baltimore/img/tweet_count.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_baltimore/img/tweet_count.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_baltimore/tmp/NRC-processed_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_baltimore/tmp/NRC-processed_dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/05-post-sentiment-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/05-post-sentiment-dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/baseline-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/baseline-dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/tmp/NRC-processed_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/tmp/NRC-processed_dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/05-post-sentiment-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/05-post-sentiment-dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/baseline-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/baseline-dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/0_dataset_sentiment_count.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/0_dataset_sentiment_count.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/anticipation_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/anticipation_bell_curve.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/fear_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/fear_bell_curve.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/sadness_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/sadness_bell_curve.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/trust_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/trust_bell_curve.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_anticipation.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_anticipation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_fear.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_fear.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_sadness.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_sadness.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_trust.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_trust.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_facetgrid.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_facetgrid.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/lineplot/score_lineplot_by_day_by_period_facetgrid.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/lineplot/score_lineplot_by_day_by_period_facetgrid.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/lineplot/score_lineplot_by_day_by_period_linear.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/lineplot/score_lineplot_by_day_by_period_linear.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/lineplot/score_lineplot_by_day_by_period_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/lineplot/score_lineplot_by_day_by_period_log.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/lineplot/score_lineplot_by_day_linear.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/lineplot/score_lineplot_by_day_linear.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/lineplot/score_lineplot_by_day_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/lineplot/score_lineplot_by_day_log.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/lineplot/score_lineplot_by_day_with_intensity_linear.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/lineplot/score_lineplot_by_day_with_intensity_linear.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/lineplot/score_lineplot_by_day_with_intensity_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/lineplot/score_lineplot_by_day_with_intensity_log.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/tweet_count.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/tweet_count.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/tmp/NRC-processed_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/tmp/NRC-processed_dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_washington/05-post-sentiment-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_washington/05-post-sentiment-dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_washington/baseline-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_washington/baseline-dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_washington/tmp/nrc-processed_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_washington/tmp/nrc-processed_dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/baseline-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/baseline-dataset.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,6 +210,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.script_3_analysis_lexicon" />
       <item itemvalue="Python.script_1_process (1)" />
       <item itemvalue="Python.script_4_generate_training_dataset (2)" />
       <item itemvalue="Python.script_4_generate_training_dataset" />
@@ -240,22 +278,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601012252295" />
-    <state width="1547" height="351" key="GridCell.Tab.0.bottom" timestamp="1605002250667">
+    <state width="1562" height="403" key="GridCell.Tab.0.bottom" timestamp="1605003116135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1547" height="351" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605002250667" />
-    <state width="1547" height="351" key="GridCell.Tab.0.center" timestamp="1605002250667">
+    <state width="1562" height="403" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605003116135" />
+    <state width="1562" height="403" key="GridCell.Tab.0.center" timestamp="1605003116135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1547" height="351" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605002250667" />
-    <state width="1547" height="351" key="GridCell.Tab.0.left" timestamp="1605002250667">
+    <state width="1562" height="403" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605003116135" />
+    <state width="1562" height="403" key="GridCell.Tab.0.left" timestamp="1605003116135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1547" height="351" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605002250667" />
-    <state width="1547" height="351" key="GridCell.Tab.0.right" timestamp="1605002250667">
+    <state width="1562" height="403" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605003116135" />
+    <state width="1562" height="403" key="GridCell.Tab.0.right" timestamp="1605003116135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1547" height="351" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605002250667" />
+    <state width="1562" height="403" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605003116135" />
     <state width="1235" height="331" key="GridCell.Tab.1.bottom" timestamp="1604229988897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -267,9 +305,9 @@
     <state width="1235" height="331" key="GridCell.Tab.1.left" timestamp="1604229988897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="151" key="SettingsEditor" timestamp="1604593569229">
+    <state x="461" y="151" key="SettingsEditor" timestamp="1604644923795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604593569229" />
+    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604644923795" />
   </component>
 </project>
