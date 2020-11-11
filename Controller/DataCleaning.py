@@ -3,6 +3,7 @@ import string
 from Controller import LogController
 from emot.emo_unicode import UNICODE_EMO, EMOTICONS
 
+
 def convert_single_line_str(ste):
     return ste.replace('\n', '')
 
@@ -15,24 +16,22 @@ def convert_single_line_df(df):
 
 def run(df):
     LogController.log_h1("START DATA CLEANING")
+
     df = convert_single_line_df(df)
     df = replace_special_char_df(df)
     df = remove_url_df(df)
     df = remove_atusername_df(df)
     df = handle_emoji_df(df)
-    df = handle_emocon_df(df)
-    #df = process_hasgtag_df(df)
-    df = remove_punctuation_df(df)
-    # SPELLING CORRECTION
+    df = handle_emoticon_df(df)
+    # df = process_hasgtag_df(df)
+    # df = remove_punctuation_df(df)
     df = replace_word_is_df(df)
     df = replace_are_df(df)
     df = replace_am_df(df)
     df = replace_will_df(df)
     df = replace_have_df(df)
     df = replace_would_df(df)
-
     df = remove_extra_whitespace_df(df)
-
     return df
 
 
@@ -62,8 +61,9 @@ def remove_extra_whitespace_df(df):
 
 # REPLACE SPECIAL CHARACTERS FROM THE SENTENCES
 def replace_special_char(sentence):
-    sentence = sentence.replace("“", '"')
-    sentence = sentence.replace("”", '"')
+    sentence = sentence.replace("“", '')
+    sentence = sentence.replace("”", '')
+    sentence = sentence.replace(":", '')
     sentence = sentence.replace("’", "'")
     sentence = sentence.replace("(", "")
     sentence = sentence.replace(")", "")
@@ -295,7 +295,7 @@ def process_hasgtag_df(df):
 
 
 # HANDLE EMOCON
-def handle_emocon_df(df):
+def handle_emoticon_df(df):
     LogController.log("Process Emocon")
     for emot in EMOTICONS:
         try:
