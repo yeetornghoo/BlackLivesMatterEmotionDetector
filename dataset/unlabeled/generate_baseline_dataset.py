@@ -11,7 +11,7 @@ mood_perc = [["fear", 0.78], ["anger", 1], ["sadness", 1], ["trust", 0.68],
 
 
 # FILTER DATA BY PERCENTAGE
-def filter_data_by_perc(df_input):
+def filter_data_by_perc(df_input, out_path):
     df_out = pd.DataFrame()
     for mood, perc in mood_perc:
         df_tmp = BaselineViz.df_summary(df_input, mood, perc, out_path)
@@ -23,13 +23,10 @@ def filter_data_by_perc(df_input):
 df = pd.DataFrame()
 for folder_name in label_dataset_folder:
 
-    print("dir_path: {}".format(unlabeled_path))
-    print("folder_name: {}".format(folder_name))
-
     folder_path = "{}{}/".format(unlabeled_path, folder_name)
-    print("folder_path: {}".format(folder_path))
-    os.chdir(folder_path)
-    exec(open('script_0_init.py').read())
+    #print("folder_path: {}".format(folder_path))
+    #os.chdir(folder_path)
+    #exec(open('script_0_init.py').read())
 
     # PROCESS INVIDIUAL DATASET
     dataset_file_path = "{}/baseline-dataset.csv".format(folder_path)
@@ -39,11 +36,18 @@ for folder_name in label_dataset_folder:
     LogController.log("Added {} with {} rows".format(folder_name, len(ds_tmp.index)))
     df = df.append(ds_tmp, ignore_index=True)
 
-df = filter_data_by_perc(df)
 
 out_path = unlabeled_path + "master/img/baseline/"
-BaselineViz.run(df, out_path)
+df = filter_data_by_perc(df, out_path)
+
+#print(df.groupby("sentiment").count())
 
 FileController.save_df_to_csv(unlabeled_path + "master/baseline-dataset.csv", df)
+
+
+
+BaselineViz.run(df, out_path)
+
+
 
 

@@ -28,17 +28,18 @@ def confusion_matrix(classifier, X, y, name, wordvectorname, df, path_dir):
     ax.tick_params(axis='both', which='major', labelsize=10)
     img_file_name = confusion_matrix_file_name_pattern.format(wordvectorname, name).lower()
     plt.savefig(path_dir+img_file_name)
+    plt.clf()
 
 
 def show_percentage(x):
     return "{0:.2f}%".format(round(x, 2) * 100)
 
 
-def log_wiki_result(name, wordVecName, ac_value, f1_value, pr_value, re_value, foldername, f):
+def log_wiki_result(name, wordVecName, ac_value, f1_value, pr_value, re_value, path_dir, f):
 
     github_url = "https://github.com/yeetornghoo/SocialMovementSentiment/blob/master/dataset/labeled/"
     img_file_name = confusion_matrix_file_name_pattern.format(wordVecName, name).lower()
-    cfm_file_url = "![]({}{}/img/validation/0_preliminary/{})".format(github_url, foldername, img_file_name)
+    cfm_file_url = "![]({}/img/validation/0_preliminary/{})".format(github_url, img_file_name)
 
     line_msg = "| {} |  {} |  {} |  {} |  {} | {} |".format("{} with {}".format(name, wordVecName), ac_value, f1_value, pr_value, re_value, cfm_file_url)
     f.write(line_msg+"\n")
@@ -94,21 +95,18 @@ def run_ml_repeatedkfold(wordVecName, wordVecObj, df, X, y, clf, clf_name, path_
     pickle.dump(clf, open(filename, 'wb'))
 
 
-def run_machine_learnings(wordVecName, wordVecObj, df, X, y, path_dir):
+def run_machine_learnings(wordVecName, wordVecObj, df, X, y, path_dir, f):
 
     # DEFINE MACHINE LEARNING MODEL
     clf_dict = {
         'MultinomialNB': MultinomialNB(),
         'SVN': svm.SVC(C=1.0, kernel='rbf', degree=3, gamma='scale', coef0=0.0, shrinking=True, probability=False,
-                       tol=0.001, cache_size=200, class_weight=None, verbose=False, max_iter=2000,
+                       tol=0.001, cache_size=200, class_weight=None, verbose=False, max_iter=1000,
                        decision_function_shape='ovr', random_state=2),
         'LinearSVC': LinearSVC(penalty='l2', loss='squared_hinge', dual=True, tol=0.001, C=1.0, multi_class='ovr',
                                fit_intercept=True, intercept_scaling=1, class_weight=None, verbose=0, random_state=None,
                                max_iter=30000)
     }
-
-    f = open(path_dir + "result.txt", "a")
-    f.truncate(0)
 
     for clf_name, clf in clf_dict.items():
         print(f'ML Name         : {clf_name}')
@@ -116,26 +114,27 @@ def run_machine_learnings(wordVecName, wordVecObj, df, X, y, path_dir):
         run_ml_repeatedkfold(wordVecName, wordVecObj, df, X, y, clf, clf_name, path_dir, f)
 
 
-def run_bow(df, X, y, path_dir):
+
+def run_bow(df, X, y, path_dir, f):
 
     LogController.log_h1("CHECK BOW WORD VECTOR")
     BOW = CountVectorizer()
     BOW.fit_transform(X)
 
     # RUN MACHINE LEARNING
-    run_machine_learnings("BOW", BOW, df, X, y, path_dir)
+    run_machine_learnings("BOW", BOW, df, X, y, path_dir, f)
 
     # SAVE VECTOR
     pickle.dump(BOW, open(path_dir+"bow.pickle", "wb"))
 
 
-def run_tfidf(df, X, y, path_dir):
+def run_tfidf(df, X, y, path_dir, f):
     LogController.log_h1("CHECK TF-IDF WORD VECTOR")
     TFIDF = TfidfVectorizer()
     TFIDF.fit_transform(X)
 
     # RUN MACHINE LEARNING
-    run_machine_learnings("TF-IDF", TFIDF, df, X, y, path_dir)
+    run_machine_learnings("TF-IDF", TFIDF, df, X, y, path_dir, f)
 
     # SAVE VECTOR
     pickle.dump(TFIDF, open(path_dir+"tfidf.pickle", "wb"))
@@ -149,10 +148,10 @@ def run(df, foldername):
     X = df['tweet_text'].values.astype('U')
     y = df['sentiment'].values
 
-    run_bow(df, X, y, path_dir)
-    run_tfidf(df, X, y, path_dir)
+    f = open(path_dir + "result.txt", "a")
+    f.truncate(0)
 
-    #f.close()
+    run_bow(df, X, y, path_dir, f)
+    run_tfidf(df, X, y, path_dir, f)
 
-
-
+    f.close()
