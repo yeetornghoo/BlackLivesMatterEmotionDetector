@@ -20,14 +20,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe8b93ec-7eaa-48b7-98fe-1988f17dc409" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/04-post-nlp-dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controller/Bert/SentimentClassifier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sentiment_Analysis_BERT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert_part2_sentiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/script_2_label_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/script_2_label_sentiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/PlutchikStandardController.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/PlutchikStandardController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/master/baseline-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/baseline-dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/bow.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/bow.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/bow_linearsvc_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/bow_linearsvc_confusion_matrix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/bow_multinomialnb_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/bow_multinomialnb_confusion_matrix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/bow_svn_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/bow_svn_confusion_matrix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/model_linearsvc_bow.sav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/model_linearsvc_bow.sav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/model_linearsvc_tf-idf.sav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/model_multinomialnb_bow.sav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/model_multinomialnb_bow.sav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/model_multinomialnb_tf-idf.sav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/model_multinomialnb_tf-idf.sav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/model_svn_bow.sav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/model_svn_bow.sav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/model_svn_tf-idf.sav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/tf-idf_linearsvc_confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/tf-idf_multinomialnb_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/tf-idf_multinomialnb_confusion_matrix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/tf-idf_svn_confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/tfidf.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/master/script_1_create_and_validate_baseline_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/script_1_create_and_validate_baseline_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/generate_baseline_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/generate_baseline_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/baseline-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/baseline-dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/0_dataset_sentiment_count.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/0_dataset_sentiment_count.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/anger_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/anger_bell_curve.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/anticipation_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/anticipation_bell_curve.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/disgust_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/disgust_bell_curve.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/fear_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/fear_bell_curve.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/joy_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/joy_bell_curve.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/sadness_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/sadness_bell_curve.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/surprise_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/surprise_bell_curve.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/trust_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/trust_bell_curve.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install_pip.txt" beforeDir="false" afterPath="$PROJECT_DIR$/install_pip.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,8 +85,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.script_2_label_sentiment">
-    <configuration name="script_1_process (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Sentiment_Analysis_BERT (1)">
+    <configuration name="Experiment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -55,11 +94,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/script_1_process.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Experiment.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -68,7 +107,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="script_2_label_sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Sentiment_Analysis_BERT (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,11 +115,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/script_2_label_sentiment.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sentiment_Analysis_BERT.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="script_3_analysis_lexicon" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Sentiment_Analysis_BERT" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,11 +136,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/unlabeled/blm_washington/script_2_label_sentiment.py" />
+      <option name="SCRIPT_NAME" value="C:\workspace\SocialMovementSentiment\Sentiment_Analysis_BERT.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,7 +149,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="script_3_analysis_lexicon" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="bert_part2_sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,11 +157,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/unlabeled/blm_washington" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/unlabeled/blm_washington/script_3_analysis_lexicon.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bert_part2_sentiment.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,7 +170,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="script_4_generate_training_dataset (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="script_1_create_and_validate_baseline_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,32 +178,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/unlabeled/blm_washington" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/master" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/unlabeled/blm_washington/script_4_generate_training_dataset.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="script_4_generate_training_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SocialMovementSentiment" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/script_4_generate_training_dataset.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/master/script_1_create_and_validate_baseline_dataset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,19 +192,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.script_1_process (1)" />
-      <item itemvalue="Python.script_4_generate_training_dataset (2)" />
-      <item itemvalue="Python.script_3_analysis_lexicon" />
-      <item itemvalue="Python.script_4_generate_training_dataset" />
-      <item itemvalue="Python.script_2_label_sentiment" />
+      <item itemvalue="Python.script_1_create_and_validate_baseline_dataset" />
+      <item itemvalue="Python.Sentiment_Analysis_BERT" />
+      <item itemvalue="Python.bert_part2_sentiment" />
+      <item itemvalue="Python.Sentiment_Analysis_BERT (1)" />
+      <item itemvalue="Python.Experiment" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.script_2_label_sentiment" />
-        <item itemvalue="Python.script_1_process (1)" />
-        <item itemvalue="Python.script_4_generate_training_dataset" />
-        <item itemvalue="Python.script_4_generate_training_dataset (2)" />
-        <item itemvalue="Python.script_3_analysis_lexicon" />
+        <item itemvalue="Python.Sentiment_Analysis_BERT (1)" />
+        <item itemvalue="Python.Sentiment_Analysis_BERT" />
+        <item itemvalue="Python.Experiment" />
+        <item itemvalue="Python.bert_part2_sentiment" />
+        <item itemvalue="Python.script_1_create_and_validate_baseline_dataset" />
       </list>
     </recent_temporary>
   </component>
@@ -241,22 +259,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601012252295" />
-    <state width="1898" height="326" key="GridCell.Tab.0.bottom" timestamp="1604594885331">
+    <state width="1330" height="160" key="GridCell.Tab.0.bottom" timestamp="1605518205660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604594885331" />
-    <state width="1898" height="326" key="GridCell.Tab.0.center" timestamp="1604594885331">
+    <state width="1330" height="160" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605518205660" />
+    <state width="1330" height="160" key="GridCell.Tab.0.center" timestamp="1605518205660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="326" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604594885331" />
-    <state width="1898" height="326" key="GridCell.Tab.0.left" timestamp="1604594885331">
+    <state width="1330" height="160" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605518205660" />
+    <state width="1330" height="160" key="GridCell.Tab.0.left" timestamp="1605518205660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="326" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604594885331" />
-    <state width="1898" height="326" key="GridCell.Tab.0.right" timestamp="1604594885331">
+    <state width="1330" height="160" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605518205660" />
+    <state width="1330" height="160" key="GridCell.Tab.0.right" timestamp="1605518205660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="326" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604594885331" />
+    <state width="1330" height="160" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605518205660" />
     <state width="1235" height="331" key="GridCell.Tab.1.bottom" timestamp="1604229988897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -268,9 +286,9 @@
     <state width="1235" height="331" key="GridCell.Tab.1.left" timestamp="1604229988897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="151" key="SettingsEditor" timestamp="1604593569229">
+    <state x="461" y="151" key="SettingsEditor" timestamp="1605414776258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604593569229" />
+    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605414776258" />
   </component>
 </project>

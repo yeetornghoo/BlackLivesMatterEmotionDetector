@@ -12,3 +12,4 @@ pip install seaborn
 pip install emot
 pip install nltk
 pip install sklearn
+pip install transformers
