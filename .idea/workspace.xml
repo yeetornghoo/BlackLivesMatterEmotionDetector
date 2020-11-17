@@ -20,41 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe8b93ec-7eaa-48b7-98fe-1988f17dc409" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Controller/Bert/SentimentClassifier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sentiment_Analysis_BERT.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_part2_sentiment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/PlutchikStandardController.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/PlutchikStandardController.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/master/baseline-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/baseline-dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/bow.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/bow.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/bow_linearsvc_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/bow_linearsvc_confusion_matrix.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/bow_multinomialnb_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/bow_multinomialnb_confusion_matrix.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/bow_svn_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/bow_svn_confusion_matrix.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/model_linearsvc_bow.sav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/model_linearsvc_bow.sav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/model_linearsvc_tf-idf.sav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/model_multinomialnb_bow.sav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/model_multinomialnb_bow.sav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/model_multinomialnb_tf-idf.sav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/model_multinomialnb_tf-idf.sav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/model_svn_bow.sav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/model_svn_bow.sav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/model_svn_tf-idf.sav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/tf-idf_linearsvc_confusion_matrix.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/tf-idf_multinomialnb_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/tf-idf_multinomialnb_confusion_matrix.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/tf-idf_svn_confusion_matrix.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/tfidf.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/master/script_1_create_and_validate_baseline_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/script_1_create_and_validate_baseline_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/generate_baseline_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/generate_baseline_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/baseline-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/baseline-dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/0_dataset_sentiment_count.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/0_dataset_sentiment_count.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/anger_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/anger_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/anticipation_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/anticipation_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/disgust_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/disgust_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/fear_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/fear_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/joy_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/joy_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/sadness_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/sadness_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/surprise_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/surprise_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/trust_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/trust_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install_pip.txt" beforeDir="false" afterPath="$PROJECT_DIR$/install_pip.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,22 +225,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601012252295" />
-    <state width="1330" height="160" key="GridCell.Tab.0.bottom" timestamp="1605518205660">
+    <state width="1691" height="497" key="GridCell.Tab.0.bottom" timestamp="1605524125324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1330" height="160" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605518205660" />
-    <state width="1330" height="160" key="GridCell.Tab.0.center" timestamp="1605518205660">
+    <state width="1691" height="497" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605524125324" />
+    <state width="1691" height="497" key="GridCell.Tab.0.center" timestamp="1605524125321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1330" height="160" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605518205660" />
-    <state width="1330" height="160" key="GridCell.Tab.0.left" timestamp="1605518205660">
+    <state width="1691" height="497" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605524125321" />
+    <state width="1691" height="497" key="GridCell.Tab.0.left" timestamp="1605524125314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1330" height="160" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605518205660" />
-    <state width="1330" height="160" key="GridCell.Tab.0.right" timestamp="1605518205660">
+    <state width="1691" height="497" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605524125314" />
+    <state width="1691" height="497" key="GridCell.Tab.0.right" timestamp="1605524125321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1330" height="160" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605518205660" />
+    <state width="1691" height="497" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605524125321" />
     <state width="1235" height="331" key="GridCell.Tab.1.bottom" timestamp="1604229988897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
