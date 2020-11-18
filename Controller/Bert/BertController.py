@@ -94,6 +94,40 @@ def create_data_loader(df, tokenizer, max_len, batch_size):
     )
 
 
+def get_predictions(model, data_loader):
+    model = model.eval()
+
+    tweet_texts = []
+    predictions = []
+    prediction_probs = []
+    real_values = []
+
+    with torch.no_grad():
+        for d in data_loader:
+            texts = d["tweet_text"]
+            input_ids = d["input_ids"].to(device)
+            attention_mask = d["attention_mask"].to(device)
+            targets = d["targets"].to(device)
+
+            outputs = model(
+                input_ids=input_ids,
+                attention_mask=attention_mask
+            )
+            _, preds = torch.max(outputs, dim=1)
+
+            probs = F.softmax(outputs, dim=1)
+
+            tweet_texts.extend(texts)
+            predictions.extend(preds)
+            prediction_probs.extend(probs)
+            real_values.extend(targets)
+
+    predictions = torch.stack(predictions).cpu()
+    prediction_probs = torch.stack(prediction_probs).cpu()
+    real_values = torch.stack(real_values).cpu()
+    return tweet_texts, predictions, prediction_probs, real_values
+
+
 def run(df, tokenizer):
 
     df_train, df_test = train_test_split(df, test_size=0.1, random_state=RANDOM_SEED)
@@ -155,7 +189,7 @@ def run(df, tokenizer):
             len(df_val)
         )
 
-        print(f'Val   loss {val_loss} accuracy {val_acc}')
+        print(f'Val loss {val_loss} accuracy {val_acc}')
         print()
 
         history['train_acc'].append(train_acc)
@@ -174,4 +208,36 @@ def run(df, tokenizer):
     plt.ylabel('Accuracy')
     plt.xlabel('Epoch')
     plt.legend()
-    plt.ylim([0, 1]);
+    plt.ylim([0, 1])
+
+    # EVALUATION
+    test_acc, _ = eval_model(
+        model,
+        test_data_loader,
+        loss_fn,
+        device,
+        len(df_test)
+    )
+
+    test_acc.item()
+
+    y_tweet_texts, y_pred, y_pred_probs, y_test = get_predictions(
+        model,
+        test_data_loader
+    )
+
+    '''
+    print(classification_report(y_test, y_pred, target_names=class_names))
+
+    def show_confusion_matrix(confusion_matrix):
+        hmap = sns.heatmap(confusion_matrix, annot=True, fmt="d", cmap="Blues")
+        hmap.yaxis.set_ticklabels(hmap.yaxis.get_ticklabels(), rotation=0, ha='right')
+        hmap.xaxis.set_ticklabels(hmap.xaxis.get_ticklabels(), rotation=30, ha='right')
+        plt.ylabel('True sentiment')
+        plt.xlabel('Predicted sentiment');W
+
+    cm = confusion_matrix(y_test, y_pred)
+    df_cm = pd.DataFrame(cm, index=class_names, columns=class_names)
+    show_confusion_matrix(df_cm)
+    '''
+

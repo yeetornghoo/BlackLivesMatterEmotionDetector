@@ -7,7 +7,7 @@ from Controller.Bert import BertController
 PRE_TRAINED_MODEL_NAME = 'bert-base-cased'
 
 # LOAD DATASET
-df = pd.read_csv("dataset/master/baseline-dataset.csv", sep=",")
+df = pd.read_csv("dataset/master/baseline-dataset.csv", sep=",", nrows=2000)
 df = df[["sentiment", "tweet_text"]]
 df = df[(df["sentiment"] != "surprise") & (df["sentiment"] != "disgust")]
 

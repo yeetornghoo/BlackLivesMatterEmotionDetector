@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fe8b93ec-7eaa-48b7-98fe-1988f17dc409" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/Bert/BertController.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Bert/BertController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sentiment_Analysis_BERT.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sentiment_Analysis_BERT.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,11 +160,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.script_1_create_and_validate_baseline_dataset" />
+      <item itemvalue="Python.Experiment" />
+      <item itemvalue="Python.Sentiment_Analysis_BERT (1)" />
       <item itemvalue="Python.Sentiment_Analysis_BERT" />
       <item itemvalue="Python.bert_part2_sentiment" />
-      <item itemvalue="Python.Sentiment_Analysis_BERT (1)" />
-      <item itemvalue="Python.Experiment" />
+      <item itemvalue="Python.script_1_create_and_validate_baseline_dataset" />
     </list>
     <recent_temporary>
       <list>
