@@ -4,9 +4,12 @@ from torch.utils import data
 import transformers
 import torch
 import numpy as np
+import seaborn as sns
+import pandas as pd
 from torch import nn
 import matplotlib.pyplot as plt
 import torch.nn.functional as F
+from sklearn.metrics import confusion_matrix
 from collections import defaultdict
 from Controller import PlutchikStandardController
 from Controller.Bert.TweetTextDataset import TweetTextDataset
@@ -242,16 +245,14 @@ def run(df, tokenizer):
 
     print(classification_report(y_test, y_pred, target_names=class_list))
 
-    '''
     def show_confusion_matrix(confusion_matrix):
         hmap = sns.heatmap(confusion_matrix, annot=True, fmt="d", cmap="Blues")
         hmap.yaxis.set_ticklabels(hmap.yaxis.get_ticklabels(), rotation=0, ha='right')
         hmap.xaxis.set_ticklabels(hmap.xaxis.get_ticklabels(), rotation=30, ha='right')
         plt.ylabel('True sentiment')
-        plt.xlabel('Predicted sentiment');W
+        plt.xlabel('Predicted sentiment')
 
     cm = confusion_matrix(y_test, y_pred)
     df_cm = pd.DataFrame(cm, index=class_list, columns=class_list)
     show_confusion_matrix(df_cm)
-    '''
 
