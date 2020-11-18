@@ -25,7 +25,7 @@ def convert_mood_class(idf):
 
 if __name__ == '__main__':
     # LOAD DATASET
-    df = pd.read_csv("dataset/master/baseline-dataset.csv", sep=",", nrows=500)
+    df = pd.read_csv("dataset/master/baseline-dataset.csv", sep=",", nrows=1000)
     df = df[["sentiment", "tweet_text"]]
     df = df[(df["sentiment"] != "surprise") & (df["sentiment"] != "disgust")]
 

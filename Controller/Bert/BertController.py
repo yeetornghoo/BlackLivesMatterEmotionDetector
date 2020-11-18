@@ -251,6 +251,7 @@ def run(df, tokenizer):
         hmap.xaxis.set_ticklabels(hmap.xaxis.get_ticklabels(), rotation=30, ha='right')
         plt.ylabel('True sentiment')
         plt.xlabel('Predicted sentiment')
+        plt.savefig("figure_2.png")
 
     cm = confusion_matrix(y_test, y_pred)
     df_cm = pd.DataFrame(cm, index=class_list, columns=class_list)
