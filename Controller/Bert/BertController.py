@@ -19,7 +19,7 @@ PRE_TRAINED_MODEL_NAME = 'bert-base-cased'
 RANDOM_SEED = 42
 MAX_LEN = 160
 BATCH_SIZE = 16
-EPOCHS = 1
+EPOCHS = 10
 
 np.random.seed(RANDOM_SEED)
 torch.manual_seed(RANDOM_SEED)
@@ -144,10 +144,15 @@ def get_class_name(idf):
 
 def run(df, tokenizer):
 
-    class_list = get_class_name(df)
+    class_names = PlutchikStandardController.moods
 
     df_train, df_test = train_test_split(df, test_size=0.1, random_state=RANDOM_SEED)
     df_val, df_test = train_test_split(df_test, test_size=0.5, random_state=RANDOM_SEED)
+
+    print(f'class_names: {class_names}')
+    print(f' df_train:   {df_train["sentiment"].unique()}')
+    print(f' df_val:     {df_val["sentiment"].unique()}')
+    print(f' df_test:    {df_test["sentiment"].unique()}')
 
     train_data_loader = create_data_loader(df_train, tokenizer, MAX_LEN, BATCH_SIZE)
     val_data_loader = create_data_loader(df_val, tokenizer, MAX_LEN, BATCH_SIZE)
@@ -156,7 +161,7 @@ def run(df, tokenizer):
     data = next(iter(train_data_loader))
     data.keys()
 
-    model = SentimentClassifier(len(PlutchikStandardController.moods))
+    model = SentimentClassifier(len(class_names))
     model = model.to(device)
 
     input_ids = data['input_ids'].to(device)
@@ -217,7 +222,6 @@ def run(df, tokenizer):
             torch.save(model.state_dict(), 'best_model_state.bin')
             best_accuracy = val_acc
 
-
     plt.plot(history['train_acc'], label='train accuracy')
     plt.plot(history['val_acc'], label='validation accuracy')
     plt.title('Training history')
@@ -243,7 +247,7 @@ def run(df, tokenizer):
         test_data_loader
     )
 
-    print(classification_report(y_test, y_pred, target_names=class_list))
+    print(classification_report(y_test, y_pred, target_names=class_names))
 
     def show_confusion_matrix(confusion_matrix):
         hmap = sns.heatmap(confusion_matrix, annot=True, fmt="d", cmap="Blues")
@@ -254,6 +258,5 @@ def run(df, tokenizer):
         plt.savefig("figure_2.png")
 
     cm = confusion_matrix(y_test, y_pred)
-    df_cm = pd.DataFrame(cm, index=class_list, columns=class_list)
+    df_cm = pd.DataFrame(cm, index=class_names, columns=class_names)
     show_confusion_matrix(df_cm)
-
