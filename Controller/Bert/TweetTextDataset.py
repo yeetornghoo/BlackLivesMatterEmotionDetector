@@ -20,6 +20,8 @@ class TweetTextDataset(Dataset):
             tweet_text,
             add_special_tokens=True,
             max_length=self.max_len,
+            truncation=True,
+            padding='max_length',
             return_token_type_ids=False,
             pad_to_max_length=True,
             return_attention_mask=True,

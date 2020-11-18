@@ -15,7 +15,7 @@ PRE_TRAINED_MODEL_NAME = 'bert-base-cased'
 RANDOM_SEED = 42
 MAX_LEN = 160
 BATCH_SIZE = 16
-EPOCHS = 10
+EPOCHS = 1
 
 np.random.seed(RANDOM_SEED)
 torch.manual_seed(RANDOM_SEED)
@@ -225,6 +225,8 @@ def run(df, tokenizer):
         model,
         test_data_loader
     )
+
+    print(type(y_test))
 
     '''
     print(classification_report(y_test, y_pred, target_names=class_names))
