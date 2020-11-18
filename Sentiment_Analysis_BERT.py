@@ -2,12 +2,13 @@ import transformers
 import pandas as pd
 from Controller import PlutchikStandardController
 from Controller.Bert import BertController
+import random
 
 # SETTING
 PRE_TRAINED_MODEL_NAME = 'bert-base-cased'
 
 # LOAD DATASET
-df = pd.read_csv("dataset/master/baseline-dataset.csv", sep=",", nrows=2000)
+df = pd.read_csv("dataset/master/baseline-dataset_small.csv", sep=",")
 df = df[["sentiment", "tweet_text"]]
 df = df[(df["sentiment"] != "surprise") & (df["sentiment"] != "disgust")]
 
@@ -25,5 +26,7 @@ for mood_itm in PlutchikStandardController.moods_code:
 df = df.astype({"sentiment": int})
 tokenizer = transformers.BertTokenizer.from_pretrained(PRE_TRAINED_MODEL_NAME)
 
+print("---MAIN--1-")
 if __name__ == '__main__':
+    print("---MAIN--2-")
     BertController.run(df, tokenizer)
