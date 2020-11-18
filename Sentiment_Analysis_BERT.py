@@ -25,7 +25,7 @@ def convert_mood_class(idf):
 
 if __name__ == '__main__':
     # LOAD DATASET
-    df = pd.read_csv("dataset/master/baseline-dataset_small.csv", sep=",")
+    df = pd.read_csv("dataset/master/baseline-dataset.csv", sep=",", nrows=500)
     df = df[["sentiment", "tweet_text"]]
     df = df[(df["sentiment"] != "surprise") & (df["sentiment"] != "disgust")]
 
@@ -35,5 +35,4 @@ if __name__ == '__main__':
     # CREATE TOKEN
     tokenizer = transformers.BertTokenizer.from_pretrained(PRE_TRAINED_MODEL_NAME)
 
-    print("---MAIN--2-")
     BertController.run(df, tokenizer)

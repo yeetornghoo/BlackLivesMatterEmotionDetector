@@ -8,12 +8,13 @@ from torch import nn
 import matplotlib.pyplot as plt
 import torch.nn.functional as F
 from collections import defaultdict
+
 from Controller import PlutchikStandardController
 from Controller.Bert.TweetTextDataset import TweetTextDataset
 from Controller.Bert.SentimentClassifier import SentimentClassifier
 
 PRE_TRAINED_MODEL_NAME = 'bert-base-cased'
-RANDOM_SEED = 42
+RANDOM_SEED = 5
 MAX_LEN = 160
 BATCH_SIZE = 16
 EPOCHS = 1
@@ -39,7 +40,6 @@ def train_epoch(model, data_loader, loss_fn, optimizer,
             input_ids=input_ids,
             attention_mask=attention_mask
         )
-
         _, preds = torch.max(outputs, dim=1)
         loss = loss_fn(outputs, targets)
 
@@ -56,7 +56,6 @@ def train_epoch(model, data_loader, loss_fn, optimizer,
 
 
 def eval_model(model, data_loader, loss_fn, device, n_examples):
-
     model = model.eval()
 
     losses = []
@@ -142,9 +141,14 @@ def get_class_name(idf):
 def run(df, tokenizer):
 
     class_list = get_class_name(df)
+    #print(class_list)
 
-    df_train, df_test = train_test_split(df, test_size=0.1, random_state=RANDOM_SEED)
+    df_train, df_test = train_test_split(df, test_size=0.3, random_state=RANDOM_SEED)
     df_val, df_test = train_test_split(df_test, test_size=0.5, random_state=RANDOM_SEED)
+
+    #print(df_train["sentiment"].unique().tolist())
+    #print(df_test["sentiment"].unique().tolist())
+    #print(df_val["sentiment"].unique().tolist())
 
     train_data_loader = create_data_loader(df_train, tokenizer, MAX_LEN, BATCH_SIZE)
     val_data_loader = create_data_loader(df_val, tokenizer, MAX_LEN, BATCH_SIZE)
@@ -153,7 +157,8 @@ def run(df, tokenizer):
     data = next(iter(train_data_loader))
     data.keys()
 
-    model = SentimentClassifier(len(PlutchikStandardController.moods))
+    #model = SentimentClassifier(len(PlutchikStandardController.moods))
+    model = SentimentClassifier(len(class_list))
     model = model.to(device)
 
     input_ids = data['input_ids'].to(device)
@@ -182,25 +187,12 @@ def run(df, tokenizer):
         print(f'Epoch {epoch + 1}/{EPOCHS}')
         print('-' * 10)
 
-        train_acc, train_loss = train_epoch(
-            model,
-            train_data_loader,
-            loss_fn,
-            optimizer,
-            device,
-            scheduler,
-            len(df_train)
-        )
+        train_acc, train_loss = train_epoch(model, train_data_loader, loss_fn, optimizer,
+                                            device, scheduler, len(df_train))
 
         print(f'Train loss {train_loss} accuracy {train_acc}')
 
-        val_acc, val_loss = eval_model(
-            model,
-            val_data_loader,
-            loss_fn,
-            device,
-            len(df_val)
-        )
+        val_acc, val_loss = eval_model(model, val_data_loader, loss_fn, device, len(df_val))
 
         print(f'Val loss {val_loss} accuracy {val_acc}')
         print()
@@ -214,7 +206,6 @@ def run(df, tokenizer):
             torch.save(model.state_dict(), 'best_model_state.bin')
             best_accuracy = val_acc
 
-
     plt.plot(history['train_acc'], label='train accuracy')
     plt.plot(history['val_acc'], label='validation accuracy')
     plt.title('Training history')
@@ -225,14 +216,7 @@ def run(df, tokenizer):
     plt.savefig("figure_1.png")
 
     # EVALUATION
-    test_acc, _ = eval_model(
-        model,
-        test_data_loader,
-        loss_fn,
-        device,
-        len(df_test)
-    )
-
+    test_acc, _ = eval_model(model, test_data_loader, loss_fn, device, len(df_test))
     test_acc.item()
 
     y_tweet_texts, y_pred, y_pred_probs, y_test = get_predictions(
@@ -242,16 +226,17 @@ def run(df, tokenizer):
 
     print(classification_report(y_test, y_pred, target_names=class_list))
 
+
     '''
     def show_confusion_matrix(confusion_matrix):
         hmap = sns.heatmap(confusion_matrix, annot=True, fmt="d", cmap="Blues")
         hmap.yaxis.set_ticklabels(hmap.yaxis.get_ticklabels(), rotation=0, ha='right')
         hmap.xaxis.set_ticklabels(hmap.xaxis.get_ticklabels(), rotation=30, ha='right')
         plt.ylabel('True sentiment')
-        plt.xlabel('Predicted sentiment');W
+        plt.xlabel('Predicted sentiment')
+        plt.savefig("figure_2_cm.png")
 
     cm = confusion_matrix(y_test, y_pred)
-    df_cm = pd.DataFrame(cm, index=class_list, columns=class_list)
+    df_cm = pd.DataFrame(cm, index=class_names, columns=class_names)
     show_confusion_matrix(df_cm)
     '''
-
