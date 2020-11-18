@@ -8,12 +8,13 @@ from torch import nn
 import matplotlib.pyplot as plt
 import torch.nn.functional as F
 from collections import defaultdict
+
 from Controller import PlutchikStandardController
 from Controller.Bert.TweetTextDataset import TweetTextDataset
 from Controller.Bert.SentimentClassifier import SentimentClassifier
 
 PRE_TRAINED_MODEL_NAME = 'bert-base-cased'
-RANDOM_SEED = 42
+RANDOM_SEED = 5
 MAX_LEN = 160
 BATCH_SIZE = 16
 EPOCHS = 1
@@ -25,6 +26,7 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 def train_epoch(model, data_loader, loss_fn, optimizer,
                 device, scheduler, n_examples):
+
     model = model.train()
     losses = []
     correct_predictions = 0
@@ -38,7 +40,6 @@ def train_epoch(model, data_loader, loss_fn, optimizer,
             input_ids=input_ids,
             attention_mask=attention_mask
         )
-
         _, preds = torch.max(outputs, dim=1)
         loss = loss_fn(outputs, targets)
 
@@ -127,30 +128,38 @@ def get_predictions(model, data_loader):
     return tweet_texts, predictions, prediction_probs, real_values
 
 
+def get_class_name(idf):
+    class_list = idf["sentiment"].unique().tolist()
+    r_class_list = []
+    for mood_itm in PlutchikStandardController.moods_code:
+        for class_code in class_list:
+            if class_code == mood_itm[1]:
+                r_class_list.append(mood_itm[0])
+    return r_class_list
+
+
 def run(df, tokenizer):
 
-    class_list = df["sentiment"].unique().tolist()
-    #print(len(class_list))
+    class_list = get_class_name(df)
+    #print(class_list)
 
-    df_train, df_test = train_test_split(df, test_size=0.1, random_state=RANDOM_SEED)
+    df_train, df_test = train_test_split(df, test_size=0.3, random_state=RANDOM_SEED)
     df_val, df_test = train_test_split(df_test, test_size=0.5, random_state=RANDOM_SEED)
+
+    #print(df_train["sentiment"].unique().tolist())
+    #print(df_test["sentiment"].unique().tolist())
+    #print(df_val["sentiment"].unique().tolist())
 
     train_data_loader = create_data_loader(df_train, tokenizer, MAX_LEN, BATCH_SIZE)
     val_data_loader = create_data_loader(df_val, tokenizer, MAX_LEN, BATCH_SIZE)
     test_data_loader = create_data_loader(df_test, tokenizer, MAX_LEN, BATCH_SIZE)
 
-    print("---train_data_loader--1-")
-
     data = next(iter(train_data_loader))
     data.keys()
-
-    print("---train_data_loader--2-")
 
     #model = SentimentClassifier(len(PlutchikStandardController.moods))
     model = SentimentClassifier(len(class_list))
     model = model.to(device)
-
-    print("---BertController--4-")
 
     input_ids = data['input_ids'].to(device)
     attention_mask = data['attention_mask'].to(device)
@@ -216,6 +225,7 @@ def run(df, tokenizer):
     )
 
     print(classification_report(y_test, y_pred, target_names=class_list))
+
 
     '''
     def show_confusion_matrix(confusion_matrix):
