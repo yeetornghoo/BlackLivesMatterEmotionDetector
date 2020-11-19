@@ -17,9 +17,9 @@ from Controller.Bert.SentimentClassifier import SentimentClassifier
 
 PRE_TRAINED_MODEL_NAME = 'bert-base-cased'
 RANDOM_SEED = 42
-MAX_LEN = 160
+MAX_LEN = 100
 BATCH_SIZE = 16
-EPOCHS = 10
+EPOCHS = 5
 
 np.random.seed(RANDOM_SEED)
 torch.manual_seed(RANDOM_SEED)
