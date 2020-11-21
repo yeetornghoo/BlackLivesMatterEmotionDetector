@@ -19,19 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe8b93ec-7eaa-48b7-98fe-1988f17dc409" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/baseline_ml_model/Sentiment_Analysis_BERT.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseline_ml_model/bert_part2_sentiment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseline_ml_model/figure_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseline_ml_model/figure_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sentiment_Analysis_BERT.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bert_part2_sentiment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/master/script_2_preliminary_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/master/script_2_preliminary_validation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/master/script_1_create_and_validate_baseline_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/script_1_create_and_validate_baseline_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/figure_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/figure_2.png" beforeDir="false" />
-    </list>
+    <list default="true" id="fe8b93ec-7eaa-48b7-98fe-1988f17dc409" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
