@@ -4,7 +4,6 @@ from Controller.Validation import PreliminaryValidation
 
 # SETTING
 dir_path = "C:/workspace/SocialMovementSentiment/dataset/"
-
 # BASELINE DATASET
 
 labeled_df = pd.read_csv(dir_path+"labeled/master/baseline-dataset.csv", sep=",")
@@ -19,8 +18,6 @@ df = df[["sentiment", "tweet_text"]]
 
 print(df.groupby("sentiment").count())
 FileController.save_df_to_csv(dir_path+"master/baseline-dataset.csv", df)
-
-
 
 # VALIDATE BY MACHINE LEARNING
 PreliminaryValidation.run(df, dir_path + "master")

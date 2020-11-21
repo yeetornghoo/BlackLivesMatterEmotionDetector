@@ -12,4 +12,4 @@ df = df[["sentiment", "tweet_text"]]
 print(df.groupby("sentiment").count())
 
 # VALIDATE BY MACHINE LEARNING
-#PreliminaryValidation.run(df, dir_path)
+PreliminaryValidation.run(df, dir_path)
