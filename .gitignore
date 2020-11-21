@@ -3,5 +3,5 @@ dataset/*/_*
 .idea/
 .idea/*
 .idea/*.xml
-*.bin
+*/*.bin
 *.pptx
