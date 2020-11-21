@@ -1,8 +1,6 @@
 from Controller import LogController
 from Helper import StringHelper
 
-#moods_code = [["fear", 0], ["anger", 1], ["sadness", 2], ["joy", 3], ["anticipation", 4], ["trust", 5]]
-#moods = ['fear', 'anger', 'sadness', 'joy', 'anticipation', 'trust']
 moods_code = [["fear", 0], ["anger", 1], ["sadness", 2], ["joy", 3], ["anticipation", 4], ["trust", 5], ["disgust", 6], ["surprise", 7]]
 moods = ['fear', 'anger', 'sadness', 'joy', 'anticipation', 'trust', 'disgust', 'surprise']
 joy_mood_synonyms = ["happy", "happiness"]

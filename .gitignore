@@ -5,3 +5,4 @@ dataset/*/_*
 .idea/*.xml
 */*.bin
 *.pptx
+dataset/RawTweets/*/_dataset/*
