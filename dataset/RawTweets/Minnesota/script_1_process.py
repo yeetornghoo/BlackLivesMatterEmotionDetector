@@ -3,7 +3,7 @@ from Controller import FileController, LogController
 from Controller import DataCleaning, DataTranslation, DataSpellingCorrection
 
 # LOAD AND PREPARE DATASET
-df = pd.read_csv("dataset/dataset.csv", sep=";")
+df = pd.read_csv("_dataset/dataset.csv", sep=";")
 df['tweet_text'] = df['text']
 
 # EXCLUDE NONE ENGLISH TEXT
