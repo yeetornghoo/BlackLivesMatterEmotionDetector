@@ -18,7 +18,6 @@ def run(df):
     LogController.log_h1("START DATA CLEANING")
 
     df = convert_single_line_df(df)
-    df = replace_special_char_df(df)
     df = remove_url_df(df)
     df = remove_atusername_df(df)
     df = handle_emoji_df(df)
@@ -31,6 +30,7 @@ def run(df):
     df = replace_will_df(df)
     df = replace_have_df(df)
     df = replace_would_df(df)
+    df = replace_special_char_df(df)
     df = remove_extra_whitespace_df(df)
     return df
 

@@ -2,6 +2,8 @@ import pandas as pd
 from Controller import FileController, LogController
 from Controller import DataCleaning, DataTranslation, DataSpellingCorrection
 
+'''
+# EXECUTED ON GOOGLE COLAB GPU
 # LOAD AND PREPARE DATASET
 df = pd.read_csv("_dataset/dataset.csv", sep=";")
 df['tweet_text'] = df['text']
@@ -9,6 +11,7 @@ df['tweet_text'] = df['text']
 # EXCLUDE NONE ENGLISH TEXT
 df = DataTranslation.run(df, "en")
 FileController.save_df_to_csv("01-post-translate-dataset.csv", df)
+'''
 
 # DATA CLEANING
 df = pd.read_csv("01-post-translate-dataset.csv", sep=",")
