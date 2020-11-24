@@ -32,6 +32,7 @@ def run(df):
     df = replace_would_df(df)
     df = replace_special_char_df(df)
     df = remove_extra_whitespace_df(df)
+
     return df
 
 
