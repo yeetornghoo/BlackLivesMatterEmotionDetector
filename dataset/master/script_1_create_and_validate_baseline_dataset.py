@@ -7,10 +7,10 @@ dir_path = "C:/workspace/SocialMovementSentiment/dataset/"
 # BASELINE DATASET
 
 labeled_df = pd.read_csv(dir_path+"labeled/master/baseline-dataset.csv", sep=",")
-#print(labeled_df.groupby("sentiment").count())
+print(labeled_df.groupby("sentiment").count())
 
 unlabeled_df = pd.read_csv(dir_path+"unlabeled/master/baseline-dataset.csv", sep=",")
-#print(unlabeled_df.groupby("sentiment").count())
+print(unlabeled_df.groupby("sentiment").count())
 
 frames = [labeled_df, unlabeled_df]
 df = pd.concat(frames)
