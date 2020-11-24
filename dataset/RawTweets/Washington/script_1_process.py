@@ -3,7 +3,11 @@ from Controller import FileController, LogController
 from Controller import DataCleaning, DataTranslation, DataSpellingCorrection
 
 '''
+<<<<<<< HEAD
 # EXECUTED ON GOOGLE COLAB GPU
+=======
+# EXECUTED IN GOOGLE COLAB
+>>>>>>> fe9fbb81b56f902544bb49443cb2b5eb8c2353e9
 # LOAD AND PREPARE DATASET
 df = pd.read_csv("_dataset/dataset.csv", sep=";")
 df['tweet_text'] = df['text']
@@ -23,7 +27,8 @@ df = pd.read_csv("02-post-cleaning-dataset.csv", sep=",")
 df = DataSpellingCorrection.run(df)
 
 # REMOVE USELESS COLUMN
-#df = df[["tweet_created_dt", "tweet_text"]]
+df = df[["tweet_id", "tweet_created_dt", "retweets", "favorites", "tweet_text"]]
+df = df[df['tweet_text'].notna()]
 FileController.save_df_to_csv("03-post-spelling-dataset.csv", df)
 
 # LOG
