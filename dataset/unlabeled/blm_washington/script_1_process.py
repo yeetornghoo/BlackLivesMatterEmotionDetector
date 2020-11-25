@@ -13,13 +13,15 @@ FileController.save_df_to_csv("01-post-translate-dataset.csv", df)
 
 # DATA CLEANING
 df = pd.read_csv("01-post-translate-dataset.csv", sep=",")
+print("{}".format(len(df)))
 df = DataCleaning.run(df)
+print("{}".format(len(df)))
 FileController.save_df_to_csv("02-post-cleaning-dataset.csv", df)
 
 # SPELLING CORRECTION
 df = pd.read_csv("02-post-cleaning-dataset.csv", sep=",")
 df = DataSpellingCorrection.run(df)
-
+print("{}".format(len(df)))
 # REMOVE USELESS COLUMN
 df = df[["tweet_created_dt", "tweet_text"]]
 FileController.save_df_to_csv("03-post-spelling-dataset.csv", df)
