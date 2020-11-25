@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe8b93ec-7eaa-48b7-98fe-1988f17dc409" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/04-post-nlp-dataset.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/script_2_label_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/script_2_label_sentiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/DataCleaning.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/DataCleaning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/ISEAR/script_1_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/ISEAR/script_1_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/crownflower/script_1_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/crownflower/script_1_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_washington/script_1_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_washington/script_1_process.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
