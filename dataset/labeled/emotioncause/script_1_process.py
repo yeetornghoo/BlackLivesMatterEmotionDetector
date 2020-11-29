@@ -2,7 +2,7 @@ import pandas as pd
 from Controller import FileController, LogController
 from Controller import DataCleaning, DataTranslation, DataSpellingCorrection, DataAssess
 
-
+'''
 def replace_char(str_obj, fr_str, to_str):
     str_obj = str_obj.replace(fr_str, to_str)
     return str_obj
@@ -20,7 +20,7 @@ def process_class(df, class_mood):
     df['tweet_text'] = df['tweet_text'].apply(lambda x: replace_char(str(x), close_tag, ""))
     return df
 
-'''
+
 # LOAD AND PREPARE DATASET
 df = pd.read_table("dataset/Emotion_Cause.txt", names=["tweet_text"])
 df['sentiment'] = "NA"

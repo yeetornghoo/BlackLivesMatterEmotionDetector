@@ -10,8 +10,9 @@ label_dataset_folder = ["emotioncause", "ISEAR", "SemEval2018_Task1", "SemEval20
 for folder_name in label_dataset_folder:
     folder_path = "{}{}/".format(dir_path, folder_name)
     os.chdir(folder_path)
-    #exec(open('script_0_init.py').read())
+    exec(open('script_0_init.py').read())
 
+'''
 # COMBINE FINAL BASELINE DATASET
 df = pd.DataFrame()
 for folder_name in label_dataset_folder:
@@ -24,3 +25,4 @@ FileController.save_df_to_csv(dir_path+"master/baseline-dataset.csv", df)
 # GENERATE VISUAL FOR THE LATEST BASELINE DATASET
 out_path = dir_path+"master/img/baseline/"
 BaselineViz.run(df, out_path)
+'''

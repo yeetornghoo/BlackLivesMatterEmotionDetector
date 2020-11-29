@@ -1,6 +1,7 @@
 import pandas as pd
 from Controller import FileController, LogController
 from Controller import DataCleaning, DataTranslation, DataSpellingCorrection
+
 '''
 # LOAD AND PREPARE DATASET
 df = pd.read_csv("dataset/dataset.csv", sep=";")
@@ -28,4 +29,3 @@ FileController.save_df_to_csv("03-post-spelling-dataset.csv", df)
 
 # LOG
 LogController.log("Execution of 'script_1_process.py' is completed.")
-
