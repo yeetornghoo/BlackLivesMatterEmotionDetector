@@ -8,7 +8,7 @@ df['tweet_text'] = df['text']
 
 # EXCLUDE NONE ENGLISH TEXT
 df = DataTranslation.run(df, "en")
-FileController.save_df_to_csv("01-post-translate-dataset.csv", df)
+FileController.save_df_to_csv("_dataset/01-post-translate-dataset.csv", df)
 
 '''
 # DATA CLEANING

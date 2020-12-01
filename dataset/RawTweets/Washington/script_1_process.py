@@ -2,19 +2,14 @@ import pandas as pd
 from Controller import FileController, LogController
 from Controller import DataCleaning, DataTranslation, DataSpellingCorrection
 
-'''
-<<<<<<< HEAD
-# EXECUTED ON GOOGLE COLAB GPU
-=======
-# EXECUTED IN GOOGLE COLAB
->>>>>>> fe9fbb81b56f902544bb49443cb2b5eb8c2353e9
 # LOAD AND PREPARE DATASET
 df = pd.read_csv("_dataset/dataset.csv", sep=";")
 df['tweet_text'] = df['text']
 
 # EXCLUDE NONE ENGLISH TEXT
 df = DataTranslation.run(df, "en")
-FileController.save_df_to_csv("01-post-translate-dataset.csv", df)
+FileController.save_df_to_csv("_dataset/01-post-translate-dataset.csv", df)
+
 '''
 
 # DATA CLEANING
@@ -33,3 +28,5 @@ FileController.save_df_to_csv("03-post-spelling-dataset.csv", df)
 
 # LOG
 LogController.log("Execution of 'script_1_process.py' is completed.")
+
+'''
