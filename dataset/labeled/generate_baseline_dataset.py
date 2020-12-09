@@ -4,7 +4,7 @@ from Controller import FileController
 from Controller.Baseline import BaselineViz
 
 dir_path = "C:/workspace/SocialMovementSentiment/dataset/labeled/"
-label_dataset_folder = ["emotioncause", "ISEAR", "SemEval2018_Task1", "SemEval2019_Task3"]
+label_dataset_folder = ["emotioncause", "ISEAR", "SemEval2018_Task1", "SemEval2019_Task3", "SemEval2017"]
 
 '''
 # GENERATE BASELINE DATASET
@@ -12,7 +12,6 @@ for folder_name in label_dataset_folder:
     folder_path = "{}{}/".format(dir_path, folder_name)
     os.chdir(folder_path)
     exec(open('script_0_init.py').read())
-
 '''
 
 # COMBINE FINAL BASELINE DATASET
