@@ -1,7 +1,7 @@
 import pandas as pd
 from Controller import FileController, LogController, DataAssess
 from Controller import DataCleaning, DataTranslation, DataSpellingCorrection
-
+'''
 # LOAD AND PREPARE DATASET
 colnames=['id', 'tweet_text', 'sentiment', 'sentiment_score']
 anger_df = pd.read_csv("dataset/anger-all.txt", sep="\t", names=colnames, header=None)
@@ -14,9 +14,10 @@ df = pd.concat(frames)
 DataAssess.run(df)
 
 # EXCLUDE NONE ENGLISH TEXT
-#df = DataTranslation.run(df, "en")
+df = DataTranslation.run(df, "en")
 FileController.save_df_to_csv("01-post-translate-dataset.csv", df)
 
+'''
 # DATA CLEANING
 df = pd.read_csv("01-post-translate-dataset.csv", sep=",")
 df = DataCleaning.run(df)
