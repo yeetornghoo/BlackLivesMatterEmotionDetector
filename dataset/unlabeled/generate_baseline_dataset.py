@@ -9,8 +9,7 @@ from Controller.Visualization import BarPlotViz
 unlabeled_path = "C:/workspace/SocialMovementSentiment/dataset/unlabeled/"
 label_dataset_folder = ["blm_baltimore", "blm_davideantonio", "blm_minnesota", "blm_washington"]
 #label_dataset_folder = ["blm_washington"]
-#mood_perc = [["fear", 0.78], ["anger", 1], ["sadness", 1], ["trust", 0.68], ["joy", 0.90], ["surprise", 0.0], ["anticipation", 0.0], ["disgust", 0.0]]
-mood_perc = [["fear", 0], ["anger", 0], ["sadness", 0], ["trust", 0], ["joy", 0], ["surprise", 0], ["anticipation", 0], ["disgust", 0]]
+mood_perc = [["fear", 0.78], ["anger", 1], ["sadness", 1], ["trust", 0.68], ["joy", 0.90], ["surprise", 0.0], ["anticipation", 0.0], ["disgust", 0.0]]
 
 
 # FILTER DATA BY PERCENTAGE
