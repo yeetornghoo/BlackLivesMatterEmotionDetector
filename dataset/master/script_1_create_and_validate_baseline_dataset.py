@@ -3,6 +3,8 @@ from Controller import FileController
 from Controller.Validation import PreliminaryValidation
 
 # SETTING
+from Controller.Visualization import BarPlotViz
+
 dir_path = "C:/workspace/SocialMovementSentiment/dataset/"
 # BASELINE DATASET
 
@@ -20,4 +22,11 @@ print(df.groupby("sentiment").count())
 FileController.save_df_to_csv(dir_path+"master/baseline-dataset.csv", df)
 
 # VALIDATE BY MACHINE LEARNING
-PreliminaryValidation.run(df, dir_path + "master")
+#PreliminaryValidation.run(df, dir_path + "master")
+
+
+# TWEET COUNT
+img_path = dir_path+"master/final_tweet_count.png"
+df_count = df.loc[:, ['sentiment', 'tweet_text']]
+df_count = df_count.groupby("sentiment").count()
+BarPlotViz.generate_barplot(df_count, "Master Training Dataset", "Emotion", "# of Tweets", img_path)
