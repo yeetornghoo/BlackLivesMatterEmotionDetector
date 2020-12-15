@@ -6,6 +6,8 @@ from Controller import GitController, PlutchikStandardController, FileController
 # tweet_created_dt,retweets,favorites,tweet_text,sentiment,sentiment_count,sentiment_score
 
 # SETTING
+from Controller.Visualization import BarPlotViz
+
 sns.set_theme(style="whitegrid")
 df = pd.read_csv("05-post-sentiment-dataset.csv", sep=",")
 out_path = "img/baseline/"
@@ -22,3 +24,10 @@ BaselineViz.run_mood(df, out_path, 0.0)
 # SAVE FILE
 df = df[["sentiment", "sentiment_score", "tweet_text"]]
 FileController.save_df_to_csv("baseline-dataset.csv", df)
+
+# TWEET COUNT
+dir_path = "C:/workspace/SocialMovementSentiment/dataset/unlabeled/blm_baltimore/"
+img_path = dir_path+"img/final_tweet_count.png"
+df_count = df.loc[:, ['sentiment', 'tweet_text']]
+df_count = df_count.groupby("sentiment").count()
+BarPlotViz.generate_barplot(df_count, "Baltimore Sentiment Tweet Account", "Sentiment", "# of Tweets", img_path)

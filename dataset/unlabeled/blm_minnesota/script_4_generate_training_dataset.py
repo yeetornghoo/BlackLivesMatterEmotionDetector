@@ -2,6 +2,7 @@ import pandas as pd
 import seaborn as sns
 from Controller.Baseline import BaselineViz
 from Controller import GitController, FileController, PlutchikStandardController
+from Controller.Visualization import BarPlotViz
 
 out_path = "img/baseline/"
 
@@ -21,3 +22,10 @@ BaselineViz.run_mood(df, out_path, 0.0)
 # SAVE FILE
 df = df[["sentiment", "sentiment_score", "tweet_text"]]
 FileController.save_df_to_csv("baseline-dataset.csv", df)
+
+# TWEET COUNT
+dir_path = "C:/workspace/SocialMovementSentiment/dataset/unlabeled/blm_minnesota/"
+img_path = dir_path+"img/final_tweet_count.png"
+df_count = df.loc[:, ['sentiment', 'tweet_text']]
+df_count = df_count.groupby("sentiment").count()
+BarPlotViz.generate_barplot(df_count, "Baltimore Sentiment Tweet Account", "Sentiment", "# of Tweets", img_path)

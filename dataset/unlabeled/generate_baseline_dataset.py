@@ -4,10 +4,13 @@ from Controller import FileController, LogController
 from Controller.Baseline import BaselineViz
 
 # SETTING
+from Controller.Visualization import BarPlotViz
+
 unlabeled_path = "C:/workspace/SocialMovementSentiment/dataset/unlabeled/"
-label_dataset_folder = ["blm_baltimore", "blm_davideantonio", "blm_minnesota"]
-mood_perc = [["fear", 0.78], ["anger", 1], ["sadness", 1], ["trust", 0.68],
-             ["joy", 0.90], ["surprise", 0.0], ["anticipation", 0.0], ["disgust", 0.0]]
+label_dataset_folder = ["blm_baltimore", "blm_davideantonio", "blm_minnesota", "blm_washington"]
+#label_dataset_folder = ["blm_washington"]
+#mood_perc = [["fear", 0.78], ["anger", 1], ["sadness", 1], ["trust", 0.68], ["joy", 0.90], ["surprise", 0.0], ["anticipation", 0.0], ["disgust", 0.0]]
+mood_perc = [["fear", 0], ["anger", 0], ["sadness", 0], ["trust", 0], ["joy", 0], ["surprise", 0], ["anticipation", 0], ["disgust", 0]]
 
 
 # FILTER DATA BY PERCENTAGE
@@ -36,7 +39,6 @@ for folder_name in label_dataset_folder:
     LogController.log("Added {} with {} rows".format(folder_name, len(ds_tmp.index)))
     df = df.append(ds_tmp, ignore_index=True)
 
-
 out_path = unlabeled_path + "master/img/baseline/"
 df = filter_data_by_perc(df, out_path)
 
@@ -44,8 +46,11 @@ print(df.groupby("sentiment").count())
 
 FileController.save_df_to_csv(unlabeled_path + "master/baseline-dataset.csv", df)
 
-#BaselineViz.run(df, out_path)
-
+# TWEET COUNT
+img_path = out_path+"../final_tweet_count.png"
+df_count = df.loc[:, ['sentiment', 'tweet_text']]
+df_count = df_count.groupby("sentiment").count()
+BarPlotViz.generate_barplot(df_count, " ", "Emotion", "# of Tweets", img_path)
 
 
 

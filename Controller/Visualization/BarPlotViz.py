@@ -1,7 +1,10 @@
 from wordcloud import WordCloud, STOPWORDS
+import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
 
+sns.set_theme(style="whitegrid")
+plt.style.use('fivethirtyeight')
 
 def generate_barplot(df, title, xLabel, yLabel, img_path):
 
@@ -12,7 +15,7 @@ def generate_barplot(df, title, xLabel, yLabel, img_path):
     plt.ylabel(yLabel)
     plt.title(title)
     for p in ax.patches:
-        ax.annotate(format(p.get_height(), '.1f'), (p.get_x() + p.get_width() / 2., p.get_height()),
+        ax.annotate(format(p.get_height(), '.0f'), (p.get_x() + p.get_width() / 2., p.get_height()),
                     ha='center', va='center', xytext=(0, 9), textcoords='offset points')
-    plt.savefig(img_path)
+    plt.savefig(img_path, bbox_inches='tight', pad_inches=0)
     plt.close()
