@@ -2,9 +2,10 @@ import os
 import pandas as pd
 from Controller import FileController
 from Controller.Baseline import BaselineViz
+from Controller.Visualization import BarPlotViz
 
 dir_path = "C:/workspace/SocialMovementSentiment/dataset/labeled/"
-label_dataset_folder = ["emotioncause", "ISEAR", "SemEval2018_Task1", "SemEval2019_Task3", "SemEval2017"]
+label_dataset_folder = ["emotioncause", "ISEAR", "SemEval2018_Task1", "SemEval2019_Task3"]
 
 '''
 # GENERATE BASELINE DATASET
@@ -26,3 +27,9 @@ FileController.save_df_to_csv(dir_path+"master/baseline-dataset.csv", df)
 # GENERATE VISUAL FOR THE LATEST BASELINE DATASET
 out_path = dir_path+"master/img/baseline/"
 BaselineViz.run(df, out_path)
+
+# TWEET COUNT
+img_path = out_path+"../final_tweet_count.png"
+df_count = df.loc[:, ['sentiment', 'tweet_text']]
+df_count = df_count.groupby("sentiment").count()
+BarPlotViz.generate_barplot(df_count, " ", "Emotion", "# of Tweets", img_path)
