@@ -50,7 +50,7 @@ FileController.save_df_to_csv(unlabeled_path + "master/baseline-dataset.csv", df
 img_path = out_path+"../final_tweet_count.png"
 df_count = df.loc[:, ['sentiment', 'tweet_text']]
 df_count = df_count.groupby("sentiment").count()
-BarPlotViz.generate_barplot(df_count, " ", "Emotion", "# of Tweets", img_path)
+BarPlotViz.generate_barplot(df_count, "EmoLex Labelled Dataset", "Emotion", "# of Tweets", img_path)
 
 
 
