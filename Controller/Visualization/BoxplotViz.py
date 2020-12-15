@@ -19,4 +19,4 @@ def generate_boxplot(df, percentage, ax):
     # DECORATION
     ax.title.set_text('Box Plot')
     ax.axvline(x=q3_value, linestyle="--", linewidth=2, color="r")
-    ax.text(q3_value + 0.1, 1.2, "upper quantitle of {}% ({})".format(percentage * 100, round(q3_value, 4)))
+    ax.text(q3_value + 0.1, 1.2, "upper quantitle of {} ({})".format(percentage * 100, round(q3_value, 4)))
