@@ -19,7 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe8b93ec-7eaa-48b7-98fe-1988f17dc409" name="Default Changelist" comment="" />
+    <list default="true" id="fe8b93ec-7eaa-48b7-98fe-1988f17dc409" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/bow.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/bow.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/bow_linearsvc_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/bow_linearsvc_confusion_matrix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/bow_multinomialnb_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/bow_multinomialnb_confusion_matrix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/bow_svn_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/bow_svn_confusion_matrix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/model_linearsvc_bow.sav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/model_linearsvc_bow.sav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/model_linearsvc_tf-idf.sav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/model_linearsvc_tf-idf.sav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/tf-idf_linearsvc_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/tf-idf_linearsvc_confusion_matrix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/tf-idf_multinomialnb_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/tf-idf_multinomialnb_confusion_matrix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/tf-idf_svn_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/tf-idf_svn_confusion_matrix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/tfidf.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/emotioncause/img/validation/0_preliminary/tfidf.pickle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,28 +53,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.script_3_quick_validation (1)">
-    <configuration name="script_1_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SocialMovementSentiment" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/labeled/SemEval2017" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/SemEval2017/script_1_process.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.script_3_quick_validation (2)">
     <configuration name="script_1_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,6 +138,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="script_3_quick_validation (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SocialMovementSentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/labeled/emotioncause" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/emotioncause/script_3_quick_validation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="script_3_quick_validation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,19 +181,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.script_1_process" />
       <item itemvalue="Python.script_1_test" />
       <item itemvalue="Python.script_2_generate_baseline" />
       <item itemvalue="Python.script_3_quick_validation" />
       <item itemvalue="Python.script_3_quick_validation (1)" />
+      <item itemvalue="Python.script_3_quick_validation (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.script_3_quick_validation (2)" />
         <item itemvalue="Python.script_3_quick_validation (1)" />
         <item itemvalue="Python.script_3_quick_validation" />
         <item itemvalue="Python.script_2_generate_baseline" />
         <item itemvalue="Python.script_1_test" />
-        <item itemvalue="Python.script_1_process" />
       </list>
     </recent_temporary>
   </component>
@@ -229,22 +240,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601012252295" />
-    <state width="1898" height="398" key="GridCell.Tab.0.bottom" timestamp="1607993273120">
+    <state width="1898" height="398" key="GridCell.Tab.0.bottom" timestamp="1607993980859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="398" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607993273120" />
-    <state width="1898" height="398" key="GridCell.Tab.0.center" timestamp="1607993273120">
+    <state width="1898" height="398" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607993980859" />
+    <state width="1898" height="398" key="GridCell.Tab.0.center" timestamp="1607993980859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="398" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607993273120" />
-    <state width="1898" height="398" key="GridCell.Tab.0.left" timestamp="1607993273120">
+    <state width="1898" height="398" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607993980859" />
+    <state width="1898" height="398" key="GridCell.Tab.0.left" timestamp="1607993980859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="398" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607993273120" />
-    <state width="1898" height="398" key="GridCell.Tab.0.right" timestamp="1607993273120">
+    <state width="1898" height="398" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607993980859" />
+    <state width="1898" height="398" key="GridCell.Tab.0.right" timestamp="1607993980859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="398" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607993273120" />
+    <state width="1898" height="398" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607993980859" />
     <state width="1235" height="331" key="GridCell.Tab.1.bottom" timestamp="1604229988897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
