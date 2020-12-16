@@ -6,6 +6,7 @@ import pandas as pd
 sns.set_theme(style="whitegrid")
 plt.style.use('fivethirtyeight')
 
+
 def generate_barplot(df, title, xLabel, yLabel, img_path):
 
     fig, ax = plt.subplots(figsize=(8, 6))
