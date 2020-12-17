@@ -20,35 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe8b93ec-7eaa-48b7-98fe-1988f17dc409" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/bow_multinomialnb_confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/model_multinomialnb_bow.sav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/Baseline/BaselineViz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Baseline/BaselineViz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/DataCleaning.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/DataCleaning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/DataSpellingCorrection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/DataSpellingCorrection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/Visualization/BarPlotViz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Visualization/BarPlotViz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/Visualization/BellCurveViz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Visualization/BellCurveViz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/Visualization/BoxplotViz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Visualization/BoxplotViz.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/RawTweets/Minnesota/script_1_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/RawTweets/Minnesota/script_1_process.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/RawTweets/Minnesota/script_3_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/RawTweets/Minnesota/script_3_classification.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/RawTweets/Washington/script_1_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/RawTweets/Washington/script_1_process.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/RawTweets/Washington/script_3_classification.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/generate_baseline_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/generate_baseline_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/master/img/baseline/0_dataset_sentiment_count.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/master/img/baseline/0_dataset_sentiment_count.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/labeled/master/img/final_tweet_count.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/master/img/final_tweet_count.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/master/final_tweet_count.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/final_tweet_count.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/master/script_1_create_and_validate_baseline_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/script_1_create_and_validate_baseline_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/generate_baseline_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/generate_baseline_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/0_dataset_sentiment_count.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/anger_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/anger_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/anticipation_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/anticipation_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/disgust_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/disgust_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/fear_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/fear_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/joy_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/joy_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/sadness_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/sadness_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/surprise_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/surprise_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/trust_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/trust_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/final_tweet_count.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/final_tweet_count.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +46,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.script_1_process">
+  <component name="RunManager" selected="Python.script_1_process (1)">
     <configuration name="generate_baseline_dataset (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -234,22 +208,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601012252295" />
-    <state width="1566" height="256" key="GridCell.Tab.0.bottom" timestamp="1608218314951">
+    <state width="1120" height="453" key="GridCell.Tab.0.bottom" timestamp="1608223184315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1566" height="256" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608218314951" />
-    <state width="1566" height="256" key="GridCell.Tab.0.center" timestamp="1608218314951">
+    <state width="1120" height="453" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608223184315" />
+    <state width="1120" height="453" key="GridCell.Tab.0.center" timestamp="1608223184315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1566" height="256" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608218314951" />
-    <state width="1566" height="256" key="GridCell.Tab.0.left" timestamp="1608218314951">
+    <state width="1120" height="453" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608223184315" />
+    <state width="1120" height="453" key="GridCell.Tab.0.left" timestamp="1608223184315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1566" height="256" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608218314951" />
-    <state width="1566" height="256" key="GridCell.Tab.0.right" timestamp="1608218314951">
+    <state width="1120" height="453" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608223184315" />
+    <state width="1120" height="453" key="GridCell.Tab.0.right" timestamp="1608223184315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1566" height="256" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608218314951" />
+    <state width="1120" height="453" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608223184315" />
     <state width="1235" height="331" key="GridCell.Tab.1.bottom" timestamp="1604229988897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
