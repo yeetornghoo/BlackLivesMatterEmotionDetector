@@ -41,7 +41,6 @@ for folder_name in label_dataset_folder:
 out_path = unlabeled_path + "master/img/baseline/"
 df = filter_data_by_perc(df, out_path)
 
-print(df.groupby("sentiment").count())
 
 FileController.save_df_to_csv(unlabeled_path + "master/baseline-dataset.csv", df)
 

@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from scipy.stats import norm
 
 #sns.set_theme(style="whitegrid")
-#plt.style.use('fivethirtyeight')
+plt.style.use('classic')
 
 
 def generate_boxplot(df, percentage, ax):

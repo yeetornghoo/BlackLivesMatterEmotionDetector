@@ -13,10 +13,16 @@ def convert_single_line_df(df):
     df['tweet_text'] = df['tweet_text'].apply(lambda x: convert_single_line_str(str(x)))
     return df
 
+def convert_lowercase_df(df):
+    LogController.log("Convert to lowrr")
+    df['tweet_text'] = df['tweet_text'].apply(lambda x: str(x).lower())
+    return df
+
 
 def run(df):
     LogController.log_h1("START DATA CLEANING")
 
+    df = convert_lowercase_df(df)
     df = convert_single_line_df(df)
     df = remove_url_df(df)
     df = remove_atusername_df(df)

@@ -22,7 +22,8 @@ df = pd.read_csv("_dataset/02-post-cleaning-dataset.csv", sep=",")
 df = DataSpellingCorrection.run(df)
 
 # REMOVE USELESS COLUMN
-#df = df[["tweet_created_dt", "tweet_text"]]
+df = df[["tweet_id", "tweet_created_dt", "retweets", "favorites", "tweet_text"]]
+df = df[df['tweet_text'].notna()]
 FileController.save_df_to_csv("_dataset/03-post-spelling-dataset.csv", df)
 
 # LOG

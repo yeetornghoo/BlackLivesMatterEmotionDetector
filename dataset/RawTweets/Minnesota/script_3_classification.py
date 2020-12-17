@@ -12,7 +12,7 @@ This is the google colab to used the trained baseline model to verify on the ben
 ## 1.0 IMPORT LIBRARIES
 """
 
-!pip install transformers
+#!pip install transformers
 import transformers
 import torch
 import copy
@@ -191,7 +191,7 @@ class SentimentClassifier(nn.Module):
         output = self.out(output)
         return self.softmax(output)
 
-!gdown --id 1a93M4ua2eyAq16rrQlDDTWolvKvDd7Xm
+#!gdown --id 1a93M4ua2eyAq16rrQlDDTWolvKvDd7Xm
 
 model = SentimentClassifier(len(moods))
 model.load_state_dict(torch.load("best_model_state.bin", map_location=torch.device('cpu')))

@@ -50,7 +50,7 @@ def generate_mood_viz(df, class_name, percentage, out_path):
     q3_value = df["sentiment_score"].quantile(percentage)
     df_q3 = df.loc[(df["sentiment_score"] >= q3_value)]
 
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 8))
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))
     fig.suptitle("Dataset Visualization by '{}' \n {} records for {} and above".format(class_name, len(df_q3.index), percentage))
 
     BellCurveViz.generate_bellcurve(df, percentage, ax1)

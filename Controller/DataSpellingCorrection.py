@@ -17,7 +17,6 @@ def load_dictionary():
     return efc_df
 
 
-
 lib_df = load_dictionary()
 
 # SPELLING CORRECTION
@@ -39,6 +38,7 @@ def efc_spelling_correction(df):
 
     return df
 '''
+
 
 # SPELLING CORRECTION
 def spelling_correction(df):

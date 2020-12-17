@@ -20,29 +20,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe8b93ec-7eaa-48b7-98fe-1988f17dc409" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset/master/img/baseline/0_dataset_sentiment_count.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/master/img/baseline/adj_anger_word_viz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/master/img/baseline/adj_anticipation_word_viz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/master/img/baseline/adj_disgust_word_viz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/master/img/baseline/adj_fear_word_viz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/master/img/baseline/adj_joy_word_viz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/master/img/baseline/adj_sadness_word_viz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/master/img/baseline/adj_surprise_word_viz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/master/img/baseline/adj_trust_word_viz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/master/img/baseline/verb_anger_word_viz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/master/img/baseline/verb_anticipation_word_viz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/master/img/baseline/verb_disgust_word_viz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/master/img/baseline/verb_fear_word_viz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/master/img/baseline/verb_joy_word_viz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/master/img/baseline/verb_sadness_word_viz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/master/img/baseline/verb_surprise_word_viz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/master/img/baseline/verb_trust_word_viz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/master/img/boxplot_by_emotion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/master/img/word_count.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/master/script_2_visualiza_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/bow_multinomialnb_confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/master/img/validation/0_preliminary/model_multinomialnb_bow.sav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/Baseline/BaselineViz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Baseline/BaselineViz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/DataCleaning.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/DataCleaning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/DataSpellingCorrection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/DataSpellingCorrection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/Visualization/BarPlotViz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Visualization/BarPlotViz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/Visualization/BellCurveViz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Visualization/BellCurveViz.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/Visualization/BoxplotViz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Visualization/BoxplotViz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/RawTweets/Minnesota/script_1_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/RawTweets/Minnesota/script_1_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/RawTweets/Minnesota/script_3_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/RawTweets/Minnesota/script_3_classification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/RawTweets/Washington/script_1_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/RawTweets/Washington/script_1_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/RawTweets/Washington/script_3_classification.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/generate_baseline_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/generate_baseline_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/master/img/baseline/0_dataset_sentiment_count.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/master/img/baseline/0_dataset_sentiment_count.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/labeled/master/img/final_tweet_count.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/labeled/master/img/final_tweet_count.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/master/final_tweet_count.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/final_tweet_count.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/master/script_1_create_and_validate_baseline_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/master/script_1_create_and_validate_baseline_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/generate_baseline_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/generate_baseline_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/0_dataset_sentiment_count.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/anger_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/anger_bell_curve.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/anticipation_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/anticipation_bell_curve.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/disgust_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/disgust_bell_curve.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/fear_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/fear_bell_curve.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/joy_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/joy_bell_curve.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/sadness_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/sadness_bell_curve.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/surprise_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/surprise_bell_curve.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/trust_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/baseline/trust_bell_curve.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/master/img/final_tweet_count.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/master/img/final_tweet_count.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,28 +72,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.script_2_visualiza_dataset">
-    <configuration name="BarPlotViz" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SocialMovementSentiment" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Controller/Visualization" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Controller/Visualization/BarPlotViz.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.script_1_process">
     <configuration name="generate_baseline_dataset (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="script_1_create_and_validate_baseline_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="script_1_generate_training_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,11 +123,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/master" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/unlabeled/master" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/master/script_1_create_and_validate_baseline_dataset.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/unlabeled/master/script_1_generate_training_dataset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="script_2_visualiza_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="script_1_process (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,11 +144,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/master" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/RawTweets/Minnesota" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/master/script_2_visualiza_dataset.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/RawTweets/Minnesota/script_1_process.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="script_1_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SocialMovementSentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/RawTweets/Washington" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/RawTweets/Washington/script_1_process.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,18 +180,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.generate_baseline_dataset" />
-      <item itemvalue="Python.BarPlotViz" />
       <item itemvalue="Python.generate_baseline_dataset (1)" />
-      <item itemvalue="Python.script_1_create_and_validate_baseline_dataset" />
-      <item itemvalue="Python.script_2_visualiza_dataset" />
+      <item itemvalue="Python.script_1_generate_training_dataset" />
+      <item itemvalue="Python.script_1_process" />
+      <item itemvalue="Python.script_1_process (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.script_2_visualiza_dataset" />
-        <item itemvalue="Python.script_1_create_and_validate_baseline_dataset" />
+        <item itemvalue="Python.script_1_process (1)" />
+        <item itemvalue="Python.script_1_process" />
         <item itemvalue="Python.generate_baseline_dataset" />
+        <item itemvalue="Python.script_1_generate_training_dataset" />
         <item itemvalue="Python.generate_baseline_dataset (1)" />
-        <item itemvalue="Python.BarPlotViz" />
       </list>
     </recent_temporary>
   </component>
@@ -228,22 +234,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601012252295" />
-    <state width="1490" height="145" key="GridCell.Tab.0.bottom" timestamp="1608169247604">
+    <state width="1566" height="256" key="GridCell.Tab.0.bottom" timestamp="1608218314951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1490" height="145" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608169247604" />
-    <state width="1490" height="145" key="GridCell.Tab.0.center" timestamp="1608169247603">
+    <state width="1566" height="256" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608218314951" />
+    <state width="1566" height="256" key="GridCell.Tab.0.center" timestamp="1608218314951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1490" height="145" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608169247603" />
-    <state width="1490" height="145" key="GridCell.Tab.0.left" timestamp="1608169247603">
+    <state width="1566" height="256" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608218314951" />
+    <state width="1566" height="256" key="GridCell.Tab.0.left" timestamp="1608218314951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1490" height="145" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608169247603" />
-    <state width="1490" height="145" key="GridCell.Tab.0.right" timestamp="1608169247603">
+    <state width="1566" height="256" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608218314951" />
+    <state width="1566" height="256" key="GridCell.Tab.0.right" timestamp="1608218314951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1490" height="145" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608169247603" />
+    <state width="1566" height="256" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608218314951" />
     <state width="1235" height="331" key="GridCell.Tab.1.bottom" timestamp="1604229988897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

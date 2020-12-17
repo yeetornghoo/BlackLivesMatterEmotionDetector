@@ -1,6 +1,9 @@
 import pandas as pd
+import seaborn as sns
 from Controller import FileController
 from Controller.Validation import PreliminaryValidation
+
+sns.set_theme(style="whitegrid")
 
 # SETTING
 from Controller.Visualization import BarPlotViz

@@ -26,7 +26,7 @@ FileController.save_df_to_csv(dir_path+"master/baseline-dataset.csv", df)
 
 # GENERATE VISUAL FOR THE LATEST BASELINE DATASET
 out_path = dir_path+"master/img/baseline/"
-BaselineViz.run(df, out_path)
+#BaselineViz.run(df, out_path)
 
 # TWEET COUNT
 img_path = out_path+"../final_tweet_count.png"
