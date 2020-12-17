@@ -8,7 +8,7 @@ from Controller.Visualization import BarPlotViz, WordClouldViz, BellCurveViz, Bo
 def generate_count(df, out_path):
     df_plot = df.groupby("sentiment")["sentiment"].count()
     img_path = "{}0_dataset_sentiment_count.png".format(out_path)
-    BarPlotViz.generate_barplot(df_plot, "Baseline Dataset", "Sentiment", "# Records", img_path)
+    BarPlotViz.generate_barplot(df_plot, "Baseline Dataset", "Emotions", "# Records", img_path)
 
 
 def generate_word_assessment_by_upos_type(df, upos_type, out_path):
@@ -40,7 +40,7 @@ def generate_word_assessment_by_upos_type(df, upos_type, out_path):
 
             fig.tight_layout()
             img_path = "{}{}_{}_word_viz.png".format(out_path, upos_type, mood)
-            plt.savefig(img_path.lower())
+            plt.savefig(img_path.lower(), bbox_inches='tight', pad_inches=0)
 
     plt.close('all')
 
@@ -55,7 +55,7 @@ def generate_mood_viz(df, class_name, percentage, out_path):
 
     BellCurveViz.generate_bellcurve(df, percentage, ax1)
     BoxplotViz.generate_boxplot(df, percentage, ax2)
-    plt.savefig("{}{}_bell_curve.png".format(out_path, class_name))
+    plt.savefig("{}{}_bell_curve.png".format(out_path, class_name), bbox_inches='tight', pad_inches=0)
     plt.text(0.5, 0.5, "sssdfsfs", horizontalalignment='right')
 
     fig.clear()
@@ -92,7 +92,7 @@ def run(df, out_path):
 
     # CREATE SIMPLE COUNT BY SENTIMENT BAR PLOT
     generate_count(df, out_path)
-    #generate_word_assessment(df, out_path)
+    generate_word_assessment(df, out_path)
 
 
 def run_mood(df, out_path, min_perc):
