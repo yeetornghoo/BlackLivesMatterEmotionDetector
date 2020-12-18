@@ -10,6 +10,13 @@ def generate_by_axessubplot(ax, text):
         ax.axis('off')
 
 
+def generate_by_axessubplot_with_max(ax, text, max_words):
+    wordcloud = generate_word_cloud_object(text, max_words, 3000, 2000)
+    if wordcloud is not None:
+        ax.imshow(wordcloud)
+        ax.axis('off')
+
+
 def generate_word_cloud_object(text, max_words, width_value, height_value):
     if len(text.strip()) > 0:
         try:
