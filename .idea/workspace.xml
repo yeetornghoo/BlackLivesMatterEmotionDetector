@@ -20,119 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe8b93ec-7eaa-48b7-98fe-1988f17dc409" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/blm_davideantonio/img/validation/0_preliminary/bow.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/blm_davideantonio/img/validation/0_preliminary/bow_linearsvc_confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/blm_davideantonio/img/validation/0_preliminary/bow_multinomialnb_confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/blm_davideantonio/img/validation/0_preliminary/bow_svn_confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/blm_davideantonio/img/validation/0_preliminary/model_linearsvc_bow.sav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/blm_davideantonio/img/validation/0_preliminary/model_linearsvc_tf-idf.sav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/blm_davideantonio/img/validation/0_preliminary/model_multinomialnb_bow.sav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/blm_davideantonio/img/validation/0_preliminary/model_multinomialnb_tf-idf.sav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/blm_davideantonio/img/validation/0_preliminary/model_svn_bow.sav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/blm_davideantonio/img/validation/0_preliminary/model_svn_tf-idf.sav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/blm_davideantonio/img/validation/0_preliminary/result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/blm_davideantonio/img/validation/0_preliminary/tf-idf_linearsvc_confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/blm_davideantonio/img/validation/0_preliminary/tf-idf_multinomialnb_confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/blm_davideantonio/img/validation/0_preliminary/tf-idf_svn_confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/blm_davideantonio/img/validation/0_preliminary/tfidf.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/04-post-nlp-dataset.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/04-post-nlp-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/04-post-nlp-dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/05-post-sentiment-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/05-post-sentiment-dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/baseline-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/baseline-dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/0_dataset_sentiment_count.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/0_dataset_sentiment_count.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/adj_anger_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/adj_anger_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/adj_anticipation_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/adj_anticipation_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/adj_disgust_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/adj_disgust_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/adj_fear_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/adj_fear_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/adj_joy_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/adj_joy_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/adj_sadness_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/adj_sadness_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/adj_surprise_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/adj_surprise_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/adj_trust_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/adj_trust_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/anger_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/anger_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/anticipation_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/anticipation_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/disgust_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/disgust_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/fear_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/fear_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/joy_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/joy_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/sadness_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/sadness_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/surprise_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/surprise_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/trust_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/trust_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/verb_anger_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/verb_anger_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/verb_anticipation_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/verb_anticipation_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/verb_disgust_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/verb_disgust_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/verb_fear_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/verb_fear_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/verb_joy_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/verb_joy_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/verb_sadness_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/verb_sadness_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/verb_surprise_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/verb_surprise_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/verb_trust_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/baseline/verb_trust_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/final_tweet_count.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/final_tweet_count.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/kdeplot/score_kdeplot_by_day.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/kdeplot/score_kdeplot_by_day.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_anger.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_anger.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_anticipation.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_anticipation.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_disgust.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_disgust.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_fear.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_fear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_joy.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_joy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_sadness.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_sadness.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_surprise.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_surprise.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_trust.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_trust.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/kdeplot/score_kdeplot_by_day_facetgrid.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/kdeplot/score_kdeplot_by_day_facetgrid.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/lineplot/score_lineplot_by_day_by_period_facetgrid.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/lineplot/score_lineplot_by_day_by_period_facetgrid.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/lineplot/score_lineplot_by_day_by_period_linear.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/lineplot/score_lineplot_by_day_by_period_linear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/lineplot/score_lineplot_by_day_by_period_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/lineplot/score_lineplot_by_day_by_period_log.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/lineplot/score_lineplot_by_day_linear.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/lineplot/score_lineplot_by_day_linear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/lineplot/score_lineplot_by_day_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/lineplot/score_lineplot_by_day_log.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/lineplot/score_lineplot_by_day_with_intensity_linear.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/lineplot/score_lineplot_by_day_with_intensity_linear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/lineplot/score_lineplot_by_day_with_intensity_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/individual/nrc/lineplot/score_lineplot_by_day_with_intensity_log.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/tweet_count.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/img/tweet_count.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/tmp/NRC-processed_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/tmp/NRC-processed_dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/04-post-nlp-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/04-post-nlp-dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/05-post-sentiment-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/05-post-sentiment-dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/baseline-dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/baseline-dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/0_dataset_sentiment_count.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/0_dataset_sentiment_count.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/adj_anger_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/adj_anger_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/adj_anticipation_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/adj_anticipation_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/adj_disgust_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/adj_disgust_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/adj_fear_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/adj_fear_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/adj_joy_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/adj_joy_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/adj_sadness_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/adj_sadness_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/adj_surprise_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/adj_surprise_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/adj_trust_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/adj_trust_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/anger_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/anger_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/anticipation_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/anticipation_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/disgust_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/disgust_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/fear_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/fear_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/joy_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/joy_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/sadness_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/sadness_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/surprise_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/surprise_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/trust_bell_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/trust_bell_curve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/verb_anger_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/verb_anger_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/verb_anticipation_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/verb_anticipation_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/verb_disgust_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/verb_disgust_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/verb_fear_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/verb_fear_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/verb_joy_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/verb_joy_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/verb_sadness_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/verb_sadness_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/verb_surprise_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/verb_surprise_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/verb_trust_word_viz.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/baseline/verb_trust_word_viz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/final_tweet_count.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/final_tweet_count.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_anger.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_anger.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_anticipation.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_anticipation.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_disgust.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_disgust.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_fear.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_fear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_joy.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_joy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_sadness.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_sadness.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_surprise.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_surprise.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_trust.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_by_period_trust.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_facetgrid.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/kdeplot/score_kdeplot_by_day_facetgrid.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/lineplot/score_lineplot_by_day_by_period_facetgrid.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/lineplot/score_lineplot_by_day_by_period_facetgrid.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/lineplot/score_lineplot_by_day_by_period_linear.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/lineplot/score_lineplot_by_day_by_period_linear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/lineplot/score_lineplot_by_day_by_period_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/lineplot/score_lineplot_by_day_by_period_log.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/lineplot/score_lineplot_by_day_linear.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/lineplot/score_lineplot_by_day_linear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/lineplot/score_lineplot_by_day_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/lineplot/score_lineplot_by_day_log.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/lineplot/score_lineplot_by_day_with_intensity_linear.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/lineplot/score_lineplot_by_day_with_intensity_linear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/lineplot/score_lineplot_by_day_with_intensity_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/individual/nrc/lineplot/score_lineplot_by_day_with_intensity_log.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/tweet_count.png" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/img/tweet_count.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/tmp/NRC-processed_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/tmp/NRC-processed_dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/generate_baseline_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/generate_baseline_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/script_2_label_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/script_2_label_sentiment.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,49 +46,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.generate_baseline_dataset">
-    <configuration name="generate_baseline_dataset (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SocialMovementSentiment" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/labeled" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/generate_baseline_dataset.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="generate_baseline_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SocialMovementSentiment" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/unlabeled" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/unlabeled/generate_baseline_dataset.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.script_2_label_sentiment">
     <configuration name="script_1_process (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -207,11 +55,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/SemEval2019_Task3/script_1_process.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/script_1_process.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,7 +68,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="script_1_process (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="script_2_label_sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -228,11 +76,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/labeled/ISEAR" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/ISEAR/script_1_process.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/unlabeled/blm_davideantonio/script_2_label_sentiment.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -241,7 +89,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="script_1_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="script_3_analysis_lexicon" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialMovementSentiment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -249,11 +97,74 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/labeled/SemEval2018_Task1/script_1_process.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/unlabeled/blm_washington/script_2_label_sentiment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="script_3_analysis_lexicon" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SocialMovementSentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/unlabeled/blm_washington" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/unlabeled/blm_washington/script_3_analysis_lexicon.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="script_4_generate_training_dataset (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SocialMovementSentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/unlabeled/blm_washington" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/unlabeled/blm_washington/script_4_generate_training_dataset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="script_4_generate_training_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SocialMovementSentiment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/unlabeled/blm_minnesota/script_4_generate_training_dataset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -263,19 +174,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.script_1_process (4)" />
-      <item itemvalue="Python.script_1_process" />
       <item itemvalue="Python.script_1_process (1)" />
-      <item itemvalue="Python.generate_baseline_dataset (1)" />
-      <item itemvalue="Python.generate_baseline_dataset" />
+      <item itemvalue="Python.script_4_generate_training_dataset (2)" />
+      <item itemvalue="Python.script_3_analysis_lexicon" />
+      <item itemvalue="Python.script_4_generate_training_dataset" />
+      <item itemvalue="Python.script_2_label_sentiment" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.generate_baseline_dataset" />
-        <item itemvalue="Python.generate_baseline_dataset (1)" />
+        <item itemvalue="Python.script_2_label_sentiment" />
         <item itemvalue="Python.script_1_process (1)" />
-        <item itemvalue="Python.script_1_process" />
-        <item itemvalue="Python.script_1_process (4)" />
+        <item itemvalue="Python.script_4_generate_training_dataset" />
+        <item itemvalue="Python.script_4_generate_training_dataset (2)" />
+        <item itemvalue="Python.script_3_analysis_lexicon" />
       </list>
     </recent_temporary>
   </component>
@@ -306,6 +217,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="527" y="180" key="#Illuminated_Cloud" timestamp="1598364095077">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="527" y="180" key="#Illuminated_Cloud/0.0.1920.1040@0.0.1920.1040" timestamp="1598364095077" />
+    <state x="750" y="153" key="#Plugins" timestamp="1598530803895">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="750" y="153" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1598530803895" />
     <state x="733" y="0" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604585201562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -314,26 +233,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1048" y="349" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601012255699" />
+    <state x="574" y="109" width="1184" height="814" key="DiffContextDialog" timestamp="1599378624647">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="574" y="109" width="1184" height="814" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599378624647" />
     <state x="1059" y="267" key="FileChooserDialogImpl" timestamp="1601012252295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601012252295" />
-    <state width="1592" height="334" key="GridCell.Tab.0.bottom" timestamp="1608277544586">
+    <state width="1898" height="326" key="GridCell.Tab.0.bottom" timestamp="1604594885331">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1592" height="334" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608277544586" />
-    <state width="1592" height="334" key="GridCell.Tab.0.center" timestamp="1608277544586">
+    <state width="1898" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604594885331" />
+    <state width="1898" height="326" key="GridCell.Tab.0.center" timestamp="1604594885331">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1592" height="334" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608277544586" />
-    <state width="1592" height="334" key="GridCell.Tab.0.left" timestamp="1608277544586">
+    <state width="1898" height="326" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604594885331" />
+    <state width="1898" height="326" key="GridCell.Tab.0.left" timestamp="1604594885331">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1592" height="334" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608277544586" />
-    <state width="1592" height="334" key="GridCell.Tab.0.right" timestamp="1608277544586">
+    <state width="1898" height="326" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604594885331" />
+    <state width="1898" height="326" key="GridCell.Tab.0.right" timestamp="1604594885331">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1592" height="334" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608277544586" />
+    <state width="1898" height="326" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604594885331" />
     <state width="1235" height="331" key="GridCell.Tab.1.bottom" timestamp="1604229988897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -349,9 +272,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604593569229" />
-    <state x="938" y="220" width="672" height="678" key="search.everywhere.popup" timestamp="1608166301199">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="938" y="220" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608166301199" />
   </component>
 </project>
