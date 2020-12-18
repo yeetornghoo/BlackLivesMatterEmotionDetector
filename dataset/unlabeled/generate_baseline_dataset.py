@@ -49,6 +49,3 @@ img_path = out_path+"../final_tweet_count.png"
 df_count = df.loc[:, ['sentiment', 'tweet_text']]
 df_count = df_count.groupby("sentiment").count()
 BarPlotViz.generate_barplot(df_count, "EmoLex Labelled Dataset", "Emotion", "# of Tweets", img_path)
-
-
-
