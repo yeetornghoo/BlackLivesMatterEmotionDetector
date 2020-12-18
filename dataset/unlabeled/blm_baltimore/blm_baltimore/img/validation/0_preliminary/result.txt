@@ -1,0 +1,6 @@
+| MultinomialNB with BOW |  0.6489 |  0.5448 |  0.6394 |  0.5162 | ![](https://github.com/yeetornghoo/SocialMovementSentiment/blob/master/dataset/labeled//img/validation/0_preliminary/bow_multinomialnb_confusion_matrix.png) |
+| SVN with BOW |  0.6708 |  0.6497 |  0.702 |  0.627 | ![](https://github.com/yeetornghoo/SocialMovementSentiment/blob/master/dataset/labeled//img/validation/0_preliminary/bow_svn_confusion_matrix.png) |
+| LinearSVC with BOW |  0.8247 |  0.8037 |  0.8132 |  0.7962 | ![](https://github.com/yeetornghoo/SocialMovementSentiment/blob/master/dataset/labeled//img/validation/0_preliminary/bow_linearsvc_confusion_matrix.png) |
+| MultinomialNB with TF-IDF |  0.5258 |  0.3582 |  0.6575 |  0.3459 | ![](https://github.com/yeetornghoo/SocialMovementSentiment/blob/master/dataset/labeled//img/validation/0_preliminary/tf-idf_multinomialnb_confusion_matrix.png) |
+| SVN with TF-IDF |  0.7701 |  0.7363 |  0.7598 |  0.7248 | ![](https://github.com/yeetornghoo/SocialMovementSentiment/blob/master/dataset/labeled//img/validation/0_preliminary/tf-idf_svn_confusion_matrix.png) |
+| LinearSVC with TF-IDF |  0.833 |  0.8123 |  0.8353 |  0.7956 | ![](https://github.com/yeetornghoo/SocialMovementSentiment/blob/master/dataset/labeled//img/validation/0_preliminary/tf-idf_linearsvc_confusion_matrix.png) |
