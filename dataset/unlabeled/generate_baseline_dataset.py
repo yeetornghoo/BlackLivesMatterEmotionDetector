@@ -28,7 +28,7 @@ for folder_name in label_dataset_folder:
     folder_path = "{}{}/".format(unlabeled_path, folder_name)
     print("folder_path: {}".format(folder_path))
     os.chdir(folder_path)
-    exec(open('script_0_init.py').read())
+    #exec(open('script_0_init.py').read())
 
     # PROCESS INVIDIUAL DATASET
     dataset_file_path = "{}/baseline-dataset.csv".format(folder_path)
