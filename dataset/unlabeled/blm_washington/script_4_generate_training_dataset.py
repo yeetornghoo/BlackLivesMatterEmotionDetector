@@ -16,6 +16,10 @@ df = df.loc[(df['ttl_tweet_text_word'] > 2)]
 df = df[['sentiment', 'sentiment_count', 'sentiment_score', "tweet_text"]]
 df = df[df['sentiment'].notna()]
 
+print(df.groupby("sentiment").count())
+df.drop_duplicates(inplace=True)
+print(df.groupby("sentiment").count())
+
 # GENERATE VISUAL FOR THE LATEST BASELINE DATASET
 BaselineViz.run_mood(df, out_path, 0.0)
 

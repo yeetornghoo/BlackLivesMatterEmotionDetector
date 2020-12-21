@@ -2,7 +2,7 @@ import os
 import pandas as pd
 from Controller import FileController
 from Controller.Baseline import BaselineViz
-from Controller.Visualization import BarPlotViz
+from Controller.Visualization import BarPlotViz, LiveTweetViz
 
 dir_path = "C:/workspace/SocialMovementSentiment/dataset/labeled/"
 label_dataset_folder = ["emotioncause", "ISEAR", "SemEval2018_Task1", "SemEval2019_Task3"]
@@ -26,10 +26,17 @@ FileController.save_df_to_csv(dir_path+"master/baseline-dataset.csv", df)
 
 # GENERATE VISUAL FOR THE LATEST BASELINE DATASET
 out_path = dir_path+"master/img/baseline/"
-BaselineViz.run(df, out_path)
+#BaselineViz.run(df, out_path)
 
 # TWEET COUNT
 img_path = out_path+"../final_tweet_count.png"
 df_count = df.loc[:, ['sentiment', 'tweet_text']]
 df_count = df_count.groupby("sentiment").count()
 BarPlotViz.generate_barplot(df_count, "Prelabelled Dataset", "Emotion", "# of Tweets", img_path)
+
+
+# WORD CLOUD
+path = dir_path+"master/"
+LiveTweetViz.generate_word_assessment_by_upos_type(df, "ADJ", path)
+LiveTweetViz.generate_word_assessment_by_upos_type(df, "VERB", path)
+LiveTweetViz.generate_word_assessment_by_upos_type(df, "NOUN", path)

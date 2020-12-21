@@ -20,6 +20,8 @@ df = df[['sentiment', 'tweet_text']]
 df['ttl_tweet_text_word'] = df['tweet_text'].str.split().str.len()
 df = df.loc[(df['ttl_tweet_text_word'] > 2)]
 df.drop(columns=['ttl_tweet_text_word'], inplace=True)
+df.drop_duplicates(inplace=True)
+print(df.groupby("sentiment").count())
 
 # SAVE FILE
 FileController.save_df_to_csv("baseline-dataset.csv", df)

@@ -12,11 +12,12 @@ dir_path = "C:/workspace/SocialMovementSentiment/dataset/"
 df = pd.read_csv(dir_path+"master/baseline-dataset.csv", sep=",")
 
 # GENERATE VISUAL FOR THE LATEST BASELINE DATASET
-#BaselineViz.run(df, dir_path+"master/img/baseline/")
-
-df['word_count'] = df['tweet_text'].apply(lambda x: len(x.split()))
+BaselineViz.run(df, dir_path+"master/img/baseline/")
 
 '''
+df['word_count'] = df['tweet_text'].apply(lambda x: len(x.split()))
+
+
 # GENERATE BOXPLOT BY EMOTION
 fig, [[ax1, ax2], [ax3, ax4], [ax5, ax6], [ax7, ax8]] = plt.subplots(4, 2, figsize=(10, 14), squeeze=True) # X Y
 fig.suptitle("")
