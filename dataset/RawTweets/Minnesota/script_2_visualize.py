@@ -21,4 +21,8 @@ df = pd.read_csv("_dataset/final-dataset.csv", sep=",")
 # COUNT BY HOUR
 #LiveTweetViz.plot_line_by_hour(df, date_format, n_start_date, n_end_date, path)
 
-print(df.describe)
+# WORD CLOUD
+LiveTweetViz.generate_word_assessment_by_upos_type(df, "ADJ", path)
+LiveTweetViz.generate_word_assessment_by_upos_type(df, "VERB", path)
+LiveTweetViz.generate_word_assessment_by_upos_type(df, "NOUN", path)
+
