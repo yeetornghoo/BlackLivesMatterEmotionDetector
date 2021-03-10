@@ -28,8 +28,6 @@ def run(df):
     df = remove_atusername_df(df)
     df = handle_emoji_df(df)
     df = handle_emoticon_df(df)
-    # df = process_hasgtag_df(df)
-    # df = remove_punctuation_df(df)
     df = replace_word_is_df(df)
     df = replace_are_df(df)
     df = replace_am_df(df)

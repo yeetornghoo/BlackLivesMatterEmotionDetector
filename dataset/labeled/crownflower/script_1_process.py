@@ -1,17 +1,16 @@
 import pandas as pd
-from Controller import FileController, LogController
+from Controller import FileController, LogController, DataAssess
 from Controller import DataCleaning, DataTranslation, DataSpellingCorrection
 
-'''
+
 # LOAD AND PREPARE DATASET
 df = pd.read_csv("dataset/text_emotion.csv", sep=",", names=["tweet_id", "sentiment", "author", "content"])
 df['tweet_text'] = df['content']
-#DataAssess.run(df)
+DataAssess.run(df)
 
 # EXCLUDE NONE ENGLISH TEXT
-df = DataTranslation.run(df, "en")
-FileController.save_df_to_csv("01-post-translate-dataset.csv", df)
-'''
+#df = DataTranslation.run(df, "en")
+#FileController.save_df_to_csv("01-post-translate-dataset.csv", df)
 
 # DATA CLEANING
 df = pd.read_csv("01-post-translate-dataset.csv", sep=",")

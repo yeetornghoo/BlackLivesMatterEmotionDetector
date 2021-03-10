@@ -90,7 +90,8 @@ def generate_word_assessment_by_upos_type(df, upos_type, out_path):
         WordClouldViz.generate_by_axessubplot_with_max(ax2, text, 30)
 
         fig.tight_layout()
-        img_path = ("{}/img/viz/{}_word_viz.png".format(out_path, upos_type))
+        img_file_name = "{}_word_viz.png".format(upos_type).lower()
+        img_path = ("{}/img/viz/{}".format(out_path, img_file_name))
         plt.savefig(img_path, bbox_inches='tight', pad_inches=0)
 
         plt.close('all')
